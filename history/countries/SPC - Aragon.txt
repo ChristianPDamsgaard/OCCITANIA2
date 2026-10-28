@@ -2,24 +2,6 @@
 set_research_slots = 3
 add_named_threat = { threat = 0.5106 name = infamy }
 
-declare_war_on = {
-	target = OCC
-	type = take_core_state
-	generator = { 572 }
-}
-SCA = {
-	add_to_war = {
-		targeted_alliance = SPC
-		enemy = OCC
-	}
-}
-X38 = {
-	add_to_war = {
-		targeted_alliance = OCC
-		enemy = SPC
-	}
-}
-
 oob = "SPC_OOB"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -303,6 +285,7 @@ add_ideas = {
 	partial_economic_mobilisation
 	limited_exports
 	culture_catalan
+	SPC_wounds_of_defeat
 }
 set_stability = 0.60
 set_war_support = 0.60
