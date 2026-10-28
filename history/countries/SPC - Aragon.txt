@@ -286,6 +286,7 @@ add_ideas = {
 	limited_exports
 	culture_catalan
 	SPC_wounds_of_defeat
+	SPC_agrarian_society
 }
 set_stability = 0.60
 set_war_support = 0.60

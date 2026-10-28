@@ -1126,6 +1126,126 @@ focus_tree = {
 	}
 
 	focus = {
+		id = SPC_the_legacy_of_guillen_iv
+		icon = GFX_focus_hun_elect_a_king
+		x = 60
+		y = 1
+		cost = 10
+		prerequisite = { focus = SPC_the_bitter_peace }
+		available = {
+			NOT = { has_government = democratic }
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 50
+			custom_effect_tooltip = SPC_unlock_triple_monarchy_tt
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_french_inheritance
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 59
+		y = 2
+		cost = 10
+		prerequisite = { focus = SPC_the_legacy_of_guillen_iv }
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 105
+			add_state_claim = 107
+			add_state_claim = 108
+			add_state_claim = 112
+			add_state_claim = 123
+			add_war_support = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_guillens_english_claim
+		icon = GFX_goal_generic_amphibious_assault
+		x = 61
+		y = 2
+		cost = 10
+		prerequisite = { focus = SPC_the_legacy_of_guillen_iv }
+		available = {
+			country_exists = X20
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 227
+			add_state_claim = 245
+			create_wargoal = { type = take_state_focus target = X20 generator = { 227 245 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_imperial_regalia
+		icon = GFX_goal_generic_national_unity
+		x = 59
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_the_french_inheritance }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_northern_english_counties
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 61
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_guillens_english_claim }
+		available = {
+			64 = { is_owned_by = ROOT }
+			66 = { is_owned_by = ROOT }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_core = 64
+			add_state_core = 66
+			if = { limit = { 64 = { is_owned_and_controlled_by = ROOT } }
+				64 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 66 = { is_owned_and_controlled_by = ROOT } }
+				66 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_emperor_of_three_crowns
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 60
+		y = 4
+		cost = 10
+		prerequisite = { focus = SPC_the_imperial_regalia }
+		prerequisite = { focus = SPC_the_northern_english_counties }
+		available = {
+			has_country_flag = SPC_triple_monarchy_formed
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_ideas = SPC_emperor_of_three_crowns
+			add_political_power = 100
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
 		id = SPC_the_plan_of_restoration
 		icon = GFX_goal_generic_production
 		x = 3
@@ -1153,6 +1273,8 @@ focus_tree = {
 		prerequisite = { focus = SPC_the_plan_of_restoration }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			remove_ideas = SPC_agrarian_society
+			add_ideas = SPC_agrarian_society_2
 			if = { limit = { 65 = { is_owned_and_controlled_by = ROOT } }
 				65 = {
 					add_extra_state_shared_building_slots = 1
@@ -1384,6 +1506,8 @@ focus_tree = {
 		prerequisite = { focus = SPC_the_second_academy }
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			remove_ideas = SPC_agrarian_society
+			remove_ideas = SPC_agrarian_society_2
 			add_tech_bonus = { name = SPC_industrial_concentration bonus = 0.5 uses = 2 category = industry }
 			if = { limit = { 68 = { is_owned_and_controlled_by = ROOT } }
 				68 = {

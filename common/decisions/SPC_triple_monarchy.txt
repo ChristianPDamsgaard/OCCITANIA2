@@ -1,0 +1,55 @@
+formable_nations = {
+
+	SPC_form_triple_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = SPC
+		}
+
+		visible = {
+			has_completed_focus = SPC_the_legacy_of_guillen_iv
+			NOT = { has_country_flag = SPC_triple_monarchy_formed }
+		}
+
+		available = {
+			NOT = { has_government = democratic }
+			has_war = no
+			owns_state = 30
+			owns_state = 109
+			owns_state = 110
+			owns_state = 111
+			owns_state = 226
+			owns_state = 245
+		}
+
+		fire_only_once = yes
+		cost = 100
+
+		complete_effect = {
+			set_country_flag = SPC_triple_monarchy_formed
+			set_cosmetic_tag = SPC_triple_monarchy
+			add_state_core = 105
+			add_state_core = 106
+			add_state_core = 107
+			add_state_core = 108
+			add_state_core = 109
+			add_state_core = 110
+			add_state_core = 111
+			add_state_core = 112
+			add_state_core = 123
+			add_state_core = 61
+			add_state_core = 64
+			add_state_core = 66
+			add_state_core = 226
+			add_state_core = 227
+			add_state_core = 245
+			add_ideas = SPC_triple_monarchy
+			add_stability = 0.1
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

@@ -1,5 +1,44 @@
 ideas = {
 	country = {
+		SPC_agrarian_society = {
+			picture = generic_agrarian_society
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.15
+				production_speed_buildings_factor = -0.15
+				research_speed_factor = -0.05
+			}
+		}
+		SPC_agrarian_society_2 = {
+			picture = generic_agrarian_society
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		SPC_triple_monarchy = {
+			picture = SPC_monarch
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+				war_support_factor = 0.05
+			}
+		}
+		SPC_emperor_of_three_crowns = {
+			picture = warrior_traditions_idea
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				army_attack_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
 		SPC_imperial_eagle = {
 			picture = SPC_monarch
 			allowed = { original_tag = SPC }
