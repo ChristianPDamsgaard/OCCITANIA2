@@ -1,5 +1,63 @@
 ideas = {
 	country = {
+		SPC_imperial_eagle = {
+			picture = SPC_monarch
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = 0.05
+				stability_factor = 0.05
+			}
+		}
+		SPC_pincer_plan = {
+			picture = generic_infantry_bonus
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				max_planning = 0.1
+				war_support_factor = 0.05
+			}
+		}
+		SPC_heirs_of_alexander = {
+			picture = generic_morale_bonus
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				experience_gain_army_factor = 0.05
+				stability_factor = -0.05
+			}
+		}
+		SPC_alexanders_legacy = {
+			picture = warrior_traditions_idea
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				army_attack_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		SPC_europe_first = {
+			picture = generic_pp_unity_bonus
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		SPC_eyes_on_the_pyrenees = {
+			picture = generic_national_unification
+			allowed = { original_tag = SPC }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				army_core_attack_factor = 0.1
+			}
+		}
 		SPC_wounds_of_defeat = {
 			picture = generic_army_problems
 			allowed = { original_tag = SPC }

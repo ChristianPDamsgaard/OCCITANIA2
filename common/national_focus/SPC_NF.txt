@@ -244,6 +244,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		prerequisite = { focus = SPC_the_officers_plot }
+		mutually_exclusive = { focus = SPC_the_eagle_returns }
 		available = {
 			absolutist > 0.25
 			has_war = no
@@ -262,12 +263,38 @@ focus_tree = {
 	}
 
 	focus = {
+		id = SPC_the_eagle_returns
+		icon = GFX_focus_hun_elect_a_king
+		x = 31
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_the_officers_plot }
+		mutually_exclusive = { focus = SPC_the_crown_reclaimed }
+		available = {
+			absolutist > 0.25
+			has_war = no
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = { ruling_party = absolutist elections_allowed = no }
+			set_popularities = { absolutist = 55 fascism = 30 democratic = 10 neutrality = 5 }
+			recruit_character = SPC_napoleo_iv
+			promote_character = SPC_napoleo_iv
+			retire_character = SPC_carles_escotet
+			set_cosmetic_tag = SPC_bonapartist
+			remove_ideas = SPC_wounds_of_defeat
+			add_ideas = SPC_imperial_eagle
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
 		id = SPC_the_royal_council
 		icon = GFX_goal_generic_political_pressure
 		x = 28
 		y = 4
 		cost = 10
-		prerequisite = { focus = SPC_the_crown_reclaimed }
+		prerequisite = { focus = SPC_the_crown_reclaimed focus = SPC_the_eagle_returns }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_ideas = SPC_royal_council
@@ -281,7 +308,7 @@ focus_tree = {
 		x = 30
 		y = 4
 		cost = 10
-		prerequisite = { focus = SPC_the_crown_reclaimed }
+		prerequisite = { focus = SPC_the_crown_reclaimed focus = SPC_the_eagle_returns }
 		search_filters = { FOCUS_FILTER_STABILITY }
 		completion_reward = {
 			add_stability = 0.1
@@ -589,6 +616,50 @@ focus_tree = {
 	}
 
 	focus = {
+		id = SPC_renew_the_scandinavian_pact
+		icon = GFX_focus_generic_treaty
+		x = 40
+		y = 2
+		cost = 10
+		prerequisite = { focus = SPC_the_lost_provinces }
+		available = {
+			country_exists = SCA
+			NOT = { has_war_with = SCA }
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_opinion_modifier = { target = SCA modifier = positive_50 }
+			SCA = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+			if = { limit = { is_faction_leader = yes SCA = { is_in_faction = no } }
+				add_to_faction = SCA
+			}
+			else_if = { limit = { is_in_faction = no SCA = { is_in_faction = no } }
+				create_faction_from_template = { template = faction_template_generic name = SPC_northern_pact }
+				add_to_faction = SCA
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_pincer_plan
+		icon = GFX_goal_generic_position_armies
+		x = 40
+		y = 4
+		cost = 10
+		prerequisite = { focus = SPC_renew_the_scandinavian_pact }
+		available = {
+			SCA = { is_in_faction_with = ROOT }
+		}
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			add_ideas = SPC_pincer_plan
+			army_experience = 15
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
 		id = SPC_the_corsican_question
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = 37
@@ -840,6 +911,216 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
 			add_manpower = 25000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_dream_of_the_orient
+		icon = GFX_goal_generic_major_war
+		x = 54
+		y = 1
+		cost = 10
+		prerequisite = { focus = SPC_the_bitter_peace }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_heirs_of_alexander
+		icon = GFX_goal_generic_demand_territory
+		x = 52
+		y = 2
+		cost = 10
+		prerequisite = { focus = SPC_the_dream_of_the_orient }
+		mutually_exclusive = { focus = SPC_bury_the_oriental_dream }
+		available = {
+			NOT = { has_government = democratic }
+		}
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_ideas = SPC_heirs_of_alexander
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = SPC_cyprus_and_the_levantine_sea
+		icon = GFX_goal_generic_amphibious_assault
+		x = 51
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_heirs_of_alexander }
+		available = {
+			country_exists = X63
+		}
+		bypass = {
+			767 = { is_owned_by = ROOT }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 767
+			create_wargoal = { type = take_state_focus target = X63 generator = { 767 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_caesars_road_to_alexandria
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 53
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_heirs_of_alexander }
+		available = {
+			country_exists = X65
+		}
+		bypass = {
+			803 = { is_owned_by = ROOT }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 803
+			add_state_claim = 804
+			create_wargoal = { type = take_state_focus target = X65 generator = { 803 804 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_crusader_compact
+		icon = GFX_focus_generic_treaty
+		x = 51
+		y = 4
+		cost = 10
+		prerequisite = { focus = SPC_cyprus_and_the_levantine_sea }
+		available = {
+			country_exists = X27
+			NOT = { has_war_with = X27 }
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_opinion_modifier = { target = X27 modifier = positive_50 }
+			X27 = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+			give_guarantee = X27
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_march_of_alexander
+		icon = GFX_goal_generic_territory_or_war
+		x = 53
+		y = 4
+		cost = 10
+		prerequisite = { focus = SPC_caesars_road_to_alexandria }
+		available = {
+			country_exists = X63
+			803 = { is_owned_by = ROOT }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 773
+			add_state_claim = 774
+			create_wargoal = { type = take_state_focus target = X63 generator = { 773 774 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_where_our_fathers_failed
+		icon = GFX_goal_generic_national_unity
+		x = 52
+		y = 5
+		cost = 10
+		prerequisite = { focus = SPC_the_crusader_compact }
+		prerequisite = { focus = SPC_the_march_of_alexander }
+		available = {
+			803 = { is_owned_by = ROOT }
+			767 = { is_owned_by = ROOT }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			remove_ideas = SPC_heirs_of_alexander
+			add_ideas = SPC_alexanders_legacy
+			add_state_core = 767
+			add_state_core = 803
+			add_political_power = 150
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_bury_the_oriental_dream
+		icon = GFX_goal_generic_neutrality_focus
+		x = 56
+		y = 2
+		cost = 10
+		prerequisite = { focus = SPC_the_dream_of_the_orient }
+		mutually_exclusive = { focus = SPC_heirs_of_alexander }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = SPC_europe_first
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = SPC_trade_not_conquest
+		icon = GFX_goal_generic_trade
+		x = 55
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_bury_the_oriental_dream }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 54 = { is_owned_and_controlled_by = ROOT } }
+				54 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 54 = { is_owned_and_controlled_by = ROOT } }
+				54 = {
+					add_building_construction = { type = dockyard level = 1 instant_build = yes }
+				}
+			}
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_bring_the_legions_home
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 57
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_bury_the_oriental_dream }
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			add_manpower = 30000
+			army_experience = 15
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_eyes_on_the_pyrenees
+		icon = GFX_goal_generic_defence
+		x = 56
+		y = 4
+		cost = 10
+		prerequisite = { focus = SPC_trade_not_conquest }
+		prerequisite = { focus = SPC_bring_the_legions_home }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			remove_ideas = SPC_europe_first
+			add_ideas = SPC_eyes_on_the_pyrenees
 		}
 		ai_will_do = { factor = 1 }
 	}
