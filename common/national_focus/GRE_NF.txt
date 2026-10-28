@@ -135,9 +135,16 @@ focus_tree = {
 					load_oob = "HEL_uprising_extra"
 				}
 				add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = HEL }
-				declare_war_on = { target = SPC type = annex_everything }
 			}
-			declare_war_on = { target = SPC type = annex_everything }
+			# Aragon moves to crush both rebel governments
+			SPC = {
+				declare_war_on = { target = ROOT type = annex_everything }
+				if = { limit = { country_exists = HEL } declare_war_on = { target = HEL type = annex_everything } }
+			}
+			if = { limit = { has_country_flag = GRE_occitan_volunteers }
+				load_oob = "GRE_occitan_volunteers"
+				add_equipment_to_stockpile = { type = infantry_equipment amount = 1000 producer = OCC }
+			}
 			if = { limit = { has_country_flag = GRE_republican_contacts }
 				add_opinion_modifier = { target = HEL modifier = positive_50 }
 				HEL = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
@@ -335,8 +342,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GRE_seek_an_occitan_guarantee
-		icon = GFX_goal_generic_defence
+		id = GRE_the_occitan_volunteer_corps
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 12
 		y = 3
 		cost = 10
@@ -345,9 +352,13 @@ focus_tree = {
 			country_exists = OCC
 			OCC = { NOT = { has_war_with = ROOT } }
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_MANPOWER }
 		completion_reward = {
-			OCC = { give_guarantee = ROOT }
+			set_country_flag = GRE_occitan_volunteers
+			if = { limit = { has_completed_focus = GRE_the_great_uprising has_war_with = SPC }
+				load_oob = "GRE_occitan_volunteers"
+				add_equipment_to_stockpile = { type = infantry_equipment amount = 1000 producer = OCC }
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}

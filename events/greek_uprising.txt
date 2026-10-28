@@ -12,5 +12,111 @@ country_event = {
 		name = greek_uprising.1.a
 		add_war_support = 0.05
 		add_timed_idea = { idea = SPC_greek_insurgency days = 730 }
+		country_event = { id = greek_uprising.2 days = 21 }
+		country_event = { id = greek_uprising.10 days = 7 }
+	}
+}
+
+# Aragon: negotiate or fight on (repeats every 3 weeks while the revolt lasts)
+country_event = {
+	id = greek_uprising.2
+	title = greek_uprising.2.t
+	desc = greek_uprising.2.d
+	picture = GFX_report_event_journalists_speech
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_flag = SPC_greek_peace }
+		OR = {
+			has_war_with = GRE
+			has_war_with = HEL
+		}
+	}
+
+	option = {
+		name = greek_uprising.2.a
+		set_country_flag = SPC_greek_peace
+		if = {
+			limit = { has_war_with = GRE }
+			white_peace = GRE
+			GRE = { country_event = { id = greek_uprising.5 } }
+		}
+		if = {
+			limit = { has_war_with = HEL }
+			white_peace = HEL
+			HEL = { country_event = { id = greek_uprising.5 } }
+		}
+		remove_ideas = SPC_greek_insurgency
+		add_war_support = -0.05
+		ai_chance = {
+			base = 20
+			modifier = { factor = 4 has_war_with = OCC }
+			modifier = { factor = 2 has_stability < 0.4 }
+		}
+	}
+
+	option = {
+		name = greek_uprising.2.b
+		add_war_support = 0.02
+		country_event = { id = greek_uprising.2 days = 21 }
+		ai_chance = { base = 80 }
+	}
+}
+
+# Aragon: the revolt has been crushed
+country_event = {
+	id = greek_uprising.3
+	title = greek_uprising.3.t
+	desc = greek_uprising.3.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = greek_uprising.3.a
+		set_country_flag = SPC_greek_peace
+		remove_ideas = SPC_greek_insurgency
+		add_stability = 0.1
+		add_war_support = 0.05
+	}
+}
+
+# Greek side: Aragon recognises independence
+country_event = {
+	id = greek_uprising.5
+	title = greek_uprising.5.t
+	desc = greek_uprising.5.d
+	picture = GFX_report_event_iww_demonstration
+	is_triggered_only = yes
+
+	option = {
+		name = greek_uprising.5.a
+		add_stability = 0.1
+		add_political_power = 100
+	}
+}
+
+# Hidden weekly check: has Aragon crushed every rebel government?
+country_event = {
+	id = greek_uprising.10
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = SPC_greek_peace }
+				NOT = { has_war_with = GRE }
+				NOT = { has_war_with = HEL }
+			}
+			country_event = { id = greek_uprising.3 }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = SPC_greek_peace } }
+			country_event = { id = greek_uprising.10 days = 7 }
+		}
+	}
+
+	option = {
+		name = greek_uprising.10.a
 	}
 }

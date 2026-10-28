@@ -34,8 +34,11 @@ UPRISING = (
     + "HEL = {\n\tload_oob = \"HEL_uprising\"\n"
     + "\tif = { limit = { ROOT = { has_country_flag = GRE_republican_contacts } SPC = { NOT = { has_country_flag = SPC_hetairists_suppressed } } }\n\t\tload_oob = \"HEL_uprising_extra\"\n\t}\n"
     + "\tadd_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = HEL }\n"
-    + "\tdeclare_war_on = { target = SPC type = annex_everything }\n}\n"
-    + "declare_war_on = { target = SPC type = annex_everything }\n"
+    + "}\n"
+    + "# Aragon moves to crush both rebel governments\n"
+    + "SPC = {\n\tdeclare_war_on = { target = ROOT type = annex_everything }\n"
+    + "\tif = { limit = { country_exists = HEL } declare_war_on = { target = HEL type = annex_everything } }\n}\n"
+    + "if = { limit = { has_country_flag = GRE_occitan_volunteers }\n\tload_oob = \"GRE_occitan_volunteers\"\n\tadd_equipment_to_stockpile = { type = infantry_equipment amount = 1000 producer = OCC }\n}\n"
     + "if = { limit = { has_country_flag = GRE_republican_contacts }\n"
     + "\tadd_opinion_modifier = { target = HEL modifier = positive_50 }\n"
     + "\tHEL = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }\n}\n"
@@ -135,10 +138,13 @@ focus("GRE_occitan_military_advisors", 13, 2, "GFX_goal_generic_army_doctrines",
       pre=[["GRE_appeal_to_occitania"]],
       effect="army_experience = 15\n" + tech("GRE_occitan_military_advisors", "land_doctrine", 0.5, 1),
       filters=["FOCUS_FILTER_ARMY_XP"])
-focus("GRE_seek_an_occitan_guarantee", 12, 3, "GFX_goal_generic_defence", "Seek an Occitan Guarantee",
-      "If Aragon marches on Polygyros, Occitania will march on Aragon.",
+focus("GRE_the_occitan_volunteer_corps", 12, 3, "GFX_goal_generic_allies_build_infantry", "The Occitan Volunteer Corps",
+      "Occitania will not go to war for Greece. But nobody in Toulouse will stop veterans of the Aragonese wars from taking leave, crossing the Adriatic and fighting under a Greek flag.",
       pre=[["GRE_occitan_military_advisors"]], avail="country_exists = OCC\nOCC = { NOT = { has_war_with = ROOT } }",
-      effect="OCC = { give_guarantee = ROOT }\n", filters=["FOCUS_FILTER_POLITICAL"])
+      effect=("set_country_flag = GRE_occitan_volunteers\n"
+              "if = { limit = { has_completed_focus = GRE_the_great_uprising has_war_with = SPC }\n"
+              "\tload_oob = \"GRE_occitan_volunteers\"\n\tadd_equipment_to_stockpile = { type = infantry_equipment amount = 1000 producer = OCC }\n}\n"),
+      filters=["FOCUS_FILTER_MANPOWER"])
 focus("GRE_byzantine_brotherhood", 14, 3, "GFX_focus_generic_treaty", "Byzantine Brotherhood",
       "The Byzantine Empire also lost Thessaly and Macedonia to Aragon. Orthodox brothers should not fight each other while the Catalans rule our lands.",
       pre=[["GRE_appeal_to_occitania"]], avail="country_exists = X09\nNOT = { has_war_with = X09 }",
@@ -229,6 +235,112 @@ country_event = {
 		name = greek_uprising.1.a
 		add_war_support = 0.05
 		add_timed_idea = { idea = SPC_greek_insurgency days = 730 }
+		country_event = { id = greek_uprising.2 days = 21 }
+		country_event = { id = greek_uprising.10 days = 7 }
+	}
+}
+
+# Aragon: negotiate or fight on (repeats every 3 weeks while the revolt lasts)
+country_event = {
+	id = greek_uprising.2
+	title = greek_uprising.2.t
+	desc = greek_uprising.2.d
+	picture = GFX_report_event_journalists_speech
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_flag = SPC_greek_peace }
+		OR = {
+			has_war_with = GRE
+			has_war_with = HEL
+		}
+	}
+
+	option = {
+		name = greek_uprising.2.a
+		set_country_flag = SPC_greek_peace
+		if = {
+			limit = { has_war_with = GRE }
+			white_peace = GRE
+			GRE = { country_event = { id = greek_uprising.5 } }
+		}
+		if = {
+			limit = { has_war_with = HEL }
+			white_peace = HEL
+			HEL = { country_event = { id = greek_uprising.5 } }
+		}
+		remove_ideas = SPC_greek_insurgency
+		add_war_support = -0.05
+		ai_chance = {
+			base = 20
+			modifier = { factor = 4 has_war_with = OCC }
+			modifier = { factor = 2 has_stability < 0.4 }
+		}
+	}
+
+	option = {
+		name = greek_uprising.2.b
+		add_war_support = 0.02
+		country_event = { id = greek_uprising.2 days = 21 }
+		ai_chance = { base = 80 }
+	}
+}
+
+# Aragon: the revolt has been crushed
+country_event = {
+	id = greek_uprising.3
+	title = greek_uprising.3.t
+	desc = greek_uprising.3.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = greek_uprising.3.a
+		set_country_flag = SPC_greek_peace
+		remove_ideas = SPC_greek_insurgency
+		add_stability = 0.1
+		add_war_support = 0.05
+	}
+}
+
+# Greek side: Aragon recognises independence
+country_event = {
+	id = greek_uprising.5
+	title = greek_uprising.5.t
+	desc = greek_uprising.5.d
+	picture = GFX_report_event_iww_demonstration
+	is_triggered_only = yes
+
+	option = {
+		name = greek_uprising.5.a
+		add_stability = 0.1
+		add_political_power = 100
+	}
+}
+
+# Hidden weekly check: has Aragon crushed every rebel government?
+country_event = {
+	id = greek_uprising.10
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_country_flag = SPC_greek_peace }
+				NOT = { has_war_with = GRE }
+				NOT = { has_war_with = HEL }
+			}
+			country_event = { id = greek_uprising.3 }
+		}
+		else_if = {
+			limit = { NOT = { has_country_flag = SPC_greek_peace } }
+			country_event = { id = greek_uprising.10 days = 7 }
+		}
+	}
+
+	option = {
+		name = greek_uprising.10.a
 	}
 }
 '''
@@ -251,6 +363,7 @@ def oob(tag, name, units):
 oob("GRE_uprising", "Royalist Insurgents", [("Salonika Legion", 11818), ("Macedonian Volunteers", 3526), ("Thessalian Insurgents", 3973), ("Florina Brigade", 9837)])
 oob("GRE_uprising_extra", "Royalist Insurgents", [("Chalkidiki Rifles", 9791), ("Olympus Klephts", 863), ("Pindus Mountaineers", 841)])
 oob("HEL_uprising", "Republican Militia", [("Athenian Republican Guard", 4109), ("Piraeus Workers' Militia", 976), ("Peloponnesian Militia", 10203), ("Aegean Volunteers", 6550)])
+oob("GRE_occitan_volunteers", "Occitan Volunteers", [("1st Occitan Volunteer Brigade", 895), ("2nd Occitan Volunteer Brigade", 3936)])
 oob("HEL_uprising_extra", "Republican Militia", [("Corinth Militia", 1106), ("Attica Volunteers", 3864)])
 
 # ---------------- localisation ----------------
@@ -267,6 +380,17 @@ L += [
  ' greek_uprising.1.t:0 "Revolt in Greece!"',
  ' greek_uprising.1.d:0 "Signal fires burned on Mount Olympus last night. By morning, royalist insurgents had seized Salonika, Volos and Florina and declared for the King of Greece in Polygyros. In Athens, the Peloponnese and the islands, republican militias have proclaimed a Hellenic Republic. Our garrisons are cut off and under fire across the whole of Greece."',
  ' greek_uprising.1.a:0 "Crush the traitors!"',
+ ' greek_uprising.2.t:0 "The Greek Question"',
+ ' greek_uprising.2.d:0 "Weeks of fighting have not broken the Greek rebels. Our garrisons are pinned down, the foreign press reports every burned village, and the generals warn that the army is needed elsewhere. Some ministers now quietly suggest that Greece is not worth the cost: recognise the rebel governments and bring the troops home."',
+ ' greek_uprising.2.a:0 "Let Greece go. Aragon has bigger enemies."',
+ ' greek_uprising.2.b:0 "Never! Not one village will be surrendered."',
+ ' greek_uprising.3.t:0 "The Greek Revolt Crushed"',
+ ' greek_uprising.3.d:0 "The last rebel strongholds have fallen. Royalist and republican leaders alike have fled into exile or been captured. Order is restored across Greece, and the army can finally turn its attention back to Occitania."',
+ ' greek_uprising.3.a:0 "Aragon endures."',
+ ' greek_uprising.5.t:0 "Aragon Recognises Greek Independence"',
+ ' greek_uprising.5.d:0 "Unable to break our resistance, the Aragonese government has agreed to a ceasefire and withdrawn its garrisons. For the first time in generations, Greeks govern Greek lands. The question of what kind of Greece it will be can wait until the celebrations are over."',
+ ' greek_uprising.5.a:0 "Zito i Ellas!"',
+ ' greek_uprising.10.a:0 "OK"',
  ' # Hellenic Republic',
  ' HEL:0 "Hellenic Republic"', ' HEL_ADJ:0 "Hellenic"', ' HEL_DEF:0 "the Hellenic Republic"',
  ' HEL_democratic:0 "Hellenic Republic"', ' HEL_democratic_ADJ:0 "Hellenic"', ' HEL_democratic_DEF:0 "the Hellenic Republic"',
