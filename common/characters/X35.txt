@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_1"
+				small="GFX_Portrait_Asia_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_5"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_5"
+				small="GFX_Portrait_Asia_Generic_land_5_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_2"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_2"
+				small="GFX_Portrait_Asia_Generic_land_2_small"
 			}
 		}
 		corps_commander={
@@ -63,10 +63,10 @@ characters={
 		name=X35_hta_lahtaw
 		portraits={
 			army={
-				large="GFX_Asia_Generic_land_new_1"
+				large="GFX_Burma_Smith_Dun"
 			}
 			army={
-				small="GFX_Asia_Generic_land_new_1"
+				small="GFX_Burma_Smith_Dun_small"
 			}
 		}
 		corps_commander={

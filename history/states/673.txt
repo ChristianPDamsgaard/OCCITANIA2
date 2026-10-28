@@ -4,30 +4,26 @@ state={
 	name="STATE_673"
 
 	history={
-		owner = SIA
+		owner = SCA
 		victory_points = {
-			1403 0 
+			117 0 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
-			1403 = {
-				naval_base = 2
-			}
 
 		}
-		add_core_of = SIA
-		add_claim_by = X46
+		add_core_of = SCA
 	}
 
 	provinces={
-		1296 1315 1385 1403 4275 4408 7295 10217 12125 12238 12292 
+		57 70 71 117 152 172 194 320 3072 3089 3110 3140 3142 6035 6086 6095 6131 6154 6169 6225 9060 9107 9164 9184 9197 9212 9234 9319 9331 11059 11068 11072 11109 11174 11191 11304 
 	}
-	manpower=263552
+	manpower=497308
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

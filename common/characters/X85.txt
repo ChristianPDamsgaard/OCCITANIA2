@@ -3,7 +3,7 @@ characters={
 		name=X85_elias_de_constant_rebecque
 		portraits={
 			civilian={
-				large="GFX_Canada_Mackenzie_King"
+				large="GFX_Denmark_Erik_Scavenius"
 			}
 		}
 		country_leader={

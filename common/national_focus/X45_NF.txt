@@ -29,9 +29,9 @@ focus_tree = {
 			is_subject = no
 		}
 		select_effect = {
-			set_variable = { unowned_cores_@X40 = 3 }
-			set_variable = { revanchism = 0.000030 }
-			set_variable = { revanchism_stab = -0.000003 }
+			set_variable = { unowned_cores_@X40 = 4 }
+			set_variable = { revanchism = 0.000040 }
+			set_variable = { revanchism_stab = -0.000004 }
 			add_dynamic_modifier = { modifier = revanchism }
 			add_dynamic_modifier = { modifier = revanchism_fasc }
 		}
@@ -75,10 +75,10 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000003 }
+				add_popularity = { ideology = fascism popularity = 0.000004 }
 			}
 			else = {
-				add_popularity = { ideology = fascism popularity = -0.000003 }
+				add_popularity = { ideology = fascism popularity = -0.000004 }
 			}
 			add_political_power = 150
 			add_timed_idea = { idea = generic_military_industry days = 180 }
@@ -144,12 +144,12 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_government = fascism }
-				add_popularity = { ideology = fascism popularity = 0.000003 }
+				add_popularity = { ideology = fascism popularity = 0.000004 }
 			}
 			else = {
-				add_popularity = { ideology = fascism popularity = -0.000003 }
+				add_popularity = { ideology = fascism popularity = -0.000004 }
 			}
-			add_war_support = 0.000030
+			add_war_support = 0.000040
 			add_political_power = 150
 			add_timed_idea = { idea = generic_recruit_centers days = 180 }
 		}
@@ -368,12 +368,12 @@ focus_tree = {
 			declare_war_on = {
 				target = X40
 				type = take_core_state
-				generator = { 493 }
+				generator = { 496 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
 		ai_will_do = {
-			factor = 3
+			factor = 4
 			modifier = {
 				factor = 0
 				X40 = { in_weak_faction = no }
@@ -428,7 +428,7 @@ focus_tree = {
 			add_ai_strategy = { type = prepare_for_war id = X40 value = -1000 }
 			X40 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
 			custom_effect_tooltip = decrease_revanchism
-			subtract_from_variable = { revanchism = 0.000015 }
+			subtract_from_variable = { revanchism = 0.000020 }
 			add_to_variable = { revanchism_stab = 0.000002 }
 			add_ideas = generic_national_unification
 		}
@@ -450,7 +450,7 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 497
+				owns_state = 500
 			}
 		}
 		completion_reward = {
@@ -523,11 +523,11 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 497
+				owns_state = 500
 			}
 		}
 		completion_reward = {
-			add_state_claim = 497
+			add_state_claim = 500
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				MAL = { country_event = { id = reconquest_news.1 } }
@@ -602,7 +602,7 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 497
+				owns_state = 500
 			}
 		}
 		completion_reward = {
@@ -631,14 +631,14 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 497
+				owns_state = 500
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = MAL
 				type = take_state_focus
-				generator = { 497 }
+				generator = { 500 }
 			}
 		}
 		ai_will_do = {
@@ -659,7 +659,7 @@ focus_tree = {
 			CAT = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 112
+				owns_state = 113
 			}
 		}
 		completion_reward = {
@@ -732,11 +732,11 @@ focus_tree = {
 			CAT = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 112
+				owns_state = 113
 			}
 		}
 		completion_reward = {
-			add_state_claim = 112
+			add_state_claim = 113
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				CAT = { country_event = { id = reconquest_news.1 } }
@@ -811,7 +811,7 @@ focus_tree = {
 			CAT = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 112
+				owns_state = 113
 			}
 		}
 		completion_reward = {
@@ -840,14 +840,14 @@ focus_tree = {
 			CAT = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 112
+				owns_state = 113
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = CAT
 				type = take_state_focus
-				generator = { 112 }
+				generator = { 113 }
 			}
 		}
 		ai_will_do = {

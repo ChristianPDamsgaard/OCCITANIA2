@@ -2,16 +2,11 @@
 state={
 	id=354
 	name="STATE_354"
-	resources={
-		chromium=2.000
-		steel=5.000
-		tungsten=2.000
-	}
 
 	history={
-		owner = HLR
+		owner = HES
 		victory_points = {
-			3500 15 
+			673 15 
 		}
 		buildings = {
 			infrastructure = 4
@@ -20,14 +15,14 @@ state={
 			air_base = 8
 
 		}
+		add_core_of = HES
 		add_core_of = HLR
-		add_core_of = X58
 	}
 
 	provinces={
-		482 3500 
+		673 6678 6680 9633 9636 11618 11634 
 	}
-	manpower=530612
+	manpower=656036
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

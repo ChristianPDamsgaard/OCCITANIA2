@@ -3,29 +3,30 @@ state={
 	id=304
 	name="STATE_304"
 	resources={
-		chromium=75.000
+		oil=1.000
+		steel=1.000
+		tungsten=3.000
 	}
 
 	history={
-		owner = X96
+		owner = X22
 		victory_points = {
-			8214 10 
+			4695 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
+			air_base = 0
 
 		}
-		add_core_of = BOT
-		add_core_of = X96
+		add_core_of = X22
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963 
+		3800 4695 6779 
 	}
-	manpower=118868
+	manpower=18645
 	buildings_max_level_factor=1.000
 	state_category=rural
 

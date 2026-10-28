@@ -19,11 +19,11 @@ focus_tree = {
 	shared_focus = political_effort
 
 	focus = {
-		id = GP_WarX76USA
+		id = GP_WarX75USA
 		icon = GFX_goal_generic_major_war
-		text = GP_WarX76
+		text = GP_WarX75
 		bypass = {
-		has_war_with = X76
+		has_war_with = X75
 	}
 		x = 24
 		y = 0
@@ -36,14 +36,14 @@ focus_tree = {
 		add_named_threat = { threat = 5 name = "War with Nieuw Friesland" }
 		declare_war_on = {
 			type = puppet_wargoal_focus
-			target = X76
+			target = X75
 		}
 	}
 		ai_will_do = {
 		factor = 5
 		modifier = {
 			factor = 0
-			strength_ratio = { tag = X76 ratio < 1 }
+			strength_ratio = { tag = X75 ratio < 1 }
 		}
 		modifier = {
 			factor = 0

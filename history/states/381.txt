@@ -2,22 +2,26 @@
 state={
 	id=381
 	name="STATE_381"
-	resources={
-		aluminium=2.000
-	}
 
 	history={
 		owner = JAP
 		victory_points = {
-			11960 40 
+			1182 2 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			air_base = 10
-			7113 = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			1182 = {
+				landmark_tokyo_imperial_palace = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+			4188 = {
 				naval_base = 6
 			}
 
@@ -26,11 +30,11 @@ state={
 	}
 
 	provinces={
-		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
+		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 
 	}
-	manpower=11029932
+	manpower=5172352
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=metropolis
 
 	local_supplies=10.0
 }

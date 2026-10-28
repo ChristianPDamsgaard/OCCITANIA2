@@ -6,7 +6,7 @@ characters={
 				large="GFX_Indonesia_Suharto"
 			}
 			army={
-				small="GFX_Indonesia_Suharto"
+				small="GFX_Indonesia_Suharto_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_navy_1"
 			}
 			navy={
-				small="GFX_Portrait_Asia_Generic_navy_1"
+				small="GFX_Portrait_Asia_Generic_navy_1_small"
 			}
 		}
 		navy_leader={

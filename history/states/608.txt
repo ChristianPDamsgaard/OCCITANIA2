@@ -2,36 +2,33 @@
 state={
 	id=608
 	name="STATE_608"
-	resources={
-		aluminium=1.000
-		steel=5.000
-	}
 
 	history={
-		owner = POL
+		owner = X45
 		victory_points = {
-			9263 15 
+			10509 4 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 1
-			air_base = 7
-			9263 = {
-				naval_base = 6
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+			4446 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = POL
+		add_core_of = MAL
+		add_core_of = X45
 	}
 
 	provinces={
-		17 243 279 334 388 389 3324 3381 3460 3532 6558 9252 9263 9532 11232 11260 11288 11558 
+		4446 7658 8360 10509 10522 12488 13398 13399 13401 
 	}
-	manpower=1586056
+	manpower=375092
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 
 	local_supplies=10.0
 }

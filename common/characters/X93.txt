@@ -1,13 +1,13 @@
 characters={
-	X93_arthur_madden={
-		name=X93_arthur_madden
+	X93_bartolomeu_da={
+		name=X93_bartolomeu_da
 		portraits={
 			civilian={
-				large="GFX_British_Raj_Lord_Linlithgow"
+				large="GFX_els_maximiliano_hernandez_martinez"
 			}
 		}
 		country_leader={
-			ideology=dictatorship_neutral
+			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -2,36 +2,29 @@
 state={
 	id=746
 	name="STATE_746"
-	resources={
-		chromium=3.000
-	}
 
 	history={
-		owner = X60
+		owner = VEN
 		victory_points = {
-			3893 2 
+			12869 1 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			dockyard = 1
 			air_base = 0
-			11829 = {
-				naval_base = 1
-			}
 
 		}
-		add_core_of = X30
-		add_core_of = X60
+		add_core_of = VEN
+		add_claim_by = PRU
 	}
 
 	provinces={
-		3893 11829 11842 
+		12869 13291 
 	}
-	manpower=368992
+	manpower=165724
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 
 	local_supplies=10.0
 }

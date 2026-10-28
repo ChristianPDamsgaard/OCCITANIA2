@@ -1,7 +1,7 @@
 CHI_OPERATIVE_CODENAME_HISTORICAL = {
 	name = CHI_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { GXC X02 X10 X17 X21 X90 }
+	for_countries = { GXC X02 X10 X17 X21 X89 }
 
 	type = codename
 

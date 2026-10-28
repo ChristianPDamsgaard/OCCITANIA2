@@ -3,29 +3,33 @@ state={
 	id=285
 	name="STATE_285"
 	resources={
-		oil=2.000
-		tungsten=5.000
+		chromium=2.000
+		steel=1.000
 	}
 
 	history={
-		owner = X95
+		owner = X99
 		victory_points = {
-			12508 10 
+			1224 0 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
+			air_base = 1
+			1224 = {
+				naval_base = 6
+			}
 
 		}
-		add_core_of = X95
+		add_core_of = PHI
+		add_core_of = X99
 	}
 
 	provinces={
-		1872 4678 12508 12571 
+		1224 1311 1340 4269 4373 7307 
 	}
-	manpower=29880
+	manpower=433232
 	buildings_max_level_factor=1.000
 	state_category=rural
 

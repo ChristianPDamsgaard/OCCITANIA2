@@ -1,4 +1,4 @@
-﻿capital = 226
+﻿capital = 227
 set_research_slots = 3
 
 oob = "X29_OOB"
@@ -48,13 +48,13 @@ add_opinion_modifier = { target = X36 modifier = positive_20 }
 add_opinion_modifier = { target = X42 modifier = positive_20 }
 add_opinion_modifier = { target = X48 modifier = negative_5 }
 add_opinion_modifier = { target = X49 modifier = positive_30 }
-add_opinion_modifier = { target = X57 modifier = positive_20 }
-add_opinion_modifier = { target = X60 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = positive_10 }
-add_opinion_modifier = { target = X73 modifier = positive_5 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_15 }
-add_opinion_modifier = { target = X77 modifier = positive_20 }
+add_opinion_modifier = { target = X56 modifier = positive_20 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
+add_opinion_modifier = { target = X64 modifier = positive_10 }
+add_opinion_modifier = { target = X72 modifier = positive_5 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_15 }
+add_opinion_modifier = { target = X76 modifier = positive_20 }
 
 
 add_ideas = {

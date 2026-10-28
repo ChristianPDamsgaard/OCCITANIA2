@@ -1,113 +1,13 @@
 characters={
-	X77_tollamareena_noongar={
-		name=X77_tollamareena_noongar
-		portraits={
-			army={
-				large="GFX_Portrait_The_Raj_Army_Generic"
-			}
-			army={
-				small="GFX_Portrait_The_Raj_Army_Generic"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=2
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X77_umbarra_windich={
-		name=X77_umbarra_windich
-		portraits={
-			army={
-				large="GFX_Portrait_The_Raj_Army_Generic"
-			}
-			army={
-				small="GFX_Portrait_The_Raj_Army_Generic"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X77_bennelong_lanne={
-		name=X77_bennelong_lanne
-		portraits={
-			army={
-				large="GFX_Africa_Generic_land_new_1"
-			}
-			army={
-				small="GFX_Africa_Generic_land_new_1"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=4
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X77_wylie_windich={
-		name=X77_wylie_windich
-		portraits={
-			army={
-				large="GFX_Portrait_Africa_Generic_land_4"
-			}
-			army={
-				small="GFX_Portrait_Africa_Generic_land_4"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=1
-			defense_skill=4
-			planning_skill=3
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X77_billibellary_wonga={
-		name=X77_billibellary_wonga
-		portraits={
-			navy={
-				large="GFX_Portrait_Arabia_Generic_navy_2"
-			}
-			navy={
-				small="GFX_Portrait_Arabia_Generic_navy_2"
-			}
-		}
-		navy_leader={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=3
-			coordination_skill=1
-			legacy_id=0
-		}
-	}
-
-	X77_tollamareena_mullagh={
-		name=X77_tollamareena_mullagh
+	X77_f._vom_a.={
+		name=X77_f._vom_a.
 		portraits={
 			civilian={
-				large="GFX_SOM_Aden_Daar"
+				large="GFX_europe_generic_5"
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=conservatism
 			expire="1965.1.1.1"
 			id=-1
 		}

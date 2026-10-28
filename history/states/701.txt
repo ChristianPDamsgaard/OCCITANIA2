@@ -2,34 +2,32 @@
 state={
 	id=701
 	name="STATE_701"
-	resources={
-		chromium=3.000
-		steel=4.000
-	}
 
 	history={
-		owner = X56
+		owner = X52
 		victory_points = {
-			12700 1 
+			10342 10 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 1
-			air_base = 1
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			10342 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = X56
-		add_claim_by = X13
-		add_claim_by = X30
+		add_core_of = X52
 	}
 
 	provinces={
-		307 1233 1292 1294 1327 1334 1387 1543 1659 1704 1750 1771 1775 1808 1821 1841 1880 4209 4242 4710 4754 4758 4813 4824 4846 7228 7285 7320 7328 7401 7733 7778 7846 7895 9292 9512 9553 10133 10170 10185 10189 10213 10329 10542 10604 10648 10716 10720 11223 11307 12102 12106 12157 12287 12521 12567 12584 12630 12696 12700 
+		1437 7369 10342 
 	}
-	manpower=1349680
+	manpower=83152
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

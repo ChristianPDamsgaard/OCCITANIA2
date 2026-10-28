@@ -6,7 +6,7 @@ characters={
 				large="GFX_Mexico_Don_Fernando"
 			}
 			army={
-				small="GFX_Mexico_Don_Fernando"
+				small="GFX_Mexico_Don_Fernando_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_South_America_Generic_land_5"
 			}
 			army={
-				small="GFX_Portrait_South_America_Generic_land_5"
+				small="GFX_Portrait_South_America_Generic_land_5_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Portrait_South_America_Generic_navy_3"
 			}
 			navy={
-				small="GFX_Portrait_South_America_Generic_navy_3"
+				small="GFX_Portrait_South_America_Generic_navy_3_small"
 			}
 		}
 		navy_leader={

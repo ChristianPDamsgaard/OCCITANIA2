@@ -2,32 +2,31 @@
 state={
 	id=418
 	name="STATE_418"
-	resources={
-		steel=1.000
-	}
 
 	history={
 		owner = LIT
 		victory_points = {
-			3544 15 
+			6332 1 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
+			air_base = 1
+			6332 = {
+				naval_base = 6
+			}
 
 		}
 		add_core_of = LIT
-		add_core_of = POL
 	}
 
 	provinces={
-		467 3544 9400 11492 
+		281 348 395 3288 3384 6332 11265 
 	}
-	manpower=777868
+	manpower=2529264
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

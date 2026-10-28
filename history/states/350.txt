@@ -2,33 +2,34 @@
 state={
 	id=350
 	name="STATE_350"
+	resources={
+		oil=3.000
+	}
 
 	history={
-		owner = X25
+		owner = X24
 		victory_points = {
-			5037 10 
+			9614 0 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 2
-			dockyard = 2
-			air_base = 8
-			2033 = {
-				naval_base = 1
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			11597 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = X00
-		add_core_of = X25
+		add_core_of = X24
 	}
 
 	provinces={
-		2033 2090 4981 5037 10748 12883 
+		9614 11597 
 	}
-	manpower=471348
+	manpower=96544
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_island
 
 	local_supplies=10.0
 }

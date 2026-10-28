@@ -6,7 +6,7 @@ characters={
 				large="GFX_portrait_GER_ewald_von_kleist"
 			}
 			army={
-				small="GFX_portrait_GER_ewald_von_kleist"
+				small="GFX_portrait_GER_ewald_von_kleist_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_portrait_GER_friedrich_paulus"
 			}
 			army={
-				small="GFX_portrait_GER_friedrich_paulus"
+				small="GFX_portrait_GER_friedrich_paulus_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_portrait_GER_georg_von_kuchler"
 			}
 			army={
-				small="GFX_portrait_GER_georg_von_kuchler"
+				small="GFX_portrait_GER_georg_von_kuchler_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_portrait_GER_hasso_von_manteuffel"
 			}
 			army={
-				small="GFX_portrait_GER_hasso_von_manteuffel"
+				small="GFX_portrait_GER_hasso_von_manteuffel_small"
 			}
 		}
 		corps_commander={
@@ -83,7 +83,7 @@ characters={
 		name=HES_ruprecht_von_arentschildt
 		portraits={
 			civilian={
-				large="GFX_Germany_Konrad_Adenauer"
+				large="GFX_europe_generic_5"
 			}
 		}
 		country_leader={

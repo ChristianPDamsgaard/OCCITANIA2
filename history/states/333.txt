@@ -6,23 +6,22 @@ state={
 	history={
 		owner = KAL
 		victory_points = {
-			3169 1 
+			1684 0 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
 
 		}
-		add_core_of = KAL
-		add_core_of = X56
+		add_core_of = X55
 	}
 
 	provinces={
-		1744 3169 4746 4774 7796 
+		1664 1684 4715 7768 9142 
 	}
-	manpower=118828
+	manpower=12080
 	buildings_max_level_factor=1.000
 	state_category=rural
 

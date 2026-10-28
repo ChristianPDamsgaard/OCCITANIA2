@@ -2,19 +2,31 @@
 state={
 	id=534
 	name="STATE_534"
-	impassable = yes
+	resources={
+		rubber=1.000
+	}
 
 	history={
-		owner = X88
-		add_core_of = X88
+		owner = X86
+		victory_points = {
+			4997 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X86
 	}
 
 	provinces={
-		2068 10868 
+		4997 5028 
 	}
-	manpower=21272
+	manpower=862756
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 
 	local_supplies=10.0
 }

@@ -2,33 +2,32 @@
 state={
 	id=844
 	name="STATE_844"
-	resources={
-		steel=1.000
-		tungsten=4.000
-	}
 
 	history={
-		owner = X76
+		owner = X75
 		victory_points = {
-			7348 1 
+			6984 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 0
+			air_base = 1
+			6984 = {
+				naval_base = 8
+			}
 
 		}
-		add_core_of = X76
-		add_claim_by = X62
+		add_core_of = X75
+		add_claim_by = USA
 	}
 
 	provinces={
-		515 1763 1804 6726 7348 7766 7858 10684 12534 
+		3917 6823 6892 6929 6984 9758 9786 
 	}
-	manpower=1059444
+	manpower=2552396
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

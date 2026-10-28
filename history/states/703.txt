@@ -3,30 +3,34 @@ state={
 	id=703
 	name="STATE_703"
 	resources={
-		steel=1.000
+		aluminium=1.000
 	}
 
 	history={
-		owner = X56
+		owner = TOG
 		victory_points = {
-			10253 1 
+			1951 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			1951 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = X56
+		add_core_of = TOG
 	}
 
 	provinces={
-		508 576 1247 1254 1290 1318 3467 3502 3563 4254 4294 4322 4351 4394 6551 7313 7341 7370 7438 9462 9526 9528 10253 11473 11480 11510 12227 12235 12254 
+		1951 12843 13212 
 	}
-	manpower=170784
+	manpower=422744
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

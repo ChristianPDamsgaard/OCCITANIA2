@@ -2,34 +2,33 @@
 state={
 	id=695
 	name="STATE_695"
-	resources={
-		aluminium=13.000
-	}
 
 	history={
-		owner = X53
+		owner = X49
 		victory_points = {
-			9630 15 
+			11581 2 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 1
+			591 = {
+				naval_base = 10
+			}
 
 		}
-		add_core_of = AUS
-		add_core_of = HLR
-		add_core_of = X53
-		add_claim_by = ITA
+		add_core_of = X49
+		add_claim_by = HLR
 	}
 
 	provinces={
-		656 6675 9630 11615 
+		591 624 3592 3596 3601 6611 11581 11901 
 	}
-	manpower=239044
+	manpower=1092048
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=town
 
 	local_supplies=10.0
 }

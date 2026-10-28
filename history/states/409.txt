@@ -2,31 +2,23 @@
 state={
 	id=409
 	name="STATE_409"
+	resources={
+		rubber=3.000
+	}
+	impassable = yes
 
 	history={
-		owner = LIT
-		victory_points = {
-			10493 1 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 1
-			9240 = {
-				naval_base = 6
-			}
-
-		}
-		add_core_of = LIT
+		owner = X34
+		add_core_of = X34
+		add_claim_by = MAL
 	}
 
 	provinces={
-		222 233 265 310 319 341 3194 3255 3296 3298 3319 3388 3525 6222 6322 6342 6459 7482 9240 9262 9275 9317 9501 10323 10493 11222 11246 11302 11358 
+		2184 5176 
 	}
-	manpower=1709132
+	manpower=75357
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

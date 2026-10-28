@@ -4,30 +4,28 @@ state={
 	name="STATE_694"
 
 	history={
-		owner = X52
+		owner = X49
 		victory_points = {
-			10342 15 
+			596 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 3
-			dockyard = 2
-			air_base = 8
-			10342 = {
-				naval_base = 2
-			}
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
 
 		}
-		add_core_of = X52
+		add_core_of = HLR
+		add_core_of = SLV
+		add_core_of = X49
 	}
 
 	provinces={
-		1437 7369 10342 
+		596 665 6672 
 	}
-	manpower=83152
+	manpower=486452
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_town
 
 	local_supplies=10.0
 }

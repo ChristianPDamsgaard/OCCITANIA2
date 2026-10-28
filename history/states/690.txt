@@ -3,34 +3,31 @@ state={
 	id=690
 	name="STATE_690"
 	resources={
-		rubber=11.000
+		aluminium=23.000
+		coal=1.000
 	}
 
 	history={
-		owner = X51
+		owner = X48
 		victory_points = {
-			1386 15 
+			692 10 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
-			arms_factory = 2
-			dockyard = 2
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
 			air_base = 8
-			1386 = {
-				naval_base = 4
-			}
 
 		}
-		add_core_of = BRU
-		add_core_of = X06
-		add_core_of = X51
+		add_core_of = HLR
+		add_core_of = X48
+		add_core_of = X54
 	}
 
 	provinces={
-		1209 1386 4390 4608 7223 7642 7654 10135 10479 10491 12293 12472 
+		532 561 571 692 707 3299 3541 3571 3688 3705 6540 6693 6725 9515 9652 9681 11497 11620 11653 
 	}
-	manpower=3028752
+	manpower=3143632
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 

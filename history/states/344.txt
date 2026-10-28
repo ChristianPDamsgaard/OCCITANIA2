@@ -4,26 +4,26 @@ state={
 	name="STATE_344"
 
 	history={
-		owner = GXC
+		owner = X23
 		victory_points = {
-			11916 2 
+			8021 0 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
 			air_base = 0
 
 		}
-		add_core_of = GXC
+		add_core_of = X23
 	}
 
 	provinces={
-		7094 10040 11916 11973 12036 
+		2025 8021 
 	}
-	manpower=2895024
+	manpower=100364
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 
 	local_supplies=10.0
 }

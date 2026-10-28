@@ -6,15 +6,16 @@ state={
 	history={
 		owner = GHA
 		victory_points = {
-			12785 1 
+			10862 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 1
-			air_base = 1
-			12785 = {
-				naval_base = 1
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			12742 = {
+				naval_base = 2
 			}
 
 		}
@@ -22,11 +23,11 @@ state={
 	}
 
 	provinces={
-		12785 
+		8039 8096 10862 12742 12787 
 	}
-	manpower=119380
+	manpower=863686
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

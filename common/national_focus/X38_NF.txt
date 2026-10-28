@@ -805,7 +805,7 @@ focus_tree = {
 					has_war_with = SCA
 					has_war_with = OCC
 					has_war_with = HOL
-					has_war_with = X76
+					has_war_with = X75
 					has_war_with = USA
 					has_war_with = HON
 				}
@@ -846,7 +846,7 @@ focus_tree = {
 					has_war_with = JAP
 					has_war_with = OCC
 					has_war_with = HOL
-					has_war_with = X76
+					has_war_with = X75
 					has_war_with = USA
 					has_war_with = HON
 				}

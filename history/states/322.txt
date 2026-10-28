@@ -4,27 +4,28 @@ state={
 	name="STATE_322"
 
 	history={
-		owner = X22
+		owner = X95
 		victory_points = {
-			11987 10 
+			2207 0 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
-			10070 = {
-				naval_base = 8
+			air_base = 0
+			2207 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = MOR
+		add_core_of = NMB
+		add_core_of = X95
 	}
 
 	provinces={
-		1079 1194 4084 7100 10013 10070 11987 12042 
+		2207 2229 5154 5189 7605 7770 10963 
 	}
-	manpower=823008
+	manpower=103380
 	buildings_max_level_factor=1.000
 	state_category=rural
 

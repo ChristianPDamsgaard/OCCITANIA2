@@ -3,13 +3,13 @@ state={
 	id=557
 	name="STATE_557"
 	resources={
-		steel=59.000
+		coal=3.000
 	}
 
 	history={
-		owner = OCC
+		owner = X42
 		victory_points = {
-			678 1 
+			1527 0 
 		}
 		buildings = {
 			infrastructure = 4
@@ -18,20 +18,15 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = HLR
-		add_core_of = OCC
-		SCA = {
-			set_province_controller = 678
-			set_province_controller = 6529
-		}
+		add_core_of = USA
 	}
 
 	provinces={
-		678 6529 
+		1527 4590 10339 10393 12365 
 	}
-	manpower=749384
+	manpower=144860
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=10.0
 }

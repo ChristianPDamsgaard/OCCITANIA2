@@ -2,29 +2,34 @@
 state={
 	id=789
 	name="STATE_789"
+	resources={
+		aluminium=4.000
+	}
 
 	history={
-		owner = W04
+		owner = X64
 		victory_points = {
-			6247 0 
+			11499 20 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 7
 
 		}
-		add_core_of = W04
-		add_core_of = X56
+		add_core_of = TAT
+		add_core_of = X64
+		add_claim_by = HLR
+		add_claim_by = X57
 	}
 
 	provinces={
-		346 357 3116 3268 3347 6135 6247 6358 6392 9257 9267 11239 11252 
+		519 694 3690 6555 9517 9545 9655 11486 11499 
 	}
-	manpower=268128
+	manpower=3777016
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 
 	local_supplies=10.0
 }

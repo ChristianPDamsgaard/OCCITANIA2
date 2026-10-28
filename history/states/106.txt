@@ -3,31 +3,29 @@ state={
 	id=106
 	name="STATE_106"
 	resources={
-		steel=8.000
+		steel=1.000
 	}
 
 	history={
 		owner = CAT
 		victory_points = {
-			11535 1 
+			9505 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
-			11535 = {
-				naval_base = 8
-			}
+			air_base = 0
 
 		}
 		add_core_of = CAT
+		add_core_of = SPC
 	}
 
 	provinces={
-		485 539 553 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 
+		680 3533 6531 9505 9658 
 	}
-	manpower=1642544
+	manpower=196664
 	buildings_max_level_factor=1.000
 	state_category=rural
 

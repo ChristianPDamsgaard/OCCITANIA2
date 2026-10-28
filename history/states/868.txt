@@ -4,9 +4,9 @@ state={
 	name="STATE_868"
 
 	history={
-		owner = W05
+		owner = W07
 		victory_points = {
-			5200 0 
+			12306 0 
 		}
 		buildings = {
 			infrastructure = 1
@@ -15,13 +15,13 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = W05
+		add_core_of = W07
 	}
 
 	provinces={
-		2111 2181 2204 5115 5148 5200 5208 8140 8189 8224 10959 12951 12959 12987 13281 13282 
+		2199 8161 8176 8192 12306 12982 13306 
 	}
-	manpower=152400
+	manpower=36200
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 

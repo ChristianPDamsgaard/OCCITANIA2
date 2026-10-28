@@ -2,32 +2,35 @@
 state={
 	id=401
 	name="STATE_401"
+	resources={
+		steel=1.000
+	}
 
 	history={
-		owner = X33
+		owner = KOR
 		victory_points = {
-			10088 0 
+			11948 2 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			10088 = {
-				naval_base = 1
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			7121 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = X46
-		add_claim_by = X33
+		add_core_of = KOR
 	}
 
 	provinces={
-		10088 10116 12063 
+		1054 1081 1177 4056 4086 4126 7121 10085 10110 11948 12060 12085 12089 
 	}
-	manpower=1085048
+	manpower=4753344
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 
 	local_supplies=10.0
 }

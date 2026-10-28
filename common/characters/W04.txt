@@ -1,9 +1,9 @@
 characters={
-	W04_b._vom_u.={
-		name=W04_b._vom_u.
+	W04_sebastiao_panapi={
+		name=W04_sebastiao_panapi
 		portraits={
 			civilian={
-				large="GFX_Austria_Kurt_Schuschnigg"
+				large="GFX_leader_unknown"
 			}
 		}
 		country_leader={

@@ -2,33 +2,28 @@
 state={
 	id=104
 	name="STATE_104"
-	resources={
-		aluminium=1.000
-		steel=3.000
-	}
 
 	history={
-		owner = CAT
+		owner = CAR
 		victory_points = {
-			11549 1 
+			12830 0 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
+			air_base = 0
 
 		}
-		add_core_of = CAT
-		add_claim_by = X60
+		add_core_of = CAR
 	}
 
 	provinces={
-		551 3402 3506 6545 9490 11549 11732 13011 
+		1974 3165 5084 8078 11012 11108 12719 12830 
 	}
-	manpower=1148964
+	manpower=172844
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

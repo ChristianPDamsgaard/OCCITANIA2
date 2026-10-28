@@ -164,6 +164,28 @@ default = {
 		}
 	}
 
+	strat_bomber_intercontinental_equipment = { #Intercontinental Bomber
+		pool = {
+			weight = 2  #This weight is necessary due to being in a different file than the country-specific ones
+			icons = {
+				GFX_strat_bomber_intercontinental_equipment_medium
+			}
+			models = {
+			}
+		}
+	}
+
+	mothership_equipment = { #Mothership
+		pool = {
+			weight = 2  #This weight is necessary due to being in a different file than the country-specific ones
+			icons = {
+				GFX_mothership_equipment_medium
+			}
+			models = {
+			}
+		}
+	}
+
 
 	#######################
 	### MEDIUM AIRFRAME ###
@@ -316,6 +338,21 @@ default = {
 			weight = 0.1
 			icons = {
 				GFX_modern_large_airframe_medium #Modern Small (Jet) Strat Bomber Bristol Type 159 (ENG)
+			}
+		}
+	}
+
+	#####################
+	## TRANSPORT PLANE ##
+	#####################
+
+	transport_plane_equipment = {
+		pool = {
+			weight = 0.1
+			icons = {
+			}
+			models = {
+				heavy_plane_entity
 			}
 		}
 	}

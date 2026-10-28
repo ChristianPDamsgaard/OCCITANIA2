@@ -4,26 +4,32 @@ state={
 	name="STATE_582"
 
 	history={
-		owner = X44
+		owner = OCC
 		victory_points = {
-			1278 15 
+			9907 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 6
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			11833 = {
+				naval_base = 8
+			}
 
 		}
-		add_core_of = X44
+		add_core_of = ITA
+		add_core_of = OCC
+		add_claim_by = LIT
+		add_claim_by = SPC
 	}
 
 	provinces={
-		273 291 1258 1278 1305 1350 3289 3348 4265 4283 4311 4324 4354 6246 6285 6308 6368 7237 7300 7343 7416 7431 7444 9349 9385 10136 10142 10226 10301 11389 12117 12130 12172 
+		910 1616 6875 9750 9879 9907 11833 11889 
 	}
-	manpower=1094204
+	manpower=1409952
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 
 	local_supplies=10.0
 }

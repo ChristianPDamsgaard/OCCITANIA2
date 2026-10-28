@@ -2,11 +2,14 @@
 state={
 	id=129
 	name="STATE_129"
+	resources={
+		chromium=1.000
+	}
 
 	history={
-		owner = X82
+		owner = X81
 		victory_points = {
-			5060 0 
+			10827 0 
 		}
 		buildings = {
 			infrastructure = 1
@@ -15,13 +18,13 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = X82
+		add_core_of = X81
 	}
 
 	provinces={
-		1960 5060 
+		2016 4961 8052 8084 10739 10827 10851 12744 
 	}
-	manpower=54696
+	manpower=188208
 	buildings_max_level_factor=1.000
 	state_category=rural
 

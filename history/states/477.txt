@@ -6,26 +6,25 @@ state={
 	history={
 		owner = X38
 		victory_points = {
-			5019 0 
+			10801 1 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 3
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
+			air_base = 1
 
 		}
-		add_core_of = X33
+		add_core_of = X38
 		add_core_of = X46
-		add_claim_by = X38
 	}
 
 	provinces={
-		5019 10511 11950 12226 
+		1949 2036 2105 4106 4410 4950 4953 5040 5096 7080 7938 8076 10332 10801 10807 10816 10872 11995 12080 12743 12799 12854 
 	}
-	manpower=519020
+	manpower=5850940
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

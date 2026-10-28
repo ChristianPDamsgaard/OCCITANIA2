@@ -31,7 +31,7 @@ focus_tree = {
 			SIA = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 674
+				owns_state = 681
 			}
 		}
 		completion_reward = {
@@ -104,11 +104,11 @@ focus_tree = {
 			SIA = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 674
+				owns_state = 681
 			}
 		}
 		completion_reward = {
-			add_state_claim = 674
+			add_state_claim = 681
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				SIA = { country_event = { id = reconquest_news.1 } }
@@ -183,7 +183,7 @@ focus_tree = {
 			SIA = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 674
+				owns_state = 681
 			}
 		}
 		completion_reward = {
@@ -212,14 +212,14 @@ focus_tree = {
 			SIA = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 674
+				owns_state = 681
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = SIA
 				type = take_state_focus
-				generator = { 674 }
+				generator = { 681 }
 			}
 		}
 		ai_will_do = {
@@ -240,7 +240,7 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 495
+				owns_state = 498
 			}
 		}
 		completion_reward = {
@@ -313,11 +313,11 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 495
+				owns_state = 498
 			}
 		}
 		completion_reward = {
-			add_state_claim = 495
+			add_state_claim = 498
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				MAL = { country_event = { id = reconquest_news.1 } }
@@ -392,7 +392,7 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 495
+				owns_state = 498
 			}
 		}
 		completion_reward = {
@@ -421,14 +421,14 @@ focus_tree = {
 			MAL = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 495
+				owns_state = 498
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = MAL
 				type = take_state_focus
-				generator = { 495 }
+				generator = { 498 }
 			}
 		}
 		ai_will_do = {

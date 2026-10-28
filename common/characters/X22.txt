@@ -6,7 +6,7 @@ characters={
 				large="GFX_SPR_Asensio_Cabanillas"
 			}
 			army={
-				small="GFX_SPR_Asensio_Cabanillas"
+				small="GFX_SPR_Asensio_Cabanillas_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_South_America_Generic_land_new_3"
 			}
 			army={
-				small="GFX_South_America_Generic_land_new_3"
+				small="GFX_South_America_Generic_land_new_3_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_CHL_Bennett"
 			}
 			army={
-				small="GFX_CHL_Bennett"
+				small="GFX_CHL_Bennett_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_Paraguay_Hugenio_Morinigi"
 			}
 			army={
-				small="GFX_Paraguay_Hugenio_Morinigi"
+				small="GFX_Paraguay_Hugenio_Morinigi_small"
 			}
 		}
 		corps_commander={
@@ -86,7 +86,7 @@ characters={
 				large="GFX_Cuba_Alberto_Herrera_Franchi"
 			}
 			navy={
-				small="GFX_Cuba_Alberto_Herrera_Franchi"
+				small="GFX_Cuba_Alberto_Herrera_Franchi_small"
 			}
 		}
 		navy_leader={
@@ -103,7 +103,7 @@ characters={
 		name=X22_paulo_da
 		portraits={
 			civilian={
-				large="GFX_els_maximiliano_hernandez_martinez"
+				large="GFX_cos_ricardo_jiminez_oreamuno"
 			}
 		}
 		country_leader={

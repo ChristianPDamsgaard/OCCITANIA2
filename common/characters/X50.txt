@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_3"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_3"
+				small="GFX_Portrait_Asia_Generic_land_3_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Philippines_Mateo_Capinpin"
 			}
 			army={
-				small="GFX_Philippines_Mateo_Capinpin"
+				small="GFX_Philippines_Mateo_Capinpin_small"
 			}
 		}
 		corps_commander={
@@ -43,7 +43,7 @@ characters={
 		name=X50_king_azimuddin_ii
 		portraits={
 			civilian={
-				large="GFX_Malaya_Iskander_I_Perak"
+				large="GFX_Malaya_Abdul_Rahman_Negeri_Sembilan"
 			}
 		}
 		country_leader={

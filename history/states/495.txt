@@ -2,37 +2,30 @@
 state={
 	id=495
 	name="STATE_495"
-	resources={
-		rubber=59.000
-		steel=2.000
-		tungsten=21.000
-	}
 
 	history={
-		owner = MAL
+		owner = X39
 		victory_points = {
-			7427 15 
+			10752 15 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 			arms_factory = 1
-			dockyard = 1
-			air_base = 5
-			7427 = {
-				naval_base = 2
+			air_base = 6
+			2029 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = MAL
-		add_core_of = SIA
-		add_core_of = X40
+		add_core_of = X39
+		add_claim_by = X00
 	}
 
 	provinces={
-		1364 1376 4310 4412 7427 10297 12215 
+		1973 2029 4924 4976 5074 10752 10840 12821 13374 
 	}
-	manpower=284536
+	manpower=396020
 	buildings_max_level_factor=1.000
 	state_category=large_town
 

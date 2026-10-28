@@ -60,7 +60,7 @@ converted_diplo_strategies_POL = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X65"
+		id = "X64"
 		value = 96
 	}
 	ai_strategy = {
@@ -100,7 +100,7 @@ converted_diplo_strategies_POL = {
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X66"
+		id = "X65"
 		value = 34
 	}
 	ai_strategy = {
@@ -125,7 +125,7 @@ converted_diplo_strategies_POL = {
 	}
 	ai_strategy = {
 		type = protect
-		id = "X58"
+		id = "X57"
 		value = 20
 	}
 	ai_strategy = {
@@ -140,7 +140,7 @@ converted_diplo_strategies_POL = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X65"
+		id = "X64"
 		value = 43
 	}
 	ai_strategy = {

@@ -2,28 +2,36 @@
 state={
 	id=439
 	name="STATE_439"
+	resources={
+		oil=2.000
+		tungsten=2.000
+	}
 
 	history={
-		owner = X35
+		owner = LIT
 		victory_points = {
-			4318 15 
+			3734 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			750 = {
+				naval_base = 4
+			}
 
 		}
-		add_core_of = X35
+		add_core_of = LIT
+		add_claim_by = X59
 	}
 
 	provinces={
-		1082 1197 1934 4318 4425 4996 8063 10920 12464 
+		750 765 3587 3734 3752 3765 6755 6768 6781 6783 9744 
 	}
-	manpower=452512
+	manpower=234260
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

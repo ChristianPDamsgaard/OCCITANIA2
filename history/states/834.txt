@@ -2,32 +2,32 @@
 state={
 	id=834
 	name="STATE_834"
+	resources={
+		steel=19.000
+	}
 
 	history={
-		owner = X76
+		owner = X75
 		victory_points = {
-			7138 1 
+			12357 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
-			4168 = {
-				naval_base = 8
-			}
+			air_base = 0
 
 		}
-		add_core_of = X76
+		add_core_of = X75
 		add_claim_by = USA
 	}
 
 	provinces={
-		1019 1077 1132 1163 4168 6943 7045 7083 7138 9876 10051 10081 10096 11783 12054 12445 
+		703 4166 4738 4834 9657 12357 
 	}
-	manpower=3581140
+	manpower=766996
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pastoral
 
 	local_supplies=10.0
 }

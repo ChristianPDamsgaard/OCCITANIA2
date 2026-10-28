@@ -30,7 +30,7 @@ converted_diplo_strategies_PNG = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X77"
+		id = "X76"
 		value = 104
 	}
 	ai_strategy = {

@@ -2,28 +2,35 @@
 state={
 	id=269
 	name="STATE_269"
+	resources={
+		steel=4.000
+	}
 
 	history={
 		owner = X22
 		victory_points = {
-			11953 1 
+			13077 2 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			4116 = {
+				naval_base = 6
+			}
 
 		}
 		add_core_of = X22
 	}
 
 	provinces={
-		1058 1126 1128 1141 1967 4018 4970 5053 7033 7149 9943 9960 9976 11953 12034 12888 
+		3991 4116 4146 4150 7008 7040 7065 10045 10059 12018 12020 12760 13074 13077 
 	}
-	manpower=542820
+	manpower=1466052
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

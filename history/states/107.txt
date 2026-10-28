@@ -2,19 +2,21 @@
 state={
 	id=107
 	name="STATE_107"
+	resources={
+		steel=8.000
+	}
 
 	history={
 		owner = CAT
 		victory_points = {
-			3552 2 
+			11535 1 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
+			arms_factory = 0
 			air_base = 1
-			11465 = {
+			11535 = {
 				naval_base = 8
 			}
 
@@ -23,11 +25,11 @@ state={
 	}
 
 	provinces={
-		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 11616 
+		485 539 553 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 
 	}
-	manpower=2734320
+	manpower=1642544
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_island
 
 	local_supplies=10.0
 }

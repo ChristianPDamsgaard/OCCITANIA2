@@ -6,26 +6,22 @@ state={
 	history={
 		owner = X92
 		victory_points = {
-			13047 0 
+			11023 0 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
-			13047 = {
-				naval_base = 4
-			}
 
 		}
 		add_core_of = X92
-		add_claim_by = X22
 	}
 
 	provinces={
-		13047 
+		2194 11023 
 	}
-	manpower=8904
+	manpower=117348
 	buildings_max_level_factor=1.000
 	state_category=rural
 

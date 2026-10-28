@@ -3,30 +3,40 @@ state={
 	id=641
 	name="STATE_641"
 	resources={
-		oil=14.000
+		coal=2.000
 	}
 
 	history={
 		owner = SCA
 		victory_points = {
-			3645 1 
+			11542 2 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 1
+			11542 = {
+				landmark_prague_castle = {
+					level = 1
+					allowed = {
+						
+					}
+				}
+			}
 
 		}
 		add_core_of = SCA
+		add_claim_by = HLR
+		add_claim_by = X24
 	}
 
 	provinces={
-		637 660 818 3630 3636 3639 3645 3663 6652 6658 6667 6695 9617 11588 11605 11657 
+		424 445 469 494 543 583 3418 3462 3585 5283 6418 6440 6470 6592 7857 9414 9421 9429 9541 9555 9569 11401 11414 11432 11525 11542 11556 
 	}
-	manpower=1794212
+	manpower=7299484
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

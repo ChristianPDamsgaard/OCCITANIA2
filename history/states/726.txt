@@ -2,29 +2,34 @@
 state={
 	id=726
 	name="STATE_726"
+	resources={
+		oil=30.000
+	}
 
 	history={
 		owner = USA
 		victory_points = {
-			9864 1 
+			7552 2 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 0
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
-			9864 = {
+			7552 = {
 				naval_base = 6
 			}
 
 		}
 		add_core_of = USA
+		add_claim_by = X36
 	}
 
 	provinces={
-		9801 9864 11740 11782 11900 
+		1453 1528 1643 4507 4535 7524 7552 12313 12398 
 	}
-	manpower=5878764
+	manpower=6750404
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

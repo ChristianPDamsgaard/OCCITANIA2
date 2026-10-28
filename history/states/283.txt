@@ -3,29 +3,34 @@ state={
 	id=283
 	name="STATE_283"
 	resources={
-		tungsten=2.000
+		aluminium=1.000
 	}
 
 	history={
-		owner = X22
+		owner = X97
 		victory_points = {
-			6742 0 
+			10803 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 5
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
+			air_base = 6
+			10803 = {
+				naval_base = 4
+			}
 
 		}
+		add_core_of = IVO
+		add_core_of = X97
 	}
 
 	provinces={
-		1736 1854 4741 4838 6742 7779 12676 
+		5013 8065 10803 
 	}
-	manpower=20240
+	manpower=336416
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

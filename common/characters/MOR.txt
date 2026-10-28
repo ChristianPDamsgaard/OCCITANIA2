@@ -6,7 +6,7 @@ characters={
 				large="GFX_EGY_Ahmed_Mwawi"
 			}
 			army={
-				small="GFX_EGY_Ahmed_Mwawi"
+				small="GFX_EGY_Ahmed_Mwawi_small"
 			}
 		}
 		corps_commander={

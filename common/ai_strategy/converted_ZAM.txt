@@ -90,12 +90,12 @@ converted_diplo_strategies_ZAM = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X66"
+		id = "X65"
 		value = 1
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 1
 	}
 	ai_strategy = {

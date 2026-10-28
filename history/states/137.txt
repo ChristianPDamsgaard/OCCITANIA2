@@ -2,28 +2,33 @@
 state={
 	id=137
 	name="STATE_137"
+	resources={
+		coal=1.000
+		rubber=2.000
+		tungsten=1.000
+	}
 
 	history={
-		owner = X82
+		owner = X81
 		victory_points = {
-			7161 0 
+			4515 0 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
 
 		}
-		add_core_of = X82
+		add_core_of = X81
 	}
 
 	provinces={
-		1181 1950 2034 2073 2154 4941 6027 7161 10766 10858 11934 12783 12808 12847 
+		191 1516 1817 1929 1968 4515 12795 12907 
 	}
-	manpower=310260
+	manpower=576488
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

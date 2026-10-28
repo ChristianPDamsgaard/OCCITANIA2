@@ -6,34 +6,28 @@ state={
 	history={
 		owner = CAT
 		victory_points = {
-			11506 15 
+			3552 2 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
+			infrastructure = 4
+			industrial_complex = 1
 			arms_factory = 1
-			air_base = 6
-			9523 = {
-				landmark_eiffel_tower = {
-					level = 1
-					allowed = {
-						has_dlc = "Gotterdammerung"
-					}
-				}
+			dockyard = 1
+			air_base = 1
+			11465 = {
+				naval_base = 8
 			}
 
 		}
 		add_core_of = CAT
-		add_core_of = SPC
-		add_claim_by = X60
 	}
 
 	provinces={
-		6547 6949 9507 9523 9534 9725 11491 11506 11518 
+		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 11616 
 	}
-	manpower=2136404
+	manpower=2734320
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 
 	local_supplies=10.0
 }

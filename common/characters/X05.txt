@@ -6,7 +6,7 @@ characters={
 				large="GFX_portrait_europe_generic_land_7"
 			}
 			army={
-				small="GFX_portrait_europe_generic_land_7"
+				small="GFX_portrait_europe_generic_land_7_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Europe_Generic_land_2"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_2"
+				small="GFX_Portrait_Europe_Generic_land_2_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Portrait_Europe_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_1"
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_Denmark_Christian_von_Schalburg"
 			}
 			army={
-				small="GFX_Denmark_Christian_von_Schalburg"
+				small="GFX_Denmark_Christian_von_Schalburg_small"
 			}
 		}
 		corps_commander={

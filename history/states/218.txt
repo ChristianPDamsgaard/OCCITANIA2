@@ -3,21 +3,22 @@ state={
 	id=218
 	name="STATE_218"
 	resources={
-		chromium=1.000
+		chromium=40.000
+		steel=1.000
 	}
 
 	history={
 		owner = DOM
 		victory_points = {
-			4641 15 
+			7622 2 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
-			air_base = 6
-			4641 = {
+			air_base = 0
+			7622 = {
 				naval_base = 6
 			}
 
@@ -26,9 +27,9 @@ state={
 	}
 
 	provinces={
-		1594 1635 4598 4641 7632 7660 10484 
+		1550 4476 4600 7451 7546 7590 7622 10374 10498 12347 
 	}
-	manpower=2407564
+	manpower=2756156
 	buildings_max_level_factor=1.000
 	state_category=large_town
 

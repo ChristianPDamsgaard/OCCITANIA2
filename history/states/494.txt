@@ -4,27 +4,31 @@ state={
 	name="STATE_494"
 
 	history={
-		owner = MLW
+		owner = X39
 		victory_points = {
-			12986 15 
+			8073 4 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 1
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			air_base = 1
+			1923 = {
+				naval_base = 1
+			}
 
 		}
-		add_core_of = MLW
-		add_core_of = ZAM
+		add_core_of = X39
+		add_claim_by = X25
 	}
 
 	provinces={
-		12986 13209 
+		1923 5006 8073 10786 
 	}
-	manpower=125548
+	manpower=27476
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_city
 
 	local_supplies=10.0
 }

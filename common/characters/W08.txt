@@ -1,6 +1,6 @@
 characters={
-	W08_manuel_lonko={
-		name=W08_manuel_lonko
+	W08_kerioukeiou_praje={
+		name=W08_kerioukeiou_praje
 		portraits={
 			civilian={
 				large="GFX_leader_unknown"

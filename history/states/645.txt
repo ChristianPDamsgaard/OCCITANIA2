@@ -2,29 +2,37 @@
 state={
 	id=645
 	name="STATE_645"
+	resources={
+		aluminium=4.000
+		chromium=2.000
+	}
 
 	history={
 		owner = SCA
 		victory_points = {
-			3617 1 
+			3696 1 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 			air_base = 1
 
 		}
 		add_core_of = SCA
-		add_claim_by = X24
+		add_core_of = X05
+		SER = {
+			set_province_controller = 9606
+			set_province_controller = 11608
+		}
 	}
 
 	provinces={
-		619 3617 3623 9621 
+		646 662 696 713 746 3649 3696 6682 6697 9606 9640 9687 11592 11608 
 	}
-	manpower=515912
+	manpower=2661540
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_town
 
 	local_supplies=10.0
 }

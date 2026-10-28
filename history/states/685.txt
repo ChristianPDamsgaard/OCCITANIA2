@@ -2,33 +2,32 @@
 state={
 	id=685
 	name="STATE_685"
-	resources={
-		steel=6.000
-		tungsten=8.000
-	}
 
 	history={
-		owner = X48
+		owner = SIA
 		victory_points = {
-			9665 2 
+			7432 0 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
+			air_base = 0
+			7432 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = HLR
-		add_core_of = X48
+		add_core_of = CAM
+		add_claim_by = SIA
 	}
 
 	provinces={
-		732 3684 3703 6708 9665 
+		1353 4359 7404 7432 10317 
 	}
-	manpower=1234852
+	manpower=20308
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 
 	local_supplies=10.0
 }

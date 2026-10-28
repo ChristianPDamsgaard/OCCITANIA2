@@ -10,7 +10,7 @@
 	fallback_name = "Battleship BB-%d"
 
 	unique = {
-		"South Carolina" "Michigan" "Delaware" "North Dakota" "Florida" "Utah" "Wyoming" "Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Mississippi" "Idaho" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" "Washington" 
+		
 	}
 }
 
@@ -26,7 +26,7 @@ X57_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser BC-%d"
 
 	unique = {
-		"New Ironsides" "Dunderberg" 
+		
 	}
 }
 
@@ -42,7 +42,7 @@ X57_CA_HISTORICAL = {
 	fallback_name = "Heavy Cruiser CA-%d"
 
 	unique = {
-		"America" "Columbus" "Franklin" "Independence" "Washington" "Chipewa" "New Orleans" "Pennsylvania" "Delaware" "Vermont" "New Hampshire" "Virginia" "New York" "Ohio" "North Carolina" 
+		
 	}
 }
 
@@ -58,7 +58,7 @@ X57_CLAA_HISTORICAL = {
 	fallback_name = "Light Cruiser CLAA-%d"
 
 	unique = {
-		"Atlanta" "Boston" "Chicago" "Harvard" "Vesuvius" "Badger" "Panther" "Yale" "Prairie" "Buffalo" "Yankee" "Yosemite" "Dixie" "St. Louis" "St. Paul" "New Orleans" "Albany" 
+		
 	}
 }
 
@@ -74,7 +74,7 @@ X57_CL_HISTORICAL = {
 	fallback_name = "Light Cruiser CL-%d"
 
 	unique = {
-		"Atlanta" "Boston" "Chicago" "Harvard" "Vesuvius" "Badger" "Panther" "Yale" "Prairie" "Buffalo" "Yankee" "Yosemite" "Dixie" "St. Louis" "St. Paul" "New Orleans" "Albany" 
+		
 	}
 }
 
@@ -90,7 +90,7 @@ X57_CVL_HISTORICAL = {
 	fallback_name = "Carrier CVL-%d"
 
 	unique = {
-		"Monitor" "Passaic" "Montauk" "Nahant" "Patapsco" "Weehawken" "Sangamon" "Catskill" "Nantucket" "Lehigh" "Camanche" "Neosho" "Osage" "Ozark" "Marietta" "Sandusky" "Roanoke" "Canonicus" "Saugus" "Tecumseh" "Manhattan" "Mahopac" "Wyandotte" "Ajax" "Catawba" "Oneota" "Milwaukee" "Winnebago" "Chickasaw" "Kickapoo" "Dictator" "Onondaga" "Puritan" "Miantonomoh" "Monadnock" "Agamenticus" "Tonawanda" "Kalamazoo" "Passaconaway" "Quinsigamond" "Shakamaxon" 
+		
 	}
 }
 
@@ -106,7 +106,7 @@ X57_CV_HISTORICAL = {
 	fallback_name = "Carrier CV-%d"
 
 	unique = {
-		"Monitor" "Passaic" "Montauk" "Nahant" "Patapsco" "Weehawken" "Sangamon" "Catskill" "Nantucket" "Lehigh" "Camanche" "Neosho" "Osage" "Ozark" "Marietta" "Sandusky" "Roanoke" "Canonicus" "Saugus" "Tecumseh" "Manhattan" "Mahopac" "Wyandotte" "Ajax" "Catawba" "Oneota" "Milwaukee" "Winnebago" "Chickasaw" "Kickapoo" "Dictator" "Onondaga" "Puritan" "Miantonomoh" "Monadnock" "Agamenticus" "Tonawanda" "Kalamazoo" "Passaconaway" "Quinsigamond" "Shakamaxon" 
+		
 	}
 }
 
@@ -122,7 +122,7 @@ X57_DD_HISTORICAL = {
 	fallback_name = "Destroyer DD-%d"
 
 	unique = {
-		"Newark" "Charleston" "Baltimore" "Philadelphia" "San Francisco" "Olympia" "Cincinnati" "Raleigh" "Montgomery" "Detroit" "Marblehead" "Columbia" "Minneapolis" "Denver" "Des Moines" "Chattanooga" "Galveston" "Tacoma" "Cleveland" "Milwaukee" "Charleston" 
+		
 	}
 }
 
@@ -138,7 +138,7 @@ X57_DE_HISTORICAL = {
 	fallback_name = "Destroyer Escort DE-%d"
 
 	unique = {
-		"Newark" "Charleston" "Baltimore" "Philadelphia" "San Francisco" "Olympia" "Cincinnati" "Raleigh" "Montgomery" "Detroit" "Marblehead" "Columbia" "Minneapolis" "Denver" "Des Moines" "Chattanooga" "Galveston" "Tacoma" "Cleveland" "Milwaukee" "Charleston" 
+		
 	}
 }
 
@@ -154,7 +154,7 @@ X57_MINELAYERS_HISTORICAL = {
 	fallback_name = "Minelayer CM-%d"
 
 	unique = {
-		"Atlanta" "Boston" "Chicago" "Harvard" "Vesuvius" "Badger" "Panther" "Yale" "Prairie" "Buffalo" "Yankee" "Yosemite" "Dixie" "St. Louis" "St. Paul" "New Orleans" "Albany" 
+		
 	}
 }
 
@@ -170,7 +170,7 @@ X57_SS_HISTORICAL = {
 	fallback_name = "Submarine SS-%d"
 
 	unique = {
-		"Adams" "Boston" "Brandywine" "Chesapeake" "Columbia" "Congress" "Contellation" "Constitution" "Cumberland" "Essex" "General Greene" "Guirriere" "Hudson" "Independence" "Insurgent" "Java" "John Adams" "Macedonian" "Mohawk" "New York" "Philadelphia" "Plattsburg" "Potomac" "President" "Raritan" "Sabine" "Santee" "Savannah" "St. Lawrence" "Superior" "United States" 
+		
 	}
 }
 

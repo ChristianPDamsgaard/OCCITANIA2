@@ -6,7 +6,7 @@ characters={
 				large="GFX_portrait_GER_georg_von_kuchler"
 			}
 			army={
-				small="GFX_portrait_GER_georg_von_kuchler"
+				small="GFX_portrait_GER_georg_von_kuchler_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_portrait_GER_paul_hausser"
 			}
 			army={
-				small="GFX_portrait_GER_paul_hausser"
+				small="GFX_portrait_GER_paul_hausser_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Portrait_Germany_Generic_land_5"
 			}
 			army={
-				small="GFX_Portrait_Germany_Generic_land_5"
+				small="GFX_Portrait_Germany_Generic_land_5_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_portrait_GER_maximilian_von_weichs"
 			}
 			army={
-				small="GFX_portrait_GER_maximilian_von_weichs"
+				small="GFX_portrait_GER_maximilian_von_weichs_small"
 			}
 		}
 		corps_commander={

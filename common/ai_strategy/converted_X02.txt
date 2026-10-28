@@ -60,7 +60,7 @@ converted_diplo_strategies_X02 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 5
 	}
 	ai_strategy = {

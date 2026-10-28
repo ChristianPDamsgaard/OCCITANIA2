@@ -4,9 +4,9 @@ state={
 	name="STATE_537"
 
 	history={
-		owner = HOL
+		owner = X86
 		victory_points = {
-			9977 1 
+			7978 0 
 		}
 		buildings = {
 			infrastructure = 2
@@ -15,13 +15,13 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = HOL
+		add_core_of = X86
 	}
 
 	provinces={
-		4133 4200 7076 7136 7194 8069 9977 13073 
+		7978 
 	}
-	manpower=71391
+	manpower=460828
 	buildings_max_level_factor=1.000
 	state_category=rural
 

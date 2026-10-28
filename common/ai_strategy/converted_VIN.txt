@@ -140,7 +140,7 @@ converted_diplo_strategies_VIN = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X54"
+		id = "TNE"
 		value = 40
 	}
 	ai_strategy = {

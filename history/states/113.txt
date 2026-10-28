@@ -2,29 +2,31 @@
 state={
 	id=113
 	name="STATE_113"
+	resources={
+		rubber=3.000
+	}
 
 	history={
-		owner = X82
+		owner = CAT
 		victory_points = {
-			12958 10 
+			12138 0 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
-			12958 = {
+			air_base = 0
+			12138 = {
 				naval_base = 6
 			}
 
 		}
-		add_core_of = X82
 	}
 
 	provinces={
-		8138 8202 10966 12391 12958 12985 
+		7308 7440 12138 
 	}
-	manpower=438280
+	manpower=86772
 	buildings_max_level_factor=1.000
 	state_category=rural
 

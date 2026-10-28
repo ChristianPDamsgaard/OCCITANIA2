@@ -369,7 +369,7 @@ focus_tree = {
 			declare_war_on = {
 				target = OCC
 				type = take_core_state
-				generator = { 565 567 570 573 577 }
+				generator = { 570 572 575 578 582 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}

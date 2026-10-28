@@ -1,13 +1,13 @@
 characters={
-	X89_andres_milans_del_bosch={
-		name=X89_andres_milans_del_bosch
+	X89_zhang_tian={
+		name=X89_zhang_tian
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_8.dds"
+				large="GFX_CHI_Yuan_Shikai"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=prussian_const
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -2,39 +2,29 @@
 state={
 	id=583
 	name="STATE_583"
-	resources={
-		chromium=1.000
-	}
 
 	history={
-		owner = PER
+		owner = X43
 		victory_points = {
-			10837 3 
+			10734 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 2
-			air_base = 2
-			10837 = {
-				landmark_sadabad_complex = {
-					level = 1
-					allowed = {
-						has_dlc = "Gotterdammerung"
-					}
-				}
-			}
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = PER
+		add_core_of = X43
+		add_claim_by = X60
 	}
 
 	provinces={
-		7969 8093 10837 10922 12704 12818 
+		8019 8062 10734 13246 13247 
 	}
-	manpower=1206176
+	manpower=718668
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 
 	local_supplies=10.0
 }

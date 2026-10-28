@@ -3,30 +3,33 @@ state={
 	id=693
 	name="STATE_693"
 	resources={
-		aluminium=3.000
-		steel=15.000
+		steel=1.000
+		tungsten=2.000
 	}
 
 	history={
-		owner = TAT
+		owner = X49
 		victory_points = {
-			11560 3 
+			9648 3 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 3
 			arms_factory = 2
 			air_base = 2
 
 		}
+		add_core_of = AUS
 		add_core_of = HLR
-		add_core_of = TAT
+		add_core_of = X49
+		add_core_of = X53
+		add_claim_by = SLV
 	}
 
 	provinces={
-		563 3558 11547 11560 
+		653 668 3673 3674 6673 6687 6691 9646 9648 9650 9679 11612 
 	}
-	manpower=1893656
+	manpower=879992
 	buildings_max_level_factor=1.000
 	state_category=city
 

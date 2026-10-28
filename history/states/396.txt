@@ -6,28 +6,28 @@ state={
 	history={
 		owner = X32
 		victory_points = {
-			12975 2 
+			2115 4 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			industrial_complex = 2
-			arms_factory = 0
-			air_base = 0
-			12975 = {
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+			8248 = {
 				naval_base = 4
 			}
 
 		}
-		add_core_of = RCG
 		add_core_of = X32
 	}
 
 	provinces={
-		12975 
+		2115 8248 
 	}
-	manpower=26356
+	manpower=149144
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 
 	local_supplies=10.0
 }

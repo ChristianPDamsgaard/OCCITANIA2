@@ -2,33 +2,34 @@
 state={
 	id=674
 	name="STATE_674"
+	resources={
+		steel=29.000
+	}
 
 	history={
-		owner = SIA
+		owner = SCA
 		victory_points = {
-			7408 10 
+			3338 0 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 1
-			dockyard = 1
-			air_base = 7
-			7408 = {
-				naval_base = 2
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			3338 = {
+				naval_base = 4
 			}
 
 		}
-		add_core_of = SIA
-		add_claim_by = MAL
+		add_core_of = SCA
 	}
 
 	provinces={
-		1279 1281 1308 1337 1366 1394 1427 4297 4312 4319 4348 4371 4388 4392 7236 7367 7408 7587 10156 10158 10193 10221 10250 12122 12131 12201 12220 12230 12286 
+		26 87 140 180 183 312 3064 3065 3075 3080 3086 3092 3130 3168 3338 6051 6102 9041 9055 9101 9248 11038 11042 11089 11137 11171 
 	}
-	manpower=1930584
+	manpower=176144
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 
 	local_supplies=10.0
 }

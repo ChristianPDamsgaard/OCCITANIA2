@@ -6,25 +6,30 @@ state={
 	history={
 		owner = X23
 		victory_points = {
-			2012 1 
+			4989 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 1
-			air_base = 0
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 5
+			12834 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = X23
-		add_claim_by = X67
+		add_core_of = GAM
+		add_core_of = SEN
+		add_claim_by = X23
 	}
 
 	provinces={
-		2012 10812 10915 
+		2100 4989 7972 12834 13213 
 	}
-	manpower=242892
+	manpower=633008
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

@@ -4,26 +4,30 @@ state={
 	name="STATE_677"
 
 	history={
-		owner = SIA
+		owner = SER
 		victory_points = {
-			1520 1 
+			3614 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 10
 
 		}
-		add_core_of = SIA
+		add_core_of = SER
+		add_core_of = X05
+		SCA = {
+			set_province_controller = 3614
+		}
 	}
 
 	provinces={
-		1362 1374 1390 1520 1563 1577 4260 4539 4554 7426 10195 10238 10326 10453 12210 
+		614 3614 6643 11580 11787 
 	}
-	manpower=191552
+	manpower=757432
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 
 	local_supplies=10.0
 }

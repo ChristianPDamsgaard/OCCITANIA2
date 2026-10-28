@@ -3,32 +3,34 @@ state={
 	id=301
 	name="STATE_301"
 	resources={
-		oil=1.000
-		steel=1.000
-		tungsten=6.000
+		aluminium=1.000
 	}
 
 	history={
-		owner = X95
+		owner = W00
 		victory_points = {
-			7696 0 
+			10919 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 5
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
+			air_base = 6
+			10919 = {
+				naval_base = 4
+			}
 
 		}
-		add_core_of = X95
+		add_core_of = DAH
+		add_core_of = W00
 	}
 
 	provinces={
-		2407 7696 7830 7901 10527 10703 13075 
+		10919 12762 12874 
 	}
-	manpower=17962
+	manpower=452936
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

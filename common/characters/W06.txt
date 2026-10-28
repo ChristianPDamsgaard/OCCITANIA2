@@ -1,9 +1,9 @@
 characters={
-	W06_ebedimu_heliya={
-		name=W06_ebedimu_heliya
+	W06_lamboina_tsiranana={
+		name=W06_lamboina_tsiranana
 		portraits={
 			civilian={
-				large="GFX_leader_unknown"
+				large="GFX_hai_stenio_vincent"
 			}
 		}
 		country_leader={

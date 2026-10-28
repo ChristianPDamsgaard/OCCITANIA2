@@ -1,32 +1,32 @@
 characters={
-	X60_tzannis_mouskos={
-		name=X60_tzannis_mouskos
+	X60_berihun_selassie={
+		name=X60_berihun_selassie
 		portraits={
 			army={
-				large="GFX_portrait_europe_generic_land_8"
+				large="GFX_Ethiopia_Kassa_Haile_Darge"
 			}
 			army={
-				small="GFX_portrait_europe_generic_land_8"
+				small="GFX_Ethiopia_Kassa_Haile_Darge_small"
 			}
 		}
 		corps_commander={
 			skill=2
-			attack_skill=1
+			attack_skill=4
 			defense_skill=1
-			planning_skill=3
+			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X60_tharyvoulos_pan'galos={
-		name=X60_tharyvoulos_pan'galos
+	X60_bekele_mariam={
+		name=X60_bekele_mariam
 		portraits={
 			army={
-				large="GFX_GRE_Manolis_Mantakas"
+				large="GFX_Portrait_Africa_Generic_land_1"
 			}
 			army={
-				small="GFX_GRE_Manolis_Mantakas"
+				small="GFX_Portrait_Africa_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -39,55 +39,35 @@ characters={
 		}
 	}
 
-	X60_staikos_nider={
-		name=X60_staikos_nider
+	X60_kelile_mariam={
+		name=X60_kelile_mariam
 		portraits={
 			army={
-				large="GFX_Portrait_Europe_Generic_land_3"
+				large="GFX_Ethiopia_Kassa_Haile_Darge"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_3"
+				small="GFX_Ethiopia_Kassa_Haile_Darge_small"
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=4
+			skill=1
+			attack_skill=2
 			defense_skill=1
-			planning_skill=3
+			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X60_sotiris_foumis={
-		name=X60_sotiris_foumis
-		portraits={
-			navy={
-				large="GFX_r56_generic_admiral_GRE_2"
-			}
-			navy={
-				small="GFX_r56_generic_admiral_GRE_2"
-			}
-		}
-		navy_leader={
-			skill=1
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=0
-		}
-	}
-
-	X60_odysseas_smolenskis={
-		name=X60_odysseas_smolenskis
+	X60_king_desta={
+		name=X60_king_desta
 		portraits={
 			civilian={
-				large="GFX_SRI_Giacomo_Matteotti"
+				large="GFX_Ethiopia_Haile_Selassie"
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=absolute_monarchy
 			expire="1965.1.1.1"
 			id=-1
 		}

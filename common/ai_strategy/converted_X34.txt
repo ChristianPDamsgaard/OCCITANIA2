@@ -90,7 +90,7 @@ converted_diplo_strategies_X34 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 10
 	}
 	ai_strategy = {
@@ -130,7 +130,7 @@ converted_diplo_strategies_X34 = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X69"
+		id = "X68"
 		value = 52
 	}
 	ai_strategy = {

@@ -3,35 +3,34 @@ state={
 	id=842
 	name="STATE_842"
 	resources={
-		aluminium=2.000
-		steel=5.000
+		coal=4.000
 	}
 
 	history={
-		owner = X76
+		owner = X75
 		victory_points = {
-			718 50 
+			3823 1 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
+			infrastructure = 4
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 10
-			6909 = {
+			air_base = 1
+			788 = {
 				naval_base = 8
 			}
 
 		}
-		add_core_of = X76
+		add_core_of = X75
 		add_claim_by = USA
 	}
 
 	provinces={
-		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 
+		788 865 873 951 3823 3925 11738 11841 
 	}
-	manpower=7125716
+	manpower=2772972
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_town
 
 	local_supplies=10.0
 }

@@ -6,7 +6,7 @@ characters={
 				large="GFX_GAB_Tchorere"
 			}
 			army={
-				small="GFX_GAB_Tchorere"
+				small="GFX_GAB_Tchorere_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Africa_Generic_navy_3"
 			}
 			navy={
-				small="GFX_Portrait_Africa_Generic_navy_3"
+				small="GFX_Portrait_Africa_Generic_navy_3_small"
 			}
 		}
 		navy_leader={

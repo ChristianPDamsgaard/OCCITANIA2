@@ -40,7 +40,7 @@ converted_diplo_strategies_GRE = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X60"
+		id = "X59"
 		value = 175
 	}
 	ai_strategy = {
@@ -65,7 +65,7 @@ converted_diplo_strategies_GRE = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 21
 	}
 	ai_strategy = {
@@ -75,12 +75,12 @@ converted_diplo_strategies_GRE = {
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X64"
+		id = "X63"
 		value = 200
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X66"
+		id = "X65"
 		value = 137
 	}
 	ai_strategy = {

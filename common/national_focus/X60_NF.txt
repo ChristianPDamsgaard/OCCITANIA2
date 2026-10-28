@@ -19,19 +19,19 @@ focus_tree = {
 	shared_focus = political_effort
 
 	focus = {
-		id = border_disputesX60X64
+		id = border_disputesX60X65
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesX64
+		text = border_disputesX65
 		x = 24
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			X64 = {
+			X65 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 772
+				owns_state = 815
 			}
 		}
 		completion_reward = {
@@ -50,16 +50,16 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X64 value > 0 }
+				has_opinion = { target = X65 value > 0 }
 			}
 			modifier = {
 				factor = 0
-				X64 = { in_weak_faction = no }
+				X65 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X64
+					has_subject = X65
 					in_weak_faction = no
 				}
 			}
@@ -83,35 +83,35 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				X64 = { surrender_progress > 0.2 }
+				X65 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = assert_claimsX60X64
+		id = assert_claimsX60X65
 		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsX64
-		prerequisite = { focus = border_disputesX60X64 }
+		text = assert_claimsX65
+		prerequisite = { focus = border_disputesX60X65 }
 		x = 0
 		y = 1
-		relative_position_id = border_disputesX60X64
+		relative_position_id = border_disputesX60X65
 		cost = 10
 		available = {
-			date > 1938.1.1
+			date > 1938.2.1
 			is_subject = no
 			has_war = no
-			X64 = {
+			X65 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 772
+				owns_state = 815
 			}
 		}
 		completion_reward = {
-			add_state_claim = 772
+			add_state_claim = 815
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
-				X64 = { country_event = { id = reconquest_news.1 } }
+				X65 = { country_event = { id = reconquest_news.1 } }
 			}
 		}
 		ai_will_do = {
@@ -127,16 +127,16 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X64 value > 0 }
+				has_opinion = { target = X65 value > 0 }
 			}
 			modifier = {
 				factor = 0
-				X64 = { in_weak_faction = no }
+				X65 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X64
+					has_subject = X65
 					in_weak_faction = no
 				}
 			}
@@ -160,30 +160,30 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				X64 = { surrender_progress > 0.2 }
+				X65 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = prepare_for_warX60X64
+		id = prepare_for_warX60X65
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warX64
-		prerequisite = { focus = assert_claimsX60X64 }
+		text = prepare_for_warX65
+		prerequisite = { focus = assert_claimsX60X65 }
 		bypass = {
-			has_war_with = X64
+			has_war_with = X65
 		}
 		x = 0
 		y = 1
-		relative_position_id = assert_claimsX60X64
+		relative_position_id = assert_claimsX60X65
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			X64 = {
+			X65 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 772
+				owns_state = 815
 			}
 		}
 		completion_reward = {
@@ -195,31 +195,31 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neighbor_warX60X64
+		id = neighbor_warX60X65
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warX64
-		prerequisite = { focus = prepare_for_warX60X64 }
+		text = neighbor_warX65
+		prerequisite = { focus = prepare_for_warX60X65 }
 		bypass = {
-			has_war_with = X64
+			has_war_with = X65
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_warX60X64
+		relative_position_id = prepare_for_warX60X65
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			X64 = {
+			X65 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 772
+				owns_state = 815
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = X64
+				target = X65
 				type = take_state_focus
-				generator = { 772 }
+				generator = { 815 }
 			}
 		}
 		ai_will_do = {

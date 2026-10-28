@@ -6,7 +6,7 @@ characters={
 				large="GFX_Norway_Oliver_Moystad"
 			}
 			army={
-				small="GFX_Norway_Oliver_Moystad"
+				small="GFX_Norway_Oliver_Moystad_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Europe_Generic_land_5"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_5"
+				small="GFX_Portrait_Europe_Generic_land_5_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Estonia_Aleksander_Tonisson"
 			}
 			army={
-				small="GFX_Estonia_Aleksander_Tonisson"
+				small="GFX_Estonia_Aleksander_Tonisson_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_portrait_europe_generic_land_9"
 			}
 			army={
-				small="GFX_portrait_europe_generic_land_9"
+				small="GFX_portrait_europe_generic_land_9_small"
 			}
 		}
 		corps_commander={
@@ -86,7 +86,7 @@ characters={
 				large="GFX_Portrait_Europe_Generic_navy_2"
 			}
 			navy={
-				small="GFX_Portrait_Europe_Generic_navy_2"
+				small="GFX_Portrait_Europe_Generic_navy_2_small"
 			}
 		}
 		navy_leader={

@@ -2,31 +2,31 @@
 state={
 	id=348
 	name="STATE_348"
-	resources={
-		oil=5.000
-	}
 
 	history={
-		owner = X24
+		owner = GXC
 		victory_points = {
-			11636 15 
+			4196 10 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 6
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			4099 = {
+				naval_base = 1
+			}
 
 		}
-		add_core_of = X24
+		add_core_of = X21
 	}
 
 	provinces={
-		674 6677 9651 11603 11619 11636 
+		1006 1066 1094 1110 1138 1166 1193 4053 4070 4099 4113 4169 4196 7027 7071 7099 7131 9972 10010 10012 10042 10054 10069 10084 10093 11961 11986 12057 12084 
 	}
-	manpower=478544
+	manpower=13439224
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

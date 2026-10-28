@@ -2,31 +2,31 @@
 state={
 	id=529
 	name="STATE_529"
-	resources={
-		rubber=1.000
-	}
 
 	history={
-		owner = X87
+		owner = HOL
 		victory_points = {
-			4997 0 
+			8244 0 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
+			air_base = 0
+			8244 = {
+				naval_base = 10
+			}
 
 		}
-		add_core_of = X87
+		add_core_of = EQG
 	}
 
 	provinces={
-		4997 5028 
+		8244 
 	}
-	manpower=862756
+	manpower=186200
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=10.0
 }

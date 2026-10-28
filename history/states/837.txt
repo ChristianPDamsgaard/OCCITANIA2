@@ -2,32 +2,33 @@
 state={
 	id=837
 	name="STATE_837"
+	resources={
+		oil=7.000
+		steel=67.000
+	}
 
 	history={
-		owner = X76
+		owner = X75
 		victory_points = {
-			6984 1 
+			6710 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 1
-			6984 = {
-				naval_base = 8
-			}
+			air_base = 0
 
 		}
-		add_core_of = X76
+		add_core_of = X75
 		add_claim_by = USA
 	}
 
 	provinces={
-		3917 6823 6892 6929 6984 9758 9786 
+		691 695 709 751 3766 4854 5205 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 10599 11641 11656 11669 11685 11714 11731 
 	}
-	manpower=2552396
+	manpower=2094316
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 
 	local_supplies=10.0
 }

@@ -2,34 +2,29 @@
 state={
 	id=782
 	name="STATE_782"
-	resources={
-		aluminium=4.000
-	}
 
 	history={
-		owner = X65
+		owner = X63
 		victory_points = {
-			11499 20 
+			7661 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 2
-			air_base = 7
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = TAT
-		add_core_of = X65
-		add_claim_by = HLR
-		add_claim_by = X58
+		add_core_of = X63
+		add_claim_by = X30
 	}
 
 	provinces={
-		519 694 3690 6555 9517 9545 9655 11486 11499 
+		1467 1536 1539 1610 4458 4473 4477 4545 4614 6763 7495 7661 9715 11645 11674 11704 12434 
 	}
-	manpower=3777016
+	manpower=703424
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pastoral
 
 	local_supplies=10.0
 }

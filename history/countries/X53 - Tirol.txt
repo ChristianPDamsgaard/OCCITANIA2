@@ -1,4 +1,4 @@
-﻿capital = 695
+﻿capital = 702
 set_research_slots = 3
 
 oob = "X53_OOB"
@@ -131,14 +131,14 @@ set_truce = { target = X38 days = 1674 }
 add_opinion_modifier = { target = X48 modifier = positive_17 }
 set_truce = { target = X48 days = 1674 }
 add_opinion_modifier = { target = X49 modifier = negative_27 }
-add_opinion_modifier = { target = X57 modifier = negative_15 }
-add_opinion_modifier = { target = X58 modifier = negative_50 }
-add_opinion_modifier = { target = X60 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = negative_15 }
-add_opinion_modifier = { target = X73 modifier = positive_47 }
-add_opinion_modifier = { target = X74 modifier = negative_30 }
-add_opinion_modifier = { target = X76 modifier = positive_20 }
-add_opinion_modifier = { target = X77 modifier = negative_15 }
+add_opinion_modifier = { target = X56 modifier = negative_15 }
+add_opinion_modifier = { target = X57 modifier = negative_50 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
+add_opinion_modifier = { target = X64 modifier = negative_15 }
+add_opinion_modifier = { target = X72 modifier = positive_47 }
+add_opinion_modifier = { target = X73 modifier = negative_30 }
+add_opinion_modifier = { target = X75 modifier = positive_20 }
+add_opinion_modifier = { target = X76 modifier = negative_15 }
 
 
 add_ideas = {

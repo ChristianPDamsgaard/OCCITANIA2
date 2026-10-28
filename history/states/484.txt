@@ -2,11 +2,14 @@
 state={
 	id=484
 	name="STATE_484"
+	resources={
+		tungsten=1.000
+	}
 
 	history={
 		owner = X38
 		victory_points = {
-			7940 1 
+			1492 1 
 		}
 		buildings = {
 			infrastructure = 1
@@ -16,14 +19,15 @@ state={
 
 		}
 		add_core_of = X38
+		add_claim_by = X04
 	}
 
 	provinces={
-		1882 4914 4964 7940 8018 8037 12899 
+		1333 1492 1650 4019 4059 4202 7034 7469 10283 10344 10386 12284 12404 12492 
 	}
-	manpower=457236
+	manpower=804928
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

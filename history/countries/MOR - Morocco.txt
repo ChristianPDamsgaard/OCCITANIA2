@@ -1,4 +1,4 @@
-﻿capital = 322
+﻿capital = 323
 set_research_slots = 2
 
 oob = "MOR_OOB"
@@ -56,6 +56,7 @@ add_opinion_modifier = { target = SIA modifier = negative_120 }
 set_truce = { target = SIA days = 1767 }
 add_opinion_modifier = { target = SLV modifier = negative_10 }
 add_opinion_modifier = { target = SPC modifier = negative_50 }
+add_opinion_modifier = { target = TNE modifier = negative_20 }
 add_opinion_modifier = { target = TOG modifier = negative_100 }
 set_truce = { target = TOG days = 1767 }
 add_opinion_modifier = { target = USA modifier = negative_10 }
@@ -103,18 +104,17 @@ add_opinion_modifier = { target = X45 modifier = positive_10 }
 add_opinion_modifier = { target = X50 modifier = positive_10 }
 add_opinion_modifier = { target = X51 modifier = negative_20 }
 add_opinion_modifier = { target = X52 modifier = negative_20 }
-add_opinion_modifier = { target = X54 modifier = negative_20 }
-add_opinion_modifier = { target = X57 modifier = negative_110 }
-set_truce = { target = X57 days = 1767 }
-add_opinion_modifier = { target = X61 modifier = positive_10 }
-add_opinion_modifier = { target = X62 modifier = negative_20 }
-add_opinion_modifier = { target = X68 modifier = negative_65 }
-set_truce = { target = X68 days = 1767 }
+add_opinion_modifier = { target = X56 modifier = negative_110 }
+set_truce = { target = X56 days = 1767 }
+add_opinion_modifier = { target = X60 modifier = positive_10 }
+add_opinion_modifier = { target = X61 modifier = negative_20 }
+add_opinion_modifier = { target = X67 modifier = negative_65 }
+set_truce = { target = X67 days = 1767 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
 add_opinion_modifier = { target = X73 modifier = negative_10 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_10 }
-add_opinion_modifier = { target = X77 modifier = negative_110 }
-set_truce = { target = X77 days = 1767 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X76 modifier = negative_110 }
+set_truce = { target = X76 days = 1767 }
 
 
 add_ideas = {

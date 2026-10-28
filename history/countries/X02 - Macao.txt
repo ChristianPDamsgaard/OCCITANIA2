@@ -67,7 +67,7 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		basic_depth_charges = 1
 		basic_heavy_armor_scheme = 1
-		basic_medium_battery = 1
+		basic_light_shell = 1
 		basic_naval_mines = 1
 		basic_ship_hull_cruiser = 1
 		basic_ship_hull_heavy = 1
@@ -78,7 +78,6 @@ if = {
 		early_ship_hull_heavy = 1
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
-		improved_airplane_launcher = 1
 		submarine_mine_laying = 1
 	}
 }
@@ -183,6 +182,7 @@ add_opinion_modifier = { target = SER modifier = negative_10 }
 add_opinion_modifier = { target = SIA modifier = negative_10 }
 add_opinion_modifier = { target = SLV modifier = positive_40 }
 add_opinion_modifier = { target = SPC modifier = negative_10 }
+add_opinion_modifier = { target = TNE modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = positive_5 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = VIN modifier = positive_40 }
@@ -222,18 +222,17 @@ add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
 add_opinion_modifier = { target = X51 modifier = negative_10 }
 add_opinion_modifier = { target = X52 modifier = negative_10 }
-add_opinion_modifier = { target = X54 modifier = negative_10 }
+add_opinion_modifier = { target = X55 modifier = negative_10 }
 add_opinion_modifier = { target = X56 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
 add_opinion_modifier = { target = X60 modifier = negative_10 }
 add_opinion_modifier = { target = X61 modifier = negative_10 }
-add_opinion_modifier = { target = X62 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = negative_5 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
-add_opinion_modifier = { target = X73 modifier = positive_40 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_30 }
-add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X64 modifier = negative_5 }
+add_opinion_modifier = { target = X67 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = positive_40 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_30 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
 
 
 add_ideas = {

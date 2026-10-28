@@ -3,7 +3,7 @@ characters={
 		name=GAM_e._von_der_a.
 		portraits={
 			civilian={
-				large="GFX_europe_generic_5"
+				large="GFX_portrait_ISR_david_ben_gurion"
 			}
 		}
 		country_leader={

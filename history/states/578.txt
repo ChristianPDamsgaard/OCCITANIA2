@@ -2,27 +2,34 @@
 state={
 	id=578
 	name="STATE_578"
+	resources={
+		aluminium=9.000
+	}
 
 	history={
-		owner = X43
+		owner = OCC
 		victory_points = {
-			10734 1 
+			6606 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
+			air_base = 1
+			6793 = {
+				naval_base = 8
+			}
 
 		}
-		add_core_of = X43
-		add_claim_by = X61
+		add_core_of = ITA
+		add_core_of = OCC
+		add_claim_by = LIT
 	}
 
 	provinces={
-		8019 8062 10734 13246 13247 
+		782 6606 6793 6985 9924 11734 
 	}
-	manpower=718668
+	manpower=2036112
 	buildings_max_level_factor=1.000
 	state_category=town
 

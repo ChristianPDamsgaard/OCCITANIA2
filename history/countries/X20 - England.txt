@@ -1,4 +1,4 @@
-﻿capital = 225
+﻿capital = 226
 set_research_slots = 3
 
 oob = "X20_OOB"
@@ -41,7 +41,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_battery = 1
-		basic_medium_battery = 1
+		basic_light_shell = 1
 		basic_naval_mines = 1
 		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
@@ -112,8 +112,13 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = X91
+        target = X90
         autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X91
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
     set_autonomy = {
@@ -121,15 +126,10 @@ if = {
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
-    set_autonomy = {
-        target = X93
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
     else = {
+        puppet = X90
         puppet = X91
         puppet = X92
-        puppet = X93
     }
 }
 
@@ -186,6 +186,7 @@ add_opinion_modifier = { target = SLV modifier = negative_95 }
 add_opinion_modifier = { target = SPC modifier = negative_200 }
 set_truce = { target = SPC days = 1616 }
 add_opinion_modifier = { target = TAH modifier = negative_10 }
+add_opinion_modifier = { target = TNE modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_195 }
 add_opinion_modifier = { target = VEN modifier = negative_5 }
 add_opinion_modifier = { target = X06 modifier = negative_175 }
@@ -217,22 +218,21 @@ add_opinion_modifier = { target = X49 modifier = negative_164 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
 add_opinion_modifier = { target = X51 modifier = negative_128 }
 add_opinion_modifier = { target = X52 modifier = negative_195 }
-add_opinion_modifier = { target = X54 modifier = negative_10 }
-add_opinion_modifier = { target = X56 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = negative_195 }
-add_opinion_modifier = { target = X60 modifier = negative_100 }
+add_opinion_modifier = { target = X55 modifier = negative_10 }
+add_opinion_modifier = { target = X56 modifier = negative_195 }
+add_opinion_modifier = { target = X59 modifier = negative_100 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
 add_opinion_modifier = { target = X61 modifier = negative_10 }
-add_opinion_modifier = { target = X62 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = positive_35 }
-add_opinion_modifier = { target = X66 modifier = negative_10 }
-add_opinion_modifier = { target = X67 modifier = negative_50 }
-add_opinion_modifier = { target = X68 modifier = negative_200 }
-add_opinion_modifier = { target = X73 modifier = negative_200 }
-set_truce = { target = X73 days = 735 }
-add_opinion_modifier = { target = X74 modifier = negative_91 }
-give_military_access = X74
-add_opinion_modifier = { target = X76 modifier = positive_72 }
-add_opinion_modifier = { target = X77 modifier = negative_197 }
+add_opinion_modifier = { target = X64 modifier = positive_35 }
+add_opinion_modifier = { target = X65 modifier = negative_10 }
+add_opinion_modifier = { target = X66 modifier = negative_50 }
+add_opinion_modifier = { target = X67 modifier = negative_200 }
+add_opinion_modifier = { target = X72 modifier = negative_200 }
+set_truce = { target = X72 days = 735 }
+add_opinion_modifier = { target = X73 modifier = negative_91 }
+give_military_access = X73
+add_opinion_modifier = { target = X75 modifier = positive_72 }
+add_opinion_modifier = { target = X76 modifier = negative_197 }
 add_opinion_modifier = { target = ZIM modifier = negative_30 }
 
 

@@ -31,7 +31,7 @@ focus_tree = {
 			GXC = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 345
+				owns_state = 346
 			}
 		}
 		completion_reward = {
@@ -104,11 +104,11 @@ focus_tree = {
 			GXC = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 345
+				owns_state = 346
 			}
 		}
 		completion_reward = {
-			add_state_claim = 345
+			add_state_claim = 346
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				GXC = { country_event = { id = reconquest_news.1 } }
@@ -183,7 +183,7 @@ focus_tree = {
 			GXC = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 345
+				owns_state = 346
 			}
 		}
 		completion_reward = {
@@ -212,14 +212,14 @@ focus_tree = {
 			GXC = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 345
+				owns_state = 346
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = GXC
 				type = take_state_focus
-				generator = { 345 }
+				generator = { 346 }
 			}
 		}
 		ai_will_do = {
@@ -240,7 +240,7 @@ focus_tree = {
 			VIN = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 209
+				owns_state = 210
 			}
 		}
 		completion_reward = {
@@ -313,11 +313,11 @@ focus_tree = {
 			VIN = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 209
+				owns_state = 210
 			}
 		}
 		completion_reward = {
-			add_state_claim = 209
+			add_state_claim = 210
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				VIN = { country_event = { id = reconquest_news.1 } }
@@ -392,7 +392,7 @@ focus_tree = {
 			VIN = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 209
+				owns_state = 210
 			}
 		}
 		completion_reward = {
@@ -421,14 +421,14 @@ focus_tree = {
 			VIN = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 209
+				owns_state = 210
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = VIN
 				type = take_state_focus
-				generator = { 209 }
+				generator = { 210 }
 			}
 		}
 		ai_will_do = {
@@ -449,7 +449,7 @@ focus_tree = {
 			JAP = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 377
+				owns_state = 378
 			}
 		}
 		completion_reward = {
@@ -522,11 +522,11 @@ focus_tree = {
 			JAP = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 377
+				owns_state = 378
 			}
 		}
 		completion_reward = {
-			add_state_claim = 377
+			add_state_claim = 378
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				JAP = { country_event = { id = reconquest_news.1 } }
@@ -601,7 +601,7 @@ focus_tree = {
 			JAP = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 377
+				owns_state = 378
 			}
 		}
 		completion_reward = {
@@ -630,14 +630,14 @@ focus_tree = {
 			JAP = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 377
+				owns_state = 378
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = JAP
 				type = take_state_focus
-				generator = { 377 }
+				generator = { 378 }
 			}
 		}
 		ai_will_do = {
@@ -646,19 +646,19 @@ focus_tree = {
 	}
 
 	focus = {
-		id = border_disputesX17X56
+		id = border_disputesX17X55
 		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesX56
+		text = border_disputesX55
 		x = 30
 		y = 0
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			X56 = {
+			X55 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 705
+				owns_state = 712
 			}
 		}
 		completion_reward = {
@@ -677,16 +677,16 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X56 value > 0 }
+				has_opinion = { target = X55 value > 0 }
 			}
 			modifier = {
 				factor = 0
-				X56 = { in_weak_faction = no }
+				X55 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X56
+					has_subject = X55
 					in_weak_faction = no
 				}
 			}
@@ -710,35 +710,35 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				X56 = { surrender_progress > 0.2 }
+				X55 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = assert_claimsX17X56
+		id = assert_claimsX17X55
 		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsX56
-		prerequisite = { focus = border_disputesX17X56 }
+		text = assert_claimsX55
+		prerequisite = { focus = border_disputesX17X55 }
 		x = 0
 		y = 1
-		relative_position_id = border_disputesX17X56
+		relative_position_id = border_disputesX17X55
 		cost = 10
 		available = {
 			date > 1938.4.1
 			is_subject = no
 			has_war = no
-			X56 = {
+			X55 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 705
+				owns_state = 712
 			}
 		}
 		completion_reward = {
-			add_state_claim = 705
+			add_state_claim = 712
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
-				X56 = { country_event = { id = reconquest_news.1 } }
+				X55 = { country_event = { id = reconquest_news.1 } }
 			}
 		}
 		ai_will_do = {
@@ -754,16 +754,16 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				has_opinion = { target = X56 value > 0 }
+				has_opinion = { target = X55 value > 0 }
 			}
 			modifier = {
 				factor = 0
-				X56 = { in_weak_faction = no }
+				X55 = { in_weak_faction = no }
 			}
 			modifier = {
 				factor = 0
 				any_country = {
-					has_subject = X56
+					has_subject = X55
 					in_weak_faction = no
 				}
 			}
@@ -787,30 +787,30 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 2
-				X56 = { surrender_progress > 0.2 }
+				X55 = { surrender_progress > 0.2 }
 			}
 		}
 	}
 
 	focus = {
-		id = prepare_for_warX17X56
+		id = prepare_for_warX17X55
 		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warX56
-		prerequisite = { focus = assert_claimsX17X56 }
+		text = prepare_for_warX55
+		prerequisite = { focus = assert_claimsX17X55 }
 		bypass = {
-			has_war_with = X56
+			has_war_with = X55
 		}
 		x = 0
 		y = 1
-		relative_position_id = assert_claimsX17X56
+		relative_position_id = assert_claimsX17X55
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			X56 = {
+			X55 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 705
+				owns_state = 712
 			}
 		}
 		completion_reward = {
@@ -822,31 +822,31 @@ focus_tree = {
 	}
 
 	focus = {
-		id = neighbor_warX17X56
+		id = neighbor_warX17X55
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warX56
-		prerequisite = { focus = prepare_for_warX17X56 }
+		text = neighbor_warX55
+		prerequisite = { focus = prepare_for_warX17X55 }
 		bypass = {
-			has_war_with = X56
+			has_war_with = X55
 		}
 		x = 0
 		y = 1
-		relative_position_id = prepare_for_warX17X56
+		relative_position_id = prepare_for_warX17X55
 		cost = 10
 		available = {
 			is_subject = no
 			has_war = no
-			X56 = {
+			X55 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 705
+				owns_state = 712
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = X56
+				target = X55
 				type = take_state_focus
-				generator = { 705 }
+				generator = { 712 }
 			}
 		}
 		ai_will_do = {
@@ -867,7 +867,7 @@ focus_tree = {
 			X10 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 140
+				owns_state = 141
 			}
 		}
 		completion_reward = {
@@ -940,11 +940,11 @@ focus_tree = {
 			X10 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 140
+				owns_state = 141
 			}
 		}
 		completion_reward = {
-			add_state_claim = 140
+			add_state_claim = 141
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				X10 = { country_event = { id = reconquest_news.1 } }
@@ -1019,7 +1019,7 @@ focus_tree = {
 			X10 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 140
+				owns_state = 141
 			}
 		}
 		completion_reward = {
@@ -1048,14 +1048,14 @@ focus_tree = {
 			X10 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 140
+				owns_state = 141
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = X10
 				type = take_state_focus
-				generator = { 140 }
+				generator = { 141 }
 			}
 		}
 		ai_will_do = {

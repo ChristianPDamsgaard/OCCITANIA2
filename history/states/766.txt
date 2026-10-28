@@ -4,26 +4,27 @@ state={
 	name="STATE_766"
 
 	history={
-		owner = X64
+		owner = X61
 		victory_points = {
-			10106 0 
+			3750 5 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 3
 
 		}
-		add_core_of = X64
+		add_core_of = X61
+		add_claim_by = USA
 	}
 
 	provinces={
-		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 
+		3750 4839 
 	}
-	manpower=909352
+	manpower=9848
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

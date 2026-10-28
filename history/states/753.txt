@@ -2,29 +2,36 @@
 state={
 	id=753
 	name="STATE_753"
+	resources={
+		chromium=3.000
+	}
 
 	history={
-		owner = W02
+		owner = X59
 		victory_points = {
-			9453 0 
+			3893 2 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
+			dockyard = 1
 			air_base = 0
+			11829 = {
+				naval_base = 1
+			}
 
 		}
-		add_core_of = W02
 		add_core_of = X30
+		add_core_of = X59
 	}
 
 	provinces={
-		432 464 468 470 477 545 554 615 642 3459 3515 3538 3618 3622 6491 6498 6514 6523 6525 6564 6588 6615 7322 9453 9469 9513 9538 11442 11455 11457 11469 11472 11482 11524 11552 11578 11591 
+		3893 11829 11842 
 	}
-	manpower=43736
+	manpower=368992
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

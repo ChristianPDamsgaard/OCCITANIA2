@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Europe_Generic_land_3"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_3"
+				small="GFX_Portrait_Europe_Generic_land_3_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Britain_Generic_land_5"
 			}
 			army={
-				small="GFX_Portrait_Britain_Generic_land_5"
+				small="GFX_Portrait_Britain_Generic_land_5_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_portrait_ENG_harold_alexander"
 			}
 			army={
-				small="GFX_portrait_ENG_harold_alexander"
+				small="GFX_portrait_ENG_harold_alexander_small"
 			}
 		}
 		corps_commander={

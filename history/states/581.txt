@@ -2,26 +2,35 @@
 state={
 	id=581
 	name="STATE_581"
+	resources={
+		coal=1.000
+		steel=30.000
+	}
 
 	history={
-		owner = X44
+		owner = OCC
 		victory_points = {
-			11496 1 
+			6657 1 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
+			6657 = {
+				naval_base = 4
+			}
 
 		}
-		add_core_of = X44
+		add_core_of = CAT
+		add_core_of = OCC
+		add_core_of = SPC
 	}
 
 	provinces={
-		228 292 355 3214 3328 3365 9401 9514 11339 11496 
+		595 625 629 655 3598 6657 6792 9597 11582 11869 
 	}
-	manpower=551428
+	manpower=1437708
 	buildings_max_level_factor=1.000
 	state_category=rural
 

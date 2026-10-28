@@ -2,32 +2,38 @@
 state={
 	id=678
 	name="STATE_678"
+	resources={
+		coal=2.000
+	}
 
 	history={
-		owner = SIA
+		owner = SER
 		victory_points = {
-			7432 0 
+			11586 2 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			7432 = {
-				naval_base = 2
-			}
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
 
 		}
-		add_core_of = CAM
-		add_claim_by = SIA
+		add_core_of = SER
+		SCA = {
+			set_province_controller = 630
+			set_province_controller = 3956
+			set_province_controller = 6634
+			set_province_controller = 9756
+			set_province_controller = 11586
+		}
 	}
 
 	provinces={
-		1353 4359 7404 7432 10317 
+		630 797 3609 3956 6634 9602 9756 11586 
 	}
-	manpower=20308
+	manpower=1012128
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

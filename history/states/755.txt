@@ -2,28 +2,36 @@
 state={
 	id=755
 	name="STATE_755"
+	resources={
+		chromium=2.000
+	}
 
 	history={
-		owner = X61
+		owner = X59
 		victory_points = {
-			2009 15 
+			3905 10 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 6
-			arms_factory = 3
-			air_base = 8
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 6
+			904 = {
+				naval_base = 1
+			}
 
 		}
-		add_core_of = X61
+		add_core_of = X09
+		add_core_of = X59
 	}
 
 	provinces={
-		2009 7912 12856 13243 13244 13245 
+		890 904 3905 6871 11866 11883 
 	}
-	manpower=871596
+	manpower=219644
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=town
 
 	local_supplies=10.0
 }

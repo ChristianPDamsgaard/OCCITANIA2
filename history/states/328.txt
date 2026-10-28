@@ -4,31 +4,28 @@ state={
 	name="STATE_328"
 
 	history={
-		owner = GRE
+		owner = X22
 		victory_points = {
-			895 15 
+			13071 0 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 3
-			dockyard = 2
-			air_base = 8
-			895 = {
-				naval_base = 2
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			13071 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = GRE
-		add_core_of = X09
 	}
 
 	provinces={
-		895 3936 
+		13071 
 	}
-	manpower=65232
+	manpower=265400
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pastoral
 
 	local_supplies=10.0
 }

@@ -5,14 +5,14 @@ state={
 	impassable = yes
 
 	history={
-		owner = X82
-		add_core_of = X82
+		owner = X81
+		add_core_of = X81
 	}
 
 	provinces={
-		7987 10900 
+		8103 
 	}
-	manpower=14324
+	manpower=23612
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 

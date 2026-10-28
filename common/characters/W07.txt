@@ -1,9 +1,9 @@
 characters={
-	W07_lamboina_tsiranana={
-		name=W07_lamboina_tsiranana
+	W07_manuel_lonko={
+		name=W07_manuel_lonko
 		portraits={
 			civilian={
-				large="GFX_hai_stenio_vincent"
+				large="GFX_leader_unknown"
 			}
 		}
 		country_leader={

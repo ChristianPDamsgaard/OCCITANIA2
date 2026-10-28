@@ -2,30 +2,35 @@
 state={
 	id=525
 	name="STATE_525"
+	resources={
+		aluminium=4.000
+	}
 
 	history={
-		owner = HOL
+		owner = X83
 		victory_points = {
-			8219 0 
+			1168 0 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 0
-			8219 = {
+			air_base = 1
+			1096 = {
 				naval_base = 10
 			}
 
 		}
+		add_core_of = X21
+		add_core_of = X83
 	}
 
 	provinces={
-		8219 
+		1096 1168 7058 7146 9974 10058 11991 
 	}
-	manpower=197128
+	manpower=6204428
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

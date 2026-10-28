@@ -6,14 +6,14 @@ state={
 	history={
 		owner = X22
 		victory_points = {
-			7173 0 
+			11987 10 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
+			infrastructure = 4
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
-			989 = {
+			air_base = 6
+			10070 = {
 				naval_base = 8
 			}
 
@@ -22,11 +22,11 @@ state={
 	}
 
 	provinces={
-		989 1111 1152 1989 4022 4097 4154 4933 7116 7173 7908 7958 8046 
+		1079 1194 4084 7100 10013 10070 11987 12042 
 	}
-	manpower=527128
+	manpower=823008
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_island
 
 	local_supplies=10.0
 }

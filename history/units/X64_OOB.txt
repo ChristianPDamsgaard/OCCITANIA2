@@ -199,6 +199,38 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
+			type = artillery_equipment_1
+			creator = "X64"
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+		add_equipment_production = {
+			equipment = {
+				type = small_plane_airframe_0
+				creator = "X64"
+			}
+			requested_factories = 5
+			progress = 0.88
+			efficiency = 100
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = fighter_equipment_0
+				creator = "X64"
+			}
+			requested_factories = 5
+			progress = 0.88
+			efficiency = 100
+		}
+	}
+	add_equipment_production = {
+		equipment = {
 			type = convoy_1
 			creator = "X64"
 		}
@@ -208,4 +240,53 @@ instant_effect = {
 	}
 }
 units = {
+	division = {
+		name = "1. Infantry Division"
+		location = 11499
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2. Infantry Division"
+		location = 11499
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3. Infantry Division"
+		location = 11499
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "1. Light Infantry Division"
+		location = 11499
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2. Light Infantry Division"
+		location = 11499
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "3. Light Infantry Division"
+		location = 11499
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 11499
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
 }

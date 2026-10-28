@@ -2,36 +2,19 @@
 state={
 	id=748
 	name="STATE_748"
-	resources={
-		chromium=2.000
-	}
+	impassable = yes
 
 	history={
-		owner = X60
-		victory_points = {
-			3905 10 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
-			dockyard = 1
-			air_base = 6
-			904 = {
-				naval_base = 1
-			}
-
-		}
-		add_core_of = X09
-		add_core_of = X60
+		owner = VEN
+		add_core_of = BRA
 	}
 
 	provinces={
-		890 904 3905 6871 11866 11883 
+		5008 13277 
 	}
-	manpower=219644
+	manpower=166460
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=wasteland
 
 	local_supplies=10.0
 }

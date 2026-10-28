@@ -4,27 +4,26 @@ state={
 	name="STATE_441"
 
 	history={
-		owner = X36
+		owner = X35
 		victory_points = {
-			1747 1 
+			4318 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 1
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
 
 		}
-		add_core_of = USA
-		add_core_of = X36
+		add_core_of = X35
 	}
 
 	provinces={
-		1747 1875 7745 7771 
+		1082 1197 1934 4318 4425 4996 8063 10920 12464 
 	}
-	manpower=353940
+	manpower=452512
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

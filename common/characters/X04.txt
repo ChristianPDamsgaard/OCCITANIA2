@@ -6,7 +6,7 @@ characters={
 				large="GFX_portrait_europe_generic_land_8"
 			}
 			army={
-				small="GFX_portrait_europe_generic_land_8"
+				small="GFX_portrait_europe_generic_land_8_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_portrait_GER_paul_hausser"
 			}
 			army={
-				small="GFX_portrait_GER_paul_hausser"
+				small="GFX_portrait_GER_paul_hausser_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_portrait_GER_wilhelm_ritter_von_leeb"
 			}
 			army={
-				small="GFX_portrait_GER_wilhelm_ritter_von_leeb"
+				small="GFX_portrait_GER_wilhelm_ritter_von_leeb_small"
 			}
 		}
 		corps_commander={
@@ -63,7 +63,7 @@ characters={
 		name=X04_h._zu_r.
 		portraits={
 			civilian={
-				large="GFX_europe_generic_5"
+				large="GFX_portrait_ISR_david_ben_gurion"
 			}
 		}
 		country_leader={

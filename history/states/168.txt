@@ -6,13 +6,25 @@ state={
 	history={
 		owner = X17
 		victory_points = {
-			4079 1 
+			1146 1 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
+			dockyard = 1
 			air_base = 0
+			9953 = {
+				naval_base = 4
+			}
+			11913 = {
+				landmark_nanjing_presidential_palace = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
 
 		}
 		add_core_of = X17
@@ -20,9 +32,9 @@ state={
 	}
 
 	provinces={
-		4066 4079 7085 7126 9995 10079 10098 
+		1029 1076 1146 4001 4148 7025 7181 7200 9953 9956 10008 10095 11913 12055 
 	}
-	manpower=9318984
+	manpower=20368384
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

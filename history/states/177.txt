@@ -6,11 +6,11 @@ state={
 	history={
 		owner = X17
 		victory_points = {
-			12062 1 
+			5092 1 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 			air_base = 0
 
@@ -19,9 +19,9 @@ state={
 	}
 
 	provinces={
-		1169 1188 4010 4037 4058 7092 7129 10043 10072 11933 12015 12062 12069 
+		1458 1976 2006 4256 5007 5092 7208 7301 7314 7406 7659 8049 10257 10733 10880 12156 12356 12408 12713 
 	}
-	manpower=10216304
+	manpower=14899080
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

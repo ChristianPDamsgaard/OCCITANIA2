@@ -2,36 +2,30 @@
 state={
 	id=573
 	name="STATE_573"
-	resources={
-		aluminium=9.000
-	}
 
 	history={
 		owner = OCC
 		victory_points = {
-			6606 1 
+			778 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
-			6793 = {
-				naval_base = 8
-			}
+			air_base = 0
 
 		}
-		add_core_of = ITA
+		add_core_of = CAT
 		add_core_of = OCC
-		add_claim_by = LIT
+		add_claim_by = HLR
 	}
 
 	provinces={
-		782 6606 6793 6985 9924 11734 
+		778 6609 9603 9745 11573 
 	}
-	manpower=2036112
+	manpower=1149376
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 
 	local_supplies=10.0
 }

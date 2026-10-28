@@ -4,27 +4,27 @@ state={
 	name="STATE_353"
 
 	history={
-		owner = HES
+		owner = X25
 		victory_points = {
-			673 15 
+			5027 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = HES
-		add_core_of = HLR
+		add_core_of = X25
+		add_core_of = X41
 	}
 
 	provinces={
-		673 6678 6680 9633 9636 11618 11634 
+		4968 5027 7995 10892 10923 
 	}
-	manpower=656036
+	manpower=1600
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

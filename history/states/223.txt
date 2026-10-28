@@ -6,15 +6,15 @@ state={
 	history={
 		owner = DOM
 		victory_points = {
-			153 1 
+			177 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
 			arms_factory = 0
 			air_base = 0
-			153 = {
-				naval_base = 6
+			11106 = {
+				naval_base = 4
 			}
 
 		}
@@ -22,11 +22,11 @@ state={
 	}
 
 	provinces={
-		153 
+		177 379 7123 11106 11350 13009 
 	}
-	manpower=747964
+	manpower=2435184
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

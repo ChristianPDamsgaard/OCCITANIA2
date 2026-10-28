@@ -73,7 +73,7 @@ USA_union= {
 	color_ui = rgb { 47 224 119 }
 }
 
-X79_union= {
+X78_union= {
 	color = rgb { 115 36 77 }
 	color_ui = rgb { 115 36 77 }
 }

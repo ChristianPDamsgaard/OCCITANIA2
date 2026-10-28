@@ -6,7 +6,7 @@ characters={
 				large="GFX_PAN_Boris_Salazar"
 			}
 			army={
-				small="GFX_PAN_Boris_Salazar"
+				small="GFX_PAN_Boris_Salazar_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Bolivia_Bernardino_Rioja"
 			}
 			army={
-				small="GFX_Bolivia_Bernardino_Rioja"
+				small="GFX_Bolivia_Bernardino_Rioja_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_COS_Fernando_Figuls_Quiros"
 			}
 			army={
-				small="GFX_COS_Fernando_Figuls_Quiros"
+				small="GFX_COS_Fernando_Figuls_Quiros_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_MEX_Pablo_Abelardo_Rodriguez"
 			}
 			army={
-				small="GFX_MEX_Pablo_Abelardo_Rodriguez"
+				small="GFX_MEX_Pablo_Abelardo_Rodriguez_small"
 			}
 		}
 		corps_commander={
@@ -86,7 +86,7 @@ characters={
 				large="GFX_r56_generic_admiral_GRE_1"
 			}
 			navy={
-				small="GFX_r56_generic_admiral_GRE_1"
+				small="GFX_r56_generic_admiral_GRE_1_small"
 			}
 		}
 		navy_leader={

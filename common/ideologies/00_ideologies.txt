@@ -141,6 +141,9 @@ ideologies = {
 		
 			rexism = {
 			}
+		
+			emperor_fascism = {
+			}
 		}
 		
 		dynamic_faction_names = {

@@ -2,28 +2,34 @@
 state={
 	id=209
 	name="STATE_209"
+	resources={
+		tungsten=1.000
+	}
 
 	history={
 		owner = VIN
 		victory_points = {
-			12705 0 
+			4363 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
+			4334 = {
+				naval_base = 4
+			}
 
 		}
-		add_core_of = X10
+		add_core_of = VIN
 	}
 
 	provinces={
-		1918 1999 2067 4937 4999 7294 7988 8104 8126 10726 10841 11972 12141 12705 12724 12837 
+		1248 1300 1328 1400 1605 4334 4363 4405 7380 10162 10180 12109 
 	}
-	manpower=7224348
+	manpower=752728
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pastoral
 
 	local_supplies=10.0
 }

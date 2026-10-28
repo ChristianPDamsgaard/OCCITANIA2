@@ -9,24 +9,28 @@ state={
 	history={
 		owner = HON
 		victory_points = {
-			2011 2 
+			7921 1 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
+			industrial_complex = 1
+			arms_factory = 0
 			air_base = 1
+			10895 = {
+				naval_base = 8
+			}
 
 		}
 		add_core_of = HON
+		add_claim_by = X36
 	}
 
 	provinces={
-		2008 2011 2083 4956 10172 12804 
+		4946 7921 8003 10853 10871 10895 
 	}
-	manpower=3959632
+	manpower=2639564
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 
 	local_supplies=10.0
 }

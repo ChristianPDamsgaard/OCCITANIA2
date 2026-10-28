@@ -4,30 +4,31 @@ state={
 	name="STATE_698"
 
 	history={
-		owner = TUN
+		owner = X51
 		victory_points = {
-			11935 15 
+			4273 2 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 3
-			dockyard = 2
-			air_base = 8
-			4163 = {
-				naval_base = 1
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 0
+			10191 = {
+				naval_base = 4
 			}
 
 		}
-		add_core_of = TUN
+		add_core_of = X06
+		add_core_of = X51
 	}
 
 	provinces={
-		1037 1046 4061 4163 7077 9994 11935 
+		4273 7293 10191 12162 13385 13386 13387 13388 13389 13390 13391 
 	}
-	manpower=241884
+	manpower=1092372
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_town
 
 	local_supplies=10.0
 }

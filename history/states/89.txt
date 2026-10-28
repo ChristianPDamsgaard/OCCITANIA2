@@ -2,23 +2,19 @@
 state={
 	id=89
 	name="STATE_89"
-	resources={
-		aluminium=1.000
-		rubber=3.000
-		steel=1.000
-	}
 
 	history={
 		owner = BRA
 		victory_points = {
-			2150 2 
+			13276 2 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 0
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
-			2228 = {
+			13276 = {
 				naval_base = 4
 			}
 
@@ -27,9 +23,9 @@ state={
 	}
 
 	provinces={
-		2150 2228 
+		13276 
 	}
-	manpower=526988
+	manpower=482196
 	buildings_max_level_factor=1.000
 	state_category=town
 

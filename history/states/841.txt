@@ -2,45 +2,32 @@
 state={
 	id=841
 	name="STATE_841"
-	resources={
-		aluminium=2.000
-		steel=16.000
-	}
 
 	history={
-		owner = X76
+		owner = X75
 		victory_points = {
-			3878 2 
+			7138 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
 			air_base = 1
-			859 = {
+			4168 = {
 				naval_base = 8
-			}
-			3878 = {
-				landmark_statue_of_liberty = {
-					level = 1
-					allowed = {
-						has_dlc = "Gotterdammerung"
-					}
-				}
 			}
 
 		}
-		add_core_of = X76
+		add_core_of = X75
 		add_claim_by = USA
 	}
 
 	provinces={
-		598 706 734 859 1436 3602 3702 3733 3747 3806 3878 3894 6707 6717 6778 6795 6911 6916 9664 9673 9693 9708 9721 9754 9774 10381 11650 11654 11660 11662 11665 11680 11722 
+		1019 1077 1132 1163 4168 6943 7045 7083 7138 9876 10051 10081 10096 11783 12054 12445 
 	}
-	manpower=13297240
+	manpower=3581140
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=city
 
 	local_supplies=10.0
 }

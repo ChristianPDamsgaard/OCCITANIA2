@@ -1,37 +1,57 @@
 characters={
-	X73_robert_cotti={
-		name=X73_robert_cotti
+	X73_fnu_lnu={
+		name=X73_fnu_lnu
+		portraits={
+			army={
+				large="GFX_portrait_GER_sepp_dietrich"
+			}
+			army={
+				small="GFX_portrait_GER_sepp_dietrich_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X73_fnu_lnu_1={
+		name=X73_fnu_lnu_1
 		portraits={
 			army={
 				large="GFX_Portrait_Europe_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_1"
+				small="GFX_Portrait_Europe_Generic_land_1_small"
 			}
 		}
 		corps_commander={
 			skill=2
-			attack_skill=3
-			defense_skill=3
+			attack_skill=2
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X73_rudolf_celio={
-		name=X73_rudolf_celio
+	X73_fnu_lnu_2={
+		name=X73_fnu_lnu_2
 		portraits={
 			army={
-				large="GFX_Portrait_Germany_Generic_land_5"
+				large="GFX_portrait_GER_albert_kesselring"
 			}
 			army={
-				small="GFX_Portrait_Germany_Generic_land_5"
+				small="GFX_portrait_GER_albert_kesselring_small"
 			}
 		}
 		corps_commander={
 			skill=1
-			attack_skill=1
+			attack_skill=2
 			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
@@ -39,51 +59,31 @@ characters={
 		}
 	}
 
-	X73_eduard_ruchonnet={
-		name=X73_eduard_ruchonnet
+	X73_fnu_lnu_3={
+		name=X73_fnu_lnu_3
 		portraits={
 			army={
-				large="GFX_Portrait_Germany_Generic_land_1"
+				large="GFX_portrait_GER_maximilian_von_weichs"
 			}
 			army={
-				small="GFX_Portrait_Germany_Generic_land_1"
+				small="GFX_portrait_GER_maximilian_von_weichs_small"
 			}
 		}
 		corps_commander={
-			skill=2
+			skill=3
 			attack_skill=5
 			defense_skill=1
-			planning_skill=1
+			planning_skill=2
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X73_marc_munzinger={
-		name=X73_marc_munzinger
-		portraits={
-			army={
-				large="GFX_portrait_GER_erich_von_manstein"
-			}
-			army={
-				small="GFX_portrait_GER_erich_von_manstein"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X73_hugo_fogliardi={
-		name=X73_hugo_fogliardi
+	X73_x._c.={
+		name=X73_x._c.
 		portraits={
 			civilian={
-				large="GFX_Germany_Konrad_Adenauer"
+				large="GFX_portrait_ISR_david_ben_gurion"
 			}
 		}
 		country_leader={

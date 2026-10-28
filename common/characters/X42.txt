@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Europe_Generic_land_2"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_2"
+				small="GFX_Portrait_Europe_Generic_land_2_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Norway_William_Steffens"
 			}
 			army={
-				small="GFX_Norway_William_Steffens"
+				small="GFX_Norway_William_Steffens_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Finland_Hjalmar_Siilasvuo"
 			}
 			army={
-				small="GFX_Finland_Hjalmar_Siilasvuo"
+				small="GFX_Finland_Hjalmar_Siilasvuo_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_Denmark_Christian_von_Schalburg"
 			}
 			army={
-				small="GFX_Denmark_Christian_von_Schalburg"
+				small="GFX_Denmark_Christian_von_Schalburg_small"
 			}
 		}
 		corps_commander={

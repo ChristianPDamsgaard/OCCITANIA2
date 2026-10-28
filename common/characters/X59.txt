@@ -1,12 +1,32 @@
 characters={
-	X59_baqi_tukay={
-		name=X59_baqi_tukay
+	X59_tzannis_mouskos={
+		name=X59_tzannis_mouskos
 		portraits={
 			army={
-				large="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+				large="GFX_portrait_MEX_Luis_Maria_Martinez"
 			}
 			army={
-				small="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+				small="GFX_portrait_MEX_Luis_Maria_Martinez_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X59_tharyvoulos_pan'galos={
+		name=X59_tharyvoulos_pan'galos
+		portraits={
+			army={
+				large="GFX_Portrait_Europe_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_4_small"
 			}
 		}
 		corps_commander={
@@ -19,35 +39,55 @@ characters={
 		}
 	}
 
-	X59_baqi_faysi={
-		name=X59_baqi_faysi
+	X59_staikos_nider={
+		name=X59_staikos_nider
 		portraits={
 			army={
-				large="GFX_OTT_Osman_Fuad_Hussar"
+				large="GFX_Portrait_Europe_Generic_land_5"
 			}
 			army={
-				small="GFX_OTT_Osman_Fuad_Hussar"
+				small="GFX_Portrait_Europe_Generic_land_5_small"
 			}
 		}
 		corps_commander={
-			skill=1
-			attack_skill=1
+			skill=3
+			attack_skill=4
 			defense_skill=1
-			planning_skill=1
+			planning_skill=3
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X59_baqi_khusainov={
-		name=X59_baqi_khusainov
+	X59_sotiris_foumis={
+		name=X59_sotiris_foumis
+		portraits={
+			navy={
+				large="GFX_portrait_ITA_ferdinando_adalberto"
+			}
+			navy={
+				small="GFX_portrait_ITA_ferdinando_adalberto_small"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X59_themistoklis_parakevopoulos={
+		name=X59_themistoklis_parakevopoulos
 		portraits={
 			civilian={
-				large="GFX_KUR_Mahmud_Barzanji"
+				large="GFX_SRI_Giacomo_Matteotti"
 			}
 		}
 		country_leader={
-			ideology=theocracy
+			ideology=conservatism
 			expire="1965.1.1.1"
 			id=-1
 		}

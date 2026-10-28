@@ -6,7 +6,7 @@ characters={
 				large="GFX_YEM_Ali_Nasser_Al-Qardai"
 			}
 			army={
-				small="GFX_YEM_Ali_Nasser_Al-Qardai"
+				small="GFX_YEM_Ali_Nasser_Al-Qardai_small"
 			}
 		}
 		corps_commander={

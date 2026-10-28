@@ -1,13 +1,13 @@
 characters={
-	W01_aleixo_melendrez={
-		name=W01_aleixo_melendrez
+	W01_charalampos_foumis={
+		name=W01_charalampos_foumis
 		portraits={
 			civilian={
-				large="GFX_col_alfonso_lopez_pumarejo"
+				large="GFX_ita_ferruccio_parri"
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=conservatism
 			expire="1965.1.1.1"
 			id=-1
 		}

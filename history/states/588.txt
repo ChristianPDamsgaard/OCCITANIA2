@@ -3,34 +3,38 @@ state={
 	id=588
 	name="STATE_588"
 	resources={
-		oil=18.000
-		steel=3.000
+		chromium=1.000
 	}
 
 	history={
 		owner = PER
 		victory_points = {
-			5005 0 
+			10837 3 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 1
-			5005 = {
-				naval_base = 4
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+			10837 = {
+				landmark_sadabad_complex = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
 			}
 
 		}
-		add_core_of = X41
+		add_core_of = PER
 	}
 
 	provinces={
-		1922 5005 5089 7953 
+		7969 8093 10837 10922 12704 12818 
 	}
-	manpower=581660
+	manpower=1206176
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=city
 
 	local_supplies=10.0
 }

@@ -2,28 +2,32 @@
 state={
 	id=420
 	name="STATE_420"
+	resources={
+		steel=1.000
+	}
 
 	history={
 		owner = LIT
 		victory_points = {
-			11301 1 
+			3544 15 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
+			infrastructure = 5
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
+			air_base = 6
 
 		}
 		add_core_of = LIT
+		add_core_of = POL
 	}
 
 	provinces={
-		277 290 318 347 560 3256 3281 3309 3366 3392 3393 3556 6280 6306 6340 6359 6413 6415 6546 6579 9236 9304 9359 9554 11247 11285 11301 11341 11528 13206 
+		467 3544 9400 11492 
 	}
-	manpower=2110576
+	manpower=777868
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_island
 
 	local_supplies=10.0
 }

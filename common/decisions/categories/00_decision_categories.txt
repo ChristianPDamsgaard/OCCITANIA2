@@ -2,6 +2,7 @@ debug_decisions = {
 	icon = generic_research
 	visible = {
 		is_debug = yes
+		is_ai = no
 	}
 }
 
@@ -47,6 +48,11 @@ foreign_support = {
 }
 
 prestigious_projects = {
+}
+
+CHI_occupation_actions = {
+	icon = generic_crisis
+	priority = 2
 }
 
 foreign_politics = {
@@ -137,7 +143,7 @@ lar_local_recruitment = {
 	visible = { has_done_agency_upgrade = upgrade_training_centers }
 	visibility_type = map_and_decisions_view
 	on_map_area = {
-		state = 508
+		state = 512
 		name = LAR_recruitment_europe
 		zoom = 650
 
@@ -149,7 +155,7 @@ lar_local_recruitment = {
 		}
 	}
 	on_map_area = {
-		state = 448
+		state = 450
 		name = LAR_recruitment_north_america
 		zoom = 850
 
@@ -161,7 +167,7 @@ lar_local_recruitment = {
 		}
 	}
 	on_map_area = {
-		state = 599
+		state = 604
 		name = LAR_recruitment_south_america
 		zoom = 850
 
@@ -173,7 +179,7 @@ lar_local_recruitment = {
 		}
 	}
 	on_map_area = {
-		state = 134
+		state = 135
 		name = LAR_recruitment_africa
 		zoom = 850
 
@@ -185,7 +191,7 @@ lar_local_recruitment = {
 		}
 	}
 	on_map_area = {
-		state = 182
+		state = 183
 		name = LAR_recruitment_asia
 		zoom = 850
 
@@ -200,7 +206,7 @@ lar_local_recruitment = {
 		}
 	}
 	on_map_area = {
-		state = 846
+		state = 853
 		name = LAR_recruitment_oceania
 		zoom = 850
 
@@ -212,7 +218,7 @@ lar_local_recruitment = {
 		}
 	}
 	on_map_area = {
-		state = 468
+		state = 470
 		name = LAR_recruitment_india
 		zoom = 850
 
@@ -225,7 +231,7 @@ lar_local_recruitment = {
 		}
 	}
 	on_map_area = {
-		state = 586
+		state = 591
 		name = LAR_recruitment_middle_east
 		zoom = 850
 

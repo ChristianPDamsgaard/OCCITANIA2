@@ -100,12 +100,12 @@ converted_diplo_strategies_RCG = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X66"
+		id = "X65"
 		value = 4
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 1
 	}
 	ai_strategy = {
@@ -115,7 +115,7 @@ converted_diplo_strategies_RCG = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X68"
+		id = "X67"
 		value = 78
 	}
 	ai_strategy = {

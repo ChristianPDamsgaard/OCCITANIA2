@@ -2,29 +2,34 @@
 state={
 	id=742
 	name="STATE_742"
+	resources={
+		oil=14.000
+	}
 
 	history={
-		owner = X58
+		owner = VEN
 		victory_points = {
-			11417 15 
+			8024 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7968 = {
+				naval_base = 6
+			}
 
 		}
-		add_core_of = HLR
-		add_core_of = X58
+		add_core_of = VEN
 	}
 
 	provinces={
-		586 3474 6421 9416 9557 9572 11404 11417 11529 11544 13116 
+		4892 5000 5056 7968 8024 8080 
 	}
-	manpower=3130544
+	manpower=196836
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

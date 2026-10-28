@@ -3,36 +3,32 @@ state={
 	id=596
 	name="STATE_596"
 	resources={
-		oil=1.000
+		aluminium=1.000
+		chromium=9.000
 	}
 
 	history={
-		owner = PRU
+		owner = PER
 		victory_points = {
-			12983 10 
+			10890 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
-			12997 = {
-				naval_base = 8
-			}
+			air_base = 0
 
 		}
-		add_core_of = PRU
-		ARG = {
-			set_province_controller = 2212
-		}
+		add_core_of = PER
+		add_claim_by = X63
 	}
 
 	provinces={
-		2162 2212 2226 5190 12983 12997 13280 13316 
+		1521 1888 1957 2000 5029 5073 7573 7990 8009 10351 10759 10806 10873 10890 11671 12739 12748 12852 
 	}
-	manpower=2437408
+	manpower=895296
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pastoral
 
 	local_supplies=10.0
 }

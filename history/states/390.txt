@@ -2,39 +2,28 @@
 state={
 	id=390
 	name="STATE_390"
-	resources={
-		rubber=119.000
-		steel=4.000
-		tungsten=43.000
-	}
 
 	history={
-		owner = X28
+		owner = X27
 		victory_points = {
-			7329 15 
+			8101 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 3
-			dockyard = 2
-			air_base = 8
-			7329 = {
-				naval_base = 2
-			}
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = MAL
-		add_core_of = X28
-		add_core_of = X40
+		add_core_of = X27
 	}
 
 	provinces={
-		1348 4355 7329 10227 12199 
+		5099 7970 8101 10815 10901 
 	}
-	manpower=79760
+	manpower=15316
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

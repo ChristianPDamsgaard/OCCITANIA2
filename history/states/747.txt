@@ -4,30 +4,30 @@ state={
 	name="STATE_747"
 
 	history={
-		owner = X60
+		owner = VEN
 		victory_points = {
-			11811 2 
+			4980 0 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 0
+			arms_factory = 0
 			air_base = 0
-			11811 = {
-				naval_base = 1
+			4980 = {
+				naval_base = 6
 			}
 
 		}
-		add_core_of = X30
-		add_core_of = X60
+		add_core_of = BRA
+		add_core_of = X12
 	}
 
 	provinces={
-		11811 
+		4980 13353 13354 
 	}
-	manpower=367852
+	manpower=243652
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 
 	local_supplies=10.0
 }

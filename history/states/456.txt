@@ -2,29 +2,31 @@
 state={
 	id=456
 	name="STATE_456"
+	resources={
+		oil=7.000
+	}
 
 	history={
-		owner = LUX
+		owner = X36
 		victory_points = {
-			9472 15 
+			12835 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
 
 		}
-		add_core_of = LUX
-		add_claim_by = HLR
+		add_core_of = X36
 	}
 
 	provinces={
-		9472 
+		10769 12835 
 	}
-	manpower=105752
+	manpower=953932
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pastoral
 
 	local_supplies=10.0
 }

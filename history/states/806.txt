@@ -2,31 +2,19 @@
 state={
 	id=806
 	name="STATE_806"
+	impassable = yes
 
 	history={
-		owner = X66
-		victory_points = {
-			13250 1 
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			5047 = {
-				naval_base = 2
-			}
-
-		}
-		add_core_of = X66
+		owner = X65
+		add_core_of = X65
 	}
 
 	provinces={
-		4985 5017 5047 5091 8043 8124 12723 12766 13250 13251 
+		1143 7216 10127 
 	}
-	manpower=522288
+	manpower=6152
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 
 	local_supplies=10.0
 }

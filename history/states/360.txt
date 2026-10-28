@@ -2,35 +2,31 @@
 state={
 	id=360
 	name="STATE_360"
-	resources={
-		steel=1.000
-	}
 
 	history={
 		owner = HON
 		victory_points = {
-			7921 1 
+			5015 1 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 0
 			air_base = 1
-			10895 = {
+			13088 = {
 				naval_base = 8
 			}
 
 		}
 		add_core_of = HON
-		add_claim_by = X36
 	}
 
 	provinces={
-		4946 7921 8003 10853 10871 10895 
+		5015 5021 8079 13088 
 	}
-	manpower=2639564
+	manpower=1459668
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_island
 
 	local_supplies=10.0
 }

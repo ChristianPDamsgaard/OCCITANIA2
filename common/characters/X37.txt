@@ -6,7 +6,7 @@ characters={
 				large="GFX_SPR_Asensio_Cabanillas"
 			}
 			army={
-				small="GFX_SPR_Asensio_Cabanillas"
+				small="GFX_SPR_Asensio_Cabanillas_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_POR_Americo_Thomaz"
 			}
 			navy={
-				small="GFX_POR_Americo_Thomaz"
+				small="GFX_POR_Americo_Thomaz_small"
 			}
 		}
 		navy_leader={

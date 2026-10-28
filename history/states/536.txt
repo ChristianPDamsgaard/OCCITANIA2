@@ -2,19 +2,34 @@
 state={
 	id=536
 	name="STATE_536"
-	impassable = yes
+	resources={
+		coal=4.000
+		steel=4.000
+	}
 
 	history={
-		owner = X86
-		add_core_of = X86
+		owner = HOL
+		victory_points = {
+			6535 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = HLR
+		add_core_of = HOL
+		add_core_of = X58
 	}
 
 	provinces={
-		4902 5136 10893 
+		405 495 3355 3398 3512 6535 6622 9443 9509 9547 11346 11431 11533 
 	}
-	manpower=127376
+	manpower=2625536
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=large_town
 
 	local_supplies=10.0
 }

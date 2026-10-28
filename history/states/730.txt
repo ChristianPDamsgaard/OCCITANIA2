@@ -2,35 +2,32 @@
 state={
 	id=730
 	name="STATE_730"
-	resources={
-		oil=7.000
-	}
 
 	history={
-		owner = VEN
+		owner = USA
 		victory_points = {
-			3284 1 
+			7388 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
 			dockyard = 1
-			air_base = 0
-			13012 = {
+			air_base = 1
+			10407 = {
 				naval_base = 6
 			}
 
 		}
-		add_core_of = VEN
+		add_core_of = USA
 	}
 
 	provinces={
-		3284 13012 
+		866 1556 1572 1584 1843 1913 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 
 	}
-	manpower=1514712
+	manpower=5196336
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

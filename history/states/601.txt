@@ -2,20 +2,37 @@
 state={
 	id=601
 	name="STATE_601"
-	impassable = yes
+	resources={
+		oil=1.000
+	}
 
 	history={
 		owner = PRU
+		victory_points = {
+			12983 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 6
+			12997 = {
+				naval_base = 8
+			}
+
+		}
 		add_core_of = PRU
-		add_claim_by = BRA
+		ARG = {
+			set_province_controller = 2212
+		}
 	}
 
 	provinces={
-		5216 10960 
+		2162 2212 2226 5190 12983 12997 13280 13316 
 	}
-	manpower=143857
+	manpower=2437408
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=large_town
 
 	local_supplies=10.0
 }

@@ -4,29 +4,27 @@ state={
 	name="STATE_458"
 
 	history={
-		owner = X38
+		owner = LUX
 		victory_points = {
-			7982 1 
+			9472 15 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			7982 = {
-				naval_base = 6
-			}
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
 
 		}
-		add_core_of = X38
+		add_core_of = LUX
+		add_claim_by = HLR
 	}
 
 	provinces={
-		1889 2070 4891 7982 10782 12895 13082 13312 
+		9472 
 	}
-	manpower=1021092
+	manpower=105752
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

@@ -2,35 +2,31 @@
 state={
 	id=250
 	name="STATE_250"
-	resources={
-		aluminium=32.000
-		tungsten=1.000
-	}
 
 	history={
-		owner = X22
+		owner = GHA
 		victory_points = {
-			758 30 
+			12785 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 6
-			758 = {
-				naval_base = 8
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+			12785 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = X22
+		add_core_of = GHA
 	}
 
 	provinces={
-		729 758 3729 3744 3761 6734 6749 6764 6955 9686 9689 9699 9703 9719 11675 11677 11688 11692 11707 11710 11840 13218 
+		12785 
 	}
-	manpower=1156432
+	manpower=119380
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

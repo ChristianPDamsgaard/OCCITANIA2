@@ -3,33 +3,42 @@ state={
 	id=571
 	name="STATE_571"
 	resources={
-		aluminium=9.000
-		steel=12.000
+		aluminium=28.000
+		chromium=4.000
+		coal=1.000
+		steel=40.000
+		tungsten=2.000
 	}
 
 	history={
 		owner = OCC
 		victory_points = {
-			6766 1 
+			6780 2 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
+			infrastructure = 4
+			industrial_complex = 1
 			arms_factory = 1
+			dockyard = 1
 			air_base = 1
+			6788 = {
+				naval_base = 4
+			}
 
 		}
 		add_core_of = CAT
 		add_core_of = OCC
-		add_claim_by = X60
+		add_claim_by = HLR
+		add_claim_by = LIT
+		add_claim_by = SPC
 	}
 
 	provinces={
-		943 3749 3915 3948 6766 6775 6931 9723 11702 
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
 	}
-	manpower=2365452
+	manpower=6379512
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

@@ -10,7 +10,7 @@
 	fallback_name = "Battleship BB-%d"
 
 	unique = {
-		"Alfons el Cast" "Almogàvers" "Els Segadors" "Generalitat" "Jaume el Conqueridor" "Josep Moragues" "Pere el Gran" "Rafael Casanova" "Roger de Flor" "Roger de Llúria" 
+		"De Ruyter" "Tromp" "De Zeven Provincien" "Evertsen" "Kortenaer" "Piet Hein" "Witte de With" "Jacob van Heemskerk" 
 	}
 }
 
@@ -26,7 +26,7 @@ X83_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser BC-%d"
 
 	unique = {
-		"Catalunya" "Corpus Christi" "Figueres" "Manresa" "Principat" "Sabadell" "Sant Joan" "Sant Jordi" "Tortosa" "Urgell" 
+		"Hertog Hendrik" "Koning der Nederlanden" "Koningin Regentes" "Koning Willem" "Prins Hendrik" 
 	}
 }
 
@@ -42,7 +42,7 @@ X83_CA_HISTORICAL = {
 	fallback_name = "Heavy Cruiser CA-%d"
 
 	unique = {
-		"Bisbat d'Urgell" "Esperit Sant" "Sant Jaume" "Sant Josep" "Sant Oleguer" "Sant Pere" "Santa Isabel" "Vescomtat d'Ausona" "Vescomtat de Besalú" "Vescomtat de Cerdanya" 
+		"Admiraal Generaal" "Beschermer" "Brederode" "Campen" "Eendracht" "Eenhoorn" "Frederik Hendrik" "Gouden Leeuw" "Graaf Willem" "Groote Liefde" "Jozua" "Kameel" "Kapitein Generaal" "Landman" "Louisa Hendrika" "Overwinnaer" "Prinses Amalia" "Prinses Roijaal" "Prins Friso" "Prins Willem" "Rosenkrans" "Salamander" "Vergulde Maen" "Verwachting" "Unie" "Vrede" "Vrijheid" "Witte Lam" 
 	}
 }
 
@@ -58,7 +58,7 @@ X83_CLAA_HISTORICAL = {
 	fallback_name = "Light Cruiser CLAA-%d"
 
 	unique = {
-		"Audaç" "Destructor" "Forçuda" "Furor" "Llampec" "Mediterrània" "Tempesta" "Terror" "Tro" "Veloç" 
+		"Atjeh" "Brabant" "Curacao" "Holland" "Friesland" "Gelderland" "Groningen" "Limburg" "Overijssel" "Suriname" "Utrecht" "Zeeland" 
 	}
 }
 
@@ -74,7 +74,7 @@ X83_CL_HISTORICAL = {
 	fallback_name = "Light Cruiser CL-%d"
 
 	unique = {
-		"Audaç" "Destructor" "Forçuda" "Furor" "Llampec" "Mediterrània" "Tempesta" "Terror" "Tro" "Veloç" 
+		"Atjeh" "Brabant" "Curacao" "Holland" "Friesland" "Gelderland" "Groningen" "Limburg" "Overijssel" "Suriname" "Utrecht" "Zeeland" 
 	}
 }
 
@@ -90,7 +90,7 @@ X83_CVL_HISTORICAL = {
 	fallback_name = "Carrier CVL-%d"
 
 	unique = {
-		"Comtat de Barcelona" "Comtat d'Empuries" "Comtat d'Urgell" "Dues Sicílies" "Hèrcules" "Mallorca" "Nèmesi" "Sardenya" "València" "Vulcano" 
+		"Buffel" "Guinea" "Schorpioen" "Stier" 
 	}
 }
 
@@ -106,7 +106,7 @@ X83_CV_HISTORICAL = {
 	fallback_name = "Carrier CV-%d"
 
 	unique = {
-		"Comtat de Barcelona" "Comtat d'Empuries" "Comtat d'Urgell" "Dues Sicílies" "Hèrcules" "Mallorca" "Nèmesi" "Sardenya" "València" "Vulcano" 
+		"Buffel" "Guinea" "Schorpioen" "Stier" 
 	}
 }
 
@@ -122,7 +122,7 @@ X83_DD_HISTORICAL = {
 	fallback_name = "Destroyer DD-%d"
 
 	unique = {
-		"Ateneu de Grandesa" "Cibeles" "Consolat del Mar" "Diana" "Juno" "Minerva" "Quadribarrada" "Sang sobre Or" "Senyera" "Tirant lo Blanch" 
+		"Java" "Banckert" "Callenburgh" "Isaac Sweers" "Van Ghent" "Aert van Nes" "Tjerk Hiddes" "Van Galen" "Abraham van der Hulst" "Van Speijck" "Adolf Hertog van Nassau" "Anna Paulowna" "Zoutman" "Johan Willem Friso" "Van Kinsbergen" "Pieter Florisz" "Philips van Almonde" "Bloys van Treslong" "Jan van Brakel" "Van Amstel" "Willem van der Zaan" 
 	}
 }
 
@@ -138,7 +138,7 @@ X83_DE_HISTORICAL = {
 	fallback_name = "Destroyer Escort DE-%d"
 
 	unique = {
-		"Ateneu de Grandesa" "Cibeles" "Consolat del Mar" "Diana" "Juno" "Minerva" "Quadribarrada" "Sang sobre Or" "Senyera" "Tirant lo Blanch" 
+		"Java" "Banckert" "Callenburgh" "Isaac Sweers" "Van Ghent" "Aert van Nes" "Tjerk Hiddes" "Van Galen" "Abraham van der Hulst" "Van Speijck" "Adolf Hertog van Nassau" "Anna Paulowna" "Zoutman" "Johan Willem Friso" "Van Kinsbergen" "Pieter Florisz" "Philips van Almonde" "Bloys van Treslong" "Jan van Brakel" "Van Amstel" "Willem van der Zaan" 
 	}
 }
 
@@ -154,7 +154,7 @@ X83_MINELAYERS_HISTORICAL = {
 	fallback_name = "Minelayer CM-%d"
 
 	unique = {
-		"Audaç" "Destructor" "Forçuda" "Furor" "Llampec" "Mediterrània" "Tempesta" "Terror" "Tro" "Veloç" 
+		"Atjeh" "Brabant" "Curacao" "Holland" "Friesland" "Gelderland" "Groningen" "Limburg" "Overijssel" "Suriname" "Utrecht" "Zeeland" 
 	}
 }
 
@@ -170,7 +170,7 @@ X83_SS_HISTORICAL = {
 	fallback_name = "Submarine SS-%d"
 
 	unique = {
-		"Barcelona" "Cristòfor Despuig" "Girona" "Joanot Martorell" "Jupiter" "Lleida" "Neptú" "Pere Serafí" "Plutó" "Tarragona" 
+		"Wolf" "Fret" "Hermelijn" "Vos" "Panter" "Jaguar" "Lynx" "Leeuw" "Jakhals" 
 	}
 }
 

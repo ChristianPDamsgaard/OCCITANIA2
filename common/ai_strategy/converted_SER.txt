@@ -80,7 +80,7 @@ converted_diplo_strategies_SER = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X65"
+		id = "X64"
 		value = 105
 	}
 	ai_strategy = {

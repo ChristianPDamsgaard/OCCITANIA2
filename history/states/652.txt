@@ -6,26 +6,23 @@ state={
 	history={
 		owner = SCA
 		victory_points = {
-			13272 1 
+			3617 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
-			13272 = {
-				naval_base = 1
-			}
 
 		}
 		add_core_of = SCA
-		add_claim_by = HLR
+		add_claim_by = X24
 	}
 
 	provinces={
-		13272 
+		619 3617 3623 9621 
 	}
-	manpower=23600
+	manpower=515912
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

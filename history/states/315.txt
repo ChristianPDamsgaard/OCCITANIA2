@@ -2,31 +2,29 @@
 state={
 	id=315
 	name="STATE_315"
-	resources={
-		chromium=8.000
-		tungsten=2.000
-	}
 
 	history={
-		owner = X96
+		owner = X22
 		victory_points = {
-			12504 10 
+			1041 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
+			air_base = 0
+			1041 = {
+				naval_base = 4
+			}
 
 		}
-		add_core_of = X96
-		add_core_of = ZAM
+		add_core_of = X22
 	}
 
 	provinces={
-		697 5199 7872 10538 12504 12677 
+		1041 1118 1198 4047 4057 4194 7209 9980 10046 10117 12088 
 	}
-	manpower=459480
+	manpower=337696
 	buildings_max_level_factor=1.000
 	state_category=rural
 

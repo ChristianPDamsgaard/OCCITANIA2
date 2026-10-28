@@ -2,31 +2,34 @@
 state={
 	id=653
 	name="STATE_653"
-	resources={
-		steel=18.000
-	}
 
 	history={
 		owner = SCA
 		victory_points = {
-			1867 0 
+			321 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
+			arms_factory = 1
+			air_base = 1
+			321 = {
+				naval_base = 8
+			}
 
 		}
-		add_core_of = USA
+		add_core_of = SCA
+		add_core_of = X07
+		add_claim_by = HLR
+		add_claim_by = LIT
 	}
 
 	provinces={
-		1867 7536 10719 12577 
+		268 293 321 349 3258 3340 9294 9388 11276 11305 13257 
 	}
-	manpower=108308
+	manpower=1989188
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

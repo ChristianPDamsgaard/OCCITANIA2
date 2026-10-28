@@ -6,7 +6,7 @@ characters={
 				large="GFX_portrait_spain_francisco_franco"
 			}
 			army={
-				small="GFX_portrait_spain_francisco_franco"
+				small="GFX_portrait_spain_francisco_franco_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_FOP_Luis_Alberto_Quesada"
 			}
 			army={
-				small="GFX_FOP_Luis_Alberto_Quesada"
+				small="GFX_FOP_Luis_Alberto_Quesada_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Cuba_Martin_Diaz"
 			}
 			army={
-				small="GFX_Cuba_Martin_Diaz"
+				small="GFX_Cuba_Martin_Diaz_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_ELS_Salvador_Castaneda_Castro"
 			}
 			navy={
-				small="GFX_ELS_Salvador_Castaneda_Castro"
+				small="GFX_ELS_Salvador_Castaneda_Castro_small"
 			}
 		}
 		navy_leader={
@@ -88,34 +88,6 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	SPC_jaume_v={
-		name=SPC_jaume_v
-		portraits={
-			civilian={
-				large="gfx/leaders/Mediterranean/Portrait_SPR_Jaime_I.tga"
-			}
-		}
-		country_leader={
-			ideology=absolute_monarchy
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	SPC_josep_ferrer={
-		name=SPC_josep_ferrer
-		portraits={
-			civilian={
-				large="gfx/leaders/Mediterranean/AlfredoPalacios.tga"
-			}
-		}
-		country_leader={
-			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}

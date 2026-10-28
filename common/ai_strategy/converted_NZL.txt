@@ -9,7 +9,7 @@
 	
 	ai_strategy = {
 		type = conquer
-		id = "X77"
+		id = "X76"
 		value = 45
 	}
 }
@@ -25,7 +25,7 @@ converted_diplo_strategies_NZL = {
 	
 	ai_strategy = {
 		type = contain
-		id = "X77"
+		id = "X76"
 		value = 306
 	}
 	ai_strategy = {

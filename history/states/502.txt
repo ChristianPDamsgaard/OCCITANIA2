@@ -2,30 +2,21 @@
 state={
 	id=502
 	name="STATE_502"
+	resources={
+		rubber=4.000
+	}
+	impassable = yes
 
 	history={
-		owner = X41
-		victory_points = {
-			4974 10 
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 5
-			1955 = {
-				naval_base = 1
-			}
-
-		}
-		add_core_of = X01
-		add_core_of = X41
+		owner = MAL
+		add_core_of = BRU
+		add_claim_by = MAL
 	}
 
 	provinces={
-		1955 2057 4974 5058 10850 12702 12749 
+		1230 2170 2222 4335 7424 
 	}
-	manpower=45968
+	manpower=148665
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 

@@ -2,34 +2,19 @@
 state={
 	id=559
 	name="STATE_559"
-	resources={
-		aluminium=20.000
-		steel=35.000
-	}
+	impassable = yes
 
 	history={
-		owner = OCC
-		victory_points = {
-			3650 1 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 1
-
-		}
-		add_core_of = CAT
-		add_core_of = OCC
-		add_claim_by = HLR
+		owner = NGR
+		add_core_of = NGR
 	}
 
 	provinces={
-		641 817 3646 3650 6668 
+		8028 10758 10780 10805 
 	}
-	manpower=1156840
+	manpower=422888
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

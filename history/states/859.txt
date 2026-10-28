@@ -2,31 +2,36 @@
 state={
 	id=859
 	name="STATE_859"
+	resources={
+		aluminium=14.000
+		oil=2.000
+		steel=6.000
+	}
 
 	history={
-		owner = W07
+		owner = X76
 		victory_points = {
-			2200 0 
+			1652 1 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
-			2200 = {
-				naval_base = 0
+			1652 = {
+				naval_base = 4
 			}
 
 		}
-		add_core_of = W07
+		add_core_of = X76
 	}
 
 	provinces={
-		2200 5185 8180 8246 11015 12956 
+		1498 1511 1540 1652 2157 2201 4630 4645 5125 5170 5175 5207 7453 7579 7608 8152 8209 8228 8247 10937 10949 10950 10958 10971 10983 11016 12323 12993 
 	}
-	manpower=857600
+	manpower=52062
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 
 	local_supplies=10.0
 }

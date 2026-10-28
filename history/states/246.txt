@@ -4,31 +4,29 @@ state={
 	name="STATE_246"
 
 	history={
-		owner = EQG
+		owner = X20
 		victory_points = {
-			1903 15 
+			13072 10 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 3
-			dockyard = 2
-			air_base = 8
-			1903 = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			13072 = {
 				naval_base = 4
 			}
 
 		}
-		add_core_of = EQG
-		add_claim_by = GAB
+		add_core_of = X15
 	}
 
 	provinces={
-		1903 
+		13072 
 	}
-	manpower=14252
+	manpower=101600
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_island
 
 	local_supplies=10.0
 }

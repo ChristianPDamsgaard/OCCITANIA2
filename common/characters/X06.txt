@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_1"
+				small="GFX_Portrait_Asia_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Sarawak_Ye_Jianying"
 			}
 			army={
-				small="GFX_Sarawak_Ye_Jianying"
+				small="GFX_Sarawak_Ye_Jianying_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Sarawak_Ye_Jianying"
 			}
 			army={
-				small="GFX_Sarawak_Ye_Jianying"
+				small="GFX_Sarawak_Ye_Jianying_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_portrait_asia_generic_navy_4"
 			}
 			navy={
-				small="GFX_portrait_asia_generic_navy_4"
+				small="GFX_portrait_asia_generic_navy_4_small"
 			}
 		}
 		navy_leader={
@@ -79,8 +79,8 @@ characters={
 		}
 	}
 
-	X06_michael_bouma={
-		name=X06_michael_bouma
+	X06_edinho_bouma={
+		name=X06_edinho_bouma
 		portraits={
 			civilian={
 				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"

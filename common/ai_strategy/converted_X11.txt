@@ -55,7 +55,7 @@ converted_diplo_strategies_X11 = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X54"
+		id = "TNE"
 		value = 14
 	}
 	ai_strategy = {
@@ -75,7 +75,7 @@ converted_diplo_strategies_X11 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X54"
+		id = "TNE"
 		value = 79
 	}
 	ai_strategy = {
@@ -85,7 +85,7 @@ converted_diplo_strategies_X11 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 20
 	}
 	ai_strategy = {
@@ -115,7 +115,7 @@ converted_diplo_strategies_X11 = {
 	}
 	ai_strategy = {
 		type = protect
-		id = "X54"
+		id = "TNE"
 		value = 109
 	}
 	ai_strategy = {

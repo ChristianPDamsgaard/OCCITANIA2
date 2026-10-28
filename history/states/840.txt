@@ -2,32 +2,33 @@
 state={
 	id=840
 	name="STATE_840"
+	resources={
+		coal=1.000
+		steel=21.000
+	}
 
 	history={
-		owner = X76
+		owner = X75
 		victory_points = {
-			6882 1 
+			7791 1 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
-			6882 = {
-				naval_base = 8
-			}
 
 		}
-		add_core_of = X76
+		add_core_of = X75
 		add_claim_by = USA
 	}
 
 	provinces={
-		3693 3863 6882 
+		913 7791 8014 10657 
 	}
-	manpower=1063400
+	manpower=859548
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

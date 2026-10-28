@@ -20,7 +20,7 @@ state={
 		}
 		add_core_of = SPC
 		add_core_of = X30
-		add_claim_by = X64
+		add_claim_by = X63
 	}
 
 	provinces={

@@ -100,7 +100,7 @@ converted_diplo_strategies_TOG = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X67"
+		id = "X66"
 		value = 35
 	}
 	ai_strategy = {

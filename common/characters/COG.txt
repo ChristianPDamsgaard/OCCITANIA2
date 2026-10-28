@@ -6,7 +6,7 @@ characters={
 				large="GFX_LIB_Jenkins_Yancey"
 			}
 			army={
-				small="GFX_LIB_Jenkins_Yancey"
+				small="GFX_LIB_Jenkins_Yancey_small"
 			}
 		}
 		corps_commander={

@@ -1738,6 +1738,34 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = absolutist
+		}
+		localization_key = TNE_absolutist_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = democratic
+		}
+		localization_key = TNE_democratic_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = fascism
+		}
+		localization_key = TNE_fascism_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = neutrality
+		}
+		localization_key = TNE_neutrality_ADJ_MS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = TOG original_tag = TOG }
 			has_government = absolutist
 		}
@@ -2043,34 +2071,6 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W03_neutrality_ADJ_MS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = absolutist
-		}
-		localization_key = W04_absolutist_ADJ_MS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = democratic
-		}
-		localization_key = W04_democratic_ADJ_MS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = fascism
-		}
-		localization_key = W04_fascism_ADJ_MS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = neutrality
-		}
-		localization_key = W04_neutrality_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -3446,31 +3446,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = absolutist
 		}
-		localization_key = X60_absolutist_ADJ_MS_FR
+		localization_key = X61_absolutist_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = democratic
 		}
-		localization_key = X60_democratic_ADJ_MS_FR
+		localization_key = X61_democratic_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = fascism
 		}
-		localization_key = X60_fascism_ADJ_MS_FR
+		localization_key = X61_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = neutrality
 		}
-		localization_key = X60_neutrality_ADJ_MS_FR
+		localization_key = X61_neutrality_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -3642,31 +3642,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = absolutist
 		}
-		localization_key = X68_absolutist_ADJ_MS_FR
+		localization_key = X69_absolutist_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = democratic
 		}
-		localization_key = X68_democratic_ADJ_MS_FR
+		localization_key = X69_democratic_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = fascism
 		}
-		localization_key = X68_fascism_ADJ_MS_FR
+		localization_key = X69_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = neutrality
 		}
-		localization_key = X68_neutrality_ADJ_MS_FR
+		localization_key = X69_neutrality_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -3894,31 +3894,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = absolutist
 		}
-		localization_key = X78_absolutist_ADJ_MS_FR
+		localization_key = X79_absolutist_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = democratic
 		}
-		localization_key = X78_democratic_ADJ_MS_FR
+		localization_key = X79_democratic_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = fascism
 		}
-		localization_key = X78_fascism_ADJ_MS_FR
+		localization_key = X79_fascism_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = neutrality
 		}
-		localization_key = X78_neutrality_ADJ_MS_FR
+		localization_key = X79_neutrality_ADJ_MS_FR
 	}
 	text = {
 		trigger = {
@@ -6277,6 +6277,34 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = absolutist
+		}
+		localization_key = TNE_absolutist_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = democratic
+		}
+		localization_key = TNE_democratic_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = fascism
+		}
+		localization_key = TNE_fascism_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = neutrality
+		}
+		localization_key = TNE_neutrality_ADJ_MP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = TOG original_tag = TOG }
 			has_government = absolutist
 		}
@@ -6582,34 +6610,6 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W03_neutrality_ADJ_MP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = absolutist
-		}
-		localization_key = W04_absolutist_ADJ_MP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = democratic
-		}
-		localization_key = W04_democratic_ADJ_MP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = fascism
-		}
-		localization_key = W04_fascism_ADJ_MP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = neutrality
-		}
-		localization_key = W04_neutrality_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -7985,31 +7985,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = absolutist
 		}
-		localization_key = X60_absolutist_ADJ_MP_FR
+		localization_key = X61_absolutist_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = democratic
 		}
-		localization_key = X60_democratic_ADJ_MP_FR
+		localization_key = X61_democratic_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = fascism
 		}
-		localization_key = X60_fascism_ADJ_MP_FR
+		localization_key = X61_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = neutrality
 		}
-		localization_key = X60_neutrality_ADJ_MP_FR
+		localization_key = X61_neutrality_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -8181,31 +8181,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = absolutist
 		}
-		localization_key = X68_absolutist_ADJ_MP_FR
+		localization_key = X69_absolutist_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = democratic
 		}
-		localization_key = X68_democratic_ADJ_MP_FR
+		localization_key = X69_democratic_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = fascism
 		}
-		localization_key = X68_fascism_ADJ_MP_FR
+		localization_key = X69_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = neutrality
 		}
-		localization_key = X68_neutrality_ADJ_MP_FR
+		localization_key = X69_neutrality_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -8433,31 +8433,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = absolutist
 		}
-		localization_key = X78_absolutist_ADJ_MP_FR
+		localization_key = X79_absolutist_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = democratic
 		}
-		localization_key = X78_democratic_ADJ_MP_FR
+		localization_key = X79_democratic_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = fascism
 		}
-		localization_key = X78_fascism_ADJ_MP_FR
+		localization_key = X79_fascism_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = neutrality
 		}
-		localization_key = X78_neutrality_ADJ_MP_FR
+		localization_key = X79_neutrality_ADJ_MP_FR
 	}
 	text = {
 		trigger = {
@@ -10816,6 +10816,34 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = absolutist
+		}
+		localization_key = TNE_absolutist_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = democratic
+		}
+		localization_key = TNE_democratic_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = fascism
+		}
+		localization_key = TNE_fascism_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = neutrality
+		}
+		localization_key = TNE_neutrality_ADJ_FS_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = TOG original_tag = TOG }
 			has_government = absolutist
 		}
@@ -11121,34 +11149,6 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W03_neutrality_ADJ_FS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = absolutist
-		}
-		localization_key = W04_absolutist_ADJ_FS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = democratic
-		}
-		localization_key = W04_democratic_ADJ_FS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = fascism
-		}
-		localization_key = W04_fascism_ADJ_FS_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = neutrality
-		}
-		localization_key = W04_neutrality_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -12524,31 +12524,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = absolutist
 		}
-		localization_key = X60_absolutist_ADJ_FS_FR
+		localization_key = X61_absolutist_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = democratic
 		}
-		localization_key = X60_democratic_ADJ_FS_FR
+		localization_key = X61_democratic_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = fascism
 		}
-		localization_key = X60_fascism_ADJ_FS_FR
+		localization_key = X61_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = neutrality
 		}
-		localization_key = X60_neutrality_ADJ_FS_FR
+		localization_key = X61_neutrality_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -12720,31 +12720,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = absolutist
 		}
-		localization_key = X68_absolutist_ADJ_FS_FR
+		localization_key = X69_absolutist_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = democratic
 		}
-		localization_key = X68_democratic_ADJ_FS_FR
+		localization_key = X69_democratic_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = fascism
 		}
-		localization_key = X68_fascism_ADJ_FS_FR
+		localization_key = X69_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = neutrality
 		}
-		localization_key = X68_neutrality_ADJ_FS_FR
+		localization_key = X69_neutrality_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -12972,31 +12972,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = absolutist
 		}
-		localization_key = X78_absolutist_ADJ_FS_FR
+		localization_key = X79_absolutist_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = democratic
 		}
-		localization_key = X78_democratic_ADJ_FS_FR
+		localization_key = X79_democratic_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = fascism
 		}
-		localization_key = X78_fascism_ADJ_FS_FR
+		localization_key = X79_fascism_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = neutrality
 		}
-		localization_key = X78_neutrality_ADJ_FS_FR
+		localization_key = X79_neutrality_ADJ_FS_FR
 	}
 	text = {
 		trigger = {
@@ -15355,6 +15355,34 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = absolutist
+		}
+		localization_key = TNE_absolutist_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = democratic
+		}
+		localization_key = TNE_democratic_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = fascism
+		}
+		localization_key = TNE_fascism_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
+			OR = { tag = TNE original_tag = TNE }
+			has_government = neutrality
+		}
+		localization_key = TNE_neutrality_ADJ_FP_FR
+	}
+	text = {
+		trigger = {
 			OR = { tag = TOG original_tag = TOG }
 			has_government = absolutist
 		}
@@ -15660,34 +15688,6 @@ defined_text = {
 			has_government = neutrality
 		}
 		localization_key = W03_neutrality_ADJ_FP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = absolutist
-		}
-		localization_key = W04_absolutist_ADJ_FP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = democratic
-		}
-		localization_key = W04_democratic_ADJ_FP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = fascism
-		}
-		localization_key = W04_fascism_ADJ_FP_FR
-	}
-	text = {
-		trigger = {
-			OR = { tag = W04 original_tag = W04 }
-			has_government = neutrality
-		}
-		localization_key = W04_neutrality_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -17063,31 +17063,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = absolutist
 		}
-		localization_key = X60_absolutist_ADJ_FP_FR
+		localization_key = X61_absolutist_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = democratic
 		}
-		localization_key = X60_democratic_ADJ_FP_FR
+		localization_key = X61_democratic_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = fascism
 		}
-		localization_key = X60_fascism_ADJ_FP_FR
+		localization_key = X61_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X60 original_tag = X60 }
+			OR = { tag = X61 original_tag = X61 }
 			has_government = neutrality
 		}
-		localization_key = X60_neutrality_ADJ_FP_FR
+		localization_key = X61_neutrality_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -17259,31 +17259,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = absolutist
 		}
-		localization_key = X68_absolutist_ADJ_FP_FR
+		localization_key = X69_absolutist_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = democratic
 		}
-		localization_key = X68_democratic_ADJ_FP_FR
+		localization_key = X69_democratic_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = fascism
 		}
-		localization_key = X68_fascism_ADJ_FP_FR
+		localization_key = X69_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X68 original_tag = X68 }
+			OR = { tag = X69 original_tag = X69 }
 			has_government = neutrality
 		}
-		localization_key = X68_neutrality_ADJ_FP_FR
+		localization_key = X69_neutrality_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
@@ -17511,31 +17511,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = absolutist
 		}
-		localization_key = X78_absolutist_ADJ_FP_FR
+		localization_key = X79_absolutist_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = democratic
 		}
-		localization_key = X78_democratic_ADJ_FP_FR
+		localization_key = X79_democratic_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = fascism
 		}
-		localization_key = X78_fascism_ADJ_FP_FR
+		localization_key = X79_fascism_ADJ_FP_FR
 	}
 	text = {
 		trigger = {
-			OR = { tag = X78 original_tag = X78 }
+			OR = { tag = X79 original_tag = X79 }
 			has_government = neutrality
 		}
-		localization_key = X78_neutrality_ADJ_FP_FR
+		localization_key = X79_neutrality_ADJ_FP_FR
 	}
 	text = {
 		trigger = {

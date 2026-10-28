@@ -40,7 +40,7 @@ converted_diplo_strategies_UGA = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X61"
+		id = "X60"
 		value = 15
 	}
 	ai_strategy = {
@@ -60,7 +60,7 @@ converted_diplo_strategies_UGA = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 31
 	}
 	ai_strategy = {
@@ -70,12 +70,12 @@ converted_diplo_strategies_UGA = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X59"
+		id = "X58"
 		value = 114
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X61"
+		id = "X60"
 		value = 28
 	}
 }

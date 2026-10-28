@@ -344,6 +344,7 @@ AUS = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -717,6 +718,7 @@ BOT = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -1058,6 +1060,7 @@ BRD = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -1552,6 +1555,8 @@ CAM = {
 				"GFX_Cambodia_Sisowath_Monivong"
 				"GFX_Cambodia_Khuang_Aphaiwong"
 				"GFX_Cambodia_Norodom_Suramarit"
+				"GFX_portrait_CAM_norodom_sihanouk"
+				"GFX_portrait_VIN_emperor_bao_dai"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -2477,6 +2482,7 @@ DAH = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -3494,6 +3500,7 @@ GAM = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -3706,6 +3713,7 @@ GHA = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -4186,8 +4194,7 @@ GXC = {
 			male = {
 				"GFX_China_Chiang_Kai_Shek"
 				"GFX_CHI_Yuan_Shikai"
-				"GFX_China_Puyi"
-				"GFX_China_Pujie"
+				"GFX_portrait_RNG_sun_dianying"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -4513,6 +4520,7 @@ HES = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -4725,6 +4733,7 @@ HLR = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -5636,6 +5645,7 @@ IVO = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -5844,6 +5854,7 @@ JAP = {
 				"GFX_jap_tetsu_katayama"
 				"GFX_Japan_Soemu_Toyoda"
 				"GFX_r56_generic_politician_asia_1_democracy"
+				"GFX_portrait_JAP_keisuke_okada"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -5858,6 +5869,9 @@ JAP = {
 				"gfx/leaders/Asia/portrait_asia_generic_4.dds"
 				"GFX_r56_generic_politician_asia_1_fascism"
 				"GFX_r56_generic_politician_asia_2_fascism"
+				"GFX_portrait_JAP_hideki_tojo"
+				"GFX_portrait_KOR_jiro_minami"
+				"GFX_portrait_JAP_masanobu_tsuji"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -5871,6 +5885,7 @@ JAP = {
 				"GFX_Japan_Hirohito"
 				"GFX_Japan_Hirohito_kr"
 				"GFX_Japan_Yasuhito"
+				"GFX_portrait_JAP_fumimaro_konoe"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -5886,6 +5901,7 @@ JAP = {
 				"GFX_Asia_Generic_warlord2"
 				"GFX_Japan_Generic_3"
 				"GFX_Japan_Otozo_Yamada"
+				"GFX_portrait_JAP_yoshitoshi_tokugawa"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -6148,6 +6164,7 @@ KOR = {
 			male = {
 				"GFX_Yi_Un"
 				"GFX_Portrait_Asia_Generic_land_1"
+				"GFX_portrait_KOR_yi_un"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -6623,6 +6640,7 @@ LUX = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -7088,6 +7106,8 @@ MOR = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -7127,6 +7147,9 @@ MOR = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -7288,6 +7311,7 @@ MRT = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -8443,6 +8467,7 @@ PER = {
 				"GFX_Persia_Ahmad_Qavam"
 				"GFX_Persia_Mohammad_Ali_Foroughi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_kur_seyid_riza"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -8458,6 +8483,7 @@ PER = {
 				"GFX_LBA_Abu_Meniar"
 				"GFX_PAL_The_Mufti"
 				"GFX_YEM_Abdullah_as_Sallal"
+				"GFX_portrait_Ihsan_Nuri_Pasa"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -8471,6 +8497,7 @@ PER = {
 				"GFX_Afghan_Mohammed_Zahir"
 				"GFX_Persia_Ahmad_Shah_Qajar"
 				"GFX_Persia_Hassan_Mirza_Qajar"
+				"GFX_portrait_TAJ_alim_khan"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -10148,6 +10175,7 @@ SEN = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -10492,6 +10520,7 @@ SIA = {
 				"GFX_Shan_Sao_Shwe_Thaik"
 				"GFX_Siam_Rama_IX"
 				"GFX_Siam_Rama_VII"
+				"GFX_portrait_LAO_sisavang_vong"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -11234,6 +11263,7 @@ TAJ = {
 				"GFX_Persia_Ahmad_Qavam"
 				"GFX_Persia_Mohammad_Ali_Foroughi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_kur_seyid_riza"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -11249,6 +11279,7 @@ TAJ = {
 				"GFX_LBA_Abu_Meniar"
 				"GFX_PAL_The_Mufti"
 				"GFX_YEM_Abdullah_as_Sallal"
+				"GFX_portrait_Ihsan_Nuri_Pasa"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -11262,6 +11293,7 @@ TAJ = {
 				"GFX_Afghan_Mohammed_Zahir"
 				"GFX_Persia_Ahmad_Shah_Qajar"
 				"GFX_Persia_Hassan_Mirza_Qajar"
+				"GFX_portrait_TAJ_alim_khan"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -11441,6 +11473,161 @@ TAT = {
 			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
 			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
 			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		}
+	}
+}
+
+TNE = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_1"
+			"GFX_Portrait_Asia_Generic_land_2"
+			"GFX_Portrait_Asia_Generic_land_3"
+			"GFX_Portrait_Asia_Generic_land_4"
+			"GFX_Portrait_Asia_Generic_land_5"
+			"GFX_portrait_asia_generic_land_6"
+			"GFX_AOG_Generic_1"
+			"GFX_Asia_Generic_land_new_1"
+			"GFX_Asia_Generic_land_new_2"
+			"GFX_Indonesia_Rachmat"
+			"GFX_Indonesia_Sudirman"
+			"GFX_Indonesia_Suhadi"
+			"GFX_Indonesia_Suharto"
+			"GFX_Indonesia_Urip_Sumohardjo"
+			"GFX_Philippines_Alfredo_M_Santos"
+			"GFX_Philippines_Basilio_J_Valdez"
+			"GFX_Philippines_Carlos_P_Romulo"
+			"GFX_Philippines_Macario_Peralta_Jr"
+			"GFX_Philippines_Manuel_F_Cabal"
+			"GFX_Philippines_Mateo_Capinpin"
+			"GFX_Philippines_Paulino_Santos"
+			"GFX_Sarawak_Ye_Jianying"
+		}
+		female = {
+			"GFX_Asia_Generic_female_1"
+			"GFX_Burma_Myat_Paya_Lat"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_1"
+			"GFX_Portrait_Asia_Generic_navy_2"
+			"GFX_Portrait_Asia_Generic_navy_3"
+			"GFX_portrait_asia_generic_navy_4"
+			"GFX_Asia_Generic_navy_new_1"
+			"GFX_Asia_Generic_navy_new_2"
+			"GFX_Asia_Generic_navy_new_3"
+			"GFX_Indonesia_Yos_Sudarso"
+		}
+		female = {
+			"GFX_Asia_Generic_female_1"
+			"GFX_Burma_Myat_Paya_Lat"
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				"GFX_Asia_Generic_1"
+				"GFX_Asia_Generic_communism"
+				"GFX_r56_generic_politician_asia_1_communism"
+				"GFX_r56_generic_politician_asia_2_communism"
+				"GFX_Philippines_Crisanto_Evangelista"
+				"GFX_Sarawak_Ong_Kee_Hui"
+			}
+			female = {
+				"GFX_Asia_Generic_female_1"
+				"GFX_Burma_Myat_Paya_Lat"
+				"GFX_Burma_Daw_Mya_Sein"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_Asia_Generic_democracy"
+				"GFX_Philippines_Manuel_Luis_Quezon"
+				"GFX_r56_generic_politician_asia_1_democracy"
+				"GFX_DEI_Palar"
+				"GFX_Indonesia_Mohammad_Hatta"
+				"GFX_Philippines_Elpidio_Quirino"
+				"GFX_Philippines_Manuel_Luis_Quezon_KR"
+				"GFX_Philippines_Manuel_Roxas"
+				"GFX_Sarawak_Ong_Tiang_Swee"
+			}
+			female = {
+				"GFX_Asia_Generic_female_1"
+				"GFX_Burma_Myat_Paya_Lat"
+				"GFX_Burma_Daw_Mya_Sein"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_Asia_Generic_3"
+				"gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				"GFX_r56_generic_politician_asia_1_fascism"
+				"GFX_r56_generic_politician_asia_2_fascism"
+				"GFX_Indonesia_Hashim_Asyari"
+				"GFX_Indonesia_Kartosoewirjo"
+				"GFX_Indonesia_Sutomo"
+				"GFX_Sarawak_Datu_Patinggi"
+			}
+			female = {
+				"GFX_Asia_Generic_female_1"
+				"GFX_Burma_Myat_Paya_Lat"
+				"GFX_Burma_Daw_Mya_Sein"
+			}
+		}
+		absolutist = {
+			male = {
+				"GFX_Indonesia_Hamengkubuwono_IX"
+				"GFX_Malaya_Iskander_I_Perak"
+				"GFX_Malaya_Abdul_Rahman_Negeri_Sembilan"
+				"GFX_Malaya_Hisamuddin_of_Selangor"
+				"GFX_Sarawak_Ahmad_Tajuddin"
+			}
+			female = {
+				"GFX_Asia_Generic_female_1"
+				"GFX_Burma_Myat_Paya_Lat"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_Asia_Generic_fascism"
+				"GFX_Indonesia_Sukarno"
+				"GFX_Malaya_Yusof_bin_Ishak"
+				"GFX_Philippines_Emilio_Aguinaldo"
+				"GFX_Philippines_Juan_Sumulong"
+				"GFX_Sarawak_Abang_Haji_Abdillah"
+			}
+			female = {
+				"GFX_Asia_Generic_female_1"
+				"GFX_Burma_Myat_Paya_Lat"
+				"GFX_Burma_Daw_Mya_Sein"
+			}
+		}
+		radical = {
+			male = {
+				"GFX_Asia_Generic_2"
+				"GFX_r56_generic_politician_asia_2_democracy"
+				"GFX_Indonesia_Sutan_Sjahrir"
+				"GFX_Indonesia_Tan_Malaka"
+				"GFX_Sarawak_Charles_Vyner_Brooke"
+			}
+			female = {
+				"GFX_Asia_Generic_female_1"
+				"GFX_Burma_Myat_Paya_Lat"
+				"GFX_Burma_Daw_Mya_Sein"
+			}
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+			"gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		}
+		female = {
+			"gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+			"gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+			"gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
 		}
 	}
 }
@@ -11657,6 +11844,8 @@ TUN = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -11696,6 +11885,9 @@ TUN = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -12539,6 +12731,8 @@ VIN = {
 				"GFX_Cambodia_Sisowath_Monivong"
 				"GFX_Cambodia_Khuang_Aphaiwong"
 				"GFX_Cambodia_Norodom_Suramarit"
+				"GFX_portrait_CAM_norodom_sihanouk"
+				"GFX_portrait_VIN_emperor_bao_dai"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -12900,319 +13094,6 @@ W00 = {
 W01 = {
 	army = {
 		male = {
-			"GFX_Portrait_South_America_Generic_land_1"
-			"GFX_Portrait_South_America_Generic_land_2"
-			"GFX_Portrait_South_America_Generic_land_3"
-			"GFX_Portrait_South_America_Generic_land_4"
-			"GFX_Portrait_South_America_Generic_land_5"
-			"GFX_South_America_Generic_land_new_1"
-			"GFX_South_America_Generic_land_new_2"
-			"GFX_South_America_Generic_land_new_3"
-			"GFX_r56_Bartolome_Blanche"
-			"GFX_BOL_Angel_Ayora"
-			"GFX_Bolivia_Bernardino_Rioja"
-			"GFX_CAF_Eustace_Fiennes"
-			"GFX_Chile_Jorge_Von_Marees"
-			"GFX_CHL_Bennett"
-			"GFX_CHL_Fransico_Javier_Dias_Valderrama"
-			"GFX_COS_Fernando_Figuls_Quiros"
-			"GFX_Cuba_Alberto_Bayo_Giroud"
-			"GFX_Cuba_Martin_Diaz"
-			"GFX_ECU_Luis_Larrea_Alba"
-			"GFX_ELS_general_Maximiliano_Martinez"
-			"GFX_ELS_Maximiliano_Martinez"
-			"GFX_FOP_Guillermo_Mac_Hannaford"
-			"GFX_FOP_Luis_Alberto_Quesada"
-			"GFX_HON_Anastasio_Somoza_Garcia_2"
-			"GFX_HON_Augustine_Warner_Robbins"
-			"GFX_HON_Frederic_Ives_Lord"
-			"GFX_HON_Oswaldo_Lopez_Arellano"
-			"GFX_MEX_Maximino_Avila_Camacho"
-			"GFX_MEX_Pablo_Abelardo_Rodriguez"
-			"GFX_MEX_Pablo_Macias_Valenzuela"
-			"GFX_MEX_Pancho_Villa_General"
-			"GFX_MEX_Quiroga_Escamilla"
-			"GFX_Mexico_Don_Fernando"
-			"GFX_Mexico_Garza"
-			"GFX_Mexico_Ruben_Jaramillo"
-			"GFX_PAN_Boris_Salazar"
-			"GFX_PAN_Manuel_Pino"
-			"GFX_PAR_Alfredo_Stroessner"
-			"GFX_PAR_Estigarribia"
-			"GFX_Paraguay_Hugenio_Morinigi"
-			"GFX_Paraguay_Rafael_Franco_KR"
-			"GFX_Salvador_Alvarado"
-			"GFX_portrait_spain_francisco_franco"
-			"GFX_SPR_Alonso_Vega"
-			"GFX_SPR_Asensio_Cabanillas"
-			"GFX_SPR_Miguel_Cabanellas_Ferrer"
-			"GFX_Portugal_Antonio_Carmona"
-			"GFX_POR_Castro_Bilstein_Menezes"
-		}
-		female = {
-			"GFX_Argentina_Fanny_Schoonheyt"
-			"GFX_Argentine_Alicia_Justo"
-			"GFX_BRA_Eugenia_Moreyra"
-			"GFX_Chile_Gabriela"
-			"GFX_Cuba_Tina_Modotti"
-			"GFX_Ecuador_Nela_Martinez"
-			"GFX_FOP_Paulina_Mansurova"
-			"GFX_YUC_Elvia_Carrillo_Puerto"
-		}
-	}
-
-	navy = {
-		male = {
-			"GFX_Portrait_South_America_Generic_navy_1"
-			"GFX_Portrait_South_America_Generic_navy_2"
-			"GFX_Portrait_South_America_Generic_navy_3"
-			"GFX_r56_generic_admiral_south_america_1"
-			"GFX_r56_generic_admiral_GRE_1"
-			"GFX_Chile_Aurelio_Palma"
-			"GFX_Cuba_Alberto_Herrera_Franchi"
-			"GFX_Cuba_Genovevo_Perez_Damera"
-			"GFX_Cuba_Manuel_Lopez_Migoya"
-			"GFX_ECU_Rafael_Valverde"
-			"GFX_ELS_Salvador_Castaneda_Castro"
-			"GFX_POR_Americo_Thomaz"
-		}
-		female = {
-			"GFX_Argentina_Fanny_Schoonheyt"
-			"GFX_Argentine_Alicia_Justo"
-			"GFX_BRA_Eugenia_Moreyra"
-			"GFX_Chile_Gabriela"
-			"GFX_Cuba_Tina_Modotti"
-			"GFX_Ecuador_Nela_Martinez"
-			"GFX_FOP_Paulina_Mansurova"
-			"GFX_YUC_Elvia_Carrillo_Puerto"
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				"GFX_South_America_Generic_1"
-				"GFX_South_America_Generic_4"
-				"GFX_par_rafael_franco"
-				"GFX_urg_gabriel_terra"
-				"GFX_r56_generic_politician_south_america_1"
-				"GFX_The_Che"
-				"GFX_BOL_Alcides_Arguedas"
-				"GFX_BOL_Javier_Granado"
-				"GFX_CHL_Jorge_Alessandri"
-				"GFX_Columbia_Eduardo_Montejo"
-				"GFX_Cuba_Lazaro_Pena_Gonzalez"
-				"GFX_GRP_Cordeiro"
-				"GFX_GUA_Sandino"
-				"GFX_GUA_Silverio_Oritz"
-				"GFX_HON_Tiburcio_Carias_Andino"
-				"GFX_Mexico_Rosendo_Salazar"
-				"GFX_PAN_Ricardo_Jovane"
-				"GFX_Paraguay_Rafael_Franco_KR"
-				"GFX_URG_Luis_Herrera"
-				"GFX_spr_jose_diaz"
-			}
-			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
-			}
-		}
-		democratic = {
-			male = {
-				"GFX_South_America_Generic_5"
-				"GFX_Brazil_Plinio_Salgado"
-				"GFX_col_alfonso_lopez_pumarejo"
-				"GFX_cos_ricardo_jiminez_oreamuno"
-				"GFX_els_maximiliano_hernandez_martinez"
-				"GFX_hai_stenio_vincent"
-				"GFX_hon_tiburcio_carias_andino"
-				"GFX_Bolivia_Franz_Tamayo"
-				"GFX_Chile_Arturo_Alessandri_Palma"
-				"GFX_Columbia_Lauro_Gomez_Castro"
-				"GFX_COS_Manuel_Mora_Valverde"
-				"GFX_Cuba_Juan_Blas_Hernandez"
-				"GFX_ECU_Jose_Ibarra"
-				"GFX_FOP_Alfredo_Palacios"
-				"GFX_FOP_Antonio_Soto"
-				"GFX_NIC_Juan_Jose_Arevalo_Bermejo"
-				"GFX_HON_Juan_Manuel_Galvez"
-				"GFX_Mexico_Emilio_Gil"
-				"GFX_Mexico_Pascual_Rubio"
-				"GFX_PAN_Arnulfo_Arias_Madrid"
-				"GFX_PAN_Harmodio_Arias_Madrid_our"
-				"GFX_Spain_Manuel_Azana"
-			}
-			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
-			}
-		}
-		fascism = {
-			male = {
-				"GFX_south_america_generic_3"
-				"gfx/leaders/South America/portrait_south_america_generic_8.dds"
-				"GFX_chl_arturo_alessandri"
-				"GFX_dom_rafael_trujillo"
-				"GFX_Venezuela_Elezar_Lopez_Contreras"
-				"GFX_per_oscar_benavides"
-				"GFX_Bolivia_Mamerto_Urriolagoitia"
-				"GFX_CHL_Juan_Esteban_Montero"
-				"GFX_COS_Ricardo_Oreamuno"
-				"GFX_COS_Teodoro_Picado_Michalski"
-				"GFX_Cuba_Antonio_Guiteras"
-				"GFX_ELS_Feliciano_Ama"
-				"GFX_NIC_Jorge_Ubico_Casteneda"
-				"GFX_Mexico_Antonio_Villarreal"
-				"GFX_Mexico_Emiliano_Zapata"
-				"GFX_Mexico_Juan_Almazan"
-				"GFX_PAN_Jose_Antonio_Remon_Cantera"
-				"GFX_Spain_Francisco_Franco_old"
-			}
-			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
-			}
-		}
-		absolutist = {
-			male = {
-				"GFX_Bolivia_Carlos_Quiroga"
-				"GFX_Ecuador_Alberto_Gallo"
-				"GFX_Paraguay_Raimundo_Rolon"
-				"GFX_Peru_Carlos_Miro_Quesada"
-				"GFX_SPM_Infante_Jaime"
-				"GFX_Alfonso_XIII"
-				"GFX_Portugal_Duarte_Nuno"
-				"GFX_SPR_Jaime_I"
-				"GFX_Javier_I"
-			}
-			female = {
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_Uruguay_Paulina_Luisi"
-			}
-		}
-		neutrality = {
-			male = {
-				"GFX_South_America_Generic_6"
-				"gfx/leaders/South America/portrait_south_america_generic_9.dds"
-				"GFX_Argentina_Agustin_Pedro_Justo"
-				"GFX_Bolivia_Jose_Luis_Tejada_Sorzano"
-				"GFX_ecu_federico_paez"
-				"GFX_nic_anastasio_somoza_garcia"
-				"GFX_Bolivia_Enrique_Castillo"
-				"GFX_Chile_Carlos_Labarca"
-				"GFX_COS_Leon_Cortes_Castro"
-				"GFX_Cuba_Carlos_Mendieta_Montefur"
-				"GFX_ELS_Alfonso_Quinonez_Molina"
-				"GFX_FOP_Jacques_Antoine_Bernard"
-				"GFX_GUA_Yank_Levy"
-				"GFX_HON_Jose_Maria_Moncada"
-				"GFX_Mexico_Fidel_Velazquez"
-				"GFX_Mexico_Lazaro_Cardenas"
-				"GFX_PAR_Eusebio_Ayala"
-				"GFX_Yucatan_Gustavo_Correa"
-				"GFX_Brazil_Getulio_Vargas"
-				"GFX_por_antonio_de_oliveira_salazar"
-				"GFX_Portugal_Antonio_de_Oliveira_Salazar_OLD"
-				"GFX_spr_niceto_alcala_zamora"
-			}
-			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
-			}
-		}
-		radical = {
-			male = {
-				"GFX_South_America_Generic_2"
-				"gfx/leaders/South America/portrait_south_america_generic_7.dds"
-				"GFX_cub_jose_barnet"
-				"GFX_gua_jorge_ubico"
-				"GFX_pan_harmodio_arias_madrid"
-				"GFX_r56_generic_politician_south_america_2"
-				"GFX_CAF_Joseph_Lagrosilliere"
-				"GFX_Chile_Marmaduke_Grove"
-				"GFX_Columbia_Turbay_Ayala"
-				"GFX_Cuba_Clemente_Vazquez_Bello"
-				"GFX_Cuba_Mario_Garcia_Menocal"
-				"GFX_FOP_Micaela_Feldman"
-				"GFX_FOP_Miguel_Arcangel"
-				"GFX_HON_Federico_Davidson_Blanco"
-				"GFX_MEX_Zermeno_Araico"
-				"GFX_PRU_Victor_Raul_Haya"
-				"GFX_PRU_Luis_Heysen"
-				"GFX_YUC_Arturo_Campillo_Seyde"
-			}
-			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
-			}
-		}
-	}
-	operative = {
-		male = {
-			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
-			"gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
-		}
-		female = {
-			"gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
-			"gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
-			"gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
-		}
-	}
-}
-
-W02 = {
-	army = {
-		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
 			"GFX_Portrait_Europe_Generic_land_2"
 			"GFX_Portrait_Europe_Generic_land_3"
@@ -13371,7 +13252,7 @@ W02 = {
 	}
 }
 
-W03 = {
+W02 = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -13512,7 +13393,7 @@ W03 = {
 	}
 }
 
-W04 = {
+W03 = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -13626,6 +13507,7 @@ W04 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -13720,6 +13602,53 @@ W04 = {
 			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		}
+	}
+}
+
+W04 = {
+	political = {
+		communism = {
+			male = {
+			}
+			female = {
+			}
+		}
+		democratic = {
+			male = {
+			}
+			female = {
+			}
+		}
+		fascism = {
+			male = {
+			}
+			female = {
+			}
+		}
+		absolutist = {
+			male = {
+			}
+			female = {
+			}
+		}
+		neutrality = {
+			male = {
+			}
+			female = {
+			}
+		}
+		radical = {
+			male = {
+			}
+			female = {
+			}
+		}
+	}
+	operative = {
+		male = {
+		}
+		female = {
 		}
 	}
 }
@@ -13913,53 +13842,6 @@ W08 = {
 }
 
 W09 = {
-	political = {
-		communism = {
-			male = {
-			}
-			female = {
-			}
-		}
-		democratic = {
-			male = {
-			}
-			female = {
-			}
-		}
-		fascism = {
-			male = {
-			}
-			female = {
-			}
-		}
-		absolutist = {
-			male = {
-			}
-			female = {
-			}
-		}
-		neutrality = {
-			male = {
-			}
-			female = {
-			}
-		}
-		radical = {
-			male = {
-			}
-			female = {
-			}
-		}
-	}
-	operative = {
-		male = {
-		}
-		female = {
-		}
-	}
-}
-
-W10 = {
 	political = {
 		communism = {
 			male = {
@@ -14380,6 +14262,8 @@ X00 = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -14419,6 +14303,9 @@ X00 = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -14527,6 +14414,8 @@ X01 = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -14566,6 +14455,9 @@ X01 = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -14718,8 +14610,7 @@ X02 = {
 			male = {
 				"GFX_China_Chiang_Kai_Shek"
 				"GFX_CHI_Yuan_Shikai"
-				"GFX_China_Puyi"
-				"GFX_China_Pujie"
+				"GFX_portrait_RNG_sun_dianying"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -14890,6 +14781,7 @@ X03 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -15102,6 +14994,7 @@ X04 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -16097,8 +15990,7 @@ X10 = {
 			male = {
 				"GFX_China_Chiang_Kai_Shek"
 				"GFX_CHI_Yuan_Shikai"
-				"GFX_China_Puyi"
-				"GFX_China_Pujie"
+				"GFX_portrait_RNG_sun_dianying"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -16498,6 +16390,8 @@ X13 = {
 				"GFX_r56_generic_politician_asia_1_communism"
 				"GFX_r56_generic_politician_asia_2_communism"
 				"GFX_Zhumabay_Shayakhmetov"
+				"GFX_portrait_MEN_jin_yongchang"
+				"GFX_portrait_MEN_altanochir"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -16530,6 +16424,7 @@ X13 = {
 				"GFX_r56_generic_politician_asia_1_fascism"
 				"GFX_r56_generic_politician_asia_2_fascism"
 				"GFX_Mongolia_Sternberg"
+				"GFX_portrait_MEN_li_shouxin"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -16544,6 +16439,7 @@ X13 = {
 				"GFX_FNG_Zhang_Zuolin"
 				"GFX_SIK_Hoja_Niyaz_Haji"
 				"GFX_men_demchugdongrub"
+				"GFX_portrait_MEN_yondonwangchug"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -16561,6 +16457,7 @@ X13 = {
 				"GFX_xsm_ma_bufang"
 				"GFX_ALO_Alikhan_Bukeikhanov"
 				"GFX_XSM_Ma_Lin"
+				"GFX_portrait_MEN_jodbajab"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -17235,8 +17132,7 @@ X17 = {
 			male = {
 				"GFX_China_Chiang_Kai_Shek"
 				"GFX_CHI_Yuan_Shikai"
-				"GFX_China_Puyi"
-				"GFX_China_Pujie"
+				"GFX_portrait_RNG_sun_dianying"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -17938,6 +17834,8 @@ X20 = {
 				"GFX_CSA_benjamin_katine"
 				"GFX_NEE_Nelson_Rockefeller"
 				"GFX_TEX_james_richardson"
+				"GFX_portrait_BRM_archibald_cochrane"
+				"GFX_portrait_PAL_harold_macmichael"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -18066,8 +17964,7 @@ X21 = {
 			male = {
 				"GFX_China_Chiang_Kai_Shek"
 				"GFX_CHI_Yuan_Shikai"
-				"GFX_China_Puyi"
-				"GFX_China_Pujie"
+				"GFX_portrait_RNG_sun_dianying"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -18801,6 +18698,8 @@ X25 = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -18840,6 +18739,9 @@ X25 = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -19089,6 +18991,8 @@ X27 = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -19128,6 +19032,9 @@ X27 = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -19444,6 +19351,7 @@ X29 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -19656,6 +19564,7 @@ X30 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -20135,6 +20044,7 @@ X33 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -20400,6 +20310,7 @@ X35 = {
 			"GFX_AOG_Generic_1"
 			"GFX_Asia_Generic_land_new_1"
 			"GFX_Burma_Smith_Dun"
+			"GFX_portrait_BRM_ne_win"
 		}
 		female = {
 			"GFX_Asia_Generic_female_1"
@@ -20432,6 +20343,7 @@ X35 = {
 				"GFX_r56_generic_politician_asia_2_communism"
 				"GFX_Burma_Ba_Cho"
 				"GFX_XSM_Sun_Lianguang"
+				"GFX_portrait_TIB_thubten_kunphela"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -20444,6 +20356,7 @@ X35 = {
 				"GFX_Asia_Generic_democracy"
 				"GFX_r56_generic_politician_asia_1_democracy"
 				"GFX_DEI_Palar"
+				"GFX_portrait_BRM_u_nu"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -20458,6 +20371,7 @@ X35 = {
 				"GFX_r56_generic_politician_asia_1_fascism"
 				"GFX_r56_generic_politician_asia_2_fascism"
 				"GFX_Burma_Pe_Maung_Tin"
+				"GFX_portrait_BRM_ba_maw"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -20469,7 +20383,7 @@ X35 = {
 			male = {
 				"GFX_Shan_Sao_Shwe_Thaik"
 				"GFX_bhu_jigme_wangchuk"
-				"GFX_Tibet_Jamphel_Yeshe_Gyaltsen"
+				"GFX_portrait_Jamphel_Yeshe_Gyaltsen"
 				"GFX_Asia_Generic_3"
 			}
 			female = {
@@ -20483,6 +20397,8 @@ X35 = {
 				"GFX_Guanxi_Clique_Li_Zongren"
 				"GFX_yun_long_yun"
 				"GFX_TAJ_Bobodzhan_Gafurov"
+				"GFX_portrait_TIB_tsarong_dzasa"
+				"GFX_portrait_TIB_thubten_kunphela"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -21047,6 +20963,7 @@ X38 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -21259,6 +21176,7 @@ X39 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -21573,6 +21491,8 @@ X41 = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -21612,6 +21532,9 @@ X41 = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -21953,6 +21876,7 @@ X43 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -22746,6 +22670,8 @@ X47 = {
 				"GFX_CSA_benjamin_katine"
 				"GFX_NEE_Nelson_Rockefeller"
 				"GFX_TEX_james_richardson"
+				"GFX_portrait_BRM_archibald_cochrane"
+				"GFX_portrait_PAL_harold_macmichael"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -22883,6 +22809,7 @@ X48 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -23721,6 +23648,7 @@ X53 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -23820,161 +23748,6 @@ X53 = {
 }
 
 X54 = {
-	army = {
-		male = {
-			"GFX_Portrait_Asia_Generic_land_1"
-			"GFX_Portrait_Asia_Generic_land_2"
-			"GFX_Portrait_Asia_Generic_land_3"
-			"GFX_Portrait_Asia_Generic_land_4"
-			"GFX_Portrait_Asia_Generic_land_5"
-			"GFX_portrait_asia_generic_land_6"
-			"GFX_AOG_Generic_1"
-			"GFX_Asia_Generic_land_new_1"
-			"GFX_Asia_Generic_land_new_2"
-			"GFX_Indonesia_Rachmat"
-			"GFX_Indonesia_Sudirman"
-			"GFX_Indonesia_Suhadi"
-			"GFX_Indonesia_Suharto"
-			"GFX_Indonesia_Urip_Sumohardjo"
-			"GFX_Philippines_Alfredo_M_Santos"
-			"GFX_Philippines_Basilio_J_Valdez"
-			"GFX_Philippines_Carlos_P_Romulo"
-			"GFX_Philippines_Macario_Peralta_Jr"
-			"GFX_Philippines_Manuel_F_Cabal"
-			"GFX_Philippines_Mateo_Capinpin"
-			"GFX_Philippines_Paulino_Santos"
-			"GFX_Sarawak_Ye_Jianying"
-		}
-		female = {
-			"GFX_Asia_Generic_female_1"
-			"GFX_Burma_Myat_Paya_Lat"
-		}
-	}
-
-	navy = {
-		male = {
-			"GFX_Portrait_Asia_Generic_navy_1"
-			"GFX_Portrait_Asia_Generic_navy_2"
-			"GFX_Portrait_Asia_Generic_navy_3"
-			"GFX_portrait_asia_generic_navy_4"
-			"GFX_Asia_Generic_navy_new_1"
-			"GFX_Asia_Generic_navy_new_2"
-			"GFX_Asia_Generic_navy_new_3"
-			"GFX_Indonesia_Yos_Sudarso"
-		}
-		female = {
-			"GFX_Asia_Generic_female_1"
-			"GFX_Burma_Myat_Paya_Lat"
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				"GFX_Asia_Generic_1"
-				"GFX_Asia_Generic_communism"
-				"GFX_r56_generic_politician_asia_1_communism"
-				"GFX_r56_generic_politician_asia_2_communism"
-				"GFX_Philippines_Crisanto_Evangelista"
-				"GFX_Sarawak_Ong_Kee_Hui"
-			}
-			female = {
-				"GFX_Asia_Generic_female_1"
-				"GFX_Burma_Myat_Paya_Lat"
-				"GFX_Burma_Daw_Mya_Sein"
-			}
-		}
-		democratic = {
-			male = {
-				"GFX_Asia_Generic_democracy"
-				"GFX_Philippines_Manuel_Luis_Quezon"
-				"GFX_r56_generic_politician_asia_1_democracy"
-				"GFX_DEI_Palar"
-				"GFX_Indonesia_Mohammad_Hatta"
-				"GFX_Philippines_Elpidio_Quirino"
-				"GFX_Philippines_Manuel_Luis_Quezon_KR"
-				"GFX_Philippines_Manuel_Roxas"
-				"GFX_Sarawak_Ong_Tiang_Swee"
-			}
-			female = {
-				"GFX_Asia_Generic_female_1"
-				"GFX_Burma_Myat_Paya_Lat"
-				"GFX_Burma_Daw_Mya_Sein"
-			}
-		}
-		fascism = {
-			male = {
-				"GFX_Asia_Generic_3"
-				"gfx/leaders/Asia/portrait_asia_generic_4.dds"
-				"GFX_r56_generic_politician_asia_1_fascism"
-				"GFX_r56_generic_politician_asia_2_fascism"
-				"GFX_Indonesia_Hashim_Asyari"
-				"GFX_Indonesia_Kartosoewirjo"
-				"GFX_Indonesia_Sutomo"
-				"GFX_Sarawak_Datu_Patinggi"
-			}
-			female = {
-				"GFX_Asia_Generic_female_1"
-				"GFX_Burma_Myat_Paya_Lat"
-				"GFX_Burma_Daw_Mya_Sein"
-			}
-		}
-		absolutist = {
-			male = {
-				"GFX_Indonesia_Hamengkubuwono_IX"
-				"GFX_Malaya_Iskander_I_Perak"
-				"GFX_Malaya_Abdul_Rahman_Negeri_Sembilan"
-				"GFX_Malaya_Hisamuddin_of_Selangor"
-				"GFX_Sarawak_Ahmad_Tajuddin"
-			}
-			female = {
-				"GFX_Asia_Generic_female_1"
-				"GFX_Burma_Myat_Paya_Lat"
-			}
-		}
-		neutrality = {
-			male = {
-				"GFX_Asia_Generic_fascism"
-				"GFX_Indonesia_Sukarno"
-				"GFX_Malaya_Yusof_bin_Ishak"
-				"GFX_Philippines_Emilio_Aguinaldo"
-				"GFX_Philippines_Juan_Sumulong"
-				"GFX_Sarawak_Abang_Haji_Abdillah"
-			}
-			female = {
-				"GFX_Asia_Generic_female_1"
-				"GFX_Burma_Myat_Paya_Lat"
-				"GFX_Burma_Daw_Mya_Sein"
-			}
-		}
-		radical = {
-			male = {
-				"GFX_Asia_Generic_2"
-				"GFX_r56_generic_politician_asia_2_democracy"
-				"GFX_Indonesia_Sutan_Sjahrir"
-				"GFX_Indonesia_Tan_Malaka"
-				"GFX_Sarawak_Charles_Vyner_Brooke"
-			}
-			female = {
-				"GFX_Asia_Generic_female_1"
-				"GFX_Burma_Myat_Paya_Lat"
-				"GFX_Burma_Daw_Mya_Sein"
-			}
-		}
-	}
-	operative = {
-		male = {
-			"gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
-			"gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
-		}
-		female = {
-			"gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
-			"gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
-			"gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
-		}
-	}
-}
-
-X55 = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -24088,6 +23861,7 @@ X55 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -24186,7 +23960,7 @@ X55 = {
 	}
 }
 
-X56 = {
+X55 = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -24412,7 +24186,7 @@ X56 = {
 	}
 }
 
-X57 = {
+X56 = {
 	army = {
 		male = {
 			"GFX_native_north_american_general"
@@ -24515,7 +24289,7 @@ X57 = {
 	}
 }
 
-X58 = {
+X57 = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -24629,6 +24403,7 @@ X58 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -24727,7 +24502,7 @@ X58 = {
 	}
 }
 
-X59 = {
+X58 = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -24868,7 +24643,7 @@ X59 = {
 	}
 }
 
-X60 = {
+X59 = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -25029,7 +24804,7 @@ X60 = {
 	}
 }
 
-X61 = {
+X60 = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -25133,6 +24908,109 @@ X61 = {
 			"gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
 			"gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
 			"gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		}
+	}
+}
+
+X61 = {
+	army = {
+		male = {
+			"GFX_native_north_american_general"
+			"GFX_nat_north_radical"
+			"GFX_nat_north_communist"
+		}
+		female = {
+			"GFX_Native_American_female"
+			"GFX_Native_American_female_2"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_nat_north_democratic"
+			"GFX_native_north_american_general"
+			"GFX_native_north_american_radical"
+			"GFX_nat_south_democratic"
+		}
+		female = {
+			"GFX_Native_American_female"
+			"GFX_Native_American_female_2"
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				"GFX_nat_north_communist"
+				"GFX_native_north_american_communist"
+			}
+			female = {
+				"GFX_Native_American_female"
+				"GFX_Native_American_female_2"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_nat_north_democratic"
+				"GFX_Lakota_Russell_Means"
+				"GFX_native_north_american_democratic"
+			}
+			female = {
+				"GFX_Native_American_female"
+				"GFX_Native_American_female_2"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_south_america_generic_leader_1"
+				"GFX_nat_north_fascist"
+				"GFX_native_north_american_fascist"
+			}
+			female = {
+				"GFX_Native_American_female"
+				"GFX_Native_American_female_2"
+			}
+		}
+		absolutist = {
+			male = {
+				"GFX_nat_north_absolutist"
+				"GFX_Native_American"
+				"GFX_native_north_american_absolutist"
+			}
+			female = {
+				"GFX_Native_American_female"
+				"GFX_Native_American_female_2"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_nat_north_neutral"
+				"GFX_native_north_american_neutral"
+			}
+			female = {
+				"GFX_Native_American_female"
+				"GFX_Native_American_female_2"
+			}
+		}
+		radical = {
+			male = {
+				"GFX_nat_north_radical"
+				"GFX_native_north_american_radical"
+			}
+			female = {
+				"GFX_Native_American_female"
+				"GFX_Native_American_female_2"
+			}
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+		}
+		female = {
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
 		}
 	}
 }
@@ -25243,102 +25121,140 @@ X62 = {
 X63 = {
 	army = {
 		male = {
-			"GFX_native_north_american_general"
-			"GFX_nat_north_radical"
-			"GFX_nat_north_communist"
+			"GFX_Portrait_Arabia_Generic_land_1"
+			"GFX_Portrait_Arabia_Generic_land_2"
+			"GFX_Portrait_Arabia_Generic_land_3"
+			"GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+			"GFX_Arabia_Generic_new_1"
+			"GFX_r56_Turkey_Generic_land_1"
+			"GFX_OTTLeader01"
+			"GFX_OTTLeader05"
+			"GFX_OTT_Omer_Fahrettin"
+			"GFX_OTT_Ismail_Cevat"
+			"GFX_OTT_Mustafa_Fevzi"
+			"GFX_OTT_Mustafa_Kemal"
+			"GFX_OTT_Osman_Fuad"
+			"GFX_OTT_Osman_Fuad_Hussar"
+			"GFX_OTT_Suleyman_Sefik"
+			"GFX_Ottoman_OmerFaruk"
+			"GFX_ALO_Bauyrzhan_Momyshuly"
 		}
 		female = {
-			"GFX_Native_American_female"
-			"GFX_Native_American_female_2"
+			"GFX_SYR_Nazik_Abid"
 		}
 	}
 
 	navy = {
 		male = {
-			"GFX_nat_north_democratic"
-			"GFX_native_north_american_general"
-			"GFX_native_north_american_radical"
-			"GFX_nat_south_democratic"
+			"GFX_Portrait_Arabia_Generic_navy_1"
+			"GFX_Portrait_Arabia_Generic_navy_2"
+			"GFX_Portrait_Arabia_Generic_navy_3"
+			"GFX_portrait_tur_sukru_okan"
+			"GFX_OTTLeader_Navy_01"
+			"GFX_EGY_Suleiman_Ezzat"
+			"GFX_OTT_NAV_Mahmud_Muhtar"
 		}
 		female = {
-			"GFX_Native_American_female"
-			"GFX_Native_American_female_2"
+			"GFX_SYR_Nazik_Abid"
 		}
 	}
 	political = {
 		communism = {
 			male = {
-				"GFX_nat_north_communist"
-				"GFX_native_north_american_communist"
+				"GFX_Arabia_Generic_1"
+				"GFX_Arabia_Generic_communism1"
+				"GFX_Sinkiang_Sheng_Shicai"
+				"GFX_kaz_nikolay_skvortsov"
+				"GFX_Turkey_Sefik_Husnu"
+				"GFX_TUR_Sefik_Husnu"
+				"GFX_TUR_Hikmet_Kivilcimli"
+				"GFX_TAJ_Kahar_Mahkamov"
+				"GFX_UZB_Usman_Yusupov"
+				"GFX_UZB_Yoldashbay_Babayev"
+				"GFX_Zhumabay_Shayakhmetov"
 			}
 			female = {
-				"GFX_Native_American_female"
-				"GFX_Native_American_female_2"
+				"GFX_SYR_Nazik_Abid"
 			}
 		}
 		democratic = {
 			male = {
-				"GFX_nat_north_democratic"
-				"GFX_Lakota_Russell_Means"
-				"GFX_native_north_american_democratic"
+				"GFX_Arabia_Generic_democratic1"
+				"GFX_kur_seyid_riza"
+				"GFX_Turkey_Ismet_Inonu"
+				"GFX_TUR_Ismet_Inonu"
+				"GFX_TUR_Fethi_Okyar"
+				"GFX_TUR_Hasan_Ali"
+				"GFX_TUR_Yusuf_Hikmet_Bayur"
+				"GFX_KYR_Baten_Dzhumabaev"
+				"GFX_Azerbaijan_Rasulzade"
 			}
 			female = {
-				"GFX_Native_American_female"
-				"GFX_Native_American_female_2"
+				"GFX_SYR_Nazik_Abid"
 			}
 		}
 		fascism = {
 			male = {
-				"GFX_south_america_generic_leader_1"
-				"GFX_nat_north_fascist"
-				"GFX_native_north_american_fascist"
+				"GFX_Arabia_Generic_3"
+				"GFX_Arabia_Generic_fascism1"
+				"GFX_r56_generic_middle_east_1"
+				"GFX_TUR_Alparslan_Turkesh"
+				"GFX_KYR_Turabej_Yusupov"
+				"GFX_TAJ_Behrang_Selesnev"
+				"GFX_Egypt_Abbas_II"
 			}
 			female = {
-				"GFX_Native_American_female"
-				"GFX_Native_American_female_2"
+				"GFX_SYR_Nazik_Abid"
 			}
 		}
 		absolutist = {
 			male = {
-				"GFX_nat_north_absolutist"
-				"GFX_Native_American"
-				"GFX_native_north_american_absolutist"
+				"GFX_Albania_King_Zog"
+				"gfx/leaders/TUR/portrait_tur_abdulmejid_ii.dds"
+				"GFX_Ottoman_Abdulmecid"
+				"GFX_Ottoman_AhmedNihad"
+				"GFX_KUR_Mahmud_Barzanji"
+				"GFX_Turkestan_Mohammed_Alim"
+				"GFX_Egypt_Farouk"
 			}
 			female = {
-				"GFX_Native_American_female"
-				"GFX_Native_American_female_2"
+				"GFX_SYR_Nazik_Abid"
+				"gfx/leaders/TUR/portrait_tur_durrusehvar_sultan.dds"
 			}
 		}
 		neutrality = {
 			male = {
-				"GFX_nat_north_neutral"
-				"GFX_native_north_american_neutral"
+				"GFX_kaz_ilyas_zhansugurov"
+				"GFX_Turkey_Mustafa_Kemal_Ataturk_Old"
+				"GFX_Turkey_Mustafa_Kemal_Ataturk"
+				"GFX_TUR_Adnan_Menderes"
+				"GFX_ALO_Alikhan_Bukeikhanov"
 			}
 			female = {
-				"GFX_Native_American_female"
-				"GFX_Native_American_female_2"
+				"GFX_SYR_Nazik_Abid"
 			}
 		}
 		radical = {
 			male = {
-				"GFX_nat_north_radical"
-				"GFX_native_north_american_radical"
+				"GFX_Arabia_Generic_2"
+				"GFX_Mehmed_Cavid"
+				"GFX_Ottoman_Ali_Sukru_Pasa"
+				"GFX_Azerbaijan_Rasulzade"
 			}
 			female = {
-				"GFX_Native_American_female"
-				"GFX_Native_American_female_2"
+				"GFX_SYR_Nazik_Abid"
 			}
 		}
 	}
 	operative = {
 		male = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_14.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_18.dds"
+			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
 		}
 		female = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_8.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_10.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_21.dds"
+			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
 		}
 	}
 }
@@ -25487,147 +25403,6 @@ X64 = {
 X65 = {
 	army = {
 		male = {
-			"GFX_Portrait_Arabia_Generic_land_1"
-			"GFX_Portrait_Arabia_Generic_land_2"
-			"GFX_Portrait_Arabia_Generic_land_3"
-			"GFX_portrait_TUR_mustafa_kemal_ataturk_military"
-			"GFX_Arabia_Generic_new_1"
-			"GFX_r56_Turkey_Generic_land_1"
-			"GFX_OTTLeader01"
-			"GFX_OTTLeader05"
-			"GFX_OTT_Omer_Fahrettin"
-			"GFX_OTT_Ismail_Cevat"
-			"GFX_OTT_Mustafa_Fevzi"
-			"GFX_OTT_Mustafa_Kemal"
-			"GFX_OTT_Osman_Fuad"
-			"GFX_OTT_Osman_Fuad_Hussar"
-			"GFX_OTT_Suleyman_Sefik"
-			"GFX_Ottoman_OmerFaruk"
-			"GFX_ALO_Bauyrzhan_Momyshuly"
-		}
-		female = {
-			"GFX_SYR_Nazik_Abid"
-		}
-	}
-
-	navy = {
-		male = {
-			"GFX_Portrait_Arabia_Generic_navy_1"
-			"GFX_Portrait_Arabia_Generic_navy_2"
-			"GFX_Portrait_Arabia_Generic_navy_3"
-			"GFX_portrait_tur_sukru_okan"
-			"GFX_OTTLeader_Navy_01"
-			"GFX_EGY_Suleiman_Ezzat"
-			"GFX_OTT_NAV_Mahmud_Muhtar"
-		}
-		female = {
-			"GFX_SYR_Nazik_Abid"
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				"GFX_Arabia_Generic_1"
-				"GFX_Arabia_Generic_communism1"
-				"GFX_Sinkiang_Sheng_Shicai"
-				"GFX_kaz_nikolay_skvortsov"
-				"GFX_Turkey_Sefik_Husnu"
-				"GFX_TUR_Sefik_Husnu"
-				"GFX_TUR_Hikmet_Kivilcimli"
-				"GFX_TAJ_Kahar_Mahkamov"
-				"GFX_UZB_Usman_Yusupov"
-				"GFX_UZB_Yoldashbay_Babayev"
-				"GFX_Zhumabay_Shayakhmetov"
-			}
-			female = {
-				"GFX_SYR_Nazik_Abid"
-			}
-		}
-		democratic = {
-			male = {
-				"GFX_Arabia_Generic_democratic1"
-				"GFX_kur_seyid_riza"
-				"GFX_Turkey_Ismet_Inonu"
-				"GFX_TUR_Ismet_Inonu"
-				"GFX_TUR_Fethi_Okyar"
-				"GFX_TUR_Hasan_Ali"
-				"GFX_TUR_Yusuf_Hikmet_Bayur"
-				"GFX_KYR_Baten_Dzhumabaev"
-				"GFX_Azerbaijan_Rasulzade"
-			}
-			female = {
-				"GFX_SYR_Nazik_Abid"
-			}
-		}
-		fascism = {
-			male = {
-				"GFX_Arabia_Generic_3"
-				"GFX_Arabia_Generic_fascism1"
-				"GFX_r56_generic_middle_east_1"
-				"GFX_TUR_Alparslan_Turkesh"
-				"GFX_KYR_Turabej_Yusupov"
-				"GFX_TAJ_Behrang_Selesnev"
-				"GFX_Egypt_Abbas_II"
-			}
-			female = {
-				"GFX_SYR_Nazik_Abid"
-			}
-		}
-		absolutist = {
-			male = {
-				"GFX_Albania_King_Zog"
-				"gfx/leaders/TUR/portrait_tur_abdulmejid_ii.dds"
-				"GFX_Ottoman_Abdulmecid"
-				"GFX_Ottoman_AhmedNihad"
-				"GFX_KUR_Mahmud_Barzanji"
-				"GFX_Turkestan_Mohammed_Alim"
-				"GFX_Egypt_Farouk"
-			}
-			female = {
-				"GFX_SYR_Nazik_Abid"
-				"gfx/leaders/TUR/portrait_tur_durrusehvar_sultan.dds"
-			}
-		}
-		neutrality = {
-			male = {
-				"GFX_kaz_ilyas_zhansugurov"
-				"GFX_Turkey_Mustafa_Kemal_Ataturk_Old"
-				"GFX_Turkey_Mustafa_Kemal_Ataturk"
-				"GFX_TUR_Adnan_Menderes"
-				"GFX_ALO_Alikhan_Bukeikhanov"
-			}
-			female = {
-				"GFX_SYR_Nazik_Abid"
-			}
-		}
-		radical = {
-			male = {
-				"GFX_Arabia_Generic_2"
-				"GFX_Mehmed_Cavid"
-				"GFX_Ottoman_Ali_Sukru_Pasa"
-				"GFX_Azerbaijan_Rasulzade"
-			}
-			female = {
-				"GFX_SYR_Nazik_Abid"
-			}
-		}
-	}
-	operative = {
-		male = {
-			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
-			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
-		}
-		female = {
-			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
-			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
-			"gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
-		}
-	}
-}
-
-X66 = {
-	army = {
-		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
 			"GFX_Portrait_Europe_Generic_land_2"
 			"GFX_Portrait_Europe_Generic_land_3"
@@ -25739,6 +25514,7 @@ X66 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -25837,7 +25613,7 @@ X66 = {
 	}
 }
 
-X67 = {
+X66 = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_1"
@@ -25988,7 +25764,7 @@ X67 = {
 	}
 }
 
-X68 = {
+X67 = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -26049,6 +25825,8 @@ X68 = {
 				"GFX_PAL_Alami"
 				"GFX_PAL_Nashashibi"
 				"GFX_SYR_Sabri"
+				"GFX_portrait_SYR_hashim_al_atassi"
+				"GFX_portrait_SYR_mehemed_ali_abed"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -26088,6 +25866,9 @@ X68 = {
 				"GFX_MOR_El_Glaui"
 				"GFX_Tunisia_Moncef_Bey"
 				"GFX_YEM_Ahmad_bin_Yahya"
+				"GFX_portrait_egy_faud_i"
+				"GFX_portrait_JOR_abdullah_bin_al_hussein"
+				"GFX_portrait_PAL_amin_al_husseini"
 			}
 			female = {
 				"GFX_SYR_Nazik_Abid"
@@ -26135,7 +25916,7 @@ X68 = {
 	}
 }
 
-X69 = {
+X68 = {
 	army = {
 		male = {
 			"GFX_Portrait_Asia_Generic_land_1"
@@ -26147,6 +25928,7 @@ X69 = {
 			"GFX_AOG_Generic_1"
 			"GFX_Asia_Generic_land_new_1"
 			"GFX_Burma_Smith_Dun"
+			"GFX_portrait_BRM_ne_win"
 		}
 		female = {
 			"GFX_Asia_Generic_female_1"
@@ -26179,6 +25961,7 @@ X69 = {
 				"GFX_r56_generic_politician_asia_2_communism"
 				"GFX_Burma_Ba_Cho"
 				"GFX_XSM_Sun_Lianguang"
+				"GFX_portrait_TIB_thubten_kunphela"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -26191,6 +25974,7 @@ X69 = {
 				"GFX_Asia_Generic_democracy"
 				"GFX_r56_generic_politician_asia_1_democracy"
 				"GFX_DEI_Palar"
+				"GFX_portrait_BRM_u_nu"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -26205,6 +25989,7 @@ X69 = {
 				"GFX_r56_generic_politician_asia_1_fascism"
 				"GFX_r56_generic_politician_asia_2_fascism"
 				"GFX_Burma_Pe_Maung_Tin"
+				"GFX_portrait_BRM_ba_maw"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -26216,7 +26001,7 @@ X69 = {
 			male = {
 				"GFX_Shan_Sao_Shwe_Thaik"
 				"GFX_bhu_jigme_wangchuk"
-				"GFX_Tibet_Jamphel_Yeshe_Gyaltsen"
+				"GFX_portrait_Jamphel_Yeshe_Gyaltsen"
 				"GFX_Asia_Generic_3"
 			}
 			female = {
@@ -26230,6 +26015,8 @@ X69 = {
 				"GFX_Guanxi_Clique_Li_Zongren"
 				"GFX_yun_long_yun"
 				"GFX_TAJ_Bobodzhan_Gafurov"
+				"GFX_portrait_TIB_tsarong_dzasa"
+				"GFX_portrait_TIB_thubten_kunphela"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -26264,7 +26051,7 @@ X69 = {
 	}
 }
 
-X70 = {
+X69 = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -26425,6 +26212,219 @@ X70 = {
 	}
 }
 
+X70 = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_Portrait_europe_generic_land_6"
+			"GFX_portrait_europe_generic_land_7"
+			"GFX_portrait_europe_generic_land_8"
+			"GFX_portrait_europe_generic_land_9"
+			"GFX_portrait_europe_generic_land_13"
+			"GFX_portrait_MEX_Luis_Maria_Martinez"
+			"GFX_Portrait_Germany_Generic_land_1"
+			"GFX_Portrait_Germany_Generic_land_2"
+			"GFX_Portrait_Germany_Generic_land_3"
+			"GFX_Portrait_Germany_Generic_land_4"
+			"GFX_Portrait_Germany_Generic_land_5"
+			"GFX_portrait_ger_felix_steiner"
+			"GFX_portrait_GER_hans_von_luck"
+			"GFX_portrait_GER_albert_kesselring"
+			"GFX_portrait_GER_alfred_jodl"
+			"GFX_Germany_Erhard_Milch"
+			"GFX_portrait_GER_erich_von_manstein"
+			"GFX_portrait_GER_erwin_rommel"
+			"GFX_portrait_GER_erwin_von_witzleben"
+			"GFX_portrait_GER_ewald_von_kleist"
+			"GFX_portrait_GER_fedor_von_bock"
+			"GFX_portrait_GER_friedrich_paulus"
+			"GFX_portrait_GER_georg_von_kuchler"
+			"GFX_portrait_GER_georghans_reinhardt"
+			"GFX_portrait_GER_gerd_von_rundstedt"
+			"GFX_portrait_GER_gotthard_heinrici"
+			"GFX_portrait_Gunther_von_Kluge"
+			"GFX_Germany_Hans-Karl_Freiherr_von_Esebeck"
+			"GFX_portrait_GER_hasso_von_manteuffel"
+			"GFX_portrait_GER_heinz_guderian"
+			"GFX_portrait_GER_hermann_hoth"
+			"GFX_portrait_GER_johannes_blaskowitz"
+			"GFX_portrait_GER_sepp_dietrich"
+			"GFX_portrait_GER_kurt_student"
+			"GFX_portrait_GER_maximilian_von_weichs"
+			"GFX_portrait_GER_paul_hausser"
+			"GFX_portrait_GER_paul_hausser"
+			"GFX_portrait_GER_walter_model"
+			"GFX_portrait_GER_wilhelm_list"
+			"GFX_portrait_GER_wilhelm_ritter_von_leeb"
+			"GFX_Germany_Willi_Reschke"
+			"GFX_Germany_Wolfram_Freiherr_von_Richthofen"
+		}
+		female = {
+			"GFX_AST_Elsie_Farrely"
+			"GFX_Britain_Felicia_Browne"
+			"GFX_CSA_Elizabeth_Gurley_Flynn"
+			"GFX_France_May_Picqueray"
+			"GFX_Lucie_Dujardin"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_europe_generic_navy_4"
+			"GFX_portrait_europe_generic_navy_5"
+			"GFX_Portrait_Germany_Generic_navy_1"
+			"GFX_Portrait_Germany_Generic_navy_2"
+			"GFX_Portrait_Germany_Generic_navy_3"
+			"GFX_portrait_GER_alfred_saalwachter"
+			"GFX_portrait_GER_erich_raeder"
+			"GFX_portrait_GER_gunther_lutjens"
+			"GFX_portrait_GER_hermann_boehm"
+			"GFX_portrait_GER_karl_donitz"
+			"GFX_portrait_GER_wilhelm_marschall"
+			"GFX_Europe_Generic_navy_new_1"
+			"GFX_Europe_Generic_navy_new_2"
+			"GFX_Europe_Generic_navy_new_3"
+			"GFX_Europe_Generic_navy_new_4"
+			"GFX_Europe_Generic_navy_new_5"
+		}
+		female = {
+			"GFX_AST_Elsie_Farrely"
+			"GFX_Britain_Felicia_Browne"
+			"GFX_CSA_Elizabeth_Gurley_Flynn"
+			"GFX_France_May_Picqueray"
+			"GFX_Lucie_Dujardin"
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				"GFX_Europe_Generic_1"
+				"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+				"GFX_Germany_Wilhelm_Pieck"
+				"GFX_Germany_Generic_1"
+				"GFX_Rhineland_Paul_Frolich"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_europe_generic_5"
+				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_europe_generic_6"
+				"GFX_GER_heinrich_himmler"
+				"GFX_GER_hermann_goring"
+				"GFX_Germany_Generic_3"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
+			}
+		}
+		absolutist = {
+			male = {
+				"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+				"GFX_Germany_Wilhelm_II"
+				"GFX_Germany_Wilhelm_III"
+				"GFX_Germany_Wilhelm_V"
+				"GFX_Austria_Otto_I"
+				"GFX_Germany_August_Mackensen_kr"
+				"GFX_Bavaria_Rupprecht_von_Bayern"
+				"GFX_Schleswig_Holstein_Harald_I"
+			}
+			female = {
+				"GFX_Holland_Juliana"
+				"GFX_Holland_Wilhelmina"
+				"GFX_Normandy_Anna_I"
+				"GFX_HOL_Marie_Adelaide"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_Europe_Generic_3"
+				"GFX_Austria_Kurt_Schuschnigg"
+				"GFX_lux_joseph_bech"
+				"GFX_Germany_Alfred_Hugenberg"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
+			}
+		}
+		radical = {
+			male = {
+				"GFX_Europe_Generic_2"
+				"GFX_europe_generic_4"
+				"GFX_Germany_Generic_2"
+				"GFX_Bavaria_Kurt_Eisner"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
+			}
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		}
+		female = {
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		}
+	}
+}
+
 X71 = {
 	army = {
 		male = {
@@ -26539,6 +26539,7 @@ X71 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -26751,6 +26752,7 @@ X72 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -26963,6 +26965,7 @@ X73 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -27062,218 +27065,6 @@ X73 = {
 }
 
 X74 = {
-	army = {
-		male = {
-			"GFX_Portrait_Europe_Generic_land_1"
-			"GFX_Portrait_Europe_Generic_land_2"
-			"GFX_Portrait_Europe_Generic_land_3"
-			"GFX_Portrait_Europe_Generic_land_4"
-			"GFX_Portrait_Europe_Generic_land_5"
-			"GFX_Portrait_europe_generic_land_6"
-			"GFX_portrait_europe_generic_land_7"
-			"GFX_portrait_europe_generic_land_8"
-			"GFX_portrait_europe_generic_land_9"
-			"GFX_portrait_europe_generic_land_13"
-			"GFX_portrait_MEX_Luis_Maria_Martinez"
-			"GFX_Portrait_Germany_Generic_land_1"
-			"GFX_Portrait_Germany_Generic_land_2"
-			"GFX_Portrait_Germany_Generic_land_3"
-			"GFX_Portrait_Germany_Generic_land_4"
-			"GFX_Portrait_Germany_Generic_land_5"
-			"GFX_portrait_ger_felix_steiner"
-			"GFX_portrait_GER_hans_von_luck"
-			"GFX_portrait_GER_albert_kesselring"
-			"GFX_portrait_GER_alfred_jodl"
-			"GFX_Germany_Erhard_Milch"
-			"GFX_portrait_GER_erich_von_manstein"
-			"GFX_portrait_GER_erwin_rommel"
-			"GFX_portrait_GER_erwin_von_witzleben"
-			"GFX_portrait_GER_ewald_von_kleist"
-			"GFX_portrait_GER_fedor_von_bock"
-			"GFX_portrait_GER_friedrich_paulus"
-			"GFX_portrait_GER_georg_von_kuchler"
-			"GFX_portrait_GER_georghans_reinhardt"
-			"GFX_portrait_GER_gerd_von_rundstedt"
-			"GFX_portrait_GER_gotthard_heinrici"
-			"GFX_portrait_Gunther_von_Kluge"
-			"GFX_Germany_Hans-Karl_Freiherr_von_Esebeck"
-			"GFX_portrait_GER_hasso_von_manteuffel"
-			"GFX_portrait_GER_heinz_guderian"
-			"GFX_portrait_GER_hermann_hoth"
-			"GFX_portrait_GER_johannes_blaskowitz"
-			"GFX_portrait_GER_sepp_dietrich"
-			"GFX_portrait_GER_kurt_student"
-			"GFX_portrait_GER_maximilian_von_weichs"
-			"GFX_portrait_GER_paul_hausser"
-			"GFX_portrait_GER_paul_hausser"
-			"GFX_portrait_GER_walter_model"
-			"GFX_portrait_GER_wilhelm_list"
-			"GFX_portrait_GER_wilhelm_ritter_von_leeb"
-			"GFX_Germany_Willi_Reschke"
-			"GFX_Germany_Wolfram_Freiherr_von_Richthofen"
-		}
-		female = {
-			"GFX_AST_Elsie_Farrely"
-			"GFX_Britain_Felicia_Browne"
-			"GFX_CSA_Elizabeth_Gurley_Flynn"
-			"GFX_France_May_Picqueray"
-			"GFX_Lucie_Dujardin"
-		}
-	}
-
-	navy = {
-		male = {
-			"GFX_Portrait_Europe_Generic_navy_1"
-			"GFX_Portrait_Europe_Generic_navy_2"
-			"GFX_Portrait_Europe_Generic_navy_3"
-			"GFX_portrait_europe_generic_navy_4"
-			"GFX_portrait_europe_generic_navy_5"
-			"GFX_Portrait_Germany_Generic_navy_1"
-			"GFX_Portrait_Germany_Generic_navy_2"
-			"GFX_Portrait_Germany_Generic_navy_3"
-			"GFX_portrait_GER_alfred_saalwachter"
-			"GFX_portrait_GER_erich_raeder"
-			"GFX_portrait_GER_gunther_lutjens"
-			"GFX_portrait_GER_hermann_boehm"
-			"GFX_portrait_GER_karl_donitz"
-			"GFX_portrait_GER_wilhelm_marschall"
-			"GFX_Europe_Generic_navy_new_1"
-			"GFX_Europe_Generic_navy_new_2"
-			"GFX_Europe_Generic_navy_new_3"
-			"GFX_Europe_Generic_navy_new_4"
-			"GFX_Europe_Generic_navy_new_5"
-		}
-		female = {
-			"GFX_AST_Elsie_Farrely"
-			"GFX_Britain_Felicia_Browne"
-			"GFX_CSA_Elizabeth_Gurley_Flynn"
-			"GFX_France_May_Picqueray"
-			"GFX_Lucie_Dujardin"
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				"GFX_Europe_Generic_1"
-				"gfx/leaders/Europe/portrait_europe_generic_8.dds"
-				"GFX_Germany_Wilhelm_Pieck"
-				"GFX_Germany_Generic_1"
-				"GFX_Rhineland_Paul_Frolich"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		democratic = {
-			male = {
-				"GFX_europe_generic_5"
-				"GFX_Germany_Konrad_Adenauer"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		fascism = {
-			male = {
-				"GFX_europe_generic_6"
-				"GFX_GER_heinrich_himmler"
-				"GFX_GER_hermann_goring"
-				"GFX_Germany_Generic_3"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		absolutist = {
-			male = {
-				"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
-				"GFX_Germany_Wilhelm_II"
-				"GFX_Germany_Wilhelm_III"
-				"GFX_Germany_Wilhelm_V"
-				"GFX_Austria_Otto_I"
-				"GFX_Germany_August_Mackensen_kr"
-				"GFX_Bavaria_Rupprecht_von_Bayern"
-				"GFX_Schleswig_Holstein_Harald_I"
-			}
-			female = {
-				"GFX_Holland_Juliana"
-				"GFX_Holland_Wilhelmina"
-				"GFX_Normandy_Anna_I"
-				"GFX_HOL_Marie_Adelaide"
-			}
-		}
-		neutrality = {
-			male = {
-				"GFX_Europe_Generic_3"
-				"GFX_Austria_Kurt_Schuschnigg"
-				"GFX_lux_joseph_bech"
-				"GFX_Germany_Alfred_Hugenberg"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		radical = {
-			male = {
-				"GFX_Europe_Generic_2"
-				"GFX_europe_generic_4"
-				"GFX_Germany_Generic_2"
-				"GFX_Bavaria_Kurt_Eisner"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-	}
-	operative = {
-		male = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
-		}
-		female = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
-		}
-	}
-}
-
-X75 = {
 	army = {
 		male = {
 			"GFX_Portrait_Arabia_Generic_land_1"
@@ -27414,7 +27205,7 @@ X75 = {
 	}
 }
 
-X76 = {
+X75 = {
 	army = {
 		male = {
 			"GFX_native_north_american_general"
@@ -27517,7 +27308,7 @@ X76 = {
 	}
 }
 
-X77 = {
+X76 = {
 	army = {
 		male = {
 			"GFX_Portrait_Africa_Generic_land_3"
@@ -27620,7 +27411,7 @@ X77 = {
 	}
 }
 
-X78 = {
+X77 = {
 	army = {
 		male = {
 			"GFX_Portrait_Europe_Generic_land_1"
@@ -27734,6 +27525,7 @@ X78 = {
 			male = {
 				"GFX_europe_generic_5"
 				"GFX_Germany_Konrad_Adenauer"
+				"GFX_portrait_ISR_david_ben_gurion"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -27828,6 +27620,319 @@ X78 = {
 			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
 			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		}
+	}
+}
+
+X79 = {
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+			"GFX_South_America_Generic_land_new_1"
+			"GFX_South_America_Generic_land_new_2"
+			"GFX_South_America_Generic_land_new_3"
+			"GFX_r56_Bartolome_Blanche"
+			"GFX_BOL_Angel_Ayora"
+			"GFX_Bolivia_Bernardino_Rioja"
+			"GFX_CAF_Eustace_Fiennes"
+			"GFX_Chile_Jorge_Von_Marees"
+			"GFX_CHL_Bennett"
+			"GFX_CHL_Fransico_Javier_Dias_Valderrama"
+			"GFX_COS_Fernando_Figuls_Quiros"
+			"GFX_Cuba_Alberto_Bayo_Giroud"
+			"GFX_Cuba_Martin_Diaz"
+			"GFX_ECU_Luis_Larrea_Alba"
+			"GFX_ELS_general_Maximiliano_Martinez"
+			"GFX_ELS_Maximiliano_Martinez"
+			"GFX_FOP_Guillermo_Mac_Hannaford"
+			"GFX_FOP_Luis_Alberto_Quesada"
+			"GFX_HON_Anastasio_Somoza_Garcia_2"
+			"GFX_HON_Augustine_Warner_Robbins"
+			"GFX_HON_Frederic_Ives_Lord"
+			"GFX_HON_Oswaldo_Lopez_Arellano"
+			"GFX_MEX_Maximino_Avila_Camacho"
+			"GFX_MEX_Pablo_Abelardo_Rodriguez"
+			"GFX_MEX_Pablo_Macias_Valenzuela"
+			"GFX_MEX_Pancho_Villa_General"
+			"GFX_MEX_Quiroga_Escamilla"
+			"GFX_Mexico_Don_Fernando"
+			"GFX_Mexico_Garza"
+			"GFX_Mexico_Ruben_Jaramillo"
+			"GFX_PAN_Boris_Salazar"
+			"GFX_PAN_Manuel_Pino"
+			"GFX_PAR_Alfredo_Stroessner"
+			"GFX_PAR_Estigarribia"
+			"GFX_Paraguay_Hugenio_Morinigi"
+			"GFX_Paraguay_Rafael_Franco_KR"
+			"GFX_Salvador_Alvarado"
+			"GFX_portrait_spain_francisco_franco"
+			"GFX_SPR_Alonso_Vega"
+			"GFX_SPR_Asensio_Cabanillas"
+			"GFX_SPR_Miguel_Cabanellas_Ferrer"
+			"GFX_Portugal_Antonio_Carmona"
+			"GFX_POR_Castro_Bilstein_Menezes"
+		}
+		female = {
+			"GFX_Argentina_Fanny_Schoonheyt"
+			"GFX_Argentine_Alicia_Justo"
+			"GFX_BRA_Eugenia_Moreyra"
+			"GFX_Chile_Gabriela"
+			"GFX_Cuba_Tina_Modotti"
+			"GFX_Ecuador_Nela_Martinez"
+			"GFX_FOP_Paulina_Mansurova"
+			"GFX_YUC_Elvia_Carrillo_Puerto"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+			"GFX_r56_generic_admiral_south_america_1"
+			"GFX_r56_generic_admiral_GRE_1"
+			"GFX_Chile_Aurelio_Palma"
+			"GFX_Cuba_Alberto_Herrera_Franchi"
+			"GFX_Cuba_Genovevo_Perez_Damera"
+			"GFX_Cuba_Manuel_Lopez_Migoya"
+			"GFX_ECU_Rafael_Valverde"
+			"GFX_ELS_Salvador_Castaneda_Castro"
+			"GFX_POR_Americo_Thomaz"
+		}
+		female = {
+			"GFX_Argentina_Fanny_Schoonheyt"
+			"GFX_Argentine_Alicia_Justo"
+			"GFX_BRA_Eugenia_Moreyra"
+			"GFX_Chile_Gabriela"
+			"GFX_Cuba_Tina_Modotti"
+			"GFX_Ecuador_Nela_Martinez"
+			"GFX_FOP_Paulina_Mansurova"
+			"GFX_YUC_Elvia_Carrillo_Puerto"
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				"GFX_South_America_Generic_1"
+				"GFX_South_America_Generic_4"
+				"GFX_par_rafael_franco"
+				"GFX_urg_gabriel_terra"
+				"GFX_r56_generic_politician_south_america_1"
+				"GFX_The_Che"
+				"GFX_BOL_Alcides_Arguedas"
+				"GFX_BOL_Javier_Granado"
+				"GFX_CHL_Jorge_Alessandri"
+				"GFX_Columbia_Eduardo_Montejo"
+				"GFX_Cuba_Lazaro_Pena_Gonzalez"
+				"GFX_GRP_Cordeiro"
+				"GFX_GUA_Sandino"
+				"GFX_GUA_Silverio_Oritz"
+				"GFX_HON_Tiburcio_Carias_Andino"
+				"GFX_Mexico_Rosendo_Salazar"
+				"GFX_PAN_Ricardo_Jovane"
+				"GFX_Paraguay_Rafael_Franco_KR"
+				"GFX_URG_Luis_Herrera"
+				"GFX_spr_jose_diaz"
+			}
+			female = {
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_South_America_Generic_5"
+				"GFX_Brazil_Plinio_Salgado"
+				"GFX_col_alfonso_lopez_pumarejo"
+				"GFX_cos_ricardo_jiminez_oreamuno"
+				"GFX_els_maximiliano_hernandez_martinez"
+				"GFX_hai_stenio_vincent"
+				"GFX_hon_tiburcio_carias_andino"
+				"GFX_Bolivia_Franz_Tamayo"
+				"GFX_Chile_Arturo_Alessandri_Palma"
+				"GFX_Columbia_Lauro_Gomez_Castro"
+				"GFX_COS_Manuel_Mora_Valverde"
+				"GFX_Cuba_Juan_Blas_Hernandez"
+				"GFX_ECU_Jose_Ibarra"
+				"GFX_FOP_Alfredo_Palacios"
+				"GFX_FOP_Antonio_Soto"
+				"GFX_NIC_Juan_Jose_Arevalo_Bermejo"
+				"GFX_HON_Juan_Manuel_Galvez"
+				"GFX_Mexico_Emilio_Gil"
+				"GFX_Mexico_Pascual_Rubio"
+				"GFX_PAN_Arnulfo_Arias_Madrid"
+				"GFX_PAN_Harmodio_Arias_Madrid_our"
+				"GFX_Spain_Manuel_Azana"
+			}
+			female = {
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_south_america_generic_3"
+				"gfx/leaders/South America/portrait_south_america_generic_8.dds"
+				"GFX_chl_arturo_alessandri"
+				"GFX_dom_rafael_trujillo"
+				"GFX_Venezuela_Elezar_Lopez_Contreras"
+				"GFX_per_oscar_benavides"
+				"GFX_Bolivia_Mamerto_Urriolagoitia"
+				"GFX_CHL_Juan_Esteban_Montero"
+				"GFX_COS_Ricardo_Oreamuno"
+				"GFX_COS_Teodoro_Picado_Michalski"
+				"GFX_Cuba_Antonio_Guiteras"
+				"GFX_ELS_Feliciano_Ama"
+				"GFX_NIC_Jorge_Ubico_Casteneda"
+				"GFX_Mexico_Antonio_Villarreal"
+				"GFX_Mexico_Emiliano_Zapata"
+				"GFX_Mexico_Juan_Almazan"
+				"GFX_PAN_Jose_Antonio_Remon_Cantera"
+				"GFX_Spain_Francisco_Franco_old"
+			}
+			female = {
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
+			}
+		}
+		absolutist = {
+			male = {
+				"GFX_Bolivia_Carlos_Quiroga"
+				"GFX_Ecuador_Alberto_Gallo"
+				"GFX_Paraguay_Raimundo_Rolon"
+				"GFX_Peru_Carlos_Miro_Quesada"
+				"GFX_SPM_Infante_Jaime"
+				"GFX_Alfonso_XIII"
+				"GFX_Portugal_Duarte_Nuno"
+				"GFX_SPR_Jaime_I"
+				"GFX_Javier_I"
+			}
+			female = {
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_Uruguay_Paulina_Luisi"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_South_America_Generic_6"
+				"gfx/leaders/South America/portrait_south_america_generic_9.dds"
+				"GFX_Argentina_Agustin_Pedro_Justo"
+				"GFX_Bolivia_Jose_Luis_Tejada_Sorzano"
+				"GFX_ecu_federico_paez"
+				"GFX_nic_anastasio_somoza_garcia"
+				"GFX_Bolivia_Enrique_Castillo"
+				"GFX_Chile_Carlos_Labarca"
+				"GFX_COS_Leon_Cortes_Castro"
+				"GFX_Cuba_Carlos_Mendieta_Montefur"
+				"GFX_ELS_Alfonso_Quinonez_Molina"
+				"GFX_FOP_Jacques_Antoine_Bernard"
+				"GFX_GUA_Yank_Levy"
+				"GFX_HON_Jose_Maria_Moncada"
+				"GFX_Mexico_Fidel_Velazquez"
+				"GFX_Mexico_Lazaro_Cardenas"
+				"GFX_PAR_Eusebio_Ayala"
+				"GFX_Yucatan_Gustavo_Correa"
+				"GFX_Brazil_Getulio_Vargas"
+				"GFX_por_antonio_de_oliveira_salazar"
+				"GFX_Portugal_Antonio_de_Oliveira_Salazar_OLD"
+				"GFX_spr_niceto_alcala_zamora"
+			}
+			female = {
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
+			}
+		}
+		radical = {
+			male = {
+				"GFX_South_America_Generic_2"
+				"gfx/leaders/South America/portrait_south_america_generic_7.dds"
+				"GFX_cub_jose_barnet"
+				"GFX_gua_jorge_ubico"
+				"GFX_pan_harmodio_arias_madrid"
+				"GFX_r56_generic_politician_south_america_2"
+				"GFX_CAF_Joseph_Lagrosilliere"
+				"GFX_Chile_Marmaduke_Grove"
+				"GFX_Columbia_Turbay_Ayala"
+				"GFX_Cuba_Clemente_Vazquez_Bello"
+				"GFX_Cuba_Mario_Garcia_Menocal"
+				"GFX_FOP_Micaela_Feldman"
+				"GFX_FOP_Miguel_Arcangel"
+				"GFX_HON_Federico_Davidson_Blanco"
+				"GFX_MEX_Zermeno_Araico"
+				"GFX_PRU_Victor_Raul_Haya"
+				"GFX_PRU_Luis_Heysen"
+				"GFX_YUC_Arturo_Campillo_Seyde"
+			}
+			female = {
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
+			}
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+			"gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		}
+		female = {
+			"gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+			"gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+			"gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
 		}
 	}
 }
@@ -28774,312 +28879,211 @@ X82 = {
 X83 = {
 	army = {
 		male = {
-			"GFX_Portrait_South_America_Generic_land_1"
-			"GFX_Portrait_South_America_Generic_land_2"
-			"GFX_Portrait_South_America_Generic_land_3"
-			"GFX_Portrait_South_America_Generic_land_4"
-			"GFX_Portrait_South_America_Generic_land_5"
-			"GFX_South_America_Generic_land_new_1"
-			"GFX_South_America_Generic_land_new_2"
-			"GFX_South_America_Generic_land_new_3"
-			"GFX_r56_Bartolome_Blanche"
-			"GFX_BOL_Angel_Ayora"
-			"GFX_Bolivia_Bernardino_Rioja"
-			"GFX_CAF_Eustace_Fiennes"
-			"GFX_Chile_Jorge_Von_Marees"
-			"GFX_CHL_Bennett"
-			"GFX_CHL_Fransico_Javier_Dias_Valderrama"
-			"GFX_COS_Fernando_Figuls_Quiros"
-			"GFX_Cuba_Alberto_Bayo_Giroud"
-			"GFX_Cuba_Martin_Diaz"
-			"GFX_ECU_Luis_Larrea_Alba"
-			"GFX_ELS_general_Maximiliano_Martinez"
-			"GFX_ELS_Maximiliano_Martinez"
-			"GFX_FOP_Guillermo_Mac_Hannaford"
-			"GFX_FOP_Luis_Alberto_Quesada"
-			"GFX_HON_Anastasio_Somoza_Garcia_2"
-			"GFX_HON_Augustine_Warner_Robbins"
-			"GFX_HON_Frederic_Ives_Lord"
-			"GFX_HON_Oswaldo_Lopez_Arellano"
-			"GFX_MEX_Maximino_Avila_Camacho"
-			"GFX_MEX_Pablo_Abelardo_Rodriguez"
-			"GFX_MEX_Pablo_Macias_Valenzuela"
-			"GFX_MEX_Pancho_Villa_General"
-			"GFX_MEX_Quiroga_Escamilla"
-			"GFX_Mexico_Don_Fernando"
-			"GFX_Mexico_Garza"
-			"GFX_Mexico_Ruben_Jaramillo"
-			"GFX_PAN_Boris_Salazar"
-			"GFX_PAN_Manuel_Pino"
-			"GFX_PAR_Alfredo_Stroessner"
-			"GFX_PAR_Estigarribia"
-			"GFX_Paraguay_Hugenio_Morinigi"
-			"GFX_Paraguay_Rafael_Franco_KR"
-			"GFX_Salvador_Alvarado"
-			"GFX_portrait_spain_francisco_franco"
-			"GFX_SPR_Alonso_Vega"
-			"GFX_SPR_Asensio_Cabanillas"
-			"GFX_SPR_Miguel_Cabanellas_Ferrer"
-			"GFX_Portugal_Antonio_Carmona"
-			"GFX_POR_Castro_Bilstein_Menezes"
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_Portrait_europe_generic_land_6"
+			"GFX_portrait_europe_generic_land_7"
+			"GFX_portrait_europe_generic_land_8"
+			"GFX_portrait_europe_generic_land_9"
+			"GFX_portrait_europe_generic_land_13"
+			"GFX_portrait_MEX_Luis_Maria_Martinez"
+			"GFX_Portrait_France_Generic_land_1"
+			"GFX_Portrait_France_Generic_land_2"
+			"GFX_Portrait_France_Generic_land_3"
+			"GFX_Portrait_France_Generic_land_4"
+			"GFX_Portrait_France_Generic_land_5"
+			"GFX_portrait_FRA_alphonse_georges"
+			"GFX_portrait_FRA_charles_de_gaulle"
+			"GFX_portrait_FRA_charles_huntziger"
+			"GFX_portrait_Philippe_Petain"
+			"GFX_portrait_FRA_jean_de_lattre_de_tassigny"
+			"GFX_portrait_FRA_henri_giraud"
+			"GFX_portrait_FRA_maurice_gamelin"
+			"GFX_portrait_FRA_philippe_leclerc"
+			"GFX_Canada_Adrian_Wiart"
 		}
 		female = {
-			"GFX_Argentina_Fanny_Schoonheyt"
-			"GFX_Argentine_Alicia_Justo"
-			"GFX_BRA_Eugenia_Moreyra"
-			"GFX_Chile_Gabriela"
-			"GFX_Cuba_Tina_Modotti"
-			"GFX_Ecuador_Nela_Martinez"
-			"GFX_FOP_Paulina_Mansurova"
-			"GFX_YUC_Elvia_Carrillo_Puerto"
+			"GFX_AST_Elsie_Farrely"
+			"GFX_Britain_Felicia_Browne"
+			"GFX_CSA_Elizabeth_Gurley_Flynn"
+			"GFX_France_May_Picqueray"
+			"GFX_Lucie_Dujardin"
 		}
 	}
 
 	navy = {
 		male = {
-			"GFX_Portrait_South_America_Generic_navy_1"
-			"GFX_Portrait_South_America_Generic_navy_2"
-			"GFX_Portrait_South_America_Generic_navy_3"
-			"GFX_r56_generic_admiral_south_america_1"
-			"GFX_r56_generic_admiral_GRE_1"
-			"GFX_Chile_Aurelio_Palma"
-			"GFX_Cuba_Alberto_Herrera_Franchi"
-			"GFX_Cuba_Genovevo_Perez_Damera"
-			"GFX_Cuba_Manuel_Lopez_Migoya"
-			"GFX_ECU_Rafael_Valverde"
-			"GFX_ELS_Salvador_Castaneda_Castro"
-			"GFX_POR_Americo_Thomaz"
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_europe_generic_navy_4"
+			"GFX_portrait_europe_generic_navy_5"
+			"GFX_Portrait_France_Generic_navy_1"
+			"GFX_Portrait_France_Generic_navy_2"
+			"GFX_Portrait_France_Generic_navy_3"
+			"GFX_portrait_FRA_francois_darlan"
+			"GFX_portrait_FRA_rene_emile_godfroy"
+			"GFX_portrait_FRA_jean_de_laborde"
+			"GFX_portrait_FRA_jeanmarie_charles_abrial"
+			"GFX_portrait_FRA_jeanpierre_esteva"
+			"GFX_Europe_Generic_navy_new_1"
+			"GFX_Europe_Generic_navy_new_2"
+			"GFX_Europe_Generic_navy_new_3"
+			"GFX_Europe_Generic_navy_new_4"
+			"GFX_Europe_Generic_navy_new_5"
+			"GFX_France_Lucien_Lacaze"
 		}
 		female = {
-			"GFX_Argentina_Fanny_Schoonheyt"
-			"GFX_Argentine_Alicia_Justo"
-			"GFX_BRA_Eugenia_Moreyra"
-			"GFX_Chile_Gabriela"
-			"GFX_Cuba_Tina_Modotti"
-			"GFX_Ecuador_Nela_Martinez"
-			"GFX_FOP_Paulina_Mansurova"
-			"GFX_YUC_Elvia_Carrillo_Puerto"
+			"GFX_AST_Elsie_Farrely"
+			"GFX_Britain_Felicia_Browne"
+			"GFX_CSA_Elizabeth_Gurley_Flynn"
+			"GFX_France_May_Picqueray"
+			"GFX_Lucie_Dujardin"
 		}
 	}
 	political = {
 		communism = {
 			male = {
-				"GFX_South_America_Generic_1"
-				"GFX_South_America_Generic_4"
-				"GFX_par_rafael_franco"
-				"GFX_urg_gabriel_terra"
-				"GFX_r56_generic_politician_south_america_1"
-				"GFX_The_Che"
-				"GFX_BOL_Alcides_Arguedas"
-				"GFX_BOL_Javier_Granado"
-				"GFX_CHL_Jorge_Alessandri"
-				"GFX_Columbia_Eduardo_Montejo"
-				"GFX_Cuba_Lazaro_Pena_Gonzalez"
-				"GFX_GRP_Cordeiro"
-				"GFX_GUA_Sandino"
-				"GFX_GUA_Silverio_Oritz"
-				"GFX_HON_Tiburcio_Carias_Andino"
-				"GFX_Mexico_Rosendo_Salazar"
-				"GFX_PAN_Ricardo_Jovane"
-				"GFX_Paraguay_Rafael_Franco_KR"
-				"GFX_URG_Luis_Herrera"
-				"GFX_spr_jose_diaz"
+				"GFX_Europe_Generic_1"
+				"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+				"GFX_Canada_Tim_Buck"
+				"GFX_fra_maurice_thorez"
+				"GFX_France_Generic_1"
+				"GFX_Germany_Wilhelm_Pieck"
+				"GFX_Germany_Generic_1"
+				"GFX_USA_Generic_1"
+				"GFX_USA_earl_browder"
+				"GFX_Ireland_Jack_White"
+				"GFX_Rhineland_Paul_Frolich"
+				"GFX_CSA_Earl_Bowder"
+				"GFX_CSA_Meyer_London"
+				"GFX_USA_Huey_Long"
+				"GFX_England_Tom_Mann"
 			}
 			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
 			}
 		}
 		democratic = {
 			male = {
-				"GFX_South_America_Generic_5"
-				"GFX_Brazil_Plinio_Salgado"
-				"GFX_col_alfonso_lopez_pumarejo"
-				"GFX_cos_ricardo_jiminez_oreamuno"
-				"GFX_els_maximiliano_hernandez_martinez"
-				"GFX_hai_stenio_vincent"
-				"GFX_hon_tiburcio_carias_andino"
-				"GFX_Bolivia_Franz_Tamayo"
-				"GFX_Chile_Arturo_Alessandri_Palma"
-				"GFX_Columbia_Lauro_Gomez_Castro"
-				"GFX_COS_Manuel_Mora_Valverde"
-				"GFX_Cuba_Juan_Blas_Hernandez"
-				"GFX_ECU_Jose_Ibarra"
-				"GFX_FOP_Alfredo_Palacios"
-				"GFX_FOP_Antonio_Soto"
-				"GFX_NIC_Juan_Jose_Arevalo_Bermejo"
-				"GFX_HON_Juan_Manuel_Galvez"
-				"GFX_Mexico_Emilio_Gil"
-				"GFX_Mexico_Pascual_Rubio"
-				"GFX_PAN_Arnulfo_Arias_Madrid"
-				"GFX_PAN_Harmodio_Arias_Madrid_our"
-				"GFX_Spain_Manuel_Azana"
+				"GFX_europe_generic_5"
+				"GFX_Belgium_Hubert_Pierlot"
+				"GFX_Australia_John_Curtin"
+				"GFX_Canada_Mackenzie_King"
+				"GFX_Denmark_Erik_Scavenius"
+				"GFX_Britain_Stanley_Baldwin"
+				"GFX_Britain_Winston_Churchill"
+				"GFX_Finland_Risto_Heikki_Ryti"
+				"GFX_fra_leon_blum"
+				"GFX_France_Paul_Reynaud"
+				"GFX_Germany_Konrad_Adenauer"
+				"GFX_Netherlands_Dirk_Jan_de_Geer"
+				"GFX_ice_sveinn_bjornsson"
+				"GFX_NewZealand_Peter_Fraser"
+				"GFX_USA_Franklin_Roosevelt"
+				"GFX_USA_Harry_Truman"
+				"GFX_USA_Wendell_Willkie"
+				"GFX_USA_Happy_Chandler"
+				"GFX_USA_John_Nance_Garner"
+				"GFX_NEE_joseph_kennedy_sr"
 			}
 			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
 			}
 		}
 		fascism = {
 			male = {
-				"GFX_south_america_generic_3"
-				"gfx/leaders/South America/portrait_south_america_generic_8.dds"
-				"GFX_chl_arturo_alessandri"
-				"GFX_dom_rafael_trujillo"
-				"GFX_Venezuela_Elezar_Lopez_Contreras"
-				"GFX_per_oscar_benavides"
-				"GFX_Bolivia_Mamerto_Urriolagoitia"
-				"GFX_CHL_Juan_Esteban_Montero"
-				"GFX_COS_Ricardo_Oreamuno"
-				"GFX_COS_Teodoro_Picado_Michalski"
-				"GFX_Cuba_Antonio_Guiteras"
-				"GFX_ELS_Feliciano_Ama"
-				"GFX_NIC_Jorge_Ubico_Casteneda"
-				"GFX_Mexico_Antonio_Villarreal"
-				"GFX_Mexico_Emiliano_Zapata"
-				"GFX_Mexico_Juan_Almazan"
-				"GFX_PAN_Jose_Antonio_Remon_Cantera"
-				"GFX_Spain_Francisco_Franco_old"
+				"GFX_europe_generic_6"
+				"GFX_France_Generic_3"
+				"GFX_Belgium_LEON_DEGRELLE"
 			}
 			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
 			}
 		}
 		absolutist = {
 			male = {
-				"GFX_Bolivia_Carlos_Quiroga"
-				"GFX_Ecuador_Alberto_Gallo"
-				"GFX_Paraguay_Raimundo_Rolon"
-				"GFX_Peru_Carlos_Miro_Quesada"
-				"GFX_SPM_Infante_Jaime"
-				"GFX_Alfonso_XIII"
-				"GFX_Portugal_Duarte_Nuno"
-				"GFX_SPR_Jaime_I"
-				"GFX_Javier_I"
+				"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+				"GFX_NFA_Napoleon_VI"
+				"GFX_Canada_King_George"
+				"GFX_Canada_King_Edward_VIII"
+				"GFX_Canada_Prince_Albert"
 			}
 			female = {
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_Uruguay_Paulina_Luisi"
+				"GFX_Holland_Juliana"
+				"GFX_Holland_Wilhelmina"
+				"GFX_Normandy_Anna_I"
+				"GFX_HOL_Marie_Adelaide"
 			}
 		}
 		neutrality = {
 			male = {
-				"GFX_South_America_Generic_6"
-				"gfx/leaders/South America/portrait_south_america_generic_9.dds"
-				"GFX_Argentina_Agustin_Pedro_Justo"
-				"GFX_Bolivia_Jose_Luis_Tejada_Sorzano"
-				"GFX_ecu_federico_paez"
-				"GFX_nic_anastasio_somoza_garcia"
-				"GFX_Bolivia_Enrique_Castillo"
-				"GFX_Chile_Carlos_Labarca"
-				"GFX_COS_Leon_Cortes_Castro"
-				"GFX_Cuba_Carlos_Mendieta_Montefur"
-				"GFX_ELS_Alfonso_Quinonez_Molina"
-				"GFX_FOP_Jacques_Antoine_Bernard"
-				"GFX_GUA_Yank_Levy"
-				"GFX_HON_Jose_Maria_Moncada"
-				"GFX_Mexico_Fidel_Velazquez"
-				"GFX_Mexico_Lazaro_Cardenas"
-				"GFX_PAR_Eusebio_Ayala"
-				"GFX_Yucatan_Gustavo_Correa"
-				"GFX_Brazil_Getulio_Vargas"
-				"GFX_por_antonio_de_oliveira_salazar"
-				"GFX_Portugal_Antonio_de_Oliveira_Salazar_OLD"
-				"GFX_spr_niceto_alcala_zamora"
+				"GFX_Europe_Generic_3"
+				"GFX_fra_pierre_laval"
 			}
 			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
 			}
 		}
 		radical = {
 			male = {
-				"GFX_South_America_Generic_2"
-				"gfx/leaders/South America/portrait_south_america_generic_7.dds"
-				"GFX_cub_jose_barnet"
-				"GFX_gua_jorge_ubico"
-				"GFX_pan_harmodio_arias_madrid"
-				"GFX_r56_generic_politician_south_america_2"
-				"GFX_CAF_Joseph_Lagrosilliere"
-				"GFX_Chile_Marmaduke_Grove"
-				"GFX_Columbia_Turbay_Ayala"
-				"GFX_Cuba_Clemente_Vazquez_Bello"
-				"GFX_Cuba_Mario_Garcia_Menocal"
-				"GFX_FOP_Micaela_Feldman"
-				"GFX_FOP_Miguel_Arcangel"
-				"GFX_HON_Federico_Davidson_Blanco"
-				"GFX_MEX_Zermeno_Araico"
-				"GFX_PRU_Victor_Raul_Haya"
-				"GFX_PRU_Luis_Heysen"
-				"GFX_YUC_Arturo_Campillo_Seyde"
+				"GFX_Europe_Generic_2"
+				"GFX_europe_generic_4"
+				"GFX_France_Edouard_Daladier"
+				"GFX_France_Generic_2"
 			}
 			female = {
-				"GFX_Argentina_Fanny_Schoonheyt"
-				"GFX_ARG_Elvira_Rawson"
-				"GFX_Argentine_Alicia_Justo"
-				"GFX_BRA_Eugenia_Moreyra"
-				"GFX_BRA_Maria_Lacerda_Moura"
-				"GFX_BRA_Pagu"
-				"GFX_BRA_Rachel_de_Queiroz"
-				"GFX_Chile_Gabriela"
-				"GFX_Cuba_Tina_Modotti"
-				"GFX_Ecuador_Nela_Martinez"
-				"GFX_YUC_Elvia_Carrillo_Puerto"
-				"GFX_WomanPeru_Manuel_Odria"
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_France_May_Picqueray"
+				"GFX_England_Sylvia_Pankhurst"
+				"GFX_HOL_Marie_Adelaide"
+				"GFX_Lucie_Dujardin"
 			}
 		}
 	}
 	operative = {
 		male = {
-			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
-			"gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
 		}
 		female = {
-			"gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
-			"gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
-			"gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		}
 	}
 }
@@ -29935,218 +29939,6 @@ X87 = {
 X88 = {
 	army = {
 		male = {
-			"GFX_Portrait_Europe_Generic_land_1"
-			"GFX_Portrait_Europe_Generic_land_2"
-			"GFX_Portrait_Europe_Generic_land_3"
-			"GFX_Portrait_Europe_Generic_land_4"
-			"GFX_Portrait_Europe_Generic_land_5"
-			"GFX_Portrait_europe_generic_land_6"
-			"GFX_portrait_europe_generic_land_7"
-			"GFX_portrait_europe_generic_land_8"
-			"GFX_portrait_europe_generic_land_9"
-			"GFX_portrait_europe_generic_land_13"
-			"GFX_portrait_MEX_Luis_Maria_Martinez"
-			"GFX_Portrait_France_Generic_land_1"
-			"GFX_Portrait_France_Generic_land_2"
-			"GFX_Portrait_France_Generic_land_3"
-			"GFX_Portrait_France_Generic_land_4"
-			"GFX_Portrait_France_Generic_land_5"
-			"GFX_portrait_FRA_alphonse_georges"
-			"GFX_portrait_FRA_charles_de_gaulle"
-			"GFX_portrait_FRA_charles_huntziger"
-			"GFX_portrait_Philippe_Petain"
-			"GFX_portrait_FRA_jean_de_lattre_de_tassigny"
-			"GFX_portrait_FRA_henri_giraud"
-			"GFX_portrait_FRA_maurice_gamelin"
-			"GFX_portrait_FRA_philippe_leclerc"
-			"GFX_Canada_Adrian_Wiart"
-		}
-		female = {
-			"GFX_AST_Elsie_Farrely"
-			"GFX_Britain_Felicia_Browne"
-			"GFX_CSA_Elizabeth_Gurley_Flynn"
-			"GFX_France_May_Picqueray"
-			"GFX_Lucie_Dujardin"
-		}
-	}
-
-	navy = {
-		male = {
-			"GFX_Portrait_Europe_Generic_navy_1"
-			"GFX_Portrait_Europe_Generic_navy_2"
-			"GFX_Portrait_Europe_Generic_navy_3"
-			"GFX_portrait_europe_generic_navy_4"
-			"GFX_portrait_europe_generic_navy_5"
-			"GFX_Portrait_France_Generic_navy_1"
-			"GFX_Portrait_France_Generic_navy_2"
-			"GFX_Portrait_France_Generic_navy_3"
-			"GFX_portrait_FRA_francois_darlan"
-			"GFX_portrait_FRA_rene_emile_godfroy"
-			"GFX_portrait_FRA_jean_de_laborde"
-			"GFX_portrait_FRA_jeanmarie_charles_abrial"
-			"GFX_portrait_FRA_jeanpierre_esteva"
-			"GFX_Europe_Generic_navy_new_1"
-			"GFX_Europe_Generic_navy_new_2"
-			"GFX_Europe_Generic_navy_new_3"
-			"GFX_Europe_Generic_navy_new_4"
-			"GFX_Europe_Generic_navy_new_5"
-			"GFX_France_Lucien_Lacaze"
-		}
-		female = {
-			"GFX_AST_Elsie_Farrely"
-			"GFX_Britain_Felicia_Browne"
-			"GFX_CSA_Elizabeth_Gurley_Flynn"
-			"GFX_France_May_Picqueray"
-			"GFX_Lucie_Dujardin"
-		}
-	}
-	political = {
-		communism = {
-			male = {
-				"GFX_Europe_Generic_1"
-				"gfx/leaders/Europe/portrait_europe_generic_8.dds"
-				"GFX_Canada_Tim_Buck"
-				"GFX_fra_maurice_thorez"
-				"GFX_France_Generic_1"
-				"GFX_Germany_Wilhelm_Pieck"
-				"GFX_Germany_Generic_1"
-				"GFX_USA_Generic_1"
-				"GFX_USA_earl_browder"
-				"GFX_Ireland_Jack_White"
-				"GFX_Rhineland_Paul_Frolich"
-				"GFX_CSA_Earl_Bowder"
-				"GFX_CSA_Meyer_London"
-				"GFX_USA_Huey_Long"
-				"GFX_England_Tom_Mann"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		democratic = {
-			male = {
-				"GFX_europe_generic_5"
-				"GFX_Belgium_Hubert_Pierlot"
-				"GFX_Australia_John_Curtin"
-				"GFX_Canada_Mackenzie_King"
-				"GFX_Denmark_Erik_Scavenius"
-				"GFX_Britain_Stanley_Baldwin"
-				"GFX_Britain_Winston_Churchill"
-				"GFX_Finland_Risto_Heikki_Ryti"
-				"GFX_fra_leon_blum"
-				"GFX_France_Paul_Reynaud"
-				"GFX_Germany_Konrad_Adenauer"
-				"GFX_Netherlands_Dirk_Jan_de_Geer"
-				"GFX_ice_sveinn_bjornsson"
-				"GFX_NewZealand_Peter_Fraser"
-				"GFX_USA_Franklin_Roosevelt"
-				"GFX_USA_Harry_Truman"
-				"GFX_USA_Wendell_Willkie"
-				"GFX_USA_Happy_Chandler"
-				"GFX_USA_John_Nance_Garner"
-				"GFX_NEE_joseph_kennedy_sr"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		fascism = {
-			male = {
-				"GFX_europe_generic_6"
-				"GFX_France_Generic_3"
-				"GFX_Belgium_LEON_DEGRELLE"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		absolutist = {
-			male = {
-				"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
-				"GFX_NFA_Napoleon_VI"
-				"GFX_Canada_King_George"
-				"GFX_Canada_King_Edward_VIII"
-				"GFX_Canada_Prince_Albert"
-			}
-			female = {
-				"GFX_Holland_Juliana"
-				"GFX_Holland_Wilhelmina"
-				"GFX_Normandy_Anna_I"
-				"GFX_HOL_Marie_Adelaide"
-			}
-		}
-		neutrality = {
-			male = {
-				"GFX_Europe_Generic_3"
-				"GFX_fra_pierre_laval"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-		radical = {
-			male = {
-				"GFX_Europe_Generic_2"
-				"GFX_europe_generic_4"
-				"GFX_France_Edouard_Daladier"
-				"GFX_France_Generic_2"
-			}
-			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_France_May_Picqueray"
-				"GFX_England_Sylvia_Pankhurst"
-				"GFX_HOL_Marie_Adelaide"
-				"GFX_Lucie_Dujardin"
-			}
-		}
-	}
-	operative = {
-		male = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
-		}
-		female = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
-		}
-	}
-}
-
-X89 = {
-	army = {
-		male = {
 			"GFX_Portrait_South_America_Generic_land_1"
 			"GFX_Portrait_South_America_Generic_land_2"
 			"GFX_Portrait_South_America_Generic_land_3"
@@ -30457,7 +30249,7 @@ X89 = {
 	}
 }
 
-X90 = {
+X89 = {
 	army = {
 		male = {
 			"GFX_Portrait_Asia_Generic_land_1"
@@ -30562,8 +30354,7 @@ X90 = {
 			male = {
 				"GFX_China_Chiang_Kai_Shek"
 				"GFX_CHI_Yuan_Shikai"
-				"GFX_China_Puyi"
-				"GFX_China_Pujie"
+				"GFX_portrait_RNG_sun_dianying"
 			}
 			female = {
 				"GFX_Asia_Generic_female_1"
@@ -30616,6 +30407,260 @@ X90 = {
 			"gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
 			"gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
 			"gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		}
+	}
+}
+
+X90 = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_1"
+			"GFX_Portrait_Europe_Generic_land_2"
+			"GFX_Portrait_Europe_Generic_land_3"
+			"GFX_Portrait_Europe_Generic_land_4"
+			"GFX_Portrait_Europe_Generic_land_5"
+			"GFX_Portrait_europe_generic_land_6"
+			"GFX_portrait_europe_generic_land_7"
+			"GFX_portrait_europe_generic_land_8"
+			"GFX_portrait_europe_generic_land_9"
+			"GFX_portrait_europe_generic_land_13"
+			"GFX_portrait_MEX_Luis_Maria_Martinez"
+			"GFX_Portrait_Britain_Generic_land_1"
+			"GFX_Portrait_Britain_Generic_land_2"
+			"GFX_Portrait_Britain_Generic_land_3"
+			"GFX_Portrait_Britain_Generic_land_4"
+			"GFX_Portrait_Britain_Generic_land_5"
+			"GFX_Portrait_Britain_Generic_land_6"
+			"GFX_portrait_ENG_alan_brooke"
+			"GFX_portrait_ENG_archibald_wavell"
+			"GFX_portrait_ENG_arthur_percival"
+			"GFX_portrait_ENG_bernard_montgomery"
+			"GFX_portrait_ENG_brian_horrocks"
+			"GFX_portrait_ENG_claude_auchinleck"
+			"GFX_portrait_ENG_george_giffard"
+			"GFX_portrait_ENG_harold_alexander"
+			"GFX_portrait_ENG_henry_wilson"
+			"GFX_portrait_ENG_henry_pownall"
+			"GFX_portrait_ENG_jock_campbell"
+			"GFX_portrait_ENG_jackie_smyth"
+			"GFX_portrait_ENG_john_vereker"
+			"GFX_portrait_ENG_merton_beckwithsmith"
+			"GFX_portrait_ENG_miles_dempsey"
+			"GFX_portrait_ENG_neil_ritchie"
+			"GFX_portrait_ENG_oliver_leese"
+			"GFX_portrait_ENG_richard_oconnor"
+			"GFX_portrait_ENG_thomas_jacomb_hutton"
+			"GFX_portrait_ENG_thomas_moore"
+			"GFX_portrait_ENG_william_gott"
+			"GFX_portrait_ENG_william_platt"
+			"GFX_portrait_USA_douglas_macarthur"
+			"GFX_portrait_USA_oscar_griswold"
+			"GFX_USA_gen_Clarence_Huebner"
+			"GFX_USA_gen_omar_bradley"
+			"GFX_CSA_edward_carter"
+			"GFX_CSA_john_tisa"
+			"GFX_TEX_george_patton"
+			"GFX_England_William_Gott"
+			"GFX_Canada_Adrian_Wiart"
+		}
+		female = {
+			"GFX_AST_Elsie_Farrely"
+			"GFX_Britain_Felicia_Browne"
+			"GFX_CSA_Elizabeth_Gurley_Flynn"
+			"GFX_France_May_Picqueray"
+			"GFX_Lucie_Dujardin"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_1"
+			"GFX_Portrait_Europe_Generic_navy_2"
+			"GFX_Portrait_Europe_Generic_navy_3"
+			"GFX_portrait_europe_generic_navy_4"
+			"GFX_portrait_europe_generic_navy_5"
+			"GFX_Portrait_Britain_Generic_navy_1"
+			"GFX_Portrait_Britain_Generic_navy_2"
+			"GFX_Portrait_Britain_Generic_navy_3"
+			"GFX_portrait_ENG_algernon_willis"
+			"GFX_portrait_ENG_andrew_cunningham"
+			"GFX_portrait_ENG_arthur_power"
+			"GFX_portrait_ENG_bernard_rawlings"
+			"GFX_portrait_ENG_bruce_fraser"
+			"GFX_portrait_ENG_charles_forbes"
+			"GFX_portrait_ENG_henry_harwood"
+			"GFX_portrait_ENG_james_fownes_somerville"
+			"GFX_portrait_ENG_john_cunningham"
+			"GFX_portrait_ENG_john_tovey"
+			"GFX_Portrait_USA_Generic_navy_1"
+			"GFX_Portrait_USA_Generic_navy_2"
+			"GFX_Portrait_USA_Generic_navy_3"
+			"GFX_portrait_USA_arleigh_burke"
+			"GFX_portrait_USA_charles_m_cooke_jr"
+			"GFX_portrait_USA_chester_w_nimitz"
+			"GFX_portrait_USA_ernest_king"
+			"GFX_portrait_USA_frank_jack_fletcher"
+			"GFX_portrait_USA_raymond_a_spruance"
+			"GFX_portrait_USA_william_halsey_jr"
+			"GFX_Europe_Generic_navy_new_1"
+			"GFX_Europe_Generic_navy_new_2"
+			"GFX_Europe_Generic_navy_new_3"
+			"GFX_Europe_Generic_navy_new_4"
+			"GFX_Europe_Generic_navy_new_5"
+			"GFX_CSA_arthur_carpender"
+			"GFX_CSA_george_anderson"
+			"GFX_CSA_willard_smith"
+			"GFX_NEE_joseph_kennedy"
+		}
+		female = {
+			"GFX_AST_Elsie_Farrely"
+			"GFX_Britain_Felicia_Browne"
+			"GFX_CSA_Elizabeth_Gurley_Flynn"
+			"GFX_France_May_Picqueray"
+			"GFX_Lucie_Dujardin"
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				"GFX_Europe_Generic_1"
+				"gfx/leaders/Europe/portrait_europe_generic_8.dds"
+				"GFX_Canada_Tim_Buck"
+				"GFX_Britain_Palme_Dutt"
+				"GFX_Britain_Generic_1"
+				"GFX_eng_harry_pollitt"
+				"GFX_USA_Generic_1"
+				"GFX_USA_earl_browder"
+				"GFX_Ireland_Jack_White"
+				"GFX_CSA_Earl_Bowder"
+				"GFX_CSA_Meyer_London"
+				"GFX_USA_Huey_Long"
+				"GFX_England_Tom_Mann"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_England_Sylvia_Pankhurst"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_europe_generic_5"
+				"GFX_Belgium_Hubert_Pierlot"
+				"GFX_Australia_John_Curtin"
+				"GFX_Canada_Mackenzie_King"
+				"GFX_Denmark_Erik_Scavenius"
+				"GFX_Britain_Stanley_Baldwin"
+				"GFX_Britain_Winston_Churchill"
+				"GFX_NewZealand_Peter_Fraser"
+				"GFX_USA_Franklin_Roosevelt"
+				"GFX_USA_Harry_Truman"
+				"GFX_USA_Wendell_Willkie"
+				"GFX_USA_Happy_Chandler"
+				"GFX_USA_John_Nance_Garner"
+				"GFX_NEE_joseph_kennedy_sr"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_England_Sylvia_Pankhurst"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_europe_generic_6"
+				"GFX_Britain_Oswald_Mosley"
+				"GFX_USA_mr_hilt"
+				"GFX_USA_Harold_Rainsford_Stark"
+				"GFX_USA_William_Dudley_Pelley"
+				"GFX_Ireland_Michael_Collins"
+				"GFX_USA_glasses_douglas_macarthur"
+				"GFX_NEE_Robert_Bradford"
+				"GFX_TEX_William_Dudley_Pelley"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_England_Sylvia_Pankhurst"
+			}
+		}
+		absolutist = {
+			male = {
+				"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+				"GFX_Britain_George_VI"
+				"GFX_mal_shenton_thomas"
+				"GFX_Canada_King_George"
+				"GFX_Canada_King_Edward_VIII"
+				"GFX_Canada_Prince_Albert"
+			}
+			female = {
+				"GFX_Holland_Juliana"
+				"GFX_Holland_Wilhelmina"
+				"GFX_Normandy_Anna_I"
+				"GFX_HOL_Marie_Adelaide"
+			}
+		}
+		neutrality = {
+			male = {
+				"GFX_Europe_Generic_3"
+				"GFX_Britain_Generic_3"
+				"GFX_Britain_Neville_Chamberlain"
+				"GFX_Britain_Edward_Halifax"
+				"GFX_Ireland_Eamon_de_Valera"
+				"GFX_British_Raj_Lord_Linlithgow"
+				"GFX_USA_Generic_3"
+				"GFX_USA_alf_landon"
+				"GFX_USA_civ_douglas_macarthur"
+				"GFX_TEX_charles_lindbergh"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_England_Sylvia_Pankhurst"
+			}
+		}
+		radical = {
+			male = {
+				"GFX_Europe_Generic_2"
+				"GFX_europe_generic_4"
+				"GFX_Australia_Rod_Hull"
+				"GFX_Britain_Generic_2"
+				"GFX_USA_Generic_2"
+				"GFX_USA_thomas_dewey"
+				"GFX_Wales_Niclas_y_Glais"
+				"GFX_CSA_John_Bernard"
+				"GFX_CSA_benjamin_katine"
+				"GFX_NEE_Nelson_Rockefeller"
+				"GFX_TEX_james_richardson"
+				"GFX_portrait_BRM_archibald_cochrane"
+				"GFX_portrait_PAL_harold_macmichael"
+			}
+			female = {
+				"GFX_AST_Elsie_Farrely"
+				"GFX_Britain_Felicia_Browne"
+				"GFX_CSA_Elizabeth_Gurley_Flynn"
+				"GFX_CSA_Elizabeth_Nord"
+				"GFX_England_Sylvia_Pankhurst"
+			}
+		}
+	}
+	operative = {
+		male = {
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		}
+		female = {
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
 		}
 	}
 }
@@ -30849,6 +30894,8 @@ X91 = {
 				"GFX_CSA_benjamin_katine"
 				"GFX_NEE_Nelson_Rockefeller"
 				"GFX_TEX_james_richardson"
+				"GFX_portrait_BRM_archibald_cochrane"
+				"GFX_portrait_PAL_harold_macmichael"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -31101,6 +31148,8 @@ X92 = {
 				"GFX_CSA_benjamin_katine"
 				"GFX_NEE_Nelson_Rockefeller"
 				"GFX_TEX_james_richardson"
+				"GFX_portrait_BRM_archibald_cochrane"
+				"GFX_portrait_PAL_harold_macmichael"
 			}
 			female = {
 				"GFX_AST_Elsie_Farrely"
@@ -31127,251 +31176,312 @@ X92 = {
 X93 = {
 	army = {
 		male = {
-			"GFX_Portrait_Europe_Generic_land_1"
-			"GFX_Portrait_Europe_Generic_land_2"
-			"GFX_Portrait_Europe_Generic_land_3"
-			"GFX_Portrait_Europe_Generic_land_4"
-			"GFX_Portrait_Europe_Generic_land_5"
-			"GFX_Portrait_europe_generic_land_6"
-			"GFX_portrait_europe_generic_land_7"
-			"GFX_portrait_europe_generic_land_8"
-			"GFX_portrait_europe_generic_land_9"
-			"GFX_portrait_europe_generic_land_13"
-			"GFX_portrait_MEX_Luis_Maria_Martinez"
-			"GFX_Portrait_Britain_Generic_land_1"
-			"GFX_Portrait_Britain_Generic_land_2"
-			"GFX_Portrait_Britain_Generic_land_3"
-			"GFX_Portrait_Britain_Generic_land_4"
-			"GFX_Portrait_Britain_Generic_land_5"
-			"GFX_Portrait_Britain_Generic_land_6"
-			"GFX_portrait_ENG_alan_brooke"
-			"GFX_portrait_ENG_archibald_wavell"
-			"GFX_portrait_ENG_arthur_percival"
-			"GFX_portrait_ENG_bernard_montgomery"
-			"GFX_portrait_ENG_brian_horrocks"
-			"GFX_portrait_ENG_claude_auchinleck"
-			"GFX_portrait_ENG_george_giffard"
-			"GFX_portrait_ENG_harold_alexander"
-			"GFX_portrait_ENG_henry_wilson"
-			"GFX_portrait_ENG_henry_pownall"
-			"GFX_portrait_ENG_jock_campbell"
-			"GFX_portrait_ENG_jackie_smyth"
-			"GFX_portrait_ENG_john_vereker"
-			"GFX_portrait_ENG_merton_beckwithsmith"
-			"GFX_portrait_ENG_miles_dempsey"
-			"GFX_portrait_ENG_neil_ritchie"
-			"GFX_portrait_ENG_oliver_leese"
-			"GFX_portrait_ENG_richard_oconnor"
-			"GFX_portrait_ENG_thomas_jacomb_hutton"
-			"GFX_portrait_ENG_thomas_moore"
-			"GFX_portrait_ENG_william_gott"
-			"GFX_portrait_ENG_william_platt"
-			"GFX_portrait_USA_douglas_macarthur"
-			"GFX_portrait_USA_oscar_griswold"
-			"GFX_USA_gen_Clarence_Huebner"
-			"GFX_USA_gen_omar_bradley"
-			"GFX_CSA_edward_carter"
-			"GFX_CSA_john_tisa"
-			"GFX_TEX_george_patton"
-			"GFX_England_William_Gott"
-			"GFX_Canada_Adrian_Wiart"
+			"GFX_Portrait_South_America_Generic_land_1"
+			"GFX_Portrait_South_America_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_3"
+			"GFX_Portrait_South_America_Generic_land_4"
+			"GFX_Portrait_South_America_Generic_land_5"
+			"GFX_South_America_Generic_land_new_1"
+			"GFX_South_America_Generic_land_new_2"
+			"GFX_South_America_Generic_land_new_3"
+			"GFX_r56_Bartolome_Blanche"
+			"GFX_BOL_Angel_Ayora"
+			"GFX_Bolivia_Bernardino_Rioja"
+			"GFX_CAF_Eustace_Fiennes"
+			"GFX_Chile_Jorge_Von_Marees"
+			"GFX_CHL_Bennett"
+			"GFX_CHL_Fransico_Javier_Dias_Valderrama"
+			"GFX_COS_Fernando_Figuls_Quiros"
+			"GFX_Cuba_Alberto_Bayo_Giroud"
+			"GFX_Cuba_Martin_Diaz"
+			"GFX_ECU_Luis_Larrea_Alba"
+			"GFX_ELS_general_Maximiliano_Martinez"
+			"GFX_ELS_Maximiliano_Martinez"
+			"GFX_FOP_Guillermo_Mac_Hannaford"
+			"GFX_FOP_Luis_Alberto_Quesada"
+			"GFX_HON_Anastasio_Somoza_Garcia_2"
+			"GFX_HON_Augustine_Warner_Robbins"
+			"GFX_HON_Frederic_Ives_Lord"
+			"GFX_HON_Oswaldo_Lopez_Arellano"
+			"GFX_MEX_Maximino_Avila_Camacho"
+			"GFX_MEX_Pablo_Abelardo_Rodriguez"
+			"GFX_MEX_Pablo_Macias_Valenzuela"
+			"GFX_MEX_Pancho_Villa_General"
+			"GFX_MEX_Quiroga_Escamilla"
+			"GFX_Mexico_Don_Fernando"
+			"GFX_Mexico_Garza"
+			"GFX_Mexico_Ruben_Jaramillo"
+			"GFX_PAN_Boris_Salazar"
+			"GFX_PAN_Manuel_Pino"
+			"GFX_PAR_Alfredo_Stroessner"
+			"GFX_PAR_Estigarribia"
+			"GFX_Paraguay_Hugenio_Morinigi"
+			"GFX_Paraguay_Rafael_Franco_KR"
+			"GFX_Salvador_Alvarado"
+			"GFX_portrait_spain_francisco_franco"
+			"GFX_SPR_Alonso_Vega"
+			"GFX_SPR_Asensio_Cabanillas"
+			"GFX_SPR_Miguel_Cabanellas_Ferrer"
+			"GFX_Portugal_Antonio_Carmona"
+			"GFX_POR_Castro_Bilstein_Menezes"
 		}
 		female = {
-			"GFX_AST_Elsie_Farrely"
-			"GFX_Britain_Felicia_Browne"
-			"GFX_CSA_Elizabeth_Gurley_Flynn"
-			"GFX_France_May_Picqueray"
-			"GFX_Lucie_Dujardin"
+			"GFX_Argentina_Fanny_Schoonheyt"
+			"GFX_Argentine_Alicia_Justo"
+			"GFX_BRA_Eugenia_Moreyra"
+			"GFX_Chile_Gabriela"
+			"GFX_Cuba_Tina_Modotti"
+			"GFX_Ecuador_Nela_Martinez"
+			"GFX_FOP_Paulina_Mansurova"
+			"GFX_YUC_Elvia_Carrillo_Puerto"
 		}
 	}
 
 	navy = {
 		male = {
-			"GFX_Portrait_Europe_Generic_navy_1"
-			"GFX_Portrait_Europe_Generic_navy_2"
-			"GFX_Portrait_Europe_Generic_navy_3"
-			"GFX_portrait_europe_generic_navy_4"
-			"GFX_portrait_europe_generic_navy_5"
-			"GFX_Portrait_Britain_Generic_navy_1"
-			"GFX_Portrait_Britain_Generic_navy_2"
-			"GFX_Portrait_Britain_Generic_navy_3"
-			"GFX_portrait_ENG_algernon_willis"
-			"GFX_portrait_ENG_andrew_cunningham"
-			"GFX_portrait_ENG_arthur_power"
-			"GFX_portrait_ENG_bernard_rawlings"
-			"GFX_portrait_ENG_bruce_fraser"
-			"GFX_portrait_ENG_charles_forbes"
-			"GFX_portrait_ENG_henry_harwood"
-			"GFX_portrait_ENG_james_fownes_somerville"
-			"GFX_portrait_ENG_john_cunningham"
-			"GFX_portrait_ENG_john_tovey"
-			"GFX_Portrait_USA_Generic_navy_1"
-			"GFX_Portrait_USA_Generic_navy_2"
-			"GFX_Portrait_USA_Generic_navy_3"
-			"GFX_portrait_USA_arleigh_burke"
-			"GFX_portrait_USA_charles_m_cooke_jr"
-			"GFX_portrait_USA_chester_w_nimitz"
-			"GFX_portrait_USA_ernest_king"
-			"GFX_portrait_USA_frank_jack_fletcher"
-			"GFX_portrait_USA_raymond_a_spruance"
-			"GFX_portrait_USA_william_halsey_jr"
-			"GFX_Europe_Generic_navy_new_1"
-			"GFX_Europe_Generic_navy_new_2"
-			"GFX_Europe_Generic_navy_new_3"
-			"GFX_Europe_Generic_navy_new_4"
-			"GFX_Europe_Generic_navy_new_5"
-			"GFX_CSA_arthur_carpender"
-			"GFX_CSA_george_anderson"
-			"GFX_CSA_willard_smith"
-			"GFX_NEE_joseph_kennedy"
+			"GFX_Portrait_South_America_Generic_navy_1"
+			"GFX_Portrait_South_America_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_3"
+			"GFX_r56_generic_admiral_south_america_1"
+			"GFX_r56_generic_admiral_GRE_1"
+			"GFX_Chile_Aurelio_Palma"
+			"GFX_Cuba_Alberto_Herrera_Franchi"
+			"GFX_Cuba_Genovevo_Perez_Damera"
+			"GFX_Cuba_Manuel_Lopez_Migoya"
+			"GFX_ECU_Rafael_Valverde"
+			"GFX_ELS_Salvador_Castaneda_Castro"
+			"GFX_POR_Americo_Thomaz"
 		}
 		female = {
-			"GFX_AST_Elsie_Farrely"
-			"GFX_Britain_Felicia_Browne"
-			"GFX_CSA_Elizabeth_Gurley_Flynn"
-			"GFX_France_May_Picqueray"
-			"GFX_Lucie_Dujardin"
+			"GFX_Argentina_Fanny_Schoonheyt"
+			"GFX_Argentine_Alicia_Justo"
+			"GFX_BRA_Eugenia_Moreyra"
+			"GFX_Chile_Gabriela"
+			"GFX_Cuba_Tina_Modotti"
+			"GFX_Ecuador_Nela_Martinez"
+			"GFX_FOP_Paulina_Mansurova"
+			"GFX_YUC_Elvia_Carrillo_Puerto"
 		}
 	}
 	political = {
 		communism = {
 			male = {
-				"GFX_Europe_Generic_1"
-				"gfx/leaders/Europe/portrait_europe_generic_8.dds"
-				"GFX_Canada_Tim_Buck"
-				"GFX_Britain_Palme_Dutt"
-				"GFX_Britain_Generic_1"
-				"GFX_eng_harry_pollitt"
-				"GFX_USA_Generic_1"
-				"GFX_USA_earl_browder"
-				"GFX_Ireland_Jack_White"
-				"GFX_CSA_Earl_Bowder"
-				"GFX_CSA_Meyer_London"
-				"GFX_USA_Huey_Long"
-				"GFX_England_Tom_Mann"
+				"GFX_South_America_Generic_1"
+				"GFX_South_America_Generic_4"
+				"GFX_par_rafael_franco"
+				"GFX_urg_gabriel_terra"
+				"GFX_r56_generic_politician_south_america_1"
+				"GFX_The_Che"
+				"GFX_BOL_Alcides_Arguedas"
+				"GFX_BOL_Javier_Granado"
+				"GFX_CHL_Jorge_Alessandri"
+				"GFX_Columbia_Eduardo_Montejo"
+				"GFX_Cuba_Lazaro_Pena_Gonzalez"
+				"GFX_GRP_Cordeiro"
+				"GFX_GUA_Sandino"
+				"GFX_GUA_Silverio_Oritz"
+				"GFX_HON_Tiburcio_Carias_Andino"
+				"GFX_Mexico_Rosendo_Salazar"
+				"GFX_PAN_Ricardo_Jovane"
+				"GFX_Paraguay_Rafael_Franco_KR"
+				"GFX_URG_Luis_Herrera"
+				"GFX_spr_jose_diaz"
 			}
 			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_England_Sylvia_Pankhurst"
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
 			}
 		}
 		democratic = {
 			male = {
-				"GFX_europe_generic_5"
-				"GFX_Belgium_Hubert_Pierlot"
-				"GFX_Australia_John_Curtin"
-				"GFX_Canada_Mackenzie_King"
-				"GFX_Denmark_Erik_Scavenius"
-				"GFX_Britain_Stanley_Baldwin"
-				"GFX_Britain_Winston_Churchill"
-				"GFX_NewZealand_Peter_Fraser"
-				"GFX_USA_Franklin_Roosevelt"
-				"GFX_USA_Harry_Truman"
-				"GFX_USA_Wendell_Willkie"
-				"GFX_USA_Happy_Chandler"
-				"GFX_USA_John_Nance_Garner"
-				"GFX_NEE_joseph_kennedy_sr"
+				"GFX_South_America_Generic_5"
+				"GFX_Brazil_Plinio_Salgado"
+				"GFX_col_alfonso_lopez_pumarejo"
+				"GFX_cos_ricardo_jiminez_oreamuno"
+				"GFX_els_maximiliano_hernandez_martinez"
+				"GFX_hai_stenio_vincent"
+				"GFX_hon_tiburcio_carias_andino"
+				"GFX_Bolivia_Franz_Tamayo"
+				"GFX_Chile_Arturo_Alessandri_Palma"
+				"GFX_Columbia_Lauro_Gomez_Castro"
+				"GFX_COS_Manuel_Mora_Valverde"
+				"GFX_Cuba_Juan_Blas_Hernandez"
+				"GFX_ECU_Jose_Ibarra"
+				"GFX_FOP_Alfredo_Palacios"
+				"GFX_FOP_Antonio_Soto"
+				"GFX_NIC_Juan_Jose_Arevalo_Bermejo"
+				"GFX_HON_Juan_Manuel_Galvez"
+				"GFX_Mexico_Emilio_Gil"
+				"GFX_Mexico_Pascual_Rubio"
+				"GFX_PAN_Arnulfo_Arias_Madrid"
+				"GFX_PAN_Harmodio_Arias_Madrid_our"
+				"GFX_Spain_Manuel_Azana"
 			}
 			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_England_Sylvia_Pankhurst"
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
 			}
 		}
 		fascism = {
 			male = {
-				"GFX_europe_generic_6"
-				"GFX_Britain_Oswald_Mosley"
-				"GFX_USA_mr_hilt"
-				"GFX_USA_Harold_Rainsford_Stark"
-				"GFX_USA_William_Dudley_Pelley"
-				"GFX_Ireland_Michael_Collins"
-				"GFX_USA_glasses_douglas_macarthur"
-				"GFX_NEE_Robert_Bradford"
-				"GFX_TEX_William_Dudley_Pelley"
+				"GFX_south_america_generic_3"
+				"gfx/leaders/South America/portrait_south_america_generic_8.dds"
+				"GFX_chl_arturo_alessandri"
+				"GFX_dom_rafael_trujillo"
+				"GFX_Venezuela_Elezar_Lopez_Contreras"
+				"GFX_per_oscar_benavides"
+				"GFX_Bolivia_Mamerto_Urriolagoitia"
+				"GFX_CHL_Juan_Esteban_Montero"
+				"GFX_COS_Ricardo_Oreamuno"
+				"GFX_COS_Teodoro_Picado_Michalski"
+				"GFX_Cuba_Antonio_Guiteras"
+				"GFX_ELS_Feliciano_Ama"
+				"GFX_NIC_Jorge_Ubico_Casteneda"
+				"GFX_Mexico_Antonio_Villarreal"
+				"GFX_Mexico_Emiliano_Zapata"
+				"GFX_Mexico_Juan_Almazan"
+				"GFX_PAN_Jose_Antonio_Remon_Cantera"
+				"GFX_Spain_Francisco_Franco_old"
 			}
 			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_England_Sylvia_Pankhurst"
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
 			}
 		}
 		absolutist = {
 			male = {
-				"gfx/leaders/Europe/Portrait_europe_generic_7.dds"
-				"GFX_Britain_George_VI"
-				"GFX_mal_shenton_thomas"
-				"GFX_Canada_King_George"
-				"GFX_Canada_King_Edward_VIII"
-				"GFX_Canada_Prince_Albert"
+				"GFX_Bolivia_Carlos_Quiroga"
+				"GFX_Ecuador_Alberto_Gallo"
+				"GFX_Paraguay_Raimundo_Rolon"
+				"GFX_Peru_Carlos_Miro_Quesada"
+				"GFX_SPM_Infante_Jaime"
+				"GFX_Alfonso_XIII"
+				"GFX_Portugal_Duarte_Nuno"
+				"GFX_SPR_Jaime_I"
+				"GFX_Javier_I"
 			}
 			female = {
-				"GFX_Holland_Juliana"
-				"GFX_Holland_Wilhelmina"
-				"GFX_Normandy_Anna_I"
-				"GFX_HOL_Marie_Adelaide"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_Uruguay_Paulina_Luisi"
 			}
 		}
 		neutrality = {
 			male = {
-				"GFX_Europe_Generic_3"
-				"GFX_Britain_Generic_3"
-				"GFX_Britain_Neville_Chamberlain"
-				"GFX_Britain_Edward_Halifax"
-				"GFX_Ireland_Eamon_de_Valera"
-				"GFX_British_Raj_Lord_Linlithgow"
-				"GFX_USA_Generic_3"
-				"GFX_USA_alf_landon"
-				"GFX_USA_civ_douglas_macarthur"
-				"GFX_TEX_charles_lindbergh"
+				"GFX_South_America_Generic_6"
+				"gfx/leaders/South America/portrait_south_america_generic_9.dds"
+				"GFX_Argentina_Agustin_Pedro_Justo"
+				"GFX_Bolivia_Jose_Luis_Tejada_Sorzano"
+				"GFX_ecu_federico_paez"
+				"GFX_nic_anastasio_somoza_garcia"
+				"GFX_Bolivia_Enrique_Castillo"
+				"GFX_Chile_Carlos_Labarca"
+				"GFX_COS_Leon_Cortes_Castro"
+				"GFX_Cuba_Carlos_Mendieta_Montefur"
+				"GFX_ELS_Alfonso_Quinonez_Molina"
+				"GFX_FOP_Jacques_Antoine_Bernard"
+				"GFX_GUA_Yank_Levy"
+				"GFX_HON_Jose_Maria_Moncada"
+				"GFX_Mexico_Fidel_Velazquez"
+				"GFX_Mexico_Lazaro_Cardenas"
+				"GFX_PAR_Eusebio_Ayala"
+				"GFX_Yucatan_Gustavo_Correa"
+				"GFX_Brazil_Getulio_Vargas"
+				"GFX_por_antonio_de_oliveira_salazar"
+				"GFX_Portugal_Antonio_de_Oliveira_Salazar_OLD"
+				"GFX_spr_niceto_alcala_zamora"
 			}
 			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_England_Sylvia_Pankhurst"
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
 			}
 		}
 		radical = {
 			male = {
-				"GFX_Europe_Generic_2"
-				"GFX_europe_generic_4"
-				"GFX_Australia_Rod_Hull"
-				"GFX_Britain_Generic_2"
-				"GFX_USA_Generic_2"
-				"GFX_USA_thomas_dewey"
-				"GFX_Wales_Niclas_y_Glais"
-				"GFX_CSA_John_Bernard"
-				"GFX_CSA_benjamin_katine"
-				"GFX_NEE_Nelson_Rockefeller"
-				"GFX_TEX_james_richardson"
+				"GFX_South_America_Generic_2"
+				"gfx/leaders/South America/portrait_south_america_generic_7.dds"
+				"GFX_cub_jose_barnet"
+				"GFX_gua_jorge_ubico"
+				"GFX_pan_harmodio_arias_madrid"
+				"GFX_r56_generic_politician_south_america_2"
+				"GFX_CAF_Joseph_Lagrosilliere"
+				"GFX_Chile_Marmaduke_Grove"
+				"GFX_Columbia_Turbay_Ayala"
+				"GFX_Cuba_Clemente_Vazquez_Bello"
+				"GFX_Cuba_Mario_Garcia_Menocal"
+				"GFX_FOP_Micaela_Feldman"
+				"GFX_FOP_Miguel_Arcangel"
+				"GFX_HON_Federico_Davidson_Blanco"
+				"GFX_MEX_Zermeno_Araico"
+				"GFX_PRU_Victor_Raul_Haya"
+				"GFX_PRU_Luis_Heysen"
+				"GFX_YUC_Arturo_Campillo_Seyde"
 			}
 			female = {
-				"GFX_AST_Elsie_Farrely"
-				"GFX_Britain_Felicia_Browne"
-				"GFX_CSA_Elizabeth_Gurley_Flynn"
-				"GFX_CSA_Elizabeth_Nord"
-				"GFX_England_Sylvia_Pankhurst"
+				"GFX_Argentina_Fanny_Schoonheyt"
+				"GFX_ARG_Elvira_Rawson"
+				"GFX_Argentine_Alicia_Justo"
+				"GFX_BRA_Eugenia_Moreyra"
+				"GFX_BRA_Maria_Lacerda_Moura"
+				"GFX_BRA_Pagu"
+				"GFX_BRA_Rachel_de_Queiroz"
+				"GFX_Chile_Gabriela"
+				"GFX_Cuba_Tina_Modotti"
+				"GFX_Ecuador_Nela_Martinez"
+				"GFX_YUC_Elvia_Carrillo_Puerto"
+				"GFX_WomanPeru_Manuel_Odria"
 			}
 		}
 	}
 	operative = {
 		male = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+			"gfx/leaders/Arabia/portrait_arabia_generic_operative_male_4.dds"
+			"gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
 		}
 		female = {
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
-			"gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+			"gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+			"gfx/leaders/India/portrait_india_generic_operative_female_5.dds"
+			"gfx/leaders/South America/portrait_south_america_generic_operative_female_1.dds"
 		}
 	}
 }

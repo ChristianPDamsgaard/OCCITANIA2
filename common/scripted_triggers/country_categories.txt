@@ -105,8 +105,8 @@ tag_fscae= {
 		tag = X36
 		tag = X42
 		tag = X49
-		tag = X59
-		tag = X79
+		tag = X58
+		tag = X78
 		tag = YUG
 		tag = ZAM
 		tag = ZIM
@@ -142,7 +142,7 @@ tag_fsvae= {
 		tag = SAU
 		tag = SPR
 		tag = X20
-		tag = X56
+		tag = X55
 	}
 }
 
@@ -160,7 +160,7 @@ tag_fsvne= {
 tag_mpcad= {
 	OR = {
 		tag = HOL
-		tag = X54
+		tag = TNE
 	}
 }
 
@@ -260,7 +260,7 @@ tag_mscae= {
 		tag = X38
 		tag = X41
 		tag = X53
-		tag = X78
+		tag = X77
 	}
 }
 
@@ -290,7 +290,6 @@ tag_mscne= {
 		tag = W07
 		tag = W08
 		tag = W09
-		tag = W10
 		tag = X00
 		tag = X06
 		tag = X08
@@ -316,8 +315,9 @@ tag_mscne= {
 		tag = X50
 		tag = X51
 		tag = X52
-		tag = X55
-		tag = X58
+		tag = X54
+		tag = X57
+		tag = X59
 		tag = X60
 		tag = X61
 		tag = X62
@@ -335,7 +335,7 @@ tag_mscne= {
 		tag = X74
 		tag = X75
 		tag = X76
-		tag = X77
+		tag = X79
 		tag = X80
 		tag = X81
 		tag = X82
@@ -390,7 +390,7 @@ tag_msvae= {
 		tag = SPC
 		tag = URG
 		tag = X12
-		tag = X57
+		tag = X56
 	}
 }
 

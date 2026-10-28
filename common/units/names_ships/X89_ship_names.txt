@@ -10,7 +10,7 @@
 	fallback_name = "Battleship BB-%d"
 
 	unique = {
-		"Alfons el Cast" "Almogàvers" "Els Segadors" "Generalitat" "Jaume el Conqueridor" "Josep Moragues" "Pere el Gran" "Rafael Casanova" "Roger de Flor" "Roger de Llúria" 
+		
 	}
 }
 
@@ -26,7 +26,7 @@ X89_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser BC-%d"
 
 	unique = {
-		"Catalunya" "Corpus Christi" "Figueres" "Manresa" "Principat" "Sabadell" "Sant Joan" "Sant Jordi" "Tortosa" "Urgell" 
+		
 	}
 }
 
@@ -42,7 +42,7 @@ X89_CA_HISTORICAL = {
 	fallback_name = "Heavy Cruiser CA-%d"
 
 	unique = {
-		"Bisbat d'Urgell" "Esperit Sant" "Sant Jaume" "Sant Josep" "Sant Oleguer" "Sant Pere" "Santa Isabel" "Vescomtat d'Ausona" "Vescomtat de Besalú" "Vescomtat de Cerdanya" 
+		
 	}
 }
 
@@ -58,7 +58,7 @@ X89_CLAA_HISTORICAL = {
 	fallback_name = "Light Cruiser CLAA-%d"
 
 	unique = {
-		"Audaç" "Destructor" "Forçuda" "Furor" "Llampec" "Mediterrània" "Tempesta" "Terror" "Tro" "Veloç" 
+		
 	}
 }
 
@@ -74,7 +74,7 @@ X89_CL_HISTORICAL = {
 	fallback_name = "Light Cruiser CL-%d"
 
 	unique = {
-		"Audaç" "Destructor" "Forçuda" "Furor" "Llampec" "Mediterrània" "Tempesta" "Terror" "Tro" "Veloç" 
+		
 	}
 }
 
@@ -90,7 +90,7 @@ X89_CVL_HISTORICAL = {
 	fallback_name = "Carrier CVL-%d"
 
 	unique = {
-		"Comtat de Barcelona" "Comtat d'Empuries" "Comtat d'Urgell" "Dues Sicílies" "Hèrcules" "Mallorca" "Nèmesi" "Sardenya" "València" "Vulcano" 
+		
 	}
 }
 
@@ -106,7 +106,7 @@ X89_CV_HISTORICAL = {
 	fallback_name = "Carrier CV-%d"
 
 	unique = {
-		"Comtat de Barcelona" "Comtat d'Empuries" "Comtat d'Urgell" "Dues Sicílies" "Hèrcules" "Mallorca" "Nèmesi" "Sardenya" "València" "Vulcano" 
+		
 	}
 }
 
@@ -122,7 +122,7 @@ X89_DD_HISTORICAL = {
 	fallback_name = "Destroyer DD-%d"
 
 	unique = {
-		"Ateneu de Grandesa" "Cibeles" "Consolat del Mar" "Diana" "Juno" "Minerva" "Quadribarrada" "Sang sobre Or" "Senyera" "Tirant lo Blanch" 
+		
 	}
 }
 
@@ -138,7 +138,7 @@ X89_DE_HISTORICAL = {
 	fallback_name = "Destroyer Escort DE-%d"
 
 	unique = {
-		"Ateneu de Grandesa" "Cibeles" "Consolat del Mar" "Diana" "Juno" "Minerva" "Quadribarrada" "Sang sobre Or" "Senyera" "Tirant lo Blanch" 
+		
 	}
 }
 
@@ -154,7 +154,7 @@ X89_MINELAYERS_HISTORICAL = {
 	fallback_name = "Minelayer CM-%d"
 
 	unique = {
-		"Audaç" "Destructor" "Forçuda" "Furor" "Llampec" "Mediterrània" "Tempesta" "Terror" "Tro" "Veloç" 
+		
 	}
 }
 
@@ -170,7 +170,7 @@ X89_SS_HISTORICAL = {
 	fallback_name = "Submarine SS-%d"
 
 	unique = {
-		"Barcelona" "Cristòfor Despuig" "Girona" "Joanot Martorell" "Jupiter" "Lleida" "Neptú" "Pere Serafí" "Plutó" "Tarragona" 
+		
 	}
 }
 

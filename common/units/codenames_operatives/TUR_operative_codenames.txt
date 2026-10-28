@@ -1,7 +1,7 @@
 TUR_OPERATIVE_CODENAME_HISTORICAL = {
 	name = TUR_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { W03 X64 }
+	for_countries = { W02 X63 }
 
 	type = codename
 

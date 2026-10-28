@@ -2,33 +2,31 @@
 state={
 	id=696
 	name="STATE_696"
-	resources={
-		aluminium=1.000
-	}
 
 	history={
-		owner = TOG
+		owner = X50
 		victory_points = {
-			1951 15 
+			10184 10 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 5
 			arms_factory = 3
 			dockyard = 2
 			air_base = 8
-			1951 = {
-				naval_base = 2
+			10184 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = TOG
+		add_core_of = PHI
+		add_core_of = X50
 	}
 
 	provinces={
-		1951 12843 13212 
+		10184 
 	}
-	manpower=422744
+	manpower=19444
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

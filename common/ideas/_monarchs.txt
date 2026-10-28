@@ -364,13 +364,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X56_monarch = {
+		X55_monarch = {
 			allowed = {
-				original_tag = X56
+				original_tag = X55
 			}
 
 			allowed_civil_war = {
-				original_tag = X56
+				original_tag = X55
 				has_government = fascism
 			}
 
@@ -378,13 +378,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X65_monarch = {
+		X64_monarch = {
 			allowed = {
-				original_tag = X65
+				original_tag = X64
 			}
 
 			allowed_civil_war = {
-				original_tag = X65
+				original_tag = X64
 				has_government = democratic
 			}
 
@@ -392,13 +392,13 @@ ideas = {
 
 			traits = { popular_figurehead }
 		}
-		X68_monarch = {
+		X67_monarch = {
 			allowed = {
-				original_tag = X68
+				original_tag = X67
 			}
 
 			allowed_civil_war = {
-				original_tag = X68
+				original_tag = X67
 				has_government = democratic
 			}
 

@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_3"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_3"
+				small="GFX_Portrait_Asia_Generic_land_3_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_FNG_Zhang_Haipeng"
 			}
 			army={
-				small="GFX_FNG_Zhang_Haipeng"
+				small="GFX_FNG_Zhang_Haipeng_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_XSM_Sun_Lianguang"
 			}
 			army={
-				small="GFX_XSM_Sun_Lianguang"
+				small="GFX_XSM_Sun_Lianguang_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_China_Chang_Tzuchung"
 			}
 			army={
-				small="GFX_China_Chang_Tzuchung"
+				small="GFX_China_Chang_Tzuchung_small"
 			}
 		}
 		corps_commander={

@@ -1,37 +1,17 @@
 characters={
-	X68_ahmed_al_zanatawi={
-		name=X68_ahmed_al_zanatawi
+	X68_jamphel_tashi={
+		name=X68_jamphel_tashi
 		portraits={
 			army={
-				large="GFX_EGY_abdel_hakim_amer"
+				large="GFX_Portrait_Asia_Generic_land_4"
 			}
 			army={
-				small="GFX_EGY_abdel_hakim_amer"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X68_mustafa_al_shawiyyati={
-		name=X68_mustafa_al_shawiyyati
-		portraits={
-			army={
-				large="GFX_EGY_abdel_hakim_amer"
-			}
-			army={
-				small="GFX_EGY_abdel_hakim_amer"
+				small="GFX_Portrait_Asia_Generic_land_4_small"
 			}
 		}
 		corps_commander={
 			skill=1
-			attack_skill=1
+			attack_skill=2
 			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
@@ -39,19 +19,19 @@ characters={
 		}
 	}
 
-	X68_muhammad_al_shawiyyati={
-		name=X68_muhammad_al_shawiyyati
+	X68_tsarong_shakabpa={
+		name=X68_tsarong_shakabpa
 		portraits={
 			army={
-				large="GFX_Portrait_Arabia_Generic_land_2"
+				large="GFX_Portrait_Asia_Generic_land_2"
 			}
 			army={
-				small="GFX_Portrait_Arabia_Generic_land_2"
+				small="GFX_Portrait_Asia_Generic_land_2_small"
 			}
 		}
 		corps_commander={
 			skill=2
-			attack_skill=2
+			attack_skill=4
 			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
@@ -59,19 +39,19 @@ characters={
 		}
 	}
 
-	X68_abd_al_karim_al_zanatawi={
-		name=X68_abd_al_karim_al_zanatawi
+	X68_tsarong_chophel={
+		name=X68_tsarong_chophel
 		portraits={
 			army={
-				large="GFX_EGY_abdel_hakim_amer"
+				large="GFX_Portrait_Asia_Generic_land_2"
 			}
 			army={
-				small="GFX_EGY_abdel_hakim_amer"
+				small="GFX_Portrait_Asia_Generic_land_2_small"
 			}
 		}
 		corps_commander={
-			skill=1
-			attack_skill=1
+			skill=2
+			attack_skill=4
 			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
@@ -79,15 +59,35 @@ characters={
 		}
 	}
 
-	X68_muhammad_al_shawiyyati_1={
-		name=X68_muhammad_al_shawiyyati_1
+	X68_jamphel_shakabpa={
+		name=X68_jamphel_shakabpa
+		portraits={
+			army={
+				large="GFX_portrait_BRM_ne_win"
+			}
+			army={
+				small="GFX_portrait_BRM_ne_win_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X68_trimon_shakabpa={
+		name=X68_trimon_shakabpa
 		portraits={
 			civilian={
-				large="GFX_JOR_Salih_Jabr"
+				large="GFX_Guanxi_Clique_Li_Zongren"
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=dictatorship_neutral
 			expire="1965.1.1.1"
 			id=-1
 		}

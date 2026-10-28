@@ -2,32 +2,37 @@
 state={
 	id=697
 	name="STATE_697"
+	resources={
+		rubber=11.000
+	}
 
 	history={
-		owner = X54
+		owner = X51
 		victory_points = {
-			1419 15 
+			1386 10 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 3
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
 			dockyard = 2
 			air_base = 8
-			1419 = {
-				naval_base = 1
+			1386 = {
+				naval_base = 4
 			}
 
 		}
-		add_core_of = X54
+		add_core_of = BRU
+		add_core_of = X06
+		add_core_of = X51
 	}
 
 	provinces={
-		1419 7413 10141 
+		1209 1386 4390 4608 7223 7642 7654 10135 10479 10491 12293 12472 13403 13404 13406 13407 
 	}
-	manpower=18996
+	manpower=3028752
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=metropolis
 
 	local_supplies=10.0
 }

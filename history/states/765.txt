@@ -4,9 +4,9 @@ state={
 	name="STATE_765"
 
 	history={
-		owner = X64
+		owner = X61
 		victory_points = {
-			4486 1 
+			6722 1 
 		}
 		buildings = {
 			infrastructure = 1
@@ -15,13 +15,14 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = X64
+		add_core_of = X61
+		add_claim_by = USA
 	}
 
 	provinces={
-		4486 7184 7513 10383 12316 
+		6722 7877 12566 
 	}
-	manpower=161368
+	manpower=1560
 	buildings_max_level_factor=1.000
 	state_category=rural
 

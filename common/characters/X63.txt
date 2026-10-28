@@ -1,29 +1,89 @@
 characters={
-	X63_tena_laguna={
-		name=X63_tena_laguna
+	X63_sukru_ciller={
+		name=X63_sukru_ciller
 		portraits={
 			army={
-				large="GFX_nat_north_communist"
+				large="GFX_Portrait_Arabia_Generic_land_1"
 			}
 			army={
-				small="GFX_nat_north_communist"
+				small="GFX_Portrait_Arabia_Generic_land_1_small"
 			}
 		}
 		corps_commander={
-			skill=2
+			skill=1
 			attack_skill=1
-			defense_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X63_sabahaddin_terim={
+		name=X63_sabahaddin_terim
+		portraits={
+			army={
+				large="GFX_OTT_Suleyman_Sefik"
+			}
+			army={
+				small="GFX_OTT_Suleyman_Sefik_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X63_oacpicagiguya_ohkay_owingeh={
-		name=X63_oacpicagiguya_ohkay_owingeh
+	X63_fevzi_tandog'an={
+		name=X63_fevzi_tandog'an
+		portraits={
+			army={
+				large="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+			}
+			army={
+				small="GFX_portrait_TUR_mustafa_kemal_ataturk_military_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X63_numan_sag'lam={
+		name=X63_numan_sag'lam
+		portraits={
+			navy={
+				large="GFX_EGY_Suleiman_Ezzat"
+			}
+			navy={
+				small="GFX_EGY_Suleiman_Ezzat_small"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+
+	X63_king_jochi_ii={
+		name=X63_king_jochi_ii
 		portraits={
 			civilian={
-				large="GFX_Native_American"
+				large="GFX_Turkestan_Mohammed_Alim"
 			}
 		}
 		country_leader={

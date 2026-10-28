@@ -2,32 +2,19 @@
 state={
 	id=618
 	name="STATE_618"
-	resources={
-		chromium=7.000
-		steel=22.000
-	}
+	impassable = yes
 
 	history={
-		owner = SAF
-		victory_points = {
-			4822 1 
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-
-		}
-		add_core_of = SAF
+		owner = PNG
+		add_core_of = PNG
 	}
 
 	provinces={
-		1509 4822 5203 10668 10697 12419 
+		2129 4317 5135 7409 10954 11004 11018 12428 12931 
 	}
-	manpower=335100
+	manpower=159876
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

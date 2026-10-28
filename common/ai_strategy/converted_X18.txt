@@ -19,7 +19,7 @@
 	}
 	ai_strategy = {
 		type = conquer
-		id = "X62"
+		id = "X61"
 		value = 165
 	}
 	ai_strategy = {
@@ -29,7 +29,7 @@
 	}
 	ai_strategy = {
 		type = conquer
-		id = "X57"
+		id = "X56"
 		value = 25
 	}
 }
@@ -45,7 +45,7 @@ converted_diplo_strategies_X18 = {
 	
 	ai_strategy = {
 		type = contain
-		id = "X57"
+		id = "X56"
 		value = 352
 	}
 	ai_strategy = {
@@ -55,7 +55,7 @@ converted_diplo_strategies_X18 = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X62"
+		id = "X61"
 		value = 312
 	}
 	ai_strategy = {
@@ -70,7 +70,7 @@ converted_diplo_strategies_X18 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X62"
+		id = "X61"
 		value = 351
 	}
 	ai_strategy = {
@@ -80,7 +80,7 @@ converted_diplo_strategies_X18 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 19
 	}
 	ai_strategy = {
@@ -90,7 +90,7 @@ converted_diplo_strategies_X18 = {
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X76"
+		id = "X75"
 		value = 200
 	}
 	ai_strategy = {
@@ -100,7 +100,7 @@ converted_diplo_strategies_X18 = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X62"
+		id = "X61"
 		value = 73
 	}
 	ai_strategy = {

@@ -2,31 +2,20 @@
 state={
 	id=119
 	name="STATE_119"
+	impassable = yes
 
 	history={
-		owner = X83
-		victory_points = {
-			4357 10 
-		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 5
-			4357 = {
-				naval_base = 8
-			}
-
-		}
-		add_core_of = X83
+		owner = X79
+		add_core_of = BRA
+		add_core_of = X79
 	}
 
 	provinces={
-		4357 12103 
+		2147 
 	}
-	manpower=25888
+	manpower=8632
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

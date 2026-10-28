@@ -2,34 +2,19 @@
 state={
 	id=856
 	name="STATE_856"
-	resources={
-		tungsten=2.000
-	}
+	impassable = yes
 
 	history={
-		owner = X77
-		victory_points = {
-			2211 1 
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			12632 = {
-				naval_base = 2
-			}
-
-		}
-		add_core_of = X77
+		owner = X76
+		add_core_of = X76
 	}
 
 	provinces={
-		2211 4819 8232 8241 10650 12632 12980 12988 
+		5206 10336 10936 10955 
 	}
-	manpower=9380
+	manpower=3622
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

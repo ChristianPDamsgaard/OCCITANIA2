@@ -2,27 +2,33 @@
 state={
 	id=739
 	name="STATE_739"
+	resources={
+		coal=2.000
+		oil=8.000
+	}
 
 	history={
 		owner = VEN
 		victory_points = {
-			12869 1 
+			12845 1 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
-			arms_factory = 0
+			arms_factory = 1
 			air_base = 0
+			10494 = {
+				naval_base = 6
+			}
 
 		}
 		add_core_of = VEN
-		add_claim_by = PRU
 	}
 
 	provinces={
-		12869 13291 
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 
 	}
-	manpower=165724
+	manpower=1073244
 	buildings_max_level_factor=1.000
 	state_category=rural
 

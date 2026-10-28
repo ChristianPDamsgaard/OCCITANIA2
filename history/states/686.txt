@@ -2,36 +2,34 @@
 state={
 	id=686
 	name="STATE_686"
-	resources={
-		steel=1.000
-		tungsten=2.000
-	}
 
 	history={
-		owner = X49
+		owner = SIA
 		victory_points = {
-			9648 3 
+			12299 2 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 2
-			air_base = 2
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 0
+			13408 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = AUS
-		add_core_of = HLR
-		add_core_of = X49
-		add_core_of = X53
-		add_claim_by = SLV
+		add_core_of = MAL
+		add_core_of = SIA
+		add_core_of = X40
 	}
 
 	provinces={
-		653 668 3673 3674 6673 6687 6691 9646 9648 9650 9679 11612 
+		1291 1392 4367 4384 4424 7342 7399 10313 12144 12255 12271 12299 13376 13408 
 	}
-	manpower=879992
+	manpower=282440
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 
 	local_supplies=10.0
 }

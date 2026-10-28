@@ -2,32 +2,38 @@
 state={
 	id=492
 	name="STATE_492"
+	resources={
+		aluminium=2.000
+		chromium=5.000
+		steel=5.000
+		tungsten=2.000
+	}
 
 	history={
-		owner = X39
+		owner = X38
 		victory_points = {
-			10752 10 
+			10255 0 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 6
-			2029 = {
-				naval_base = 1
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7340 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = X39
-		add_claim_by = X00
+		add_core_of = X33
+		add_core_of = X46
 	}
 
 	provinces={
-		1973 2029 4924 4976 5074 10752 10840 12821 13374 
+		1228 1430 4237 4321 4365 4414 5032 7090 7297 7310 7340 7372 10001 10152 10255 10296 10756 10897 11924 11978 12180 12241 12462 12779 
 	}
-	manpower=396020
+	manpower=6182532
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

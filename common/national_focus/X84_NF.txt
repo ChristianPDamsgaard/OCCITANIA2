@@ -19,11 +19,11 @@ focus_tree = {
 	shared_focus = political_effort
 
 	focus = {
-		id = integrate_satelliteX84X02
+		id = integrate_satelliteX84MAL
 		icon = GFX_focus_eng_move_to_secure_the_dominions
-		text = integrate_satelliteX02
+		text = integrate_satelliteMAL
 		bypass = {
-			X02 = {
+			MAL = {
 				OR = {
 					NOT = { is_subject_of = ROOT }
 					has_war_with = ROOT
@@ -37,12 +37,12 @@ focus_tree = {
 
 		}
 		select_effect = {
-			X02 = {
+			MAL = {
 				every_owned_state = { set_state_flag = is_being_integrated }
 			}
 		}
 		completion_reward = {
-			annex_country = { target = X02 transfer_troops = yes }
+			annex_country = { target = MAL transfer_troops = yes }
 			every_owned_state = {
 				limit = { has_state_flag = is_being_integrated }
 				add_core_of = ROOT

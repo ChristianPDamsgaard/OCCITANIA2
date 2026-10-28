@@ -27,7 +27,7 @@ state={
 	}
 	manpower=1692360
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

@@ -95,12 +95,12 @@ converted_diplo_strategies_NMB = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X62"
+		id = "X61"
 		value = 51
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X67"
+		id = "X66"
 		value = 47
 	}
 	ai_strategy = {

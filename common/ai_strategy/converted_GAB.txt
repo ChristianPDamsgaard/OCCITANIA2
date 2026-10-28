@@ -105,12 +105,12 @@ converted_diplo_strategies_GAB = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X66"
+		id = "X65"
 		value = 3
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 1
 	}
 	ai_strategy = {
@@ -130,12 +130,12 @@ converted_diplo_strategies_GAB = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X62"
+		id = "X61"
 		value = 49
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X67"
+		id = "X66"
 		value = 30
 	}
 }

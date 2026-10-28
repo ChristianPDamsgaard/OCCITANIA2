@@ -1,32 +1,12 @@
 characters={
-	X58_konrad_von_baden={
-		name=X58_konrad_von_baden
+	X58_baqi_tukay={
+		name=X58_baqi_tukay
 		portraits={
 			army={
-				large="GFX_Portrait_Europe_Generic_land_3"
+				large="GFX_Portrait_Arabia_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_3"
-			}
-		}
-		corps_commander={
-			skill=4
-			attack_skill=6
-			defense_skill=4
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X58_engelbert_von_bohm_ermolli={
-		name=X58_engelbert_von_bohm_ermolli
-		portraits={
-			army={
-				large="GFX_portrait_GER_maximilian_von_weichs"
-			}
-			army={
-				small="GFX_portrait_GER_maximilian_von_weichs"
+				small="GFX_Portrait_Arabia_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -39,55 +19,35 @@ characters={
 		}
 	}
 
-	X58_gottfried_eisner={
-		name=X58_gottfried_eisner
+	X58_baqi_faysi={
+		name=X58_baqi_faysi
 		portraits={
 			army={
-				large="GFX_portrait_GER_gotthard_heinrici"
+				large="GFX_OTT_Suleyman_Sefik"
 			}
 			army={
-				small="GFX_portrait_GER_gotthard_heinrici"
+				small="GFX_OTT_Suleyman_Sefik_small"
 			}
 		}
 		corps_commander={
 			skill=1
 			attack_skill=1
-			defense_skill=2
+			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X58_franz_von_uchatius={
-		name=X58_franz_von_uchatius
-		portraits={
-			army={
-				large="GFX_Portrait_Germany_Generic_land_4"
-			}
-			army={
-				small="GFX_Portrait_Germany_Generic_land_4"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=5
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X58_konrad_von_tegetthoff={
-		name=X58_konrad_von_tegetthoff
+	X58_asaf_tinchurin={
+		name=X58_asaf_tinchurin
 		portraits={
 			civilian={
-				large="GFX_GER_hermann_goring"
+				large="GFX_KUR_Mahmud_Barzanji"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=theocracy
 			expire="1965.1.1.1"
 			id=-1
 		}

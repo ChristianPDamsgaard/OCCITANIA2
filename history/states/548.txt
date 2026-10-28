@@ -4,27 +4,26 @@ state={
 	name="STATE_548"
 
 	history={
-		owner = X42
+		owner = HOL
 		victory_points = {
-			12698 10 
+			6594 0 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
-			12505 = {
-				naval_base = 2
-			}
+			air_base = 1
 
 		}
-		add_core_of = X42
+		add_core_of = BSK
+		add_core_of = TAT
+		add_claim_by = HLR
 	}
 
 	provinces={
-		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+		6594 
 	}
-	manpower=242322
+	manpower=372568
 	buildings_max_level_factor=1.000
 	state_category=rural
 

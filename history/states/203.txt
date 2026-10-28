@@ -3,23 +3,23 @@ state={
 	id=203
 	name="STATE_203"
 	resources={
-		chromium=1.000
-		steel=1.000
-		tungsten=6.000
+		chromium=3.000
+		coal=1.000
+		steel=3.000
+		tungsten=9.000
 	}
 
 	history={
 		owner = VIN
 		victory_points = {
-			11936 1 
+			4075 25 
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 0
+			industrial_complex = 2
 			arms_factory = 0
-			dockyard = 1
-			air_base = 0
-			4397 = {
+			air_base = 5
+			1157 = {
 				naval_base = 4
 			}
 
@@ -28,11 +28,11 @@ state={
 	}
 
 	provinces={
-		1302 4255 4379 4397 7229 7280 9988 10016 10137 10309 11909 11936 12297 
+		1073 1157 1185 4075 4119 4529 7015 7093 7518 9948 10075 10103 10129 12008 12048 12065 12075 12319 
 	}
-	manpower=2698656
+	manpower=3062008
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 
 	local_supplies=10.0
 }

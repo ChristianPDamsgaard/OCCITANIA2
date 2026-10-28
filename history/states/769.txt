@@ -4,30 +4,30 @@ state={
 	name="STATE_769"
 
 	history={
-		owner = W03
+		owner = X63
 		victory_points = {
-			705 10 
+			10472 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
-			705 = {
+			dockyard = 1
+			air_base = 0
+			3653 = {
 				naval_base = 1
 			}
 
 		}
-		add_core_of = W03
-		add_claim_by = X24
+		add_core_of = X63
 	}
 
 	provinces={
-		705 3686 3722 6704 6724 9677 9680 9718 11649 
+		789 3653 7454 10403 10472 11753 
 	}
-	manpower=424696
+	manpower=639608
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

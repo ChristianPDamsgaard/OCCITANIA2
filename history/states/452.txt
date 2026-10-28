@@ -3,19 +3,19 @@ state={
 	id=452
 	name="STATE_452"
 	resources={
-		steel=21.000
+		steel=19.000
 	}
 
 	history={
 		owner = X36
 		victory_points = {
-			7797 1 
+			12456 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
+			air_base = 0
 
 		}
 		add_core_of = USA
@@ -23,9 +23,9 @@ state={
 	}
 
 	provinces={
-		1987 7615 7797 10615 
+		926 1560 1760 7829 10341 12456 
 	}
-	manpower=614100
+	manpower=648804
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

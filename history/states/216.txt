@@ -2,30 +2,32 @@
 state={
 	id=216
 	name="STATE_216"
-	resources={
-		steel=1.000
-	}
 
 	history={
 		owner = X19
 		victory_points = {
-			8097 0 
+			10765 3 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			10848 = {
+				naval_base = 8
+			}
 
 		}
+		add_core_of = X19
 	}
 
 	provinces={
-		2037 8097 10809 
+		1892 1904 2069 7964 8012 8119 10765 10848 12461 12736 12833 12859 13215 13216 
 	}
-	manpower=460716
+	manpower=1795772
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 
 	local_supplies=10.0
 }

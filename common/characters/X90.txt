@@ -1,13 +1,13 @@
 characters={
-	X90_zhang_tian={
-		name=X90_zhang_tian
+	X90_hubert_fisher={
+		name=X90_hubert_fisher
 		portraits={
 			civilian={
-				large="GFX_China_Chiang_Kai_Shek"
+				large="GFX_Britain_Edward_Halifax"
 			}
 		}
 		country_leader={
-			ideology=prussian_const
+			ideology=dictatorship_neutral
 			expire="1965.1.1.1"
 			id=-1
 		}

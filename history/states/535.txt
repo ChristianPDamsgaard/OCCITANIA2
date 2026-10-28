@@ -2,28 +2,36 @@
 state={
 	id=535
 	name="STATE_535"
+	resources={
+		aluminium=11.000
+		coal=11.000
+		steel=50.000
+	}
 
 	history={
-		owner = X86
+		owner = HOL
 		victory_points = {
-			1473 10 
+			11435 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
+			air_base = 1
 
 		}
-		add_core_of = X86
+		add_core_of = HOL
+		add_core_of = X58
+		add_claim_by = HLR
+		add_claim_by = LUX
 	}
 
 	provinces={
-		1473 3123 4897 4978 
+		3423 3547 9575 11435 11470 11494 11531 
 	}
-	manpower=324584
+	manpower=1817456
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

@@ -2,35 +2,31 @@
 state={
 	id=716
 	name="STATE_716"
-	resources={
-		steel=1.000
-	}
 
 	history={
-		owner = URG
+		owner = X56
 		victory_points = {
-			8229 2 
+			13202 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			air_base = 1
-			12984 = {
-				naval_base = 4
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			13202 = {
+				naval_base = 6
 			}
 
 		}
-		add_core_of = URG
+		add_core_of = X56
 	}
 
 	provinces={
-		8229 8251 12984 
+		4848 10707 13202 13203 
 	}
-	manpower=2488956
+	manpower=13000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 
 	local_supplies=10.0
 }

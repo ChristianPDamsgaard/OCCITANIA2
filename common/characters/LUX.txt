@@ -6,7 +6,7 @@ characters={
 				large="GFX_Germany_Wolfram_Freiherr_von_Richthofen"
 			}
 			army={
-				small="GFX_Germany_Wolfram_Freiherr_von_Richthofen"
+				small="GFX_Germany_Wolfram_Freiherr_von_Richthofen_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_portrait_GER_paul_hausser"
 			}
 			army={
-				small="GFX_portrait_GER_paul_hausser"
+				small="GFX_portrait_GER_paul_hausser_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_portrait_GER_hermann_hoth"
 			}
 			army={
-				small="GFX_portrait_GER_hermann_hoth"
+				small="GFX_portrait_GER_hermann_hoth_small"
 			}
 		}
 		corps_commander={

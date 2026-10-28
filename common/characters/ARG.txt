@@ -6,7 +6,7 @@ characters={
 				large="GFX_nat_south_fascist"
 			}
 			army={
-				small="GFX_nat_south_fascist"
+				small="GFX_nat_south_fascist_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_quechua_mamani"
 			}
 			army={
-				small="GFX_quechua_mamani"
+				small="GFX_quechua_mamani_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_quechua_mamani"
 			}
 			army={
-				small="GFX_quechua_mamani"
+				small="GFX_quechua_mamani_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_quechua_quispe_iskay"
 			}
 			army={
-				small="GFX_quechua_quispe_iskay"
+				small="GFX_quechua_quispe_iskay_small"
 			}
 		}
 		corps_commander={
@@ -86,7 +86,7 @@ characters={
 				large="GFX_Ramon_Vasquez_Rivera"
 			}
 			navy={
-				small="GFX_Ramon_Vasquez_Rivera"
+				small="GFX_Ramon_Vasquez_Rivera_small"
 			}
 		}
 		navy_leader={

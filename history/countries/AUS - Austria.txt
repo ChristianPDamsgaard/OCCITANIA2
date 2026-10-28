@@ -138,13 +138,13 @@ add_opinion_modifier = { target = X36 modifier = positive_20 }
 add_opinion_modifier = { target = X42 modifier = positive_20 }
 add_opinion_modifier = { target = X48 modifier = negative_14 }
 set_truce = { target = X53 days = 1674 }
-add_opinion_modifier = { target = X57 modifier = positive_20 }
-add_opinion_modifier = { target = X60 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = positive_35 }
-add_opinion_modifier = { target = X73 modifier = positive_30 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_15 }
-add_opinion_modifier = { target = X77 modifier = positive_20 }
+add_opinion_modifier = { target = X56 modifier = positive_20 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
+add_opinion_modifier = { target = X64 modifier = positive_35 }
+add_opinion_modifier = { target = X72 modifier = positive_30 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_15 }
+add_opinion_modifier = { target = X76 modifier = positive_20 }
 
 
 add_ideas = {

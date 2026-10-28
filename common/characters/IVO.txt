@@ -3,7 +3,7 @@ characters={
 		name=IVO_l._von_der_m.
 		portraits={
 			civilian={
-				large="GFX_Germany_Konrad_Adenauer"
+				large="GFX_portrait_ISR_david_ben_gurion"
 			}
 		}
 		country_leader={

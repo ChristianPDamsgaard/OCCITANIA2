@@ -2,30 +2,34 @@
 state={
 	id=408
 	name="STATE_408"
+	resources={
+		rubber=9.000
+	}
 
 	history={
-		owner = LIB
+		owner = X34
 		victory_points = {
-			7959 15 
+			4323 30 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 3
+			industrial_complex = 6
+			arms_factory = 2
 			dockyard = 2
 			air_base = 8
-			7959 = {
+			12196 = {
 				naval_base = 2
 			}
 
 		}
-		add_core_of = LIB
+		add_core_of = X34
+		add_claim_by = MAL
 	}
 
 	provinces={
-		7959 8006 
+		4323 7299 7355 10237 10266 12196 12225 
 	}
-	manpower=889540
+	manpower=164282
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

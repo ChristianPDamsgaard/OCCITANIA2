@@ -1,93 +1,13 @@
 characters={
-	X71_fnu_lnu={
-		name=X71_fnu_lnu
-		portraits={
-			army={
-				large="GFX_Portrait_Europe_Generic_land_3"
-			}
-			army={
-				small="GFX_Portrait_Europe_Generic_land_3"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X71_fnu_lnu_1={
-		name=X71_fnu_lnu_1
-		portraits={
-			army={
-				large="GFX_portrait_MEX_Luis_Maria_Martinez"
-			}
-			army={
-				small="GFX_portrait_MEX_Luis_Maria_Martinez"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=3
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X71_fnu_lnu_2={
-		name=X71_fnu_lnu_2
-		portraits={
-			army={
-				large="GFX_portrait_GER_maximilian_von_weichs"
-			}
-			army={
-				small="GFX_portrait_GER_maximilian_von_weichs"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=3
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X71_fnu_lnu_3={
-		name=X71_fnu_lnu_3
-		portraits={
-			army={
-				large="GFX_portrait_GER_ewald_von_kleist"
-			}
-			army={
-				small="GFX_portrait_GER_ewald_von_kleist"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X71_x._von_der_s.={
-		name=X71_x._von_der_s.
+	X71_g._s.={
+		name=X71_g._s.
 		portraits={
 			civilian={
-				large="GFX_Germany_Generic_3"
+				large="GFX_Germany_Wilhelm_III"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=absolute_monarchy
 			expire="1965.1.1.1"
 			id=-1
 		}

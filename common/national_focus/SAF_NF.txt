@@ -369,7 +369,7 @@ focus_tree = {
 			declare_war_on = {
 				target = SCA
 				type = take_core_state
-				generator = { 661 }
+				generator = { 668 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -754,7 +754,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X20
 				type = take_core_state
-				generator = { 231 }
+				generator = { 232 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -836,7 +836,7 @@ focus_tree = {
 			MZB = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 499
+				owns_state = 503
 			}
 		}
 		completion_reward = {
@@ -909,11 +909,11 @@ focus_tree = {
 			MZB = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 499
+				owns_state = 503
 			}
 		}
 		completion_reward = {
-			add_state_claim = 499
+			add_state_claim = 503
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				MZB = { country_event = { id = reconquest_news.1 } }
@@ -988,7 +988,7 @@ focus_tree = {
 			MZB = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 499
+				owns_state = 503
 			}
 		}
 		completion_reward = {
@@ -1017,14 +1017,14 @@ focus_tree = {
 			MZB = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 499
+				owns_state = 503
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = MZB
 				type = take_state_focus
-				generator = { 499 }
+				generator = { 503 }
 			}
 		}
 		ai_will_do = {
@@ -1045,7 +1045,7 @@ focus_tree = {
 			ZIM = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 615
+				owns_state = 622
 			}
 		}
 		completion_reward = {
@@ -1118,11 +1118,11 @@ focus_tree = {
 			ZIM = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 615
+				owns_state = 622
 			}
 		}
 		completion_reward = {
-			add_state_claim = 615
+			add_state_claim = 622
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				ZIM = { country_event = { id = reconquest_news.1 } }
@@ -1197,7 +1197,7 @@ focus_tree = {
 			ZIM = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 615
+				owns_state = 622
 			}
 		}
 		completion_reward = {
@@ -1226,14 +1226,14 @@ focus_tree = {
 			ZIM = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 615
+				owns_state = 622
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = ZIM
 				type = take_state_focus
-				generator = { 615 }
+				generator = { 622 }
 			}
 		}
 		ai_will_do = {

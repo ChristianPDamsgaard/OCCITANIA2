@@ -6,29 +6,29 @@ state={
 	history={
 		owner = SIA
 		victory_points = {
-			12113 1 
+			7408 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			12113 = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 7
+			7408 = {
 				naval_base = 2
 			}
 
 		}
-		add_core_of = MAL
 		add_core_of = SIA
-		add_core_of = X40
+		add_claim_by = MAL
 	}
 
 	provinces={
-		12113 
+		1279 1281 1308 1337 1366 1394 1427 4297 4312 4319 4348 4371 4388 4392 7236 7367 7408 7587 10156 10158 10193 10221 10250 12122 12131 12201 12220 12230 12286 
 	}
-	manpower=26912
+	manpower=1930584
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 
 	local_supplies=10.0
 }

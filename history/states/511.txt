@@ -2,33 +2,36 @@
 state={
 	id=511
 	name="STATE_511"
+	resources={
+		coal=2.000
+		steel=34.000
+	}
 
 	history={
 		owner = HOL
 		victory_points = {
-			336 1 
+			516 2 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
-			11360 = {
+			6446 = {
 				naval_base = 10
 			}
 
 		}
-		add_core_of = HLR
 		add_core_of = HOL
-		add_core_of = X07
 	}
 
 	provinces={
-		241 336 11360 
+		480 516 3576 6446 6560 6598 9574 11419 13068 
 	}
-	manpower=819448
+	manpower=4971060
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=metropolis
 
 	local_supplies=10.0
 }

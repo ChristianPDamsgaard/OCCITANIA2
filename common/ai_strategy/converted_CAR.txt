@@ -75,7 +75,7 @@ converted_diplo_strategies_CAR = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X61"
+		id = "X60"
 		value = 36
 	}
 	ai_strategy = {
@@ -110,12 +110,12 @@ converted_diplo_strategies_CAR = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X66"
+		id = "X65"
 		value = 5
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 1
 	}
 	ai_strategy = {
@@ -125,7 +125,7 @@ converted_diplo_strategies_CAR = {
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X66"
+		id = "X65"
 		value = 41
 	}
 	ai_strategy = {
@@ -155,7 +155,7 @@ converted_diplo_strategies_CAR = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X61"
+		id = "X60"
 		value = 40
 	}
 	ai_strategy = {

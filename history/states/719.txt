@@ -2,36 +2,32 @@
 state={
 	id=719
 	name="STATE_719"
-	resources={
-		oil=30.000
-	}
 
 	history={
-		owner = USA
+		owner = X56
 		victory_points = {
-			7552 2 
+			7315 2 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 0
+			infrastructure = 1
+			industrial_complex = 1
 			arms_factory = 1
-			dockyard = 1
-			air_base = 1
-			7552 = {
-				naval_base = 6
+			air_base = 0
+			7315 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = USA
-		add_claim_by = X36
+		add_core_of = X56
+		add_claim_by = USA
 	}
 
 	provinces={
-		1453 1528 1643 4507 4535 7524 7552 12313 12398 
+		1320 1690 4296 4398 4747 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10327 10687 10690 10693 12155 12214 12673 
 	}
-	manpower=6750404
+	manpower=52492
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=town
 
 	local_supplies=10.0
 }

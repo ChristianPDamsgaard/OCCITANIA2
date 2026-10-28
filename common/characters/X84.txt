@@ -1,9 +1,9 @@
 characters={
-	X84_jacob_wolterbeek={
-		name=X84_jacob_wolterbeek
+	X84_elias_de_constant_rebecque={
+		name=X84_elias_de_constant_rebecque
 		portraits={
 			civilian={
-				large="GFX_Australia_John_Curtin"
+				large="GFX_Canada_Mackenzie_King"
 			}
 		}
 		country_leader={

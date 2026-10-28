@@ -2,33 +2,30 @@
 state={
 	id=134
 	name="STATE_134"
-	resources={
-		rubber=1.000
-	}
 
 	history={
 		owner = X82
 		victory_points = {
-			5117 10 
+			13050 0 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
-			10968 = {
-				naval_base = 8
+			air_base = 0
+			13050 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = COG
 		add_core_of = X82
+		add_claim_by = AST
 	}
 
 	provinces={
-		5117 10025 10968 12896 12925 12945 13365 
+		13050 
 	}
-	manpower=266292
+	manpower=2605
 	buildings_max_level_factor=1.000
 	state_category=rural
 

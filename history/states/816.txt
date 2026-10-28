@@ -2,32 +2,31 @@
 state={
 	id=816
 	name="STATE_816"
-	resources={
-		aluminium=5.000
-	}
 
 	history={
-		owner = X71
+		owner = X65
 		victory_points = {
-			9627 15 
+			10833 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10833 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = X71
-		add_claim_by = HLR
+		add_core_of = X65
 	}
 
 	provinces={
-		3631 3654 6650 9596 9627 
+		1905 5068 8094 10777 10833 10921 12759 12814 
 	}
-	manpower=325060
+	manpower=571080
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pastoral
 
 	local_supplies=10.0
 }

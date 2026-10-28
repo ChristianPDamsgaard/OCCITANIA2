@@ -4,26 +4,29 @@ state={
 	name="STATE_370"
 
 	history={
-		owner = ITA
+		owner = HON
 		victory_points = {
-			969 20 
+			4908 10 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 1
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
 			air_base = 6
+			4908 = {
+				naval_base = 6
+			}
 
 		}
-		add_core_of = ITA
+		add_core_of = X62
 	}
 
 	provinces={
-		969 6661 9584 11587 
+		4908 4977 8033 
 	}
-	manpower=508500
+	manpower=77716
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_island
 
 	local_supplies=10.0
 }

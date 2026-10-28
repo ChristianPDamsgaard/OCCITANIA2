@@ -2,24 +2,18 @@
 state={
 	id=99
 	name="STATE_99"
-	resources={
-		aluminium=1.000
-		chromium=1.000
-		steel=1.000
-	}
 
 	history={
 		owner = X09
 		victory_points = {
-			3973 2 
+			9837 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
+			arms_factory = 0
 			air_base = 0
-			9916 = {
+			3844 = {
 				naval_base = 2
 			}
 
@@ -29,11 +23,11 @@ state={
 	}
 
 	provinces={
-		863 3914 3973 6930 9805 9916 11786 
+		841 936 966 3844 3980 9837 
 	}
-	manpower=473232
+	manpower=212528
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_island
 
 	local_supplies=10.0
 }

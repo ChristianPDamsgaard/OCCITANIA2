@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Japan_Generic_land_4"
 			}
 			army={
-				small="GFX_Portrait_Japan_Generic_land_4"
+				small="GFX_Portrait_Japan_Generic_land_4_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_AOG_Generic_1"
 			}
 			army={
-				small="GFX_AOG_Generic_1"
+				small="GFX_AOG_Generic_1_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Portrait_Japan_Generic_land_4"
 			}
 			army={
-				small="GFX_Portrait_Japan_Generic_land_4"
+				small="GFX_Portrait_Japan_Generic_land_4_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_portrait_JAP_sadao_araki"
 			}
 			army={
-				small="GFX_portrait_JAP_sadao_araki"
+				small="GFX_portrait_JAP_sadao_araki_small"
 			}
 		}
 		corps_commander={
@@ -86,7 +86,7 @@ characters={
 				large="GFX_Japan_Nishizo_Tsukahara"
 			}
 			navy={
-				small="GFX_Japan_Nishizo_Tsukahara"
+				small="GFX_Japan_Nishizo_Tsukahara_small"
 			}
 		}
 		navy_leader={

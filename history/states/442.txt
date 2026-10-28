@@ -2,29 +2,31 @@
 state={
 	id=442
 	name="STATE_442"
+	resources={
+		coal=3.000
+	}
 
 	history={
 		owner = X36
 		victory_points = {
-			12586 1 
+			4723 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
-			arms_factory = 1
-			air_base = 1
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = USA
 		add_core_of = X36
 	}
 
 	provinces={
-		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586 
+		4610 4723 4794 4820 7814 10640 10711 12561 
 	}
-	manpower=961092
+	manpower=721328
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

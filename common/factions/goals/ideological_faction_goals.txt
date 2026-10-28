@@ -1,0 +1,581 @@
+@manifest_fulfilled_value = 0.75
+
+faction_goal_defeat_of_absolutist = {
+	name = defeat_of_absolutist_goal_name
+	description = defeat_of_absolutist_goal_desc
+	group = FOCUS_FILTER_CONSOLIDATION
+	category = long_term
+	visible = {
+		collection_size = {
+			input = {
+				input = game:scope
+				operators = {
+					faction_members
+					limit = {
+						has_government = absolutist
+					}
+				}
+				name = FACTION
+			}
+			value < 1
+		}
+	}
+	available = {
+
+	}
+	completed = {
+		collection_size = {
+			input = {
+				input = collection:absolutist_controlled_states_my_continent
+				name = COLLECTION_AMOUNT_OF_ABSOLUTIST_CONTROLLED_STATES_SAME_CONTINENT
+			}
+			value < 1
+		}
+		
+	}
+	complete_effect = {
+		add_faction_power_projection = 500
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_defeat_of_absolutist } }
+				add_popularity = {
+					ideology = absolutist
+					popularity = -0.15
+				}
+				add_political_power = 100
+			}
+		}
+	}
+}
+
+faction_goal_defeat_of_anti_absolutists = {
+	name = defeat_of_anti_absolutist_goal_name
+	description = defeat_of_anti_absolutist_goal_desc
+	group = FOCUS_FILTER_CONSOLIDATION
+	category = long_term
+	visible = {
+		collection_size = {
+			input = {
+				input = game:scope
+				operators = {
+					faction_members
+					limit = {
+						OR = {
+							has_government = democratic
+							has_government = fascism
+						}
+					}
+				}
+				name = FACTION
+			}
+			value < 1
+		}
+	}
+
+	available = {
+
+	}
+	completed = {
+		collection_size = {
+			input = {
+				input = collection:anti_absolutist_controlled_states_my_continent
+				name = COLLECTION_STATES_MY_CONTINENT_CONTROLLED_DEMOCRATIC_FASCIST
+			}
+			value < 1
+		}
+		
+	}
+
+	complete_effect = {
+		add_faction_power_projection = 500
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_defeat_of_anti_absolutists } }
+				add_popularity = {
+					ideology = absolutist
+					popularity = 0.2
+				}
+				add_political_power = 100
+			}
+		}
+	}
+	ai_will_do = {
+		base = 0
+		modifier = { 
+			add = 1 # If war with communists you probably hate them
+			any_enemy_country = {
+				OR = {
+					has_government = democratic
+					has_government = fascism
+				}
+			}
+		}
+	}
+
+}
+
+faction_goal_preemptive_strike_on_absolutist = {
+	name = preemptive_strike_on_absolutist_goal_name
+	description = preemptive_strike_on_absolutist_goal_desc
+	group = FOCUS_FILTER_WAR_SUPPORT
+	category = short_term
+	visible = {
+		FROM = {
+			NOT = {
+				has_government = absolutist
+			}
+			NOT = {
+				any_enemy_country = {
+					has_government = absolutist
+				}
+			}
+		}
+	}
+	available = {
+		threat < 0.5
+	}
+	completed = {
+		any_allied_country = {
+			has_offensive_war = yes
+			any_enemy_country = {
+				has_government = absolutist
+			}
+		}
+	}
+	complete_effect = {
+		add_faction_power_projection = 100
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_preemptive_strike_on_absolutist } }
+				army_experience = 25
+				add_war_support = 0.05
+			}
+		}
+	}
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 1
+			is_historical_focus_on = yes
+		}
+	}
+}
+
+faction_manifest_suppress_regional_absolutist = {
+	name = suppress_regional_absolutist_goal_name
+	description = suppress_regional_absolutist_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount_collection = collection:states_on_my_continent
+		completed_amount_collection = collection:non_absolutist_controlled_states_on_my_continent
+		
+		scale = {
+			absolutist_drift = -0.08
+		}
+		
+		progress_sections = {
+			manifest_fulfilled = {
+				min = @manifest_fulfilled_value
+				modifier = { 
+					weekly_casualties_war_support = 0.006
+				}
+			}
+		}
+	}
+}
+
+faction_goal_war_on_democracy = {
+	name = war_on_democracy_goal_name
+	description = war_on_democracy_goal_desc
+	group = FOCUS_FILTER_WAR_SUPPORT
+	category = short_term
+	visible = {
+		FROM = {
+			NOT = {
+				has_government = democratic
+			}
+			faction_leader = {
+				NOT = { has_government = democratic }
+			}
+		}
+		any_country = {
+			has_government = democratic
+			is_on_same_continent_as = FROM
+		}
+	}
+	completed = {
+		OR = {
+			any_enemy_country = {
+				has_government = democratic
+				is_on_same_continent_as = ROOT
+			}
+			any_allied_country = {
+				any_enemy_country = {
+					has_government = democratic
+					is_on_same_continent_as = PREV
+				}
+			}
+		}
+	}
+	complete_effect = {
+		add_faction_power_projection = 100
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_war_on_democracy } }
+				add_war_support = 0.05
+			}
+		}
+	}
+	ai_will_do = {
+		base = 1
+	}
+}
+
+faction_manifest_defense_of_democracy = {
+	name = defense_of_democracy_goal_name
+	description = defense_of_democracy_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount = 40
+		completed_amount_collection = collection:world_uncapitulated_democratic_countries_and_dominions
+			
+		scale = {
+			trade_opinion_factor = 0.20
+		}
+		
+		#reversed = { #Scaled upwards as you approach 0% fulfillment
+		#	stability_factor = 0.50
+		#}
+		
+		progress_sections = {
+			manifest_fulfilled = {
+				min = @manifest_fulfilled_value
+	
+				modifier = { 
+					democratic_drift_from_guarantees = 0.05
+					can_guarantee_other_ideologies = 1
+				}
+			}
+		}
+	}
+}
+
+faction_manifest_defense_of_democracy_allies = {
+	name = defense_of_democracy_goal_name
+	description = defense_of_democracy_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount = 50
+		completed_amount_collection = collection:world_uncapitulated_democratic_countries_and_dominions
+			
+		scale = {
+			trade_opinion_factor = 0.20
+			guarantee_cost = -0.50
+		}
+		
+		progress_sections = {
+			manifest_fulfilled = {
+				min = @manifest_fulfilled_value
+	
+				modifier = { 
+					democratic_drift_from_guarantees = 0.08
+					can_guarantee_other_ideologies = 1
+				}
+			}
+		}
+	}
+}
+
+faction_manifest_suppress_regional_democracy = {
+	name = suppress_regional_democracy_goal_name
+	description = suppress_regional_democracy_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount_collection = collection:states_on_my_continent
+		completed_amount_collection = collection:non_democratic_controlled_states_on_my_continent
+		
+		scale = {
+			democratic_drift = -0.05
+		}
+		
+		progress_sections = {
+			manifest_fulfilled = {
+				min = @manifest_fulfilled_value
+	
+				modifier = { 
+					weekly_casualties_war_support = 0.003
+				}			
+			}
+		}
+	}
+}
+
+faction_goal_defeat_of_fascism = {
+	name = defeat_of_fascism_goal_name
+	description = defeat_of_fascism_goal_desc
+	group = FOCUS_FILTER_CONSOLIDATION
+	category = long_term
+	visible = {
+		collection_size = {
+			input = {
+				input = game:scope
+				operators = {
+					faction_members
+					limit = {
+						has_government = fascism
+					}
+				}
+				name = FACTION
+			}
+			value < 1
+		}
+	}
+	available = {
+
+	}
+	completed = {
+		collection_size = {
+			input = {
+				input = collection:fascist_controlled_states_my_continent
+				name = COLLECTION_AMOUNT_OF_FASCIST_CONTROLLED_STATES_SAME_CONTINENT
+			}
+			value < 1
+		}
+		
+	}
+	complete_effect = {
+		add_faction_power_projection = 500
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_defeat_of_fascism } }
+				add_popularity = {
+					ideology = fascism
+					popularity = -0.15
+				}
+				add_political_power = 100
+			}
+		}
+	}
+}
+
+faction_goal_defeat_of_anti_fascists = {
+	name = defeat_of_anti_fascists_goal_name
+	description = defeat_of_anti_fascists_goal_desc
+	group = FOCUS_FILTER_CONSOLIDATION
+	category = long_term
+	visible = {
+		collection_size = {
+			input = {
+				input = game:scope
+				operators = {
+					faction_members
+					limit = {
+						OR = {
+							has_government = absolutist
+							has_government = democratic
+						}
+					}
+				}
+				name = FACTION
+			}
+			value < 1
+		}
+	}
+
+	available = {
+
+	}
+	completed = {
+		collection_size = {
+			input = {
+				input = collection:anti_fascist_controlled_states_my_continent
+				name = COLLECTION_STATES_MY_CONTINENT_CONTROLLED_ABSOLUTIST_DEMOCRATIC
+			}
+			value < 1
+		}
+		
+	}
+
+	complete_effect = {
+		add_faction_power_projection = 500
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_defeat_of_anti_fascists } }
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.2
+				}
+				add_political_power = 100
+			}
+		}
+	}
+	ai_will_do = {
+		base = 0
+		modifier = { 
+			add = 1 # If war with communists you probably hate them
+			any_enemy_country = {
+				OR = {
+					has_government = absolutist
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+}
+
+faction_goal_preemptive_strike_on_fascism = {
+	name = preemptive_strike_on_fascism_goal_name
+	description = preemptive_strike_on_fascism_goal_desc
+	group = FOCUS_FILTER_WAR_SUPPORT
+	category = short_term
+	visible = {
+		FROM = {
+			NOT = {
+				has_government = fascism
+			}
+			NOT = {
+				any_enemy_country = {
+					has_government = fascism
+				}
+			}
+		}
+	}
+	available = {
+		threat < 0.5
+	}
+	completed = {
+		any_allied_country = {
+			has_offensive_war = yes
+			any_enemy_country = {
+				has_government = fascism
+			}
+		}
+	}
+	complete_effect = {
+		add_faction_power_projection = 100
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = THE_FACTION_LEADER
+		add_faction_initiative = 1
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_preemptive_strike_on_fascism } }
+				army_experience = 25
+				add_war_support = 0.05
+			}
+		}
+	}
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 1
+			is_historical_focus_on = yes
+		}
+	}
+}
+
+faction_manifest_suppress_regional_fascism = {
+	name = suppress_regional_fascism_goal_name
+	description = suppress_regional_fascism_goal_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount_collection = collection:states_on_my_continent
+		completed_amount_collection = collection:non_fascist_controlled_states_on_my_continent
+		
+		scale = {
+			fascism_drift = -0.08
+		}
+		
+		progress_sections = {
+			manifest_fulfilled = {
+				min = @manifest_fulfilled_value
+				modifier = { 
+					weekly_casualties_war_support = 0.006
+				}
+			}
+		}
+	}
+}
+
+faction_goal_guardians_of_peace = {
+	name = guardians_of_peace_goal_name
+	description = guardians_of_peace_goal_desc
+	group = FOCUS_FILTER_CONSOLIDATION
+	category = medium_term
+	visible = {
+		date < 1939.1.1
+		FROM = {
+			NOT = { has_government = absolutist }
+			NOT = { has_government = fascism }
+			NOT = { has_country_flag = guardians_of_peace_been_at_war_flag }
+		}
+	}
+
+	available = {
+
+	}
+	completed = {
+		date > 1938.12.31
+		NOT = { has_country_flag = guardians_of_peace_been_at_war_flag }
+		all_allied_country = {
+			NOT = { has_country_flag = guardians_of_peace_been_at_war_flag }
+		}
+	}
+	cancel = {
+		FROM = {
+			has_country_flag = guardians_of_peace_been_at_war_flag
+		}
+	}
+	complete_effect = {
+		add_faction_power_projection = 100
+		custom_effect_tooltip = generic_skip_one_line_tt
+		custom_effect_tooltip = ALL_FACTION_MEMBERS
+		every_faction_member = {
+			IF = {
+				limit = { NOT = { has_completed_goal = faction_goal_guardians_of_peace } }
+				add_stability = 0.05
+			}
+		}
+	}
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 1
+			has_government = democratic
+		}
+	}
+
+}
+

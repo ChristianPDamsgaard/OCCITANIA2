@@ -3,33 +3,34 @@ state={
 	id=516
 	name="STATE_516"
 	resources={
-		rubber=14.000
+		coal=32.000
+		steel=29.000
 	}
 
 	history={
-		owner = X85
+		owner = HOL
 		victory_points = {
-			7227 0 
+			587 2 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			7227 = {
-				naval_base = 10
-			}
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
 
 		}
-		add_core_of = X85
+		add_core_of = HOL
+		add_core_of = X58
+		add_claim_by = HES
+		add_claim_by = HLR
 	}
 
 	provinces={
-		4409 7227 8221 10282 10310 12280 12955 
+		529 587 3444 6469 6570 9482 9522 
 	}
-	manpower=173500
+	manpower=7119732
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

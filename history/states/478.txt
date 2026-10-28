@@ -2,32 +2,35 @@
 state={
 	id=478
 	name="STATE_478"
+	resources={
+		aluminium=3.000
+		chromium=5.000
+		coal=2.000
+		steel=6.000
+	}
 
 	history={
 		owner = X38
 		victory_points = {
-			3456 0 
+			4883 1 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
+			infrastructure = 3
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
-			3456 = {
-				naval_base = 6
-			}
+			air_base = 1
 
 		}
+		add_core_of = X38
 		add_core_of = X46
-		add_claim_by = X38
 	}
 
 	provinces={
-		1147 1971 1980 3456 4003 4110 4382 7049 7084 10108 10735 
+		1510 1579 1622 4557 4883 7428 7430 7465 7497 7574 7619 8120 10030 10171 10401 10469 12375 12420 12480 12490 12781 
 	}
-	manpower=2591816
+	manpower=5006996
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=metropolis
 
 	local_supplies=10.0
 }

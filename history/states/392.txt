@@ -2,30 +2,29 @@
 state={
 	id=392
 	name="STATE_392"
+	resources={
+		coal=3.000
+	}
 
 	history={
-		owner = X31
+		owner = X30
 		victory_points = {
-			7878 30 
+			7789 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 6
-			arms_factory = 2
-			dockyard = 2
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
 			air_base = 8
-			4728 = {
-				naval_base = 1
-			}
 
 		}
-		add_core_of = X31
+		add_core_of = X30
 	}
 
 	provinces={
-		4728 7878 12207 12522 
+		1718 1777 1850 4789 4793 4866 7274 7757 7789 7815 7886 10613 10686 12174 12536 12631 12666 
 	}
-	manpower=54
+	manpower=619312
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

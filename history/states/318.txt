@@ -3,35 +3,33 @@ state={
 	id=318
 	name="STATE_318"
 	resources={
-		steel=3.000
+		aluminium=9.000
+		coal=2.000
+		tungsten=10.000
 	}
 
 	history={
 		owner = X22
 		victory_points = {
-			740 0 
+			857 10 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
+			infrastructure = 3
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
-			740 = {
-				naval_base = 6
-			}
+			air_base = 6
 
 		}
 		add_core_of = EUS
-		add_claim_by = CAT
-		add_claim_by = X22
+		add_core_of = X22
 	}
 
 	provinces={
-		740 932 3735 3737 3902 3931 3933 6756 6903 9857 13233 
+		726 738 794 857 874 884 885 903 918 920 939 3725 3727 3820 3845 3859 3874 3887 3918 3920 4024 6746 6867 6907 6936 9700 9770 9800 9827 9846 9870 9872 11684 11756 11766 11806 11809 11825 11843 11852 11854 13219 13220 13221 13226 13227 13232 
 	}
-	manpower=569196
+	manpower=1434796
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=10.0
 }

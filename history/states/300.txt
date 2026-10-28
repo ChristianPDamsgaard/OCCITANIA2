@@ -2,35 +2,30 @@
 state={
 	id=300
 	name="STATE_300"
-	resources={
-		aluminium=1.000
-	}
 
 	history={
-		owner = W01
+		owner = X95
 		victory_points = {
-			10919 10 
+			9962 10 
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			industrial_complex = 2
 			arms_factory = 0
 			air_base = 6
-			10919 = {
-				naval_base = 4
-			}
 
 		}
-		add_core_of = DAH
-		add_core_of = W01
+		add_core_of = BRD
+		add_core_of = RWA
+		add_core_of = X95
 	}
 
 	provinces={
-		10919 12762 12874 
+		2176 2206 2220 4171 5180 5224 8144 9962 10932 10988 11017 13363 13364 
 	}
-	manpower=452936
+	manpower=1551616
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

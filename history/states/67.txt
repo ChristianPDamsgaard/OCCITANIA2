@@ -4,7 +4,7 @@ state={
 	name="STATE_67"
 
 	history={
-		owner = X89
+		owner = X88
 		victory_points = {
 			13014 10 
 		}
@@ -19,7 +19,7 @@ state={
 
 		}
 		add_core_of = X16
-		add_core_of = X89
+		add_core_of = X88
 	}
 
 	provinces={
@@ -27,7 +27,7 @@ state={
 	}
 	manpower=241172
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

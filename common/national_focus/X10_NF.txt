@@ -369,7 +369,7 @@ focus_tree = {
 			declare_war_on = {
 				target = VIN
 				type = take_core_state
-				generator = { 209 }
+				generator = { 210 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -754,7 +754,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X17
 				type = take_core_state
-				generator = { 166 180 181 }
+				generator = { 167 181 182 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}

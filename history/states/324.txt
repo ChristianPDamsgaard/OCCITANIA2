@@ -2,21 +2,18 @@
 state={
 	id=324
 	name="STATE_324"
-	resources={
-		steel=9.000
-	}
 
 	history={
 		owner = X22
 		victory_points = {
-			7215 0 
+			7173 0 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
-			9945 = {
+			air_base = 0
+			989 = {
 				naval_base = 8
 			}
 
@@ -25,9 +22,9 @@ state={
 	}
 
 	provinces={
-		4199 7215 9945 10113 12087 12100 
+		989 1111 1152 1989 4022 4097 4154 4933 7116 7173 7908 7958 8046 
 	}
-	manpower=605012
+	manpower=527128
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

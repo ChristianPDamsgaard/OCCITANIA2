@@ -2,31 +2,36 @@
 state={
 	id=376
 	name="STATE_376"
+	resources={
+		coal=2.000
+		oil=1.000
+	}
 
 	history={
 		owner = JAP
 		victory_points = {
-			1399 1 
+			855 1 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
-			arms_factory = 1
+			arms_factory = 0
 			air_base = 0
-			13037 = {
+			855 = {
 				naval_base = 6
 			}
 
 		}
 		add_core_of = JAP
+		add_claim_by = X55
 	}
 
 	provinces={
-		1399 1512 1515 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 13037 
+		855 1322 1742 1755 1820 12446 
 	}
-	manpower=2660460
+	manpower=801148
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pastoral
 
 	local_supplies=10.0
 }

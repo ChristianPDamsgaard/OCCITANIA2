@@ -3,32 +3,35 @@ state={
 	id=319
 	name="STATE_319"
 	resources={
-		rubber=2.000
-		tungsten=5.000
+		steel=3.000
 	}
 
 	history={
-		owner = X96
+		owner = X22
 		victory_points = {
-			12989 10 
+			740 0 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
+			infrastructure = 2
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
+			air_base = 0
+			740 = {
+				naval_base = 6
+			}
 
 		}
-		add_core_of = UGA
-		add_core_of = X96
+		add_core_of = EUS
+		add_claim_by = CAT
+		add_claim_by = X22
 	}
 
 	provinces={
-		3854 7088 7133 8223 12929 12989 
+		740 932 3735 3737 3902 3931 3933 6756 6903 9857 13233 
 	}
-	manpower=602672
+	manpower=569196
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

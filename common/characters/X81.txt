@@ -3,7 +3,7 @@ characters={
 		name=X81_andres_milans_del_bosch
 		portraits={
 			civilian={
-				large="GFX_nic_anastasio_somoza_garcia"
+				large="GFX_Bolivia_Enrique_Castillo"
 			}
 		}
 		country_leader={

@@ -1,93 +1,93 @@
 characters={
-	X64_sukru_ciller={
-		name=X64_sukru_ciller
+	X64_asaf_faysi={
+		name=X64_asaf_faysi
 		portraits={
 			army={
-				large="GFX_OTT_Ismail_Cevat"
+				large="GFX_r56_Turkey_Generic_land_1"
 			}
 			army={
-				small="GFX_OTT_Ismail_Cevat"
+				small="GFX_r56_Turkey_Generic_land_1_small"
 			}
 		}
 		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=2
-			legacy_id=0
-		}
-	}
-
-	X64_sabahaddin_terim={
-		name=X64_sabahaddin_terim
-		portraits={
-			army={
-				large="GFX_Portrait_Arabia_Generic_land_3"
-			}
-			army={
-				small="GFX_Portrait_Arabia_Generic_land_3"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X64_fevzi_tandog'an={
-		name=X64_fevzi_tandog'an
-		portraits={
-			army={
-				large="GFX_OTT_Mustafa_Kemal"
-			}
-			army={
-				small="GFX_OTT_Mustafa_Kemal"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X64_numan_sag'lam={
-		name=X64_numan_sag'lam
-		portraits={
-			navy={
-				large="GFX_EGY_Suleiman_Ezzat"
-			}
-			navy={
-				small="GFX_EGY_Suleiman_Ezzat"
-			}
-		}
-		navy_leader={
 			skill=3
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=3
-			coordination_skill=5
+			attack_skill=3
+			defense_skill=6
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X64_king_jochi_ii={
-		name=X64_king_jochi_ii
+	X64_galiaskar_khusainov={
+		name=X64_galiaskar_khusainov
+		portraits={
+			army={
+				large="GFX_OTTLeader05"
+			}
+			army={
+				small="GFX_OTTLeader05_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X64_yusuf_tukay={
+		name=X64_yusuf_tukay
+		portraits={
+			army={
+				large="GFX_Arabia_Generic_new_1"
+			}
+			army={
+				small="GFX_Arabia_Generic_new_1_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X64_baqi_amirkhanov={
+		name=X64_baqi_amirkhanov
+		portraits={
+			army={
+				large="GFX_r56_Turkey_Generic_land_1"
+			}
+			army={
+				small="GFX_r56_Turkey_Generic_land_1_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X64_galiaskar_amirkhanov={
+		name=X64_galiaskar_amirkhanov
 		portraits={
 			civilian={
-				large="GFX_Turkestan_Mohammed_Alim"
+				large="GFX_Turkey_Ismet_Inonu"
 			}
 		}
 		country_leader={
-			ideology=absolute_monarchy
+			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}

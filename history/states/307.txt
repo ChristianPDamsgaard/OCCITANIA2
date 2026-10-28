@@ -2,23 +2,31 @@
 state={
 	id=307
 	name="STATE_307"
-	resources={
-		steel=1.000
-	}
-	impassable = yes
 
 	history={
-		owner = X98
-		add_core_of = MRT
-		add_core_of = X98
+		owner = X22
+		victory_points = {
+			4833 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			4833 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X22
 	}
 
 	provinces={
-		1897 1962 7943 8035 10771 10779 10838 
+		1135 1830 4833 7855 7884 10679 10694 12661 13069 13090 13091 
 	}
-	manpower=105460
+	manpower=122280
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 
 	local_supplies=10.0
 }

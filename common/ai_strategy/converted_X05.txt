@@ -60,7 +60,7 @@ converted_diplo_strategies_X05 = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X58"
+		id = "X57"
 		value = 60
 	}
 	ai_strategy = {
@@ -75,7 +75,7 @@ converted_diplo_strategies_X05 = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 26
 	}
 	ai_strategy = {

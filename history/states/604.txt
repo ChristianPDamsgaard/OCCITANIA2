@@ -2,32 +2,40 @@
 state={
 	id=604
 	name="STATE_604"
+	resources={
+		tungsten=2.000
+	}
 
 	history={
-		owner = X45
+		owner = PRU
 		victory_points = {
-			10382 10 
+			5179 1 
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 3
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 5
-			1460 = {
-				naval_base = 1
-			}
+			air_base = 0
 
 		}
-		add_core_of = MAL
-		add_core_of = X45
+		add_core_of = PRU
+		ARG = {
+			set_province_controller = 5179
+			set_province_controller = 10924
+			set_province_controller = 10938
+			set_province_controller = 10982
+			set_province_controller = 10987
+			set_province_controller = 12930
+			set_province_controller = 12973
+		}
 	}
 
 	provinces={
-		1460 1533 7368 10194 10354 10382 12415 
+		5179 10924 10938 10982 10987 12930 12973 
 	}
-	manpower=130460
+	manpower=471208
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 
 	local_supplies=10.0
 }

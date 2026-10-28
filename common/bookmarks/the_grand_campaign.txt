@@ -21,7 +21,7 @@ bookmarks = {
 			ideology = democratic
 			ideas = { great_power }
 		}
-		X76= {
+		X75= {
 			history = "democratic_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power }
@@ -151,6 +151,12 @@ bookmarks = {
 			ideology = neutrality
 			ideas = { }
 		}
+		X44 = {
+			minor = yes
+			history = "fascism_SP_CONV_DESC"
+			ideology = fascism
+			ideas = { X44_monarch }
+		}
 		X45 = {
 			minor = yes
 			history = "absolutist_SP_CONV_DESC"
@@ -176,12 +182,6 @@ bookmarks = {
 			ideas = { X48_monarch }
 		}
 		X49 = {
-			minor = yes
-			history = "absolutist_SP_CONV_DESC"
-			ideology = absolutist
-			ideas = { }
-		}
-		X50 = {
 			minor = yes
 			history = "absolutist_SP_CONV_DESC"
 			ideology = absolutist

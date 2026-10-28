@@ -130,7 +130,7 @@ converted_diplo_strategies_EUS = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X69"
+		id = "X68"
 		value = 22
 	}
 }

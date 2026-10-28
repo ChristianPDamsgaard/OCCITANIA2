@@ -2,32 +2,33 @@
 state={
 	id=320
 	name="STATE_320"
+	resources={
+		rubber=2.000
+		tungsten=5.000
+	}
 
 	history={
-		owner = X96
+		owner = X95
 		victory_points = {
-			4879 10 
+			12989 10 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 1
 			arms_factory = 0
 			air_base = 6
-			12921 = {
-				naval_base = 2
-			}
 
 		}
-		add_core_of = NMB
-		add_core_of = X96
+		add_core_of = UGA
+		add_core_of = X95
 	}
 
 	provinces={
-		4879 8136 10957 10978 12519 12921 13217 
+		3854 7088 7133 8223 12929 12989 
 	}
-	manpower=205112
+	manpower=602672
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

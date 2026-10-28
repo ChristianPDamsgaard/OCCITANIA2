@@ -2,22 +2,18 @@
 state={
 	id=411
 	name="STATE_411"
-	resources={
-		aluminium=2.000
-		steel=6.000
-	}
 
 	history={
 		owner = LIT
 		victory_points = {
-			6282 1 
+			10493 1 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 			air_base = 1
-			9361 = {
+			9240 = {
 				naval_base = 6
 			}
 
@@ -26,11 +22,11 @@ state={
 	}
 
 	provinces={
-		6282 6309 6334 6390 9277 9306 9334 9361 11316 11343 11372 
+		222 233 265 310 319 341 3194 3255 3296 3298 3319 3388 3525 6222 6322 6342 6459 7482 9240 9262 9275 9317 9501 10323 10493 11222 11246 11302 11358 
 	}
-	manpower=1112820
+	manpower=1709132
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

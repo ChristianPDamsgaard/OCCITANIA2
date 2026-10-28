@@ -2,31 +2,32 @@
 state={
 	id=598
 	name="STATE_598"
+	resources={
+		chromium=1.000
+		tungsten=1.000
+	}
 
 	history={
-		owner = PRU
+		owner = PER
 		victory_points = {
-			2182 1 
+			12314 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
-			arms_factory = 0
+			arms_factory = 1
 			air_base = 0
 
 		}
-		add_core_of = PRU
-		ARG = {
-			set_province_controller = 2182
-		}
+		add_core_of = PER
 	}
 
 	provinces={
-		2182 2210 13286 
+		7519 10781 12314 12653 
 	}
-	manpower=273744
+	manpower=209644
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

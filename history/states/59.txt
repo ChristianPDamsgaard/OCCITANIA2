@@ -4,7 +4,7 @@ state={
 	name="STATE_59"
 
 	history={
-		owner = X89
+		owner = X88
 		victory_points = {
 			7992 10 
 		}
@@ -12,14 +12,14 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 0
-			air_base = 10
+			air_base = 6
 			7992 = {
 				naval_base = 4
 			}
 
 		}
 		add_core_of = MRT
-		add_core_of = X89
+		add_core_of = X88
 	}
 
 	provinces={
@@ -27,7 +27,7 @@ state={
 	}
 	manpower=503068
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

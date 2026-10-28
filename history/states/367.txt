@@ -2,20 +2,23 @@
 state={
 	id=367
 	name="STATE_367"
+	resources={
+		chromium=2.000
+		rubber=3.000
+	}
 
 	history={
 		owner = HON
 		victory_points = {
-			2031 40 
+			10886 1 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 1
-			air_base = 10
-			12823 = {
-				naval_base = 8
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			2077 = {
+				naval_base = 1
 			}
 
 		}
@@ -23,11 +26,11 @@ state={
 	}
 
 	provinces={
-		2031 8017 12823 12865 13093 
+		2077 4991 10842 10886 13085 
 	}
-	manpower=4188060
+	manpower=2178344
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
 
 	local_supplies=10.0
 }

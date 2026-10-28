@@ -264,6 +264,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_TNE_monarch"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_TOG_monarch"
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
@@ -329,10 +333,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_W09_monarch"
-		texturefile = "gfx/interface/ideas/idea_george_v.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_W10_monarch"
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {
@@ -561,11 +561,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_X55_monarch"
-		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+		texturefile = "gfx/interface/ideas/crowns/russia_shield.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_X56_monarch"
-		texturefile = "gfx/interface/ideas/crowns/russia_shield.dds"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_X57_monarch"
@@ -597,11 +597,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_X64_monarch"
-		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+		texturefile = "gfx/interface/goals/focus_TUR_turanist_ambition.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_X65_monarch"
-		texturefile = "gfx/interface/goals/focus_TUR_turanist_ambition.dds"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_X66_monarch"
@@ -609,11 +609,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_X67_monarch"
-		texturefile = "gfx/interface/ideas/idea_george_v.dds"
+		texturefile = "gfx/interface/ideas/crowns/egypt.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_X68_monarch"
-		texturefile = "gfx/interface/ideas/crowns/egypt.dds"
+		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_X69_monarch"
@@ -652,7 +652,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_X78_monarch"
+		name = "GFX_idea_X79_monarch"
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"
 	}
 	spriteType = {

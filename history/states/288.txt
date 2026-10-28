@@ -2,19 +2,34 @@
 state={
 	id=288
 	name="STATE_288"
-	impassable = yes
+	resources={
+		aluminium=1.000
+	}
 
 	history={
-		owner = X94
-		add_core_of = X94
+		owner = X93
+		victory_points = {
+			8243 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			8243 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X93
 	}
 
 	provinces={
-		8155 12904 
+		1526 2191 8130 8200 8243 10969 10997 11011 12948 12962 12976 12990 
 	}
-	manpower=16152
+	manpower=165428
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 
 	local_supplies=10.0
 }

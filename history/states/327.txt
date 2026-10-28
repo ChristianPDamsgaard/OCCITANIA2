@@ -6,24 +6,25 @@ state={
 	history={
 		owner = X22
 		victory_points = {
-			13071 0 
+			7203 0 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
-			13071 = {
-				naval_base = 1
+			7203 = {
+				naval_base = 8
 			}
 
 		}
+		add_core_of = MOR
 	}
 
 	provinces={
-		13071 
+		5046 7203 12857 
 	}
-	manpower=265400
+	manpower=261656
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

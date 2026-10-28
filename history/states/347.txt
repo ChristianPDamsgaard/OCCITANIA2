@@ -6,25 +6,22 @@ state={
 	history={
 		owner = GXC
 		victory_points = {
-			4196 10 
+			3992 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 6
-			4099 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 7
 
 		}
-		add_core_of = X21
+		add_core_of = GXC
 	}
 
 	provinces={
-		1006 1066 1094 1110 1138 1166 1193 4053 4070 4099 4113 4169 4196 7027 7071 7099 7131 9972 10010 10012 10042 10054 10069 10084 10093 11961 11986 12057 12084 
+		1153 1628 3992 4038 4083 4156 4185 7007 7054 7172 7653 9984 10057 10114 10501 11988 12495 
 	}
-	manpower=13439224
+	manpower=19800068
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

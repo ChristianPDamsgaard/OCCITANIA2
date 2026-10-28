@@ -2,31 +2,28 @@
 state={
 	id=94
 	name="STATE_94"
-	resources={
-		aluminium=1.000
-	}
 
 	history={
-		owner = X09
+		owner = BSK
 		victory_points = {
-			940 1 
+			4261 15 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 1
-			air_base = 0
+			infrastructure = 3
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
 
 		}
-		add_core_of = X09
+		add_core_of = BSK
 	}
 
 	provinces={
-		869 940 3788 6807 6894 7143 9755 9763 9811 11792 11860 
+		4215 4261 4383 4411 7281 10196 10224 10256 12200 
 	}
-	manpower=133492
+	manpower=124836
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

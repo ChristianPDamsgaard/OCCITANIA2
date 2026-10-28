@@ -2,32 +2,35 @@
 state={
 	id=457
 	name="STATE_457"
+	resources={
+		coal=1.000
+		oil=7.000
+	}
 
 	history={
-		owner = X37
+		owner = X36
 		victory_points = {
-			13018 10 
+			12721 1 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 3
-			dockyard = 2
-			air_base = 8
-			13018 = {
-				naval_base = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			8057 = {
+				naval_base = 4
 			}
 
 		}
-		add_core_of = X37
+		add_core_of = X36
 	}
 
 	provinces={
-		2165 13017 13018 
+		1945 1952 7973 8057 10738 12721 
 	}
-	manpower=461608
+	manpower=2484592
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_town
 
 	local_supplies=10.0
 }

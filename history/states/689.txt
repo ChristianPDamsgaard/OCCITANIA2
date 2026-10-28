@@ -4,29 +4,26 @@ state={
 	name="STATE_689"
 
 	history={
-		owner = X50
+		owner = SLV
 		victory_points = {
-			10184 15 
+			599 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
+			infrastructure = 4
+			industrial_complex = 7
 			arms_factory = 3
-			dockyard = 2
 			air_base = 8
-			10184 = {
-				naval_base = 1
-			}
 
 		}
-		add_core_of = PHI
-		add_core_of = X50
+		add_core_of = SLV
+		add_claim_by = HLR
+		add_claim_by = ITA
 	}
 
 	provinces={
-		10184 
+		599 
 	}
-	manpower=19444
+	manpower=232148
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

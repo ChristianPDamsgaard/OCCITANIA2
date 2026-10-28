@@ -2,35 +2,32 @@
 state={
 	id=803
 	name="STATE_803"
-	resources={
-		steel=1.000
-	}
 
 	history={
-		owner = X66
+		owner = X65
 		victory_points = {
-			5069 1 
+			4076 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 3
+			industrial_complex = 2
 			arms_factory = 0
-			air_base = 0
-			12002 = {
+			dockyard = 1
+			air_base = 6
+			4076 = {
 				naval_base = 2
 			}
 
 		}
-		add_core_of = X66
-		add_claim_by = X25
+		add_core_of = X65
 	}
 
 	provinces={
-		1028 1064 1151 4068 4910 5069 7073 7156 10097 11999 12002 12071 12889 
+		992 1071 3996 4055 4076 4145 7011 7164 10073 
 	}
-	manpower=568412
+	manpower=3291104
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=city
 
 	local_supplies=10.0
 }

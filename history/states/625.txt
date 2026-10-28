@@ -3,31 +3,30 @@ state={
 	id=625
 	name="STATE_625"
 	resources={
-		aluminium=3.000
+		chromium=7.000
+		coal=1.000
+		steel=22.000
 	}
 
 	history={
-		owner = SCA
+		owner = SAF
 		victory_points = {
-			6235 1 
+			4822 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
-			6235 = {
-				naval_base = 8
-			}
+			air_base = 0
 
 		}
-		add_core_of = SCA
+		add_core_of = SAF
 	}
 
 	provinces={
-		316 394 399 3206 3277 3341 6235 6364 13259 13262 13263 
+		1509 4822 5203 10668 10697 12419 
 	}
-	manpower=1413292
+	manpower=335100
 	buildings_max_level_factor=1.000
 	state_category=rural
 

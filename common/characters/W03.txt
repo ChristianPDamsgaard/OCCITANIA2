@@ -1,13 +1,13 @@
 characters={
-	W03_hamza_burcak={
-		name=W03_hamza_burcak
+	W03_b._vom_u.={
+		name=W03_b._vom_u.
 		portraits={
 			civilian={
-				large="gfx/leaders/TUR/portrait_tur_abdulmejid_ii.dds"
+				large="GFX_Austria_Kurt_Schuschnigg"
 			}
 		}
 		country_leader={
-			ideology=absolute_monarchy
+			ideology=dictatorship_neutral
 			expire="1965.1.1.1"
 			id=-1
 		}

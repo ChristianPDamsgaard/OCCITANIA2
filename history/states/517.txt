@@ -2,31 +2,33 @@
 state={
 	id=517
 	name="STATE_517"
+	resources={
+		rubber=81.000
+	}
 
 	history={
-		owner = X84
+		owner = HOL
 		victory_points = {
-			12068 10 
+			7344 0 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
-			7186 = {
+			air_base = 0
+			7344 = {
 				naval_base = 10
 			}
 
 		}
-		add_core_of = X84
 	}
 
 	provinces={
-		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068 
+		1213 4219 7260 7344 10201 10229 10287 12258 
 	}
-	manpower=4621056
+	manpower=2090716
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
 
 	local_supplies=10.0
 }

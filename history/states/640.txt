@@ -3,31 +3,32 @@ state={
 	id=640
 	name="STATE_640"
 	resources={
-		steel=2.000
+		coal=1.000
 	}
 
 	history={
 		owner = SCA
 		victory_points = {
-			6679 1 
+			686 2 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			arms_factory = 0
+			arms_factory = 1
 			air_base = 1
 
 		}
 		add_core_of = SCA
+		add_claim_by = HLR
 		add_claim_by = X24
 	}
 
 	provinces={
-		690 711 3676 3689 6679 6709 9668 9670 9685 11639 
+		682 686 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 
 	}
-	manpower=1296996
+	manpower=3478304
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 
 	local_supplies=10.0
 }

@@ -3,33 +3,36 @@ state={
 	id=519
 	name="STATE_519"
 	resources={
-		aluminium=4.000
+		oil=5.000
+		rubber=81.000
+		steel=1.000
 	}
 
 	history={
 		owner = X84
 		victory_points = {
-			12074 0 
+			7381 0 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
-			12074 = {
+			12277 = {
 				naval_base = 10
 			}
 
 		}
+		add_core_of = X51
 		add_core_of = X84
 	}
 
 	provinces={
-		1124 1154 4071 4089 4157 4181 7055 9971 10102 12074 
+		1398 1413 1425 4406 4434 4621 7381 7421 10279 10307 12249 12277 13382 13405 
 	}
-	manpower=9617736
+	manpower=5252068
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=metropolis
 
 	local_supplies=10.0
 }

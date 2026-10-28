@@ -2,35 +2,19 @@
 state={
 	id=544
 	name="STATE_544"
-	resources={
-		aluminium=1.000
-		steel=2.000
-	}
+	impassable = yes
 
 	history={
-		owner = X42
-		victory_points = {
-			7185 1 
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			7185 = {
-				naval_base = 4
-			}
-
-		}
-		add_core_of = X42
+		owner = X87
+		add_core_of = X87
 	}
 
 	provinces={
-		4218 5119 5239 6728 7185 7782 9615 10585 10605 12636 12688 
+		1043 1901 4903 5095 8061 10749 12849 
 	}
-	manpower=68539
+	manpower=370176
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

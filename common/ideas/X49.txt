@@ -9,7 +9,7 @@ ideas = {
 			allowed = {
 				original_tag = X49
 				NOT = {
-					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
+					has_allowed_idea_with_traits = { idea = industrial_concern limit = 1 }
 				}
 			}
 
@@ -30,7 +30,7 @@ ideas = {
 			allowed = {
 				original_tag = X49
 				NOT = {
-					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
+					has_allowed_idea_with_traits = { idea = electronics_concern limit = 1 }
 				}
 			}
 

@@ -2,26 +2,32 @@
 state={
 	id=440
 	name="STATE_440"
+	resources={
+		aluminium=4.000
+	}
 
 	history={
-		owner = X36
+		owner = LIT
 		victory_points = {
-			4723 1 
+			3312 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 0
+			air_base = 1
 
 		}
-		add_core_of = X36
+		add_core_of = LIT
+		add_core_of = X07
+		add_claim_by = HLR
+		add_claim_by = SCA
 	}
 
 	provinces={
-		4610 4723 4794 4820 7814 10640 10711 12561 
+		444 537 3207 3312 3473 3572 6236 9387 11478 
 	}
-	manpower=721328
+	manpower=606896
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

@@ -1,4 +1,4 @@
-﻿capital = 495
+﻿capital = 498
 set_research_slots = 3
 
 oob = "MAL_OOB"
@@ -123,6 +123,7 @@ add_opinion_modifier = { target = SCA modifier = negative_10 }
 add_opinion_modifier = { target = SIA modifier = positive_104 }
 add_opinion_modifier = { target = SLV modifier = negative_10 }
 add_opinion_modifier = { target = SPC modifier = negative_10 }
+add_opinion_modifier = { target = TNE modifier = positive_25 }
 add_opinion_modifier = { target = USA modifier = negative_10 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = VIN modifier = positive_115 }
@@ -145,14 +146,13 @@ add_opinion_modifier = { target = X48 modifier = negative_20 }
 add_opinion_modifier = { target = X50 modifier = positive_25 }
 add_opinion_modifier = { target = X51 modifier = positive_25 }
 add_opinion_modifier = { target = X52 modifier = positive_25 }
-add_opinion_modifier = { target = X54 modifier = positive_25 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X60 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = negative_20 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
+add_opinion_modifier = { target = X64 modifier = negative_20 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
 add_opinion_modifier = { target = X73 modifier = negative_10 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_30 }
-add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_30 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
 
 
 add_ideas = {

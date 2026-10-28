@@ -4,31 +4,31 @@ state={
 	name="STATE_688"
 
 	history={
-		owner = X49
+		owner = SIA
 		victory_points = {
-			11581 2 
+			12113 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			dockyard = 1
-			air_base = 1
-			591 = {
-				naval_base = 10
+			air_base = 0
+			12113 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = X49
-		add_claim_by = HLR
+		add_core_of = MAL
+		add_core_of = SIA
+		add_core_of = X40
 	}
 
 	provinces={
-		591 624 3592 3596 3601 6611 11581 11901 
+		12113 
 	}
-	manpower=1092048
+	manpower=26912
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 
 	local_supplies=10.0
 }

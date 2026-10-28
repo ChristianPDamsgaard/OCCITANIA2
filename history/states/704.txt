@@ -4,26 +4,30 @@ state={
 	name="STATE_704"
 
 	history={
-		owner = X56
+		owner = TNE
 		victory_points = {
-			10669 1 
+			1419 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			1419 = {
+				naval_base = 1
+			}
 
 		}
-		add_core_of = X56
+		add_core_of = TNE
 	}
 
 	provinces={
-		1689 4777 7773 7799 7843 10669 12520 12695 
+		1419 7413 10141 
 	}
-	manpower=126304
+	manpower=18996
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

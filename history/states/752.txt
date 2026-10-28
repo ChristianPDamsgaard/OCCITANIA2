@@ -4,30 +4,30 @@ state={
 	name="STATE_752"
 
 	history={
-		owner = W02
+		owner = WES
 		victory_points = {
-			11617 10 
+			7979 15 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 5
-			11599 = {
-				naval_base = 1
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			8038 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = W02
-		add_claim_by = X60
+		add_core_of = WES
 	}
 
 	provinces={
-		672 11599 11617 11647 
+		5012 7979 8038 10875 
 	}
-	manpower=112316
+	manpower=97332
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

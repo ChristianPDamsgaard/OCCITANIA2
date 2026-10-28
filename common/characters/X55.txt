@@ -1,13 +1,73 @@
 characters={
-	X55_x._zu_x.={
-		name=X55_x._zu_x.
+	X55_tyomkigi_zubov={
+		name=X55_tyomkigi_zubov
+		portraits={
+			army={
+				large="GFX_TRM_Baranovsky"
+			}
+			army={
+				small="GFX_TRM_Baranovsky_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X55_lyutya_zubov={
+		name=X55_lyutya_zubov
+		portraits={
+			army={
+				large="GFX_portrait_SOV_ivan_fedyuninsky"
+			}
+			army={
+				small="GFX_portrait_SOV_ivan_fedyuninsky_small"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=5
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X55_kushchta_tikhanov={
+		name=X55_kushchta_tikhanov
+		portraits={
+			army={
+				large="GFX_portrait_SOV_kuzma_galitsky"
+			}
+			army={
+				small="GFX_portrait_SOV_kuzma_galitsky_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X55_tepan_likhachev={
+		name=X55_tepan_likhachev
 		portraits={
 			civilian={
-				large="GFX_europe_generic_5"
+				large="GFX_Soviet_Generic_3"
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			id=-1
 		}

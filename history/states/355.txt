@@ -2,31 +2,35 @@
 state={
 	id=355
 	name="STATE_355"
+	resources={
+		chromium=2.000
+		coal=2.000
+		steel=5.000
+		tungsten=2.000
+	}
 
 	history={
-		owner = X26
+		owner = HLR
 		victory_points = {
-			10540 10 
+			3500 15 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 5
-			1823 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
 
 		}
-		add_core_of = X26
+		add_core_of = HLR
+		add_core_of = X57
 	}
 
 	provinces={
-		1823 1839 1863 10540 
+		482 3500 
 	}
-	manpower=344
+	manpower=530612
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

@@ -3,31 +3,32 @@ state={
 	id=790
 	name="STATE_790"
 	resources={
-		chromium=2.000
+		aluminium=5.000
 	}
 
 	history={
-		owner = W04
+		owner = X64
 		victory_points = {
-			381 0 
+			6542 3 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
 
 		}
-		add_core_of = W04
-		add_core_of = X44
+		add_core_of = TAT
+		add_core_of = X64
+		add_claim_by = HLR
 	}
 
 	provinces={
-		31 88 123 146 189 305 370 381 1295 1307 3000 3027 3270 3294 3300 3363 4298 4314 4326 4356 4400 6121 6162 6217 6274 6278 6288 6297 6323 6388 7318 7359 7403 9145 9225 9283 9293 10200 10579 11124 11133 11170 11193 11203 11320 11365 12175 12203 12244 12558 12587 
+		3530 3679 6542 6568 6581 6934 
 	}
-	manpower=1100784
+	manpower=2432097
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

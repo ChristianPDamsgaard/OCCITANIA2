@@ -3,33 +3,33 @@ state={
 	id=714
 	name="STATE_714"
 	resources={
-		chromium=1.000
-		steel=11.000
-		tungsten=11.000
+		aluminium=2.000
+		coal=2.000
 	}
 
 	history={
-		owner = X57
+		owner = X55
 		victory_points = {
-			12124 1 
+			10627 0 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
 
 		}
-		add_core_of = X57
-		add_claim_by = USA
+		add_core_of = X13
+		add_core_of = X30
+		add_claim_by = X55
 	}
 
 	provinces={
-		1832 3781 4778 12124 
+		1297 1369 1676 1685 1702 1779 1794 1797 1813 1816 1876 1877 4665 4680 4690 4711 4724 4734 4781 4800 4803 4818 4853 7680 7703 7713 7731 7744 7804 7819 7822 10531 10537 10546 10562 10580 10597 10627 10639 10646 10649 10652 10712 10713 11410 12509 12515 12528 12563 12610 12613 12621 12625 12628 12691 
 	}
-	manpower=10720
+	manpower=887960
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

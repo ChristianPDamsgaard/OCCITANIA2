@@ -455,7 +455,7 @@ focus_tree = {
 			RIG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 614
+				owns_state = 621
 			}
 		}
 		completion_reward = {
@@ -528,11 +528,11 @@ focus_tree = {
 			RIG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 614
+				owns_state = 621
 			}
 		}
 		completion_reward = {
-			add_state_claim = 614
+			add_state_claim = 621
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				RIG = { country_event = { id = reconquest_news.1 } }
@@ -607,7 +607,7 @@ focus_tree = {
 			RIG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 614
+				owns_state = 621
 			}
 		}
 		completion_reward = {
@@ -636,14 +636,14 @@ focus_tree = {
 			RIG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 614
+				owns_state = 621
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = RIG
 				type = take_state_focus
-				generator = { 614 }
+				generator = { 621 }
 			}
 		}
 		ai_will_do = {

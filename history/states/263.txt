@@ -2,29 +2,32 @@
 state={
 	id=263
 	name="STATE_263"
+	resources={
+		rubber=4.000
+	}
 
 	history={
-		owner = X97
+		owner = X96
 		victory_points = {
-			12190 0 
+			7321 10 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
-			1326 = {
-				naval_base = 1
+			air_base = 6
+			7321 = {
+				naval_base = 8
 			}
 
 		}
-		add_core_of = X97
+		add_core_of = X96
 	}
 
 	provinces={
-		1326 12178 12190 13001 
+		1298 4301 7321 10175 10219 12151 12219 12234 13392 13393 13394 
 	}
-	manpower=123740
+	manpower=505016
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

@@ -2,33 +2,31 @@
 state={
 	id=585
 	name="STATE_585"
-	resources={
-		aluminium=1.000
-		oil=3.000
-		steel=1.000
-	}
 
 	history={
-		owner = PER
+		owner = X43
 		victory_points = {
-			4966 1 
+			12991 0 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
+			1966 = {
+				naval_base = 1
+			}
 
 		}
-		add_core_of = PER
+		add_core_of = X43
 	}
 
 	provinces={
-		4966 8031 10913 11249 12780 12809 12863 
+		1964 1966 2020 2063 4909 5065 8164 10818 10891 10928 12840 12991 
 	}
-	manpower=494456
+	manpower=385816
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=10.0
 }

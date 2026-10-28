@@ -2,33 +2,28 @@
 state={
 	id=530
 	name="STATE_530"
-	resources={
-		aluminium=11.000
-		steel=50.000
-	}
 
 	history={
 		owner = HOL
 		victory_points = {
-			11435 1 
+			8219 0 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
+			air_base = 0
+			8219 = {
+				naval_base = 10
+			}
 
 		}
-		add_core_of = HOL
-		add_core_of = X59
-		add_claim_by = HLR
-		add_claim_by = LUX
 	}
 
 	provinces={
-		3423 3547 9575 11435 11470 11494 11531 
+		8219 
 	}
-	manpower=1817456
+	manpower=197128
 	buildings_max_level_factor=1.000
 	state_category=rural
 

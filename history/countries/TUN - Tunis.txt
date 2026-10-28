@@ -1,4 +1,4 @@
-﻿capital = 698
+﻿capital = 705
 set_research_slots = 2
 
 oob = "TUN_OOB"
@@ -88,16 +88,16 @@ add_opinion_modifier = { target = USA modifier = negative_10 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = X22 modifier = negative_39 }
 add_opinion_modifier = { target = X39 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X60 modifier = negative_15 }
-add_opinion_modifier = { target = X61 modifier = negative_5 }
-add_opinion_modifier = { target = X62 modifier = negative_20 }
-add_opinion_modifier = { target = X66 modifier = negative_2 }
-add_opinion_modifier = { target = X68 modifier = positive_150 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X59 modifier = negative_15 }
+add_opinion_modifier = { target = X60 modifier = negative_5 }
+add_opinion_modifier = { target = X61 modifier = negative_20 }
+add_opinion_modifier = { target = X65 modifier = negative_2 }
+add_opinion_modifier = { target = X67 modifier = positive_150 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
 add_opinion_modifier = { target = X73 modifier = negative_10 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
 add_opinion_modifier = { target = X76 modifier = negative_10 }
-add_opinion_modifier = { target = X77 modifier = negative_10 }
 
 
 add_ideas = {

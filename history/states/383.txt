@@ -2,19 +2,24 @@
 state={
 	id=383
 	name="STATE_383"
+	resources={
+		chromium=39.000
+		coal=6.000
+	}
 
 	history={
 		owner = JAP
 		victory_points = {
-			10124 2 
+			7110 2 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 0
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
-			1123 = {
-				naval_base = 1
+			1020 = {
+				naval_base = 6
 			}
 
 		}
@@ -22,9 +27,9 @@ state={
 	}
 
 	provinces={
-		1123 7115 10124 11932 
+		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 
 	}
-	manpower=565200
+	manpower=5857288
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

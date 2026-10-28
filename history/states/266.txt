@@ -2,29 +2,33 @@
 state={
 	id=266
 	name="STATE_266"
+	resources={
+		rubber=3.000
+	}
 
 	history={
 		owner = X99
 		victory_points = {
-			13025 0 
+			12213 10 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 0
-			13025 = {
+			air_base = 5
+			12213 = {
 				naval_base = 8
 			}
 
 		}
+		add_core_of = PHI
 		add_core_of = X99
 	}
 
 	provinces={
-		13025 
+		1372 1388 4101 4214 4228 4233 4350 4368 4377 4423 7325 7439 10167 10241 10252 10298 10306 12213 12253 12279 
 	}
-	manpower=2464
+	manpower=1262864
 	buildings_max_level_factor=1.000
 	state_category=rural
 

@@ -6,7 +6,7 @@ characters={
 				large="GFX_nat_north_communist"
 			}
 			army={
-				small="GFX_nat_north_communist"
+				small="GFX_nat_north_communist_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_native_north_american_general"
 			}
 			army={
-				small="GFX_native_north_american_general"
+				small="GFX_native_north_american_general_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_nat_north_radical"
 			}
 			army={
-				small="GFX_nat_north_radical"
+				small="GFX_nat_north_radical_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_nat_north_communist"
 			}
 			army={
-				small="GFX_nat_north_communist"
+				small="GFX_nat_north_communist_small"
 			}
 		}
 		corps_commander={
@@ -86,7 +86,7 @@ characters={
 				large="GFX_native_north_american_general"
 			}
 			army={
-				small="GFX_native_north_american_general"
+				small="GFX_native_north_american_general_small"
 			}
 		}
 		corps_commander={
@@ -106,7 +106,7 @@ characters={
 				large="GFX_native_north_american_radical"
 			}
 			navy={
-				small="GFX_native_north_american_radical"
+				small="GFX_native_north_american_radical_small"
 			}
 		}
 		navy_leader={

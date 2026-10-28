@@ -6,7 +6,7 @@ characters={
 				large="GFX_JOR_Jafar_Askari"
 			}
 			army={
-				small="GFX_JOR_Jafar_Askari"
+				small="GFX_JOR_Jafar_Askari_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_EGY_abdel_hakim_amer"
 			}
 			army={
-				small="GFX_EGY_abdel_hakim_amer"
+				small="GFX_EGY_abdel_hakim_amer_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_EGY_Ahmed_Mwawi"
 			}
 			army={
-				small="GFX_EGY_Ahmed_Mwawi"
+				small="GFX_EGY_Ahmed_Mwawi_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_EGY_Hussein_Refki"
 			}
 			navy={
-				small="GFX_EGY_Hussein_Refki"
+				small="GFX_EGY_Hussein_Refki_small"
 			}
 		}
 		navy_leader={

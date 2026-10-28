@@ -2,31 +2,35 @@
 state={
 	id=722
 	name="STATE_722"
+	resources={
+		steel=1.000
+	}
 
 	history={
-		owner = USA
+		owner = URG
 		victory_points = {
-			4622 2 
+			650 2 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 0
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
-			7480 = {
-				naval_base = 6
+			8222 = {
+				naval_base = 4
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = URG
 	}
 
 	provinces={
-		492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 
+		650 8222 
 	}
-	manpower=6754620
+	manpower=2041732
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=town
 
 	local_supplies=10.0
 }

@@ -2,30 +2,31 @@
 state={
 	id=488
 	name="STATE_488"
-	resources={
-		tungsten=1.000
-	}
 
 	history={
 		owner = X38
 		victory_points = {
-			4386 0 
+			4709 1 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
 
 		}
+		add_core_of = X38
+		add_claim_by = X13
+		add_claim_by = X30
+		add_claim_by = X68
 	}
 
 	provinces={
-		4386 4435 4987 5310 7374 8010 10825 10910 12860 12892 
+		1703 1708 1766 1778 1783 1838 1844 1943 1970 2015 2074 4682 4704 4709 4714 4770 4788 4823 4828 4843 4849 4947 4973 5042 5087 5736 7693 7702 7732 7737 7792 7850 7866 7949 7971 8112 10315 10545 10614 10674 10691 10839 10911 12119 12524 12526 12590 12598 12601 12656 12671 12737 12820 
 	}
-	manpower=1497304
+	manpower=1948060
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

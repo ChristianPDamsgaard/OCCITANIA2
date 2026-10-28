@@ -6,24 +6,24 @@ state={
 	history={
 		owner = CAR
 		victory_points = {
-			12830 0 
+			9152 15 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 5
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 8
 
 		}
 		add_core_of = CAR
 	}
 
 	provinces={
-		1974 3165 5084 8078 11012 11108 12719 12830 
+		1883 1993 2081 3181 7919 9152 13211 
 	}
-	manpower=172844
+	manpower=265600
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

@@ -1,0 +1,56 @@
+characters={
+	TNE_michael_hafiedz={
+		name=TNE_michael_hafiedz
+		portraits={
+			army={
+				large="GFX_Asia_Generic_land_new_1"
+			}
+			army={
+				small="GFX_Asia_Generic_land_new_1_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TNE_michael_mainaky={
+		name=TNE_michael_mainaky
+		portraits={
+			navy={
+				large="GFX_Indonesia_Yos_Sudarso"
+			}
+			navy={
+				small="GFX_Indonesia_Yos_Sudarso_small"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	TNE_king_ignacio={
+		name=TNE_king_ignacio
+		portraits={
+			civilian={
+				large="GFX_Malaya_Hisamuddin_of_Selangor"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

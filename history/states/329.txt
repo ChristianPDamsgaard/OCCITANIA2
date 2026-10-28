@@ -4,26 +4,31 @@ state={
 	name="STATE_329"
 
 	history={
-		owner = KAL
+		owner = GRE
 		victory_points = {
-			6248 2 
+			895 15 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 0
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			895 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = KAL
+		add_core_of = GRE
+		add_core_of = X09
 	}
 
 	provinces={
-		324 376 3317 3371 6248 6291 6391 6409 9258 9276 9286 9324 9344 11262 11269 11309 11324 11394 
+		895 3936 
 	}
-	manpower=488692
+	manpower=65232
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

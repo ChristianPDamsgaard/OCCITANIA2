@@ -3,31 +3,35 @@ state={
 	id=197
 	name="STATE_197"
 	resources={
-		oil=20.000
+		aluminium=44.000
+		coal=4.000
+		steel=136.000
+		tungsten=161.000
 	}
 
 	history={
 		owner = X18
 		victory_points = {
-			1827 4 
+			4607 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
-			arms_factory = 3
-			air_base = 2
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 6
 
 		}
 		add_core_of = X18
+		add_core_of = X19
 		add_claim_by = USA
 	}
 
 	provinces={
-		868 1658 1738 1809 1827 3869 6887 7684 7780 7999 9792 10535 10588 11772 12570 12627 12642 
+		1663 1740 1756 1862 4521 4607 4668 4736 4742 4799 4816 4865 7756 7764 7818 7827 7879 10422 10582 10591 10651 10662 12134 12399 12425 12573 12699 
 	}
-	manpower=59924
+	manpower=142844
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 
 	local_supplies=10.0
 }

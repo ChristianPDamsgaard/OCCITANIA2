@@ -1,4 +1,4 @@
-﻿capital = 717
+﻿capital = 724
 set_research_slots = 3
 
 oob = "URG_OOB"
@@ -39,7 +39,6 @@ if = {
 		basic_torpedo = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_light = 1
-		improved_airplane_launcher = 1
 	}
 }
 
@@ -96,15 +95,15 @@ add_opinion_modifier = { target = X12 modifier = negative_45 }
 set_truce = { target = X12 days = 755 }
 add_opinion_modifier = { target = X18 modifier = positive_5 }
 give_military_access = X20
+add_opinion_modifier = { target = X59 modifier = negative_10 }
 add_opinion_modifier = { target = X60 modifier = negative_10 }
 add_opinion_modifier = { target = X61 modifier = negative_10 }
-add_opinion_modifier = { target = X62 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = positive_20 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
-add_opinion_modifier = { target = X73 modifier = negative_15 }
-add_opinion_modifier = { target = X74 modifier = negative_30 }
-add_opinion_modifier = { target = X76 modifier = positive_15 }
-add_opinion_modifier = { target = X77 modifier = positive_33 }
+add_opinion_modifier = { target = X64 modifier = positive_20 }
+add_opinion_modifier = { target = X67 modifier = negative_10 }
+add_opinion_modifier = { target = X72 modifier = negative_15 }
+add_opinion_modifier = { target = X73 modifier = negative_30 }
+add_opinion_modifier = { target = X75 modifier = positive_15 }
+add_opinion_modifier = { target = X76 modifier = positive_33 }
 
 
 add_ideas = {

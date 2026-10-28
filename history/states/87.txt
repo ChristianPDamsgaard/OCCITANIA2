@@ -2,31 +2,21 @@
 state={
 	id=87
 	name="STATE_87"
-	resources={
-		aluminium=3.000
-	}
+	impassable = yes
 
 	history={
-		owner = BRA
-		victory_points = {
-			10947 1 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
-			air_base = 1
-
-		}
-		add_core_of = BRA
+		owner = BRU
+		add_core_of = BRU
+		add_core_of = X34
+		add_claim_by = MAL
 	}
 
 	provinces={
-		10360 10947 11008 12438 12972 
+		2047 5226 
 	}
-	manpower=652088
+	manpower=16837
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

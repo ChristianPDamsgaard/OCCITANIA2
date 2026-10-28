@@ -2,37 +2,33 @@
 state={
 	id=515
 	name="STATE_515"
-	resources={
-		oil=5.000
-		rubber=81.000
-		steel=1.000
-	}
 
 	history={
-		owner = X85
+		owner = HOL
 		victory_points = {
-			7381 0 
+			336 1 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
-			12277 = {
+			11360 = {
 				naval_base = 10
 			}
 
 		}
-		add_core_of = X51
-		add_core_of = X85
+		add_core_of = HLR
+		add_core_of = HOL
+		add_core_of = X07
 	}
 
 	provinces={
-		1398 1413 1425 4406 4434 4621 7381 7421 10279 10307 12249 12277 
+		241 336 11360 
 	}
-	manpower=5252068
+	manpower=819448
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pastoral
 
 	local_supplies=10.0
 }

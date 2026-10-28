@@ -3,33 +3,36 @@ state={
 	id=854
 	name="STATE_854"
 	resources={
-		steel=22.000
+		aluminium=8.000
+		chromium=5.000
+		oil=3.000
+		steel=11.000
 	}
 
 	history={
-		owner = X77
+		owner = X76
 		victory_points = {
-			7669 1 
+			7798 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			industrial_complex = 0
-			arms_factory = 0
+			arms_factory = 1
 			air_base = 0
-			7669 = {
+			7798 = {
 				naval_base = 2
 			}
 
 		}
-		add_core_of = X77
+		add_core_of = X76
 	}
 
 	provinces={
-		1217 1410 1422 1431 1454 1478 2139 4415 4441 4462 4487 7457 7481 7669 10276 10288 10316 10518 12104 12246 12290 12311 12326 12339 12499 
+		1759 2130 2155 2183 2189 4776 4791 5181 5187 7755 7798 7811 10553 10581 10622 10637 10665 12576 12645 12932 
 	}
-	manpower=16671
+	manpower=83560
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

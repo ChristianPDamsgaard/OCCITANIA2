@@ -2,30 +2,42 @@
 state={
 	id=643
 	name="STATE_643"
+	resources={
+		aluminium=1.000
+		steel=9.000
+	}
 
 	history={
 		owner = SCA
 		victory_points = {
-			9611 1 
+			9692 1 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
 			air_base = 1
+			3484 = {
+				landmark_bojnice_castle = {
+					level = 1
+					allowed = {
+						
+					}
+				}
+			}
 
 		}
 		add_core_of = SCA
-		add_core_of = X49
 		add_claim_by = HLR
+		add_claim_by = LIT
 	}
 
 	provinces={
-		9595 9611 11594 
+		541 555 581 3484 3537 3548 3550 3565 3581 3716 6561 6571 6573 6586 6604 9537 9539 9563 9692 11522 11536 11539 11554 11679 11691 
 	}
-	manpower=565872
+	manpower=4150740
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_city
 
 	local_supplies=10.0
 }

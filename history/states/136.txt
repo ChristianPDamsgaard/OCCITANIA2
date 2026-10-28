@@ -3,14 +3,14 @@ state={
 	id=136
 	name="STATE_136"
 	resources={
-		rubber=2.000
+		rubber=1.000
 		tungsten=1.000
 	}
 
 	history={
-		owner = X82
+		owner = X81
 		victory_points = {
-			4515 0 
+			7716 0 
 		}
 		buildings = {
 			infrastructure = 2
@@ -19,15 +19,15 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = X82
+		add_core_of = X81
 	}
 
 	provinces={
-		191 1516 1817 1929 1968 4515 12795 12907 
+		1731 2024 4128 7716 8016 9986 12775 
 	}
-	manpower=576488
+	manpower=349128
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=10.0
 }

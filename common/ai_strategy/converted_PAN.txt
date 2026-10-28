@@ -80,7 +80,7 @@ converted_diplo_strategies_PAN = {
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X76"
+		id = "X75"
 		value = 34
 	}
 	ai_strategy = {

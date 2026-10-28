@@ -85,7 +85,7 @@ converted_diplo_strategies_ZIM = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X68"
+		id = "X67"
 		value = 89
 	}
 	ai_strategy = {

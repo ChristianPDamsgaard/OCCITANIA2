@@ -1,13 +1,13 @@
 characters={
-	X88_antonius_martena={
-		name=X88_antonius_martena
+	X88_andres_milans_del_bosch={
+		name=X88_andres_milans_del_bosch
 		portraits={
 			civilian={
-				large="GFX_Britain_Winston_Churchill"
+				large="gfx/leaders/South America/portrait_south_america_generic_8.dds"
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			id=-1
 		}

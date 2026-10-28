@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_1"
+				small="GFX_Portrait_Asia_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_1"
+				small="GFX_Portrait_Asia_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_AOG_Generic_1"
 			}
 			army={
-				small="GFX_AOG_Generic_1"
+				small="GFX_AOG_Generic_1_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_navy_3"
 			}
 			navy={
-				small="GFX_Portrait_Asia_Generic_navy_3"
+				small="GFX_Portrait_Asia_Generic_navy_3_small"
 			}
 		}
 		navy_leader={
@@ -83,7 +83,7 @@ characters={
 		name=X52_levi_leiwakabessy_1
 		portraits={
 			civilian={
-				large="GFX_Malaya_Abdul_Rahman_Negeri_Sembilan"
+				large="GFX_Malaya_Hisamuddin_of_Selangor"
 			}
 		}
 		country_leader={

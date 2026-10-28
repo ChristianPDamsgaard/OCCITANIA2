@@ -2,32 +2,33 @@
 state={
 	id=590
 	name="STATE_590"
+	resources={
+		aluminium=1.000
+		oil=3.000
+		steel=1.000
+	}
 
 	history={
 		owner = PER
 		victory_points = {
-			12727 0 
+			4966 1 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
-			10791 = {
-				naval_base = 4
-			}
 
 		}
-		add_core_of = X01
-		add_core_of = X41
+		add_core_of = PER
 	}
 
 	provinces={
-		5024 10791 12727 
+		4966 8031 10913 11249 12780 12809 12863 
 	}
-	manpower=140528
+	manpower=494456
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

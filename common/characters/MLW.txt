@@ -6,7 +6,7 @@ characters={
 				large="GFX_NAM_Samuel_Maharero"
 			}
 			army={
-				small="GFX_NAM_Samuel_Maharero"
+				small="GFX_NAM_Samuel_Maharero_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_TOG_Alhaji"
 			}
 			army={
-				small="GFX_TOG_Alhaji"
+				small="GFX_TOG_Alhaji_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Portrait_Africa_Generic_navy_4"
 			}
 			navy={
-				small="GFX_Portrait_Africa_Generic_navy_4"
+				small="GFX_Portrait_Africa_Generic_navy_4_small"
 			}
 		}
 		navy_leader={

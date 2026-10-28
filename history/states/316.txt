@@ -3,32 +3,32 @@ state={
 	id=316
 	name="STATE_316"
 	resources={
-		chromium=5.000
-		tungsten=1.000
+		chromium=8.000
+		tungsten=2.000
 	}
 
 	history={
-		owner = X96
+		owner = X95
 		victory_points = {
-			10594 0 
+			12504 10 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
+			infrastructure = 4
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
+			air_base = 6
 
 		}
-		add_core_of = X96
+		add_core_of = X95
 		add_core_of = ZAM
 	}
 
 	provinces={
-		1846 5221 10594 10930 
+		697 5199 7872 10538 12504 12677 
 	}
-	manpower=240644
+	manpower=459480
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

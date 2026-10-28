@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_2"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_2"
+				small="GFX_Portrait_Asia_Generic_land_2_small"
 			}
 		}
 		corps_commander={

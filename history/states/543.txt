@@ -2,30 +2,19 @@
 state={
 	id=543
 	name="STATE_543"
+	impassable = yes
 
 	history={
-		owner = HOL
-		victory_points = {
-			6594 0 
-		}
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 1
-
-		}
-		add_core_of = BSK
-		add_core_of = TAT
-		add_claim_by = HLR
+		owner = X85
+		add_core_of = X85
 	}
 
 	provinces={
-		6594 
+		1057 1140 1994 4191 7985 10104 10754 10785 12866 
 	}
-	manpower=372568
+	manpower=192795
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

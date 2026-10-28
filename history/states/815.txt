@@ -4,26 +4,26 @@ state={
 	name="STATE_815"
 
 	history={
-		owner = X69
+		owner = X65
 		victory_points = {
-			2028 15 
+			5010 0 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 7
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = X69
+		add_core_of = X65
 	}
 
 	provinces={
-		2028 5100 
+		5010 7980 12714 13239 13249 
 	}
-	manpower=5080236
+	manpower=923076
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pastoral
 
 	local_supplies=10.0
 }

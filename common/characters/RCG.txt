@@ -6,7 +6,7 @@ characters={
 				large="GFX_KIV_Louis_de_Gonzague_Bobozo"
 			}
 			army={
-				small="GFX_KIV_Louis_de_Gonzague_Bobozo"
+				small="GFX_KIV_Louis_de_Gonzague_Bobozo_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Africa_Generic_navy_1"
 			}
 			navy={
-				small="GFX_Portrait_Africa_Generic_navy_1"
+				small="GFX_Portrait_Africa_Generic_navy_1_small"
 			}
 		}
 		navy_leader={

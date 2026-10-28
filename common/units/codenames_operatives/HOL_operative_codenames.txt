@@ -1,7 +1,7 @@
 HOL_OPERATIVE_CODENAME_HISTORICAL = {
 	name = HOL_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { HOL X84 X85 X86 X87 X88 }
+	for_countries = { HOL X83 X84 X85 X86 X87 }
 
 	type = codename
 

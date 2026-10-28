@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_The_Raj_Army_Generic"
 			}
 			army={
-				small="GFX_Portrait_The_Raj_Army_Generic"
+				small="GFX_Portrait_The_Raj_Army_Generic_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_The_Raj_Army_Generic_2"
 			}
 			army={
-				small="GFX_Portrait_The_Raj_Army_Generic_2"
+				small="GFX_Portrait_The_Raj_Army_Generic_2_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_BHC_Janjuh_Khan"
 			}
 			army={
-				small="GFX_BHC_Janjuh_Khan"
+				small="GFX_BHC_Janjuh_Khan_small"
 			}
 		}
 		corps_commander={

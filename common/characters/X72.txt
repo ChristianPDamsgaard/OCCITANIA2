@@ -1,13 +1,93 @@
 characters={
-	X72_a._von_der_t.={
-		name=X72_a._von_der_t.
+	X72_robert_cotti={
+		name=X72_robert_cotti
+		portraits={
+			army={
+				large="GFX_portrait_GER_hermann_hoth"
+			}
+			army={
+				small="GFX_portrait_GER_hermann_hoth_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X72_rudolf_celio={
+		name=X72_rudolf_celio
+		portraits={
+			army={
+				large="GFX_portrait_GER_wilhelm_list"
+			}
+			army={
+				small="GFX_portrait_GER_wilhelm_list_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X72_eduard_ruchonnet={
+		name=X72_eduard_ruchonnet
+		portraits={
+			army={
+				large="GFX_portrait_GER_heinz_guderian"
+			}
+			army={
+				small="GFX_portrait_GER_heinz_guderian_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=5
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X72_marc_munzinger={
+		name=X72_marc_munzinger
+		portraits={
+			army={
+				large="GFX_Portrait_Germany_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Germany_Generic_land_4_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X72_ulrich_herzog={
+		name=X72_ulrich_herzog
 		portraits={
 			civilian={
-				large="GFX_Germany_Wilhelm_III"
+				large="GFX_Germany_Konrad_Adenauer"
 			}
 		}
 		country_leader={
-			ideology=absolute_monarchy
+			ideology=socialism
 			expire="1965.1.1.1"
 			id=-1
 		}

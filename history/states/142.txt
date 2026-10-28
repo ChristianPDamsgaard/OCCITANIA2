@@ -6,28 +6,28 @@ state={
 	history={
 		owner = X11
 		victory_points = {
-			4241 4 
+			12118 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 1
-			air_base = 1
-			1421 = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			10302 = {
 				naval_base = 2
 			}
 
 		}
 		add_core_of = PHI
+		add_core_of = X11
 	}
 
 	provinces={
-		1234 1293 1379 1407 1421 4241 4266 4399 4427 7284 7360 7389 7417 7445 10214 10243 10300 10328 12116 12158 12160 12188 12217 12245 12273 
+		1261 1368 7385 7423 10186 10302 12112 12118 12153 
 	}
-	manpower=384292
+	manpower=355500
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_island
 
 	local_supplies=10.0
 }

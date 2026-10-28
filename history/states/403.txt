@@ -6,29 +6,25 @@ state={
 	history={
 		owner = X33
 		victory_points = {
-			10278 1 
+			10324 10 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			dockyard = 1
-			air_base = 0
-			4327 = {
-				naval_base = 1
-			}
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 6
 
 		}
+		add_core_of = X33
 		add_core_of = X46
-		add_claim_by = X33
 	}
 
 	provinces={
-		1268 1344 1409 4327 4420 7265 7363 7436 8067 10149 10278 10808 12164 12247 
+		1275 1317 1359 4280 4472 5063 5104 7060 7411 8087 10259 10311 10324 10799 12114 
 	}
-	manpower=4390220
+	manpower=3220644
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=city
 
 	local_supplies=10.0
 }

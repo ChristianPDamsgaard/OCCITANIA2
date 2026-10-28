@@ -3,30 +3,33 @@ state={
 	id=527
 	name="STATE_527"
 	resources={
-		rubber=2.000
+		rubber=1.000
 	}
 
 	history={
-		owner = X87
+		owner = X86
 		victory_points = {
-			4938 0 
+			4952 0 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
+			4952 = {
+				naval_base = 10
+			}
 
 		}
-		add_core_of = X87
+		add_core_of = X86
 	}
 
 	provinces={
-		1969 4938 4972 
+		1992 4952 12900 
 	}
-	manpower=3069332
+	manpower=2025104
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 
 	local_supplies=10.0
 }

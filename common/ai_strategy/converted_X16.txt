@@ -30,7 +30,7 @@ converted_diplo_strategies_X16 = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X75"
+		id = "X74"
 		value = 43
 	}
 }

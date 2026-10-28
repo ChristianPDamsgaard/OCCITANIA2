@@ -3,13 +3,15 @@ state={
 	id=200
 	name="STATE_200"
 	resources={
-		rubber=8.000
+		rubber=11.000
+		steel=1.000
+		tungsten=1.000
 	}
 
 	history={
 		owner = VIN
 		victory_points = {
-			12360 1 
+			1488 1 
 		}
 		buildings = {
 			infrastructure = 1
@@ -18,14 +20,15 @@ state={
 			air_base = 0
 
 		}
+		add_core_of = SIA
 		add_core_of = VIN
-		add_claim_by = CAM
+		add_claim_by = X35
 	}
 
 	provinces={
-		1357 1535 4511 4582 7516 10384 10425 10438 12195 12264 12360 12373 12388 12402 
+		1253 1488 1990 4496 7353 7492 7531 7572 7675 8045 10371 10398 10411 12173 12345 
 	}
-	manpower=1009192
+	manpower=1320908
 	buildings_max_level_factor=1.000
 	state_category=rural
 

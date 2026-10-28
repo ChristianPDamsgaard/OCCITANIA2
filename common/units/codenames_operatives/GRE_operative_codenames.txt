@@ -1,7 +1,7 @@
 GRE_OPERATIVE_CODENAME_HISTORICAL = {
 	name = GRE_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { GRE W02 X09 X60 }
+	for_countries = { GRE W01 X09 X59 }
 
 	type = codename
 

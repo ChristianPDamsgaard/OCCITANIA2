@@ -3,31 +3,37 @@ state={
 	id=482
 	name="STATE_482"
 	resources={
-		tungsten=1.000
+		aluminium=1.000
+		chromium=2.000
+		tungsten=27.000
 	}
 
 	history={
 		owner = X38
 		victory_points = {
-			1492 1 
+			1349 0 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 0
+			air_base = 1
+			1273 = {
+				naval_base = 4
+			}
 
 		}
-		add_core_of = X38
-		add_claim_by = X04
+		add_core_of = X33
+		add_core_of = X46
+		add_claim_by = X38
 	}
 
 	provinces={
-		1333 1492 1650 4019 4059 4202 7034 7469 10283 10344 10386 12284 12404 12492 
+		1273 1349 1405 4072 4278 4291 4353 4395 7119 7177 7205 7232 7250 10019 10210 10270 11993 12105 12142 12182 12208 12269 12295 
 	}
-	manpower=804928
+	manpower=6090144
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

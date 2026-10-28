@@ -6,16 +6,16 @@ state={
 	history={
 		owner = X11
 		victory_points = {
-			1351 4 
+			4241 4 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
-			air_base = 2
-			1351 = {
-				naval_base = 1
+			air_base = 1
+			1421 = {
+				naval_base = 2
 			}
 
 		}
@@ -23,9 +23,9 @@ state={
 	}
 
 	provinces={
-		1351 
+		1234 1293 1379 1407 1421 4241 4266 4399 4427 7284 7360 7389 7417 7445 10214 10243 10300 10328 12116 12158 12160 12188 12217 12245 12273 
 	}
-	manpower=11888
+	manpower=384292
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 

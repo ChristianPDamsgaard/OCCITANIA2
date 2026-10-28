@@ -1,9 +1,9 @@
 characters={
-	X80_enrique_casals={
-		name=X80_enrique_casals
+	X80_andres_milans_del_bosch={
+		name=X80_andres_milans_del_bosch
 		portraits={
 			civilian={
-				large="GFX_ecu_federico_paez"
+				large="GFX_nic_anastasio_somoza_garcia"
 			}
 		}
 		country_leader={

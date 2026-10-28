@@ -4,26 +4,31 @@ state={
 	name="STATE_505"
 
 	history={
-		owner = HOL
+		owner = MZB
 		victory_points = {
-			11562 1 
+			2123 2 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 0
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
+			2123 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = HOL
+		add_core_of = MLW
+		add_claim_by = MZB
 	}
 
 	provinces={
-		3262 6496 6500 9363 11456 11562 
+		2123 2159 2202 2217 5164 10972 12908 
 	}
-	manpower=2196360
+	manpower=774172
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 
 	local_supplies=10.0
 }

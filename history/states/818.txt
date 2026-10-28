@@ -4,27 +4,30 @@ state={
 	name="STATE_818"
 
 	history={
-		owner = X74
+		owner = X66
 		victory_points = {
-			3546 20 
+			12802 15 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 7
-			arms_factory = 3
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
 			air_base = 8
+			12858 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = X74
-		add_claim_by = HLR
+		add_core_of = X66
 	}
 
 	provinces={
-		3546 3560 5291 
+		1909 4957 8008 12802 12858 
 	}
-	manpower=235820
+	manpower=468648
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=metropolis
 
 	local_supplies=10.0
 }

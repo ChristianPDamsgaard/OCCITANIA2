@@ -4,26 +4,26 @@ state={
 	name="STATE_734"
 
 	history={
-		owner = VEN
+		owner = USA
 		victory_points = {
-			10792 1 
+			7643 1 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
 			air_base = 0
 
 		}
-		add_core_of = VEN
+		add_core_of = USA
 	}
 
 	provinces={
-		1887 2007 5026 10792 12729 12770 12825 
+		7643 9967 10468 10495 
 	}
-	manpower=219236
+	manpower=2399360
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

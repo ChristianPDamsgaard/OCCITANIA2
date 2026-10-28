@@ -6,7 +6,7 @@ characters={
 				large="GFX_Portrait_South_America_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_South_America_Generic_land_1"
+				small="GFX_Portrait_South_America_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_South_America_Generic_navy_2"
 			}
 			navy={
-				small="GFX_Portrait_South_America_Generic_navy_2"
+				small="GFX_Portrait_South_America_Generic_navy_2_small"
 			}
 		}
 		navy_leader={

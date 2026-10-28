@@ -12,11 +12,11 @@ state={
 			7296 3 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 2
 			arms_factory = 2
 			dockyard = 1
-			air_base = 2
+			air_base = 1
 			7415 = {
 				naval_base = 4
 			}
@@ -28,9 +28,9 @@ state={
 	}
 
 	provinces={
-		1225 1252 1404 1416 2047 4236 5226 7231 7296 7415 10138 10178 10181 10325 12110 12243 12252 
+		1225 1252 1404 1416 4236 7231 7296 7415 10138 10178 10181 10325 12110 12243 12252 
 	}
-	manpower=319008
+	manpower=302170
 	buildings_max_level_factor=1.000
 	state_category=city
 

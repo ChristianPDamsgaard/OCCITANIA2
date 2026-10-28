@@ -6,28 +6,28 @@ state={
 	history={
 		owner = X91
 		victory_points = {
-			12126 10 
+			12148 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
 			air_base = 5
-			12126 = {
+			12148 = {
 				naval_base = 4
 			}
 
 		}
-		add_core_of = SIA
+		add_core_of = TAH
 		add_core_of = X91
 	}
 
 	provinces={
-		1428 12126 
+		10188 12148 
 	}
-	manpower=77608
+	manpower=27924
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

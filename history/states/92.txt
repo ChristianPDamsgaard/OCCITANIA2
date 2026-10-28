@@ -3,43 +3,33 @@ state={
 	id=92
 	name="STATE_92"
 	resources={
-		aluminium=11.000
-		chromium=3.000
-		steel=2.000
-		tungsten=2.000
+		aluminium=12.000
+		chromium=9.000
+		steel=7.000
+		tungsten=5.000
 	}
 
 	history={
 		owner = BRA
 		victory_points = {
-			10980 10 
+			12479 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			air_base = 6
-			10980 = {
-				naval_base = 4
-				landmark_cristo_redentor = {
-					level = 1
-					allowed = {
-						has_dlc = "Gotterdammerung"
-					}
-				}
-			}
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
 
 		}
 		add_core_of = BRA
 	}
 
 	provinces={
-		2153 5172 8190 8196 10980 10999 12996 
+		2167 2185 2190 2218 4570 5223 7476 7589 8148 8210 8226 8233 10931 10945 12334 12479 12903 12909 12923 12938 12977 
 	}
-	manpower=3886472
+	manpower=1203508
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=rural
 
 	local_supplies=10.0
 }

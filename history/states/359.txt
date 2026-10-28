@@ -2,29 +2,29 @@
 state={
 	id=359
 	name="STATE_359"
+	resources={
+		steel=1.000
+	}
 
 	history={
 		owner = HON
 		victory_points = {
-			5015 1 
+			4898 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 1
-			13088 = {
-				naval_base = 8
-			}
+			air_base = 0
 
 		}
 		add_core_of = HON
 	}
 
 	provinces={
-		5015 5021 8079 13088 
+		4898 7935 10916 12850 
 	}
-	manpower=1459668
+	manpower=334740
 	buildings_max_level_factor=1.000
 	state_category=rural
 

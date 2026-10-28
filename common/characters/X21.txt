@@ -6,7 +6,7 @@ characters={
 				large="GFX_SQI_wang_yaowu"
 			}
 			army={
-				small="GFX_SQI_wang_yaowu"
+				small="GFX_SQI_wang_yaowu_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Asia_Generic_navy_new_3"
 			}
 			navy={
-				small="GFX_Asia_Generic_navy_new_3"
+				small="GFX_Asia_Generic_navy_new_3_small"
 			}
 		}
 		navy_leader={
@@ -43,7 +43,7 @@ characters={
 		name=X21_he_nee
 		portraits={
 			civilian={
-				large="GFX_China_Pujie"
+				large="GFX_China_Chiang_Kai_Shek"
 			}
 		}
 		country_leader={

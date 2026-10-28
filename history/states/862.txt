@@ -2,28 +2,34 @@
 state={
 	id=862
 	name="STATE_862"
+	resources={
+		tungsten=2.000
+	}
 
 	history={
-		owner = W08
+		owner = X76
 		victory_points = {
-			12306 0 
+			2211 1 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
+			12632 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = W08
+		add_core_of = X76
 	}
 
 	provinces={
-		2199 8161 8176 8192 12306 12982 13306 
+		2211 4819 8232 8241 10650 12632 12980 12988 
 	}
-	manpower=36200
+	manpower=9380
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 
 	local_supplies=10.0
 }

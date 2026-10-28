@@ -4,15 +4,20 @@ ideas = {
 
 		best_of_the_best_spirit = {
 			ledger = army
-			visible = { 
-				has_government = democratic
+			visible = {
+				AND = { 
+		 			has_government = democratic
+				}
 			}
 			ai_will_do = {
 				base = 1
 
 				modifier = {
 					factor = 0
-					NOT = { has_dlc = "No Step Back" }
+					OR = {
+						NOT = { has_dlc = "No Step Back" }
+						NOT = { has_government = democratic }
+					}
 				}
 
 				modifier = {
@@ -30,14 +35,19 @@ ideas = {
 		political_loyalty_spirit_fasc = {
 			ledger = army
 			visible = { 
+				AND = {
 				has_government = fascism
+				}
 			}
 			ai_will_do = {
 				base = 1
 
 				modifier = {
 					factor = 0
-					NOT = { has_dlc = "No Step Back" }
+					OR = {
+						NOT = { has_dlc = "No Step Back" }
+						NOT = { has_government = fascism }
+					}
 				}
 
 				modifier = {
@@ -56,14 +66,19 @@ ideas = {
 		political_loyalty_spirit = {
 			ledger = army
 			visible = { 
+				AND = {
 				has_government = neutrality
+				}
 			}
 			ai_will_do = {
 				base = 1
 
 				modifier = {
 					factor = 0
-					NOT = { has_dlc = "No Step Back" }
+					OR = {
+						NOT = { has_dlc = "No Step Back" }
+						NOT = { has_government = neutrality }
+					}
 				}
 
 				modifier = {
@@ -75,6 +90,47 @@ ideas = {
 				military_leader_cost_factor = -0.5
 				party_popularity_stability_factor = 0.15
 				custom_modifier_tooltip = political_loyalty_spirit_tt
+			}
+		}
+	}
+
+	army_spirit = {
+
+		relief_of_command_spirit = {
+			ledger = army
+			ai_will_do = {
+				base = 1
+
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = { has_dlc = "No Step Back" }
+						NOT = {has_government = democratic }
+					}
+				}
+			}
+			modifier = {
+				experience_gain_army_factor = 0.25
+				army_advisor_cost_factor = -0.5
+			}
+		}
+
+		state_serves_the_military_spirit = {
+			ledger = army
+			ai_will_do = {
+				base = 1
+
+				modifier = {
+					factor = 0
+					OR = {
+						NOT = { has_dlc = "No Step Back" }
+						NOT = {has_government = fascism }
+					}
+				}
+			}
+			modifier = {
+				offensive_war_stability_factor = 0.1
+				mobilization_laws_cost_factor = -0.25
 			}
 		}
 	}

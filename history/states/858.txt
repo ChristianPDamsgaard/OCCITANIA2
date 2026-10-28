@@ -2,29 +2,17 @@
 state={
 	id=858
 	name="STATE_858"
+	impassable = yes
 
 	history={
-		owner = W07
-		victory_points = {
-			8188 0 
-		}
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			5128 = {
-				naval_base = 0
-			}
-
-		}
-		add_core_of = W07
+		owner = X76
+		add_core_of = X76
 	}
 
 	provinces={
-		5128 5222 8188 10993 
+		2205 8206 
 	}
-	manpower=1080100
+	manpower=364
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 

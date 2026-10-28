@@ -2,31 +2,20 @@
 state={
 	id=606
 	name="STATE_606"
+	impassable = yes
 
 	history={
-		owner = PHI
-		victory_points = {
-			7419 1 
-		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			7419 = {
-				naval_base = 4
-			}
-
-		}
-		add_core_of = PHI
+		owner = PRU
+		add_core_of = PRU
+		add_claim_by = BRA
 	}
 
 	provinces={
-		4429 7419 10145 
+		5216 10960 
 	}
-	manpower=195172
+	manpower=143857
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=wasteland
 
 	local_supplies=10.0
 }

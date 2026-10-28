@@ -3,32 +3,34 @@ state={
 	id=699
 	name="STATE_699"
 	resources={
-		steel=12.000
-		tungsten=3.000
+		coal=2.000
 	}
 
 	history={
-		owner = X56
+		owner = TAT
 		victory_points = {
-			12298 2 
+			6488 20 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 4
+			industrial_complex = 5
 			arms_factory = 1
-			air_base = 1
+			air_base = 7
 
 		}
-		add_core_of = KAL
-		add_core_of = X56
+		add_core_of = BSK
+		add_core_of = HES
+		add_core_of = HLR
+		add_core_of = TAT
+		add_core_of = X58
 	}
 
 	provinces={
-		208 257 286 338 365 380 410 452 497 566 1210 1378 1406 3196 3246 3276 3330 3372 3404 3486 6226 6275 6302 6339 6379 6394 6424 6473 6502 6515 7373 9243 9299 9337 9338 9365 9391 9420 9445 9549 10299 11240 11321 11433 11458 11537 12128 12242 12270 12298 
+		589 3397 3524 3574 6444 6488 9486 
 	}
-	manpower=881552
+	manpower=1442576
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_city
 
 	local_supplies=10.0
 }

@@ -1,69 +1,49 @@
 characters={
-	X61_berihun_selassie={
-		name=X61_berihun_selassie
+	X61_lalbick_sobaipuri={
+		name=X61_lalbick_sobaipuri
 		portraits={
 			army={
-				large="GFX_Portrait_Africa_Generic_land_2"
+				large="GFX_native_north_american_general"
 			}
 			army={
-				small="GFX_Portrait_Africa_Generic_land_2"
+				small="GFX_native_north_american_general_small"
 			}
 		}
 		corps_commander={
 			skill=2
-			attack_skill=4
-			defense_skill=1
+			attack_skill=2
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X61_bekele_mariam={
-		name=X61_bekele_mariam
+	X61_naranjo_chelamela={
+		name=X61_naranjo_chelamela
 		portraits={
 			army={
-				large="GFX_SUD_Ali_Latif"
+				large="GFX_native_north_american_general"
 			}
 			army={
-				small="GFX_SUD_Ali_Latif"
+				small="GFX_native_north_american_general_small"
 			}
 		}
 		corps_commander={
-			skill=1
+			skill=2
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
-			logistics_skill=1
+			logistics_skill=5
 			legacy_id=0
 		}
 	}
 
-	X61_kelile_mariam={
-		name=X61_kelile_mariam
-		portraits={
-			army={
-				large="GFX_Ethiopia_Kassa_Haile_Darge"
-			}
-			army={
-				small="GFX_Ethiopia_Kassa_Haile_Darge"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=2
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X61_king_geteye={
-		name=X61_king_geteye
+	X61_towyecolla_pojoaque={
+		name=X61_towyecolla_pojoaque
 		portraits={
 			civilian={
-				large="GFX_Ethiopia_Haile_Selassie"
+				large="GFX_nat_north_absolutist"
 			}
 		}
 		country_leader={

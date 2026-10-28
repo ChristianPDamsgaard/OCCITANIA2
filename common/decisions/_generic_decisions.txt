@@ -161,7 +161,7 @@ economy_decisions = {
 
 		complete_effect = {
 			add_equipment_to_stockpile = {
-				type = train_equipment
+				type = train_equipment_1
 				amount = 15
 			}
 			add_stability = -0.05
@@ -348,7 +348,6 @@ economy_decisions = {
 							include_locked = yes
 						}
 						NOT = { has_state_flag = war_building_slot_flag }
-						infrastructure > 4
 					}
 					add_extra_state_shared_building_slots = 1
 					set_state_flag = war_building_slot_flag
@@ -478,6 +477,10 @@ propaganda_efforts = {
 					has_idea = limited_conscription
 					has_idea = extensive_conscription
 				}
+			}
+			modifier = {
+				factor = 0
+				has_war_support > 0.9
 			}
 		}
 	}
@@ -650,6 +653,7 @@ propaganda_efforts = {
 			}
 			hidden_effect = {
 				country_event = political.33
+				set_country_flag = has_taken_the_war_propaganda_film_industry_decision
 			}
 		}
 
@@ -670,13 +674,13 @@ operations = {
 		icon = GFX_decision_generic_special_project
 
 		available = {
-			has_full_control_of_state = 626
+			has_full_control_of_state = 633
 			num_of_civilian_factories > 10
 		}
 
 		visible = {
 			has_global_flag = KIEL_CANAL_UNBUILT
-			controls_state = 626
+			controls_state = 633
 		}
 
 		fire_only_once = yes
@@ -711,16 +715,16 @@ operations = {
 		icon = GFX_decision_generic_special_project
 
 		available = {
-			has_full_control_of_state = 542
-			has_full_control_of_state = 797
+			has_full_control_of_state = 547
+			has_full_control_of_state = 804
 			num_of_civilian_factories > 15
 		}
 
 		visible = {
 			has_global_flag = SUEZ_CANAL_UNBUILT
 			OR = {
-				controls_state = 542
-				controls_state = 797
+				controls_state = 547
+				controls_state = 804
 			}
 		}
 
@@ -756,13 +760,13 @@ operations = {
 		icon = GFX_decision_generic_special_project
 
 		available = {
-			has_full_control_of_state = 728
+			has_full_control_of_state = 735
 			num_of_civilian_factories > 20
 		}
 
 		visible = {
 			has_global_flag = PANAMA_CANAL_UNBUILT
-			controls_state = 728
+			controls_state = 735
 		}
 
 		fire_only_once = yes
@@ -801,24 +805,24 @@ operations = {
 		}
 
 		available = {
-			controls_state = 542
-			controls_state = 797
+			controls_state = 547
+			controls_state = 804
 			OR = {
 				NOT = {
-					owns_state = 542
-					owns_state = 797
+					owns_state = 547
+					owns_state = 804
 				}
 				any_enemy_country = {
 					OR = {
-						controls_state = 387
 						controls_state = 388
-						controls_state = 785
-						controls_state = 786
-						controls_state = 796
-						controls_state = 798
-						controls_state = 800
-						controls_state = 802
+						controls_state = 389
+						controls_state = 792
+						controls_state = 793
 						controls_state = 803
+						controls_state = 805
+						controls_state = 807
+						controls_state = 809
+						controls_state = 810
 					}
 				}
 			}
@@ -851,14 +855,14 @@ operations = {
 				if = {
 					limit = {
 						NOT = {
-							owns_state = 542
-							owns_state = 797
+							owns_state = 547
+							owns_state = 804
 						}
 					}
 					random_country = {
 						limit = {
-							owns_state = 542
-							owns_state = 797
+							owns_state = 547
+							owns_state = 804
 						}
 						country_event = { id = generic.12 days = 1 }
 					}
@@ -870,8 +874,8 @@ operations = {
 			if = {
 				limit = {
 					OR = {
-						has_full_control_of_state = 542
-						has_full_control_of_state = 797
+						has_full_control_of_state = 547
+						has_full_control_of_state = 804
 					}
 				}
 				set_country_flag = blew_up_suez
@@ -887,25 +891,25 @@ operations = {
 				NOT = {
 					any_enemy_country = {
 						OR = {
-							controls_state = 387
 							controls_state = 388
-							controls_state = 785
-							controls_state = 786
-							controls_state = 796
-							controls_state = 798
-							controls_state = 800
-							controls_state = 802
+							controls_state = 389
+							controls_state = 792
+							controls_state = 793
 							controls_state = 803
+							controls_state = 805
+							controls_state = 807
+							controls_state = 809
+							controls_state = 810
 							OR = {
-								divisions_in_state = { state = 387 size > 2 }
 								divisions_in_state = { state = 388 size > 2 }
-								divisions_in_state = { state = 785 size > 2 }
-								divisions_in_state = { state = 786 size > 2 }
-								divisions_in_state = { state = 796 size > 2 }
-								divisions_in_state = { state = 798 size > 2 }
-								divisions_in_state = { state = 800 size > 2 }
-								divisions_in_state = { state = 802 size > 2 }
+								divisions_in_state = { state = 389 size > 2 }
+								divisions_in_state = { state = 792 size > 2 }
+								divisions_in_state = { state = 793 size > 2 }
 								divisions_in_state = { state = 803 size > 2 }
+								divisions_in_state = { state = 805 size > 2 }
+								divisions_in_state = { state = 807 size > 2 }
+								divisions_in_state = { state = 809 size > 2 }
+								divisions_in_state = { state = 810 size > 2 }
 							}
 						}
 					}
@@ -916,26 +920,26 @@ operations = {
 				any_allied_country = {
 					NOT = {
 						OR = {
-							has_full_control_of_state = 800
-							has_full_control_of_state = 802
-							has_full_control_of_state = 803
+							has_full_control_of_state = 807
+							has_full_control_of_state = 809
+							has_full_control_of_state = 810
 						}
 					}
-					NOT = { has_full_control_of_state = 805 }
+					NOT = { has_full_control_of_state = 812 }
 					OR = {
-						divisions_in_state = { state = 298 size > 0 }
-						divisions_in_state = { state = 580 size > 0 }
-						divisions_in_state = { state = 806 size > 0 }
-						divisions_in_state = { state = 809 size > 0 }
+						divisions_in_state = { state = 299 size > 0 }
+						divisions_in_state = { state = 585 size > 0 }
+						divisions_in_state = { state = 813 size > 0 }
+						divisions_in_state = { state = 816 size > 0 }
 					}
 				}
 			}
 			modifier = {
 				factor = 200 # Try to cut the enemy off from the mediterranean if you also occupy Gibraltar
 				OR = {
-					has_full_control_of_state = 255
+					has_full_control_of_state = 256
 					any_allied_country = {
-						has_full_control_of_state = 255
+						has_full_control_of_state = 256
 					}
 				}
 				has_war = yes
@@ -953,7 +957,7 @@ operations = {
 		}
 
 		available = {
-			has_full_control_of_state = 728
+			has_full_control_of_state = 735
 		}
 
 		visible = {
@@ -983,12 +987,12 @@ operations = {
 				if = {
 					limit = {
 						NOT = {
-							owns_state = 728
+							owns_state = 735
 						}
 					}
 					random_country = {
 						limit = {
-							owns_state = 728
+							owns_state = 735
 						}
 						country_event = { id = generic.13 days = 1 }
 					}
@@ -1000,8 +1004,8 @@ operations = {
 			if = {
 				limit = {
 					OR = {
-						has_full_control_of_state = 607
-						has_full_control_of_state = 728
+						has_full_control_of_state = 612
+						has_full_control_of_state = 735
 					}
 				}
 				set_country_flag = blew_up_panama
@@ -1036,8 +1040,8 @@ special_projects = {
 		icon = GFX_decision_generic_special_project
 
 		available = {
-			has_full_control_of_state = 542
-			has_full_control_of_state = 797
+			has_full_control_of_state = 547
+			has_full_control_of_state = 804
 			num_of_civilian_factories > 15
 		}
 
@@ -1058,8 +1062,8 @@ special_projects = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_full_control_of_state = 542
-					has_full_control_of_state = 797
+					has_full_control_of_state = 547
+					has_full_control_of_state = 804
 				}
 				set_country_flag = rebuilt_suez
 				clr_global_flag = SUEZ_CANAL_BLOCKED
@@ -1085,10 +1089,10 @@ special_projects = {
 		icon = GFX_decision_generic_special_project
 
 		available = {
-			has_full_control_of_state = 728
+			has_full_control_of_state = 735
 			NOT = {
 				any_enemy_country = {
-					controls_state = 607
+					controls_state = 612
 				}
 			}
 			num_of_civilian_factories > 25
@@ -1111,10 +1115,10 @@ special_projects = {
 		remove_effect = {
 			if = {
 				limit = {
-					has_full_control_of_state = 728
+					has_full_control_of_state = 735
 					NOT = {
 						any_enemy_country = {
-							controls_state = 607
+							controls_state = 612
 						}
 					}
 				}
@@ -1354,10 +1358,8 @@ war_measures = {
 		complete_effect = {
 			if = {
 				limit = {
-					check_variable = {
-						var = GER_war_bonds_var
-						value = 50
-						compare = less_than
+					NOT = {
+						has_variable = GER_war_bonds_var
 					}
 				}
 				set_variable = {
@@ -1371,35 +1373,13 @@ war_measures = {
 			}
 			if = {
 				limit = {
-					check_variable = {
-						var = GER_war_bonds_var
-						value = 100
-						compare = greater_than_or_equals
-					}
-					check_variable = {
-						var = GER_war_bonds_war_support_var
-						value = -0.025
-						compare = greater_than
-					}
-				}
-				set_variable = {
-					var = GER_war_bonds_war_support_var
-					value = -0.025
-				}
-			}
-			if = {
-				limit = {
-					check_variable = {
-						var = GER_war_bonds_war_support_var
-						value = -0.025
-						compare = less_than_or_equals
-					}
-				}
-				add_to_variable = {
-					var = GER_war_bonds_war_support_var
-					value = -0.025
+					has_variable = GER_war_bonds_war_support_var
 				}
 				add_war_support = GER_war_bonds_war_support_var
+			}
+			add_to_variable = {
+				var = GER_war_bonds_war_support_var
+				value = -0.025
 			}
 		}
 
@@ -1441,10 +1421,23 @@ war_measures = {
 		}
 
 		ai_will_do = {
-			factor = 201
+			base = 201
 			modifier = {
 				factor = 0
 				is_major = no
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					has_doctrine = mountaineers_1
+					has_doctrine = mountaineers_2
+					has_doctrine = marines_1
+					has_doctrine = marines_2
+					has_doctrine = paratroopers_1
+					has_doctrine = paratroopers_2
+					has_doctrine = rangers_1
+					has_doctrine = rangers_2
+				}
 			}
 		}
 	}

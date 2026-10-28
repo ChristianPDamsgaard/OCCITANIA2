@@ -4,29 +4,39 @@ state={
 	name="STATE_639"
 	resources={
 		steel=1.000
+		tungsten=1.000
 	}
 
 	history={
 		owner = SCA
 		victory_points = {
-			6711 1 
+			11666 1 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 0
 			air_base = 1
+			11666 = {
+				landmark_hofburg_palace = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
 
 		}
 		add_core_of = SCA
+		add_claim_by = HLR
 	}
 
 	provinces={
-		676 693 727 3665 3694 3709 6711 6714 6731 9619 9672 9704 11622 11676 
+		704 3700 3718 6552 6690 6723 6739 9527 9661 11630 11651 11666 
 	}
-	manpower=1742940
+	manpower=2615424
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

@@ -2,33 +2,41 @@
 state={
 	id=572
 	name="STATE_572"
-	resources={
-		aluminium=23.000
-		steel=36.000
-	}
 
 	history={
 		owner = OCC
 		victory_points = {
-			590 1 
+			9904 2 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 1
+			industrial_complex = 2
+			arms_factory = 0
 			air_base = 1
+			9904 = {
+				landmark_colosseum = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+			11751 = {
+				naval_base = 8
+			}
 
 		}
-		add_core_of = CAT
+		add_core_of = ITA
 		add_core_of = OCC
+		add_claim_by = SPC
 	}
 
 	provinces={
-		590 752 755 769 3754 6770 6773 6789 9593 9732 9748 11718 
+		925 967 3885 6862 6926 9794 9904 11751 11790 11846 11861 13413 
 	}
-	manpower=2590532
+	manpower=3996712
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_city
 
 	local_supplies=10.0
 }

@@ -6,15 +6,16 @@ state={
 	history={
 		owner = HON
 		victory_points = {
-			10728 1 
+			2031 40 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 1
-			2075 = {
-				naval_base = 1
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 10
+			12823 = {
+				naval_base = 8
 			}
 
 		}
@@ -22,11 +23,11 @@ state={
 	}
 
 	provinces={
-		2075 10728 
+		2031 8017 12823 12865 13093 
 	}
-	manpower=920512
+	manpower=4188060
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=large_city
 
 	local_supplies=10.0
 }

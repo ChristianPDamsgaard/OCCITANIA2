@@ -1,4 +1,4 @@
-﻿capital = 456
+﻿capital = 458
 set_research_slots = 3
 
 oob = "LUX_OOB"
@@ -169,13 +169,13 @@ add_opinion_modifier = { target = X46 modifier = negative_10 }
 add_opinion_modifier = { target = X47 modifier = negative_10 }
 add_opinion_modifier = { target = X48 modifier = positive_48 }
 add_opinion_modifier = { target = X49 modifier = negative_10 }
-add_opinion_modifier = { target = X56 modifier = negative_20 }
-add_opinion_modifier = { target = X60 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = positive_90 }
-give_military_access = X65
-add_opinion_modifier = { target = X73 modifier = negative_15 }
-add_opinion_modifier = { target = X74 modifier = negative_121 }
-add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X55 modifier = negative_20 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
+add_opinion_modifier = { target = X64 modifier = positive_90 }
+give_military_access = X64
+add_opinion_modifier = { target = X72 modifier = negative_15 }
+add_opinion_modifier = { target = X73 modifier = negative_121 }
+add_opinion_modifier = { target = X75 modifier = positive_5 }
 add_opinion_modifier = { target = ZIM modifier = positive_5 }
 
 

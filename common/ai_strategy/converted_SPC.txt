@@ -80,7 +80,7 @@ converted_diplo_strategies_SPC = {
 	}
 	ai_strategy = {
 		type = contain
-		id = "X64"
+		id = "X63"
 		value = 93
 	}
 	ai_strategy = {
@@ -130,7 +130,7 @@ converted_diplo_strategies_SPC = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X60"
+		id = "X59"
 		value = 21
 	}
 	ai_strategy = {

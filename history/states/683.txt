@@ -2,33 +2,31 @@
 state={
 	id=683
 	name="STATE_683"
-	resources={
-		aluminium=23.000
-	}
 
 	history={
-		owner = X48
+		owner = SIA
 		victory_points = {
-			692 10 
+			7601 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 5
-			arms_factory = 3
-			air_base = 8
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+			7225 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = HLR
-		add_core_of = X48
-		add_core_of = X55
+		add_core_of = SIA
 	}
 
 	provinces={
-		532 561 571 692 707 3299 3541 3571 3688 3705 6540 6693 6725 9515 9652 9681 11497 11620 11653 
+		1244 1548 1592 4433 7225 7292 7601 10293 12224 12417 12431 
 	}
-	manpower=3143632
+	manpower=446684
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_island
 
 	local_supplies=10.0
 }

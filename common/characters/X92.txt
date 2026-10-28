@@ -1,9 +1,9 @@
 characters={
-	X92_hubert_fisher={
-		name=X92_hubert_fisher
+	X92_arthur_madden={
+		name=X92_arthur_madden
 		portraits={
 			civilian={
-				large="GFX_Ireland_Eamon_de_Valera"
+				large="GFX_British_Raj_Lord_Linlithgow"
 			}
 		}
 		country_leader={

@@ -6,7 +6,7 @@ characters={
 				large="GFX_INC_Chu_Van_Tan"
 			}
 			army={
-				small="GFX_INC_Chu_Van_Tan"
+				small="GFX_INC_Chu_Van_Tan_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_2"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_2"
+				small="GFX_Portrait_Asia_Generic_land_2_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_INC_Nguyen_Chi_Thanh"
 			}
 			army={
-				small="GFX_INC_Nguyen_Chi_Thanh"
+				small="GFX_INC_Nguyen_Chi_Thanh_small"
 			}
 		}
 		corps_commander={
@@ -66,7 +66,7 @@ characters={
 				large="GFX_portrait_asia_generic_navy_4"
 			}
 			navy={
-				small="GFX_portrait_asia_generic_navy_4"
+				small="GFX_portrait_asia_generic_navy_4_small"
 			}
 		}
 		navy_leader={

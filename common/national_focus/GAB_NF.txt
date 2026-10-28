@@ -368,7 +368,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X32
 				type = take_core_state
-				generator = { 394 }
+				generator = { 395 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -450,7 +450,7 @@ focus_tree = {
 			RCG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 151
+				owns_state = 152
 			}
 		}
 		completion_reward = {
@@ -523,11 +523,11 @@ focus_tree = {
 			RCG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 151
+				owns_state = 152
 			}
 		}
 		completion_reward = {
-			add_state_claim = 151
+			add_state_claim = 152
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				RCG = { country_event = { id = reconquest_news.1 } }
@@ -602,7 +602,7 @@ focus_tree = {
 			RCG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 151
+				owns_state = 152
 			}
 		}
 		completion_reward = {
@@ -631,14 +631,14 @@ focus_tree = {
 			RCG = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 151
+				owns_state = 152
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = RCG
 				type = take_state_focus
-				generator = { 151 }
+				generator = { 152 }
 			}
 		}
 		ai_will_do = {
@@ -659,7 +659,7 @@ focus_tree = {
 			CMR = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 160
+				owns_state = 161
 			}
 		}
 		completion_reward = {
@@ -732,11 +732,11 @@ focus_tree = {
 			CMR = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 160
+				owns_state = 161
 			}
 		}
 		completion_reward = {
-			add_state_claim = 160
+			add_state_claim = 161
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				CMR = { country_event = { id = reconquest_news.1 } }
@@ -811,7 +811,7 @@ focus_tree = {
 			CMR = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 160
+				owns_state = 161
 			}
 		}
 		completion_reward = {
@@ -840,14 +840,14 @@ focus_tree = {
 			CMR = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 160
+				owns_state = 161
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = CMR
 				type = take_state_focus
-				generator = { 160 }
+				generator = { 161 }
 			}
 		}
 		ai_will_do = {

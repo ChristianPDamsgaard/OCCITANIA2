@@ -3,7 +3,7 @@ characters={
 		name=X91_hubert_fisher
 		portraits={
 			civilian={
-				large="GFX_Britain_Edward_Halifax"
+				large="GFX_Ireland_Eamon_de_Valera"
 			}
 		}
 		country_leader={

@@ -1,13 +1,13 @@
 characters={
-	X83_andres_milans_del_bosch={
-		name=X83_andres_milans_del_bosch
+	X83_jacob_wolterbeek={
+		name=X83_jacob_wolterbeek
 		portraits={
 			civilian={
-				large="GFX_Chile_Carlos_Labarca"
+				large="GFX_Australia_John_Curtin"
 			}
 		}
 		country_leader={
-			ideology=dictatorship_neutral
+			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}

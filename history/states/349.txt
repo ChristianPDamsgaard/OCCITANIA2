@@ -3,33 +3,30 @@ state={
 	id=349
 	name="STATE_349"
 	resources={
-		oil=3.000
+		oil=5.000
 	}
 
 	history={
 		owner = X24
 		victory_points = {
-			9614 0 
+			11636 15 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 1
-			11597 = {
-				naval_base = 2
-			}
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 8
 
 		}
 		add_core_of = X24
 	}
 
 	provinces={
-		9614 11597 
+		674 6677 9651 11603 11619 11636 
 	}
-	manpower=96544
+	manpower=478544
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

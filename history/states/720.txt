@@ -2,31 +2,32 @@
 state={
 	id=720
 	name="STATE_720"
-	resources={
-		steel=35.000
-	}
 
 	history={
-		owner = USA
+		owner = X56
 		victory_points = {
-			12501 2 
+			3513 15 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 1
+			air_base = 5
+			12281 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = USA
+		add_core_of = X56
+		add_claim_by = USA
 	}
 
 	provinces={
-		1758 8083 10281 10824 10909 12501 12670 
+		505 528 1414 3471 3513 4274 4328 4347 4380 4826 7398 7721 7865 10151 10183 10305 10625 11495 11733 12183 12211 12281 12553 
 	}
-	manpower=5105940
+	manpower=40524
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_island
 
 	local_supplies=10.0
 }

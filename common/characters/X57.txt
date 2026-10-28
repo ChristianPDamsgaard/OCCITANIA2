@@ -1,12 +1,32 @@
 characters={
-	X57_tsesumten_clackamas={
-		name=X57_tsesumten_clackamas
+	X57_konrad_von_baden={
+		name=X57_konrad_von_baden
 		portraits={
 			army={
-				large="GFX_nat_north_radical"
+				large="GFX_portrait_GER_wilhelm_list"
 			}
 			army={
-				small="GFX_nat_north_radical"
+				small="GFX_portrait_GER_wilhelm_list_small"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=6
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X57_engelbert_von_bohm_ermolli={
+		name=X57_engelbert_von_bohm_ermolli
+		portraits={
+			army={
+				large="GFX_portrait_europe_generic_land_7"
+			}
+			army={
+				small="GFX_portrait_europe_generic_land_7_small"
 			}
 		}
 		corps_commander={
@@ -19,95 +39,55 @@ characters={
 		}
 	}
 
-	X57_cheenlenten_yakweakwioose={
-		name=X57_cheenlenten_yakweakwioose
+	X57_gottfried_eisner={
+		name=X57_gottfried_eisner
 		portraits={
 			army={
-				large="GFX_native_north_american_general"
+				large="GFX_portrait_GER_paul_hausser"
 			}
 			army={
-				small="GFX_native_north_american_general"
+				small="GFX_portrait_GER_paul_hausser_small"
 			}
 		}
 		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=0
-		}
-	}
-
-	X57_moowhahladhu_snoqualmie={
-		name=X57_moowhahladhu_snoqualmie
-		portraits={
-			army={
-				large="GFX_native_north_american_general"
-			}
-			army={
-				small="GFX_native_north_american_general"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=4
-			defense_skill=1
+			skill=1
+			attack_skill=1
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X57_senegertta_wasco={
-		name=X57_senegertta_wasco
+	X57_franz_von_uchatius={
+		name=X57_franz_von_uchatius
 		portraits={
 			army={
-				large="GFX_nat_north_communist"
+				large="GFX_portrait_GER_erich_von_manstein"
 			}
 			army={
-				small="GFX_nat_north_communist"
+				small="GFX_portrait_GER_erich_von_manstein_small"
 			}
 		}
 		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=3
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=5
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X57_etnama_snohomish={
-		name=X57_etnama_snohomish
-		portraits={
-			navy={
-				large="GFX_native_north_american_general"
-			}
-			navy={
-				small="GFX_native_north_american_general"
-			}
-		}
-		navy_leader={
-			skill=3
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=3
-			coordination_skill=5
-			legacy_id=0
-		}
-	}
-
-	X57_sthauai_leqamel={
-		name=X57_sthauai_leqamel
+	X57_alois_stolzer={
+		name=X57_alois_stolzer
 		portraits={
 			civilian={
-				large="GFX_native_north_american_democratic"
+				large="GFX_GER_hermann_goring"
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			id=-1
 		}

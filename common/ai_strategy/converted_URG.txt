@@ -100,7 +100,7 @@ converted_diplo_strategies_URG = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X65"
+		id = "X64"
 		value = 42
 	}
 	ai_strategy = {

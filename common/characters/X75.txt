@@ -1,12 +1,92 @@
 characters={
-	X75_ismail_faysi={
-		name=X75_ismail_faysi
+	X75_nuctungus_esgigiag={
+		name=X75_nuctungus_esgigiag
 		portraits={
 			army={
-				large="GFX_OTT_Suleyman_Sefik"
+				large="GFX_nat_north_radical"
 			}
 			army={
-				small="GFX_OTT_Suleyman_Sefik"
+				small="GFX_nat_north_radical_small"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=6
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_warrankansit_paspahegh={
+		name=X75_warrankansit_paspahegh
+		portraits={
+			army={
+				large="GFX_nat_north_communist"
+			}
+			army={
+				small="GFX_nat_north_communist_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_konkapot_cocheco={
+		name=X75_konkapot_cocheco
+		portraits={
+			army={
+				large="GFX_native_north_american_general"
+			}
+			army={
+				small="GFX_native_north_american_general_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_kithteeleland_massomuck={
+		name=X75_kithteeleland_massomuck
+		portraits={
+			army={
+				large="GFX_native_north_american_general"
+			}
+			army={
+				small="GFX_native_north_american_general_small"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_addeawando_monashackotoog={
+		name=X75_addeawando_monashackotoog
+		portraits={
+			army={
+				large="GFX_nat_north_radical"
+			}
+			army={
+				small="GFX_nat_north_radical_small"
 			}
 		}
 		corps_commander={
@@ -19,75 +99,35 @@ characters={
 		}
 	}
 
-	X75_yusuf_ibragimov={
-		name=X75_yusuf_ibragimov
+	X75_whonumbamet_masipskwoik={
+		name=X75_whonumbamet_masipskwoik
 		portraits={
-			army={
-				large="GFX_OTT_Osman_Fuad"
+			navy={
+				large="GFX_nat_north_democratic"
 			}
-			army={
-				small="GFX_OTT_Osman_Fuad"
+			navy={
+				small="GFX_nat_north_democratic_small"
 			}
 		}
-		corps_commander={
-			skill=2
+		navy_leader={
+			skill=1
 			attack_skill=1
 			defense_skill=1
-			planning_skill=1
-			logistics_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=0
 		}
 	}
 
-	X75_baqi_faysi={
-		name=X75_baqi_faysi
-		portraits={
-			army={
-				large="GFX_Portrait_Arabia_Generic_land_2"
-			}
-			army={
-				small="GFX_Portrait_Arabia_Generic_land_2"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X75_yusuf_tukay={
-		name=X75_yusuf_tukay
-		portraits={
-			army={
-				large="GFX_OTT_Osman_Fuad_Hussar"
-			}
-			army={
-				small="GFX_OTT_Osman_Fuad_Hussar"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X75_galiaskar_tinchurin={
-		name=X75_galiaskar_tinchurin
+	X75_pelnal_chiskiack={
+		name=X75_pelnal_chiskiack
 		portraits={
 			civilian={
-				large="GFX_TUR_Alparslan_Turkesh"
+				large="GFX_nat_north_democratic"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=conservatism
 			expire="1965.1.1.1"
 			id=-1
 		}

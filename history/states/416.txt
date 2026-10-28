@@ -6,27 +6,28 @@ state={
 	history={
 		owner = LIT
 		victory_points = {
-			6332 1 
+			3707 1 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
-			6332 = {
+			3701 = {
 				naval_base = 6
 			}
 
 		}
 		add_core_of = LIT
+		add_claim_by = X30
 	}
 
 	provinces={
-		281 348 395 3288 3384 6332 11265 
+		414 565 577 3407 3577 3701 3704 3707 3724 6600 6727 6743 9683 11686 11705 
 	}
-	manpower=2529264
+	manpower=1373916
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 
 	local_supplies=10.0
 }

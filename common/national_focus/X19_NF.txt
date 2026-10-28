@@ -369,7 +369,7 @@ focus_tree = {
 			declare_war_on = {
 				target = HON
 				type = take_core_state
-				generator = { 356 }
+				generator = { 357 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -754,7 +754,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X18
 				type = take_core_state
-				generator = { 196 }
+				generator = { 197 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -836,7 +836,7 @@ focus_tree = {
 			X36 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 453
+				owns_state = 455
 			}
 		}
 		completion_reward = {
@@ -909,11 +909,11 @@ focus_tree = {
 			X36 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 453
+				owns_state = 455
 			}
 		}
 		completion_reward = {
-			add_state_claim = 453
+			add_state_claim = 455
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				X36 = { country_event = { id = reconquest_news.1 } }
@@ -988,7 +988,7 @@ focus_tree = {
 			X36 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 453
+				owns_state = 455
 			}
 		}
 		completion_reward = {
@@ -1017,14 +1017,14 @@ focus_tree = {
 			X36 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 453
+				owns_state = 455
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = X36
 				type = take_state_focus
-				generator = { 453 }
+				generator = { 455 }
 			}
 		}
 		ai_will_do = {

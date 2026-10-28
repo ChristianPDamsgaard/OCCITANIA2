@@ -2,32 +2,38 @@
 state={
 	id=745
 	name="STATE_745"
+	resources={
+		rubber=5.000
+	}
 
 	history={
-		owner = WES
+		owner = VEN
 		victory_points = {
-			7979 15 
+			12798 2 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 3
-			dockyard = 2
-			air_base = 8
-			8038 = {
-				naval_base = 2
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 0
+			8252 = {
+				naval_base = 4
 			}
 
 		}
-		add_core_of = WES
+		add_core_of = VEN
+		PRU = {
+			set_province_controller = 11020
+		}
 	}
 
 	provinces={
-		5012 7979 8038 10875 
+		5051 5120 8047 8075 8252 10888 11020 12798 
 	}
-	manpower=97332
+	manpower=1160804
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=town
 
 	local_supplies=10.0
 }

@@ -1765,6 +1765,25 @@ TAT = {
 		"Tatarcha" "Urys" "Bolgar" "Khan" "Khagan"
 	}
 }
+TNE = {
+	male = {
+		names = {
+			"Ellyas" "Ignacio" "Jordao" "Michael" "Sonny" "Denny" "Mohammad" "Edinho" "Jos" "Levi"
+		}
+	}
+	female = {
+		names = {
+			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Leiwakabessy" "Mainaky" "Weisapy" "Bouma" "Palyama" "Pattinama" "Pelmelay" "Lilipaly" "Hafiedz"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
 TOG = {
 	male = {
 		names = {
@@ -1967,29 +1986,6 @@ W00 = {
 W01 = {
 	male = {
 		names = {
-			"Afonso" "Alberte" "Aleixo" "Alexandre" "Antón" "Anxo" "Artur" "Bartolomeu" "Bieito" "Brais"
-			"Breixo" "Cibrán" "Estevo" "Iago" "Lino" "Lois" "Nicolau" "Paulo" "Rodrigo" "Roi"
-			"Uxío" "Vitor" "Xabier" "Xesús" "Xoán" "Xosé" "Xurxo"
-		}
-	}
-	female = {
-		names = {
-			"Juana" "Catalina" "Leonor" "Blanca"
-		}
-	}
-	surnames = {
-		"Abreu" "Barroso" "Becerra" "Camba" "Canedo" "Carreiro" "Da" "Ponte" "De" "Lemos"
-		"Demato" "Fontes" "Goya" "Lagos" "Lemus" "Mar" "Marcelin" "Mazo" "Melendrez" "Millan"
-		"Pastor" "Pozo" "Pozos" "Prado" "Quintana" "Razo" "Rios" "Rocha" "Rosal" "Ruybal"
-		"Salgado" "Varela" "Vielma"
-	}
-	callsigns = {
-		"Castilla" "Aragón" "Navarra" "Portugal" "Galicia"
-	}
-}
-W02 = {
-	male = {
-		names = {
 			"Adamantios" "Aléxandros" "Anastásios" "Andréas" "Antónios" "Aristídis" "Athanásios" "Avgóstinos" "Venizélos" "Charálampos"
 			"Charílaos" "Dimítrios" "Diomídis" "Elefthérios" "Emmanouíl" "Epameínontas" "Evripídis" "Gennaíos" "Geórgios" "Ilías"
 			"Ionnis" "Kítsos" "Konstantínos" "Kyriákos" "Kyriakoúlis" "Leonídas" "Makários" "Márkos" "Míchael" "Militiadis"
@@ -2031,7 +2027,7 @@ W02 = {
 		"Ellinikí" "Spartiátis" "Vyzantinó" "Aléxandros" "Toúrkos" "Aftokrátos"
 	}
 }
-W03 = {
+W02 = {
 	male = {
 		names = {
 			"Abdullah" "Abdülhamid" "Abdülkerim" "Abdulrahim" "Ahmet" "Akif" "Ali" "Arif" "Bahaeddin" "Bekir"
@@ -2065,7 +2061,7 @@ W03 = {
 		"Türk" "Kebap" "Selçuklu" "Yunan" "1453"
 	}
 }
-W04 = {
+W03 = {
 	male = {
 		names = {
 			"FNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
@@ -2101,7 +2097,7 @@ W04 = {
 		"N.N."
 	}
 }
-W05 = {
+W04 = {
 	male = {
 		names = {
 			"Áhari" "Ebedimu" "Gunfuli" "Kaigouchi" "Ilumani" "Pirijá" "Semén" "Wiwakaleme" "Haubariria" "Toratora"
@@ -2132,7 +2128,7 @@ W05 = {
 		"Tavares" "Torres" "Veiga" "Vieira" "Xavier"
 	}
 }
-W06 = {
+W05 = {
 	male = {
 		names = {
 			"Wiwakaleme" "Haubariria" "Toratora" "Amorotahe" "Kaigouchi" "Shoko" "Laliwa" "Arah" "Pirijá" "Arata"
@@ -2153,7 +2149,7 @@ W06 = {
 		"Ludovic" "Phillipe" "Raymond" "Eberle" "Nicolas" "Alix" "Tuskegee"
 	}
 }
-W07 = {
+W06 = {
 	male = {
 		names = {
 			"Radama" "Rainilaiarivony" "Rabiby" "Andriamanely" "Ndriantompoinairivo" "Tonanahary" "Ratsimivila" "Ramasoandro" "Andriantsirotso" "Lamboina"
@@ -2173,7 +2169,7 @@ W07 = {
 		"Black" "Africa" "Malagasy" "the Foreigner" "the White" "Colonizer" "Hunter"
 	}
 }
-W08 = {
+W07 = {
 	male = {
 		names = {
 			"Ancamilla" "Nampai" "Coñoepán" "Nahueltripai" "Millarapue" "Millalelmo" "Lautaro" "Paillamachu" "Huenecura" "Aillavilu"
@@ -2200,7 +2196,7 @@ W08 = {
 		"Patagonian" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
 	}
 }
-W09 = {
+W08 = {
 	male = {
 		names = {
 			"Jandui" "Raoni" "Janduwy" "Caracara" "Kerioukeiou" "Karupoto"
@@ -2219,7 +2215,7 @@ W09 = {
 		"Jê" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
 	}
 }
-W10 = {
+W09 = {
 	male = {
 		names = {
 			"Neneh" "Tejan" "Sheka" "Kanji" "Lansana" "Brima" "Foda" "Sekouba" "Alhassani" "Sekou"
@@ -3678,25 +3674,6 @@ X53 = {
 X54 = {
 	male = {
 		names = {
-			"Ellyas" "Ignacio" "Jordao" "Michael" "Sonny" "Denny" "Mohammad" "Edinho" "Jos" "Levi"
-		}
-	}
-	female = {
-		names = {
-			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
-			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
-		}
-	}
-	surnames = {
-		"Leiwakabessy" "Mainaky" "Weisapy" "Bouma" "Palyama" "Pattinama" "Pelmelay" "Lilipaly" "Hafiedz"
-	}
-	callsigns = {
-		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
-	}
-}
-X55 = {
-	male = {
-		names = {
 			"FNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
 			"J." "K." "L." "M." "N." "O." "P." "Q." "R." "S."
 			"T." "U." "V." "W." "X." "Y." "Z." "Ä." "Ö." "Ü."
@@ -3730,7 +3707,7 @@ X55 = {
 		"N.N."
 	}
 }
-X56 = {
+X55 = {
 	male = {
 		names = {
 			"Aleksandr" "Dmitri" "Ivan" "Jukka" "Santeri" "Vladimir" "Chukhpelek" "Epkuv" "Evtin" "Kushchta"
@@ -3762,7 +3739,7 @@ X56 = {
 		"Venäläinen" "Suomalainen" "Saksalainen" "Talvi"
 	}
 }
-X57 = {
+X56 = {
 	male = {
 		names = {
 			"Comcomly" "Tumulth" "Napesa" "Injice" "Tasyah" "Nessick" "Etnama" "Cheenlenten" "Nasyah" "Absaquil"
@@ -3797,7 +3774,7 @@ X57 = {
 		"Penutian" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
 	}
 }
-X58 = {
+X57 = {
 	male = {
 		names = {
 			"Adolf" "Albrecht" "Alexander" "Alfons" "Alois" "Anton" "Arthur" "Bernhard" "Christian" "Edmund"
@@ -3824,7 +3801,7 @@ X58 = {
 		"The Red knight" "Reeste"
 	}
 }
-X59 = {
+X58 = {
 	male = {
 		names = {
 			"Asaf" "Baqi" "Galiaskar" "Ismail" "Makhmut" "Musa" "Rustam" "Yusuf"
@@ -3847,7 +3824,7 @@ X59 = {
 		"Tatarcha" "Urys" "Bolgar" "Khan" "Khagan"
 	}
 }
-X60 = {
+X59 = {
 	male = {
 		names = {
 			"Adamantios" "Aléxandros" "Anastásios" "Andréas" "Antónios" "Aristídis" "Athanásios" "Avgóstinos" "Venizélos" "Charálampos"
@@ -3891,7 +3868,7 @@ X60 = {
 		"Ellinikí" "Spartiátis" "Vyzantinó" "Aléxandros" "Toúrkos" "Aftokrátos"
 	}
 }
-X61 = {
+X60 = {
 	male = {
 		names = {
 			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
@@ -3912,6 +3889,35 @@ X61 = {
 		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
 		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
 		"Merkourios" "Shamumun" "Desta"
+	}
+}
+X61 = {
+	male = {
+		names = {
+			"Comcomly" "Tumulth" "Napesa" "Injice" "Tasyah" "Nessick" "Etnama" "Cheenlenten" "Nasyah" "Absaquil"
+			"Quintioosan" "Talsapeer" "Myneletta" "Quiaquatty" "Yalkus" "Kawkama" "Kiles" "Kowahtough" "Anta" "Quilala"
+			"Mequah" "Yackatee" "Tophor" "Hallale" "Pulktah" "Tumwalth" "Obanahah" "Watchano" "Teapinick" "Wallahpicate"
+			"Lalbick" "Cuckamanna" "Towyecolla" "Laham" "Senegertta" "Pulican" "Tena" "Pulkuptima" "Sallaf" "Hoipkenek"
+			"Yeptah" "Satinvose" "Sequoyah" "Attakullaculla" "Johan Ross" "Moytoy" "Yonaguska" "Dragging" "Canoe" "Agi"
+			"It" "Boudinot" "Oacpicagiguya" "Kaviu" "Papago" "Panhop" "Cajemé" "Popé" "Ku-htihth" "Galisteo"
+			"Xenome" "Ollito" "Tagu" "Bolsas" "Naranjo" "Catiti"
+		}
+	}
+	female = {
+		names = {
+			"Ootcakao" "Kahavasooah" "Ootcakao" "Sacagawea" "Chipeta" "Tocmetone"
+		}
+	}
+	surnames = {
+		"Acoma" "Cochiti" "Isleta" "Jemez" "Laguna" "Nambe" "Ohkay Owingeh" "Picuris" "Pojoaque" "Sandia"
+		"Taos" "Tesuque" "Zia" "Zuni" "Hopi" "Piru" "Akimel" "Tohono" "Hia Ced" "Sobaipuri"
+		"Otama" "Kina" "Equituni" "Uturituc" "Sacaton" "Onk Akimal" "Yoreme" "Hiakim" "Potam" "Vicam"
+		"Torim" "Bacum" "Cocorit" "Huirivis" "Benem" "Rahum" "Clatsop" "Cathlamet" "Skilloot" "Cathlapotle"
+		"Multnomah" "Watlala" "Clowwewalla" "Clackamas" "Chiluckittequaw" "Wishram" "Wasco" "Atfalati" "Yamel" "Lakmiut"
+		"Chepenafa" "Santiam" "Chelamela" "Calapooya" "Yoncalla"
+	}
+	callsigns = {
+		"Sonoran" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
 	}
 }
 X62 = {
@@ -3946,35 +3952,6 @@ X62 = {
 X63 = {
 	male = {
 		names = {
-			"Comcomly" "Tumulth" "Napesa" "Injice" "Tasyah" "Nessick" "Etnama" "Cheenlenten" "Nasyah" "Absaquil"
-			"Quintioosan" "Talsapeer" "Myneletta" "Quiaquatty" "Yalkus" "Kawkama" "Kiles" "Kowahtough" "Anta" "Quilala"
-			"Mequah" "Yackatee" "Tophor" "Hallale" "Pulktah" "Tumwalth" "Obanahah" "Watchano" "Teapinick" "Wallahpicate"
-			"Lalbick" "Cuckamanna" "Towyecolla" "Laham" "Senegertta" "Pulican" "Tena" "Pulkuptima" "Sallaf" "Hoipkenek"
-			"Yeptah" "Satinvose" "Sequoyah" "Attakullaculla" "Johan Ross" "Moytoy" "Yonaguska" "Dragging" "Canoe" "Agi"
-			"It" "Boudinot" "Oacpicagiguya" "Kaviu" "Papago" "Panhop" "Cajemé" "Popé" "Ku-htihth" "Galisteo"
-			"Xenome" "Ollito" "Tagu" "Bolsas" "Naranjo" "Catiti"
-		}
-	}
-	female = {
-		names = {
-			"Ootcakao" "Kahavasooah" "Ootcakao" "Sacagawea" "Chipeta" "Tocmetone"
-		}
-	}
-	surnames = {
-		"Acoma" "Cochiti" "Isleta" "Jemez" "Laguna" "Nambe" "Ohkay Owingeh" "Picuris" "Pojoaque" "Sandia"
-		"Taos" "Tesuque" "Zia" "Zuni" "Hopi" "Piru" "Akimel" "Tohono" "Hia Ced" "Sobaipuri"
-		"Otama" "Kina" "Equituni" "Uturituc" "Sacaton" "Onk Akimal" "Yoreme" "Hiakim" "Potam" "Vicam"
-		"Torim" "Bacum" "Cocorit" "Huirivis" "Benem" "Rahum" "Clatsop" "Cathlamet" "Skilloot" "Cathlapotle"
-		"Multnomah" "Watlala" "Clowwewalla" "Clackamas" "Chiluckittequaw" "Wishram" "Wasco" "Atfalati" "Yamel" "Lakmiut"
-		"Chepenafa" "Santiam" "Chelamela" "Calapooya" "Yoncalla"
-	}
-	callsigns = {
-		"Sonoran" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
-	}
-}
-X64 = {
-	male = {
-		names = {
 			"Abdullah" "Abdülhamid" "Abdülkerim" "Abdulrahim" "Ahmet" "Akif" "Ali" "Arif" "Bahaeddin" "Bekir"
 			"Cemal" "Cevad" "Celaleddin" "Cevdet" "Davud" "Edhem" "Emin" "Enver" "Fahri" "Fevzi"
 			"Ferid" "Fuat" "Hafiz" "Hamza" "Halil" "Halim" "Hasan" "Hayrullah" "Husrev" "Ibrahim"
@@ -4006,7 +3983,7 @@ X64 = {
 		"Türk" "Kebap" "Selçuklu" "Yunan" "1453"
 	}
 }
-X65 = {
+X64 = {
 	male = {
 		names = {
 			"Asaf" "Baqi" "Galiaskar" "Ismail" "Makhmut" "Musa" "Rustam" "Yusuf"
@@ -4029,7 +4006,7 @@ X65 = {
 		"Tatarcha" "Urys" "Bolgar" "Khan" "Khagan"
 	}
 }
-X66 = {
+X65 = {
 	male = {
 		names = {
 			"FNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
@@ -4065,7 +4042,7 @@ X66 = {
 		"N.N."
 	}
 }
-X67 = {
+X66 = {
 	male = {
 		names = {
 			"Neneh" "Tejan" "Sheka" "Kanji" "Lansana" "Brima" "Foda" "Sekouba" "Alhassani" "Sekou"
@@ -4085,7 +4062,7 @@ X67 = {
 		"Black" "Africa" "Mande" "the Foreigner" "the White" "Colonizer" "Hunter"
 	}
 }
-X68 = {
+X67 = {
 	male = {
 		names = {
 			"Ahmed" "Abd al-Karim" "Khalid" "Muhammad" "Mustafa"
@@ -4109,7 +4086,7 @@ X68 = {
 		"al-Ilighi" "al-Tadsi" "Zayyanid"
 	}
 }
-X69 = {
+X68 = {
 	male = {
 		names = {
 			"Tsarong" "Chamba" "Trimon" "Penor" "Gendün" "Jamphel" "Norbhu" "Mipham" "Tsepon" "Andruk"
@@ -4129,7 +4106,7 @@ X69 = {
 		"Rgya" "Phoke" "Bdud"
 	}
 }
-X70 = {
+X69 = {
 	male = {
 		names = {
 			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dživo" "Filip" "Franjo" "Gašpar" "Ivan"
@@ -4156,6 +4133,42 @@ X70 = {
 	}
 	callsigns = {
 		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+X70 = {
+	male = {
+		names = {
+			"FNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
+			"J." "K." "L." "M." "N." "O." "P." "Q." "R." "S."
+			"T." "U." "V." "W." "X." "Y." "Z." "Ä." "Ö." "Ü."
+		}
+	}
+	female = {
+		names = {
+			"A." "B." "C." "D." "E." "F." "G." "H." "I." "J."
+			"K." "L." "M." "N." "O." "P." "Q." "R." "S." "T."
+			"U." "V." "W." "X." "Y." "Z." "Ä." "Ö." "Ü."
+		}
+	}
+	surnames = {
+		"LNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
+		"J." "K." "L." "M." "N." "O." "P." "Q." "R." "S."
+		"T." "U." "V." "W." "X." "Y." "Z." "Ä." "Ö." "Ü."
+		"von A." "von B." "von C." "von D." "von E." "von F." "von G." "von H." "von I." "von J."
+		"von K." "von L." "von M." "von N." "von O." "von P." "von Q." "von R." "von S." "von T."
+		"von U." "von V." "von W." "von X." "von Y." "von Z." "von Ä." "von Ö." "von Ü." "vom A."
+		"vom B." "vom C." "vom D." "vom E." "vom F." "vom G." "vom H." "vom I." "vom J." "vom K."
+		"vom L." "vom M." "vom N." "vom O." "vom P." "vom Q." "vom R." "vom S." "vom T." "vom U."
+		"vom V." "vom W." "vom X." "vom Y." "vom Z." "vom Ä." "vom Ö." "vom Ü." "von der A." "von der B."
+		"von der C." "von der D." "von der E." "von der F." "von der G." "von der H." "von der I." "von der J." "von der K." "von der L."
+		"von der M." "von der N." "von der O." "von der P." "von der Q." "von der R." "von der S." "von der T." "von der U." "von der V."
+		"von der W." "von der X." "von der Y." "von der Z." "von der Ä." "von der Ö." "von der Ü." "zu A." "zu B." "zu C."
+		"zu D." "zu E." "zu F." "zu G." "zu H." "zu I." "zu J." "zu K." "zu L." "zu M."
+		"zu N." "zu O." "zu P." "zu Q." "zu R." "zu S." "zu T." "zu U." "zu V." "zu W."
+		"zu X." "zu Y." "zu Z." "zu Ä." "zu Ö." "zu Ü."
+	}
+	callsigns = {
+		"N.N."
 	}
 }
 X71 = {
@@ -4197,42 +4210,6 @@ X71 = {
 X72 = {
 	male = {
 		names = {
-			"FNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
-			"J." "K." "L." "M." "N." "O." "P." "Q." "R." "S."
-			"T." "U." "V." "W." "X." "Y." "Z." "Ä." "Ö." "Ü."
-		}
-	}
-	female = {
-		names = {
-			"A." "B." "C." "D." "E." "F." "G." "H." "I." "J."
-			"K." "L." "M." "N." "O." "P." "Q." "R." "S." "T."
-			"U." "V." "W." "X." "Y." "Z." "Ä." "Ö." "Ü."
-		}
-	}
-	surnames = {
-		"LNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
-		"J." "K." "L." "M." "N." "O." "P." "Q." "R." "S."
-		"T." "U." "V." "W." "X." "Y." "Z." "Ä." "Ö." "Ü."
-		"von A." "von B." "von C." "von D." "von E." "von F." "von G." "von H." "von I." "von J."
-		"von K." "von L." "von M." "von N." "von O." "von P." "von Q." "von R." "von S." "von T."
-		"von U." "von V." "von W." "von X." "von Y." "von Z." "von Ä." "von Ö." "von Ü." "vom A."
-		"vom B." "vom C." "vom D." "vom E." "vom F." "vom G." "vom H." "vom I." "vom J." "vom K."
-		"vom L." "vom M." "vom N." "vom O." "vom P." "vom Q." "vom R." "vom S." "vom T." "vom U."
-		"vom V." "vom W." "vom X." "vom Y." "vom Z." "vom Ä." "vom Ö." "vom Ü." "von der A." "von der B."
-		"von der C." "von der D." "von der E." "von der F." "von der G." "von der H." "von der I." "von der J." "von der K." "von der L."
-		"von der M." "von der N." "von der O." "von der P." "von der Q." "von der R." "von der S." "von der T." "von der U." "von der V."
-		"von der W." "von der X." "von der Y." "von der Z." "von der Ä." "von der Ö." "von der Ü." "zu A." "zu B." "zu C."
-		"zu D." "zu E." "zu F." "zu G." "zu H." "zu I." "zu J." "zu K." "zu L." "zu M."
-		"zu N." "zu O." "zu P." "zu Q." "zu R." "zu S." "zu T." "zu U." "zu V." "zu W."
-		"zu X." "zu Y." "zu Z." "zu Ä." "zu Ö." "zu Ü."
-	}
-	callsigns = {
-		"N.N."
-	}
-}
-X73 = {
-	male = {
-		names = {
 			"Adolf" "Alexander" "Eduard" "Ernst" "Franz" "Hans" "Johann" "Josef" "Konstantin" "Martin"
 			"Melchior" "Robert" "Rudolf" "Ulrich" "Wilhelm" "Augusto" "Enrico" "Flavio" "Giuseppe" "Vincenzo"
 			"Antoine" "Charles" "Emmanuel" "Guillaume" "Gustave" "Henri" "Hugo" "Louis" "Marc" "Paul"
@@ -4253,7 +4230,7 @@ X73 = {
 		"The Red knight" "Reeste"
 	}
 }
-X74 = {
+X73 = {
 	male = {
 		names = {
 			"FNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
@@ -4289,7 +4266,7 @@ X74 = {
 		"N.N."
 	}
 }
-X75 = {
+X74 = {
 	male = {
 		names = {
 			"Asaf" "Baqi" "Galiaskar" "Ismail" "Makhmut" "Musa" "Rustam" "Yusuf"
@@ -4312,7 +4289,7 @@ X75 = {
 		"Tatarcha" "Urys" "Bolgar" "Khan" "Khagan"
 	}
 }
-X76 = {
+X75 = {
 	male = {
 		names = {
 			"Tatobem" "Uncas" "Sassacus" "Sassious" "Wequash" "Tisquantum" "Miantonomo" "Nynigrett" "Pessicus" "Sassamon"
@@ -4361,7 +4338,7 @@ X76 = {
 		"Eastern Algonquian" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
 	}
 }
-X77 = {
+X76 = {
 	male = {
 		names = {
 			"Nemarluk" "Umbarra" "Wylie" "Yagan" "Tollamareena" "Pemulwy" "Mokare" "Derrimut" "Bennelong" "Billibellary"
@@ -4382,7 +4359,7 @@ X77 = {
 		"Black Magic"
 	}
 }
-X78 = {
+X77 = {
 	male = {
 		names = {
 			"FNU" "A." "B." "C." "D." "E." "F." "G." "H." "I."
@@ -4416,6 +4393,34 @@ X78 = {
 	}
 	callsigns = {
 		"N.N."
+	}
+}
+X79 = {
+	male = {
+		names = {
+			"Albert" "Alexandre" "Alfons" "Alfonso" "Andrés" "Andreu" "Antoni" "Carles" "Cassià" "Dalmau"
+			"David" "Eduard" "Enric" "Enrique" "Federico" "Felip" "Fernando" "Ferran" "Francesc" "Gaspar"
+			"Gerard" "Isaac" "Jacint" "Jaume" "Joan" "Jordi" "José" "Josep" "Juan" "Llorenç"
+			"Lluis" "Manel" "Manuel" "Marc" "Miquel" "Narcís" "Pasqual" "Pau" "Pedro" "Pere"
+			"Pompeu" "Rafael" "Rafel" "Ramon" "Ricardo" "Salvador" "Sergi" "Valntí" "Victor" "Xavier"
+		}
+	}
+	female = {
+		names = {
+			"Àgata" "Àgueda" "Aina" "Anna" "Antònia" "Caterina" "Cecília" "Cristina" "Dolors" "Francesca"
+			"Genoveva" "Isabel" "Joana" "Justina" "Laia" "Montserrat" "Núria" "Octàvia" "Prudència" "Roberta"
+			"Rodolfa"
+		}
+	}
+	surnames = {
+		"Albéniz" "Almirall" "Bacardí" "Batet" "Berenguer" "Borrás" "Borrell" "Cadafall" "Carner" "Casals"
+		"Casanova" "Castelló" "Claramunt" "Cucala" "Cugat" "Despujol" "Domènech" "Escotet" "Fabra" "Fages"
+		"Folc de Cardona" "Gumerà" "Irla" "Llauder" "Macià" "Maragall" "Margall" "Milans del Bosch" "Miró" "Mompou"
+		"Montaner" "Moragues" "Moret" "Nebot" "Nin" "Oller" "Prat" "Prim" "Puig" "Riba"
+		"Roig" "Sala" "Saliquet" "Savalls" "Serra" "Sor" "Tristany" "Verdaguer" "Virigili" "Vives"
+	}
+	callsigns = {
+		"L'Espanyol" "Creu d'Aragó" "El Puidgemont"
 	}
 }
 X80 = {
@@ -4505,29 +4510,38 @@ X82 = {
 X83 = {
 	male = {
 		names = {
-			"Albert" "Alexandre" "Alfons" "Alfonso" "Andrés" "Andreu" "Antoni" "Carles" "Cassià" "Dalmau"
-			"David" "Eduard" "Enric" "Enrique" "Federico" "Felip" "Fernando" "Ferran" "Francesc" "Gaspar"
-			"Gerard" "Isaac" "Jacint" "Jaume" "Joan" "Jordi" "José" "Josep" "Juan" "Llorenç"
-			"Lluis" "Manel" "Manuel" "Marc" "Miquel" "Narcís" "Pasqual" "Pau" "Pedro" "Pere"
-			"Pompeu" "Rafael" "Rafel" "Ramon" "Ricardo" "Salvador" "Sergi" "Valntí" "Victor" "Xavier"
+			"Adolf" "Adriaan" "Alexander" "Andreas" "Antoon" "Andries" "Antonius" "Abraham" "Barthout" "Casimir"
+			"Constantijn" "Cornelis" "Christiaan" "Christoffel" "Daniël" "David" "Dominicus" "Daniel" "Dirk" "Elias"
+			"Ernst" "Erwin" "Eise" "Frans" "Frederik" "Gijsbert" "Godfried" "Gustaaf" "Gaspar" "Gabriel"
+			"Gerard" "Gerben" "Hendrik" "Hans" "Hugo" "Isaac" "Johan" "Jurgen" "Jacob" "Jeroen"
+			"Jan" "Joost" "Karel" "Kasper" "Luuk" "Lodewijk" "Laurens" "Marius" "Matthijs" "Maximiliaam"
+			"Merkus" "Moritz" "Maurits" "Nikolaas" "Pauwel" "Paul" "Pieter" "Quinten" "Rafaël" "Ruben"
+			"Rudolf" "Roeland" "Rogier" "Rutger" "Stefan" "Simon" "Thomas" "Victor" "Willem" "Vincent"
+			"Zacharias"
 		}
 	}
 	female = {
 		names = {
-			"Àgata" "Àgueda" "Aina" "Anna" "Antònia" "Caterina" "Cecília" "Cristina" "Dolors" "Francesca"
-			"Genoveva" "Isabel" "Joana" "Justina" "Laia" "Montserrat" "Núria" "Octàvia" "Prudència" "Roberta"
-			"Rodolfa"
+			"Coba" "Corrie" "Frieda" "Hannie" "Helena" "Ina" "Jet" "Joke" "Miep" "Reina"
+			"Truus"
 		}
 	}
 	surnames = {
-		"Albéniz" "Almirall" "Bacardí" "Batet" "Berenguer" "Borrás" "Borrell" "Cadafall" "Carner" "Casals"
-		"Casanova" "Castelló" "Claramunt" "Cucala" "Cugat" "Despujol" "Domènech" "Escotet" "Fabra" "Fages"
-		"Folc de Cardona" "Gumerà" "Irla" "Llauder" "Macià" "Maragall" "Margall" "Milans del Bosch" "Miró" "Mompou"
-		"Montaner" "Moragues" "Moret" "Nebot" "Nin" "Oller" "Prat" "Prim" "Puig" "Riba"
-		"Roig" "Sala" "Saliquet" "Savalls" "Serra" "Sor" "Tristany" "Verdaguer" "Virigili" "Vives"
+		"van der Aa" "van Assendelft" "Boetge" "Boumeester" "van Bronkhorst" "Batenburg" "Bentinck" "Boreel" "Brandt" "van Brederode"
+		"Brouwer" "Buyskes" "van Braam Houckgeest" "van der Capellen" "Chassé" "Cochius" "Coops" "de Casembroot" "Cleerens" "Coehoorn"
+		"Coen" "de Constant Rebecque" "Crijnssen" "van Culemborg" "Duycker" "de Eerens" "de Kock" "Deijkerhoff" "den Beer Poortugael" "Daendels"
+		"van Diemen" "van der Does" "van Duivenvoorde" "Ellis" "Engels" "Engelvaart" "van Egmont" "Evertzen" "Fabius" "Gregory"
+		"van Galen" "de Grouwe" "van Geen" "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
+		"van Ilpendam" "Janssens" "Köhler" "Kool" "Kruys" "Kater" "van Keppel" "Kortenaer" "List" "Lucas"
+		"Michiels" "van Marnix" "Martena" "de Moor" "Melvill van Carnbee" "Nepveu" "Nachtegaal" "van Nieuwenaar" "van Noort" "Ongerboer"
+		"van Pallandt" "Rijk" "Röell" "van Raephorst" "van Rechteren" "Reijersen" "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
+		"Sabron" "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" "Staal" "Stokhuyzen" "Schouten" "Schenk" "Spiegel" "Steltman"
+		"Stuyvesant" "Tasman" "van Troyen" "Trip" "van Dambenoy" "van den Bosch" "van der Heijden" "van Hoensbroeck" "van Oranje-Nassau" "van Swieten"
+		"van Vredenburch" "Verspijck" "Vetter" "Weitzel" "Van Utenhove" "van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle"
+		"van der Wijck" "van Wijngaarden" "de Winter" "Wolterbeek"
 	}
 	callsigns = {
-		"L'Espanyol" "Creu d'Aragó" "El Puidgemont"
+		"the Dutch" "Amsterdam" "420" "Nassau" "Orange"
 	}
 }
 X84 = {
@@ -4681,43 +4695,6 @@ X87 = {
 X88 = {
 	male = {
 		names = {
-			"Adolf" "Adriaan" "Alexander" "Andreas" "Antoon" "Andries" "Antonius" "Abraham" "Barthout" "Casimir"
-			"Constantijn" "Cornelis" "Christiaan" "Christoffel" "Daniël" "David" "Dominicus" "Daniel" "Dirk" "Elias"
-			"Ernst" "Erwin" "Eise" "Frans" "Frederik" "Gijsbert" "Godfried" "Gustaaf" "Gaspar" "Gabriel"
-			"Gerard" "Gerben" "Hendrik" "Hans" "Hugo" "Isaac" "Johan" "Jurgen" "Jacob" "Jeroen"
-			"Jan" "Joost" "Karel" "Kasper" "Luuk" "Lodewijk" "Laurens" "Marius" "Matthijs" "Maximiliaam"
-			"Merkus" "Moritz" "Maurits" "Nikolaas" "Pauwel" "Paul" "Pieter" "Quinten" "Rafaël" "Ruben"
-			"Rudolf" "Roeland" "Rogier" "Rutger" "Stefan" "Simon" "Thomas" "Victor" "Willem" "Vincent"
-			"Zacharias"
-		}
-	}
-	female = {
-		names = {
-			"Coba" "Corrie" "Frieda" "Hannie" "Helena" "Ina" "Jet" "Joke" "Miep" "Reina"
-			"Truus"
-		}
-	}
-	surnames = {
-		"van der Aa" "van Assendelft" "Boetge" "Boumeester" "van Bronkhorst" "Batenburg" "Bentinck" "Boreel" "Brandt" "van Brederode"
-		"Brouwer" "Buyskes" "van Braam Houckgeest" "van der Capellen" "Chassé" "Cochius" "Coops" "de Casembroot" "Cleerens" "Coehoorn"
-		"Coen" "de Constant Rebecque" "Crijnssen" "van Culemborg" "Duycker" "de Eerens" "de Kock" "Deijkerhoff" "den Beer Poortugael" "Daendels"
-		"van Diemen" "van der Does" "van Duivenvoorde" "Ellis" "Engels" "Engelvaart" "van Egmont" "Evertzen" "Fabius" "Gregory"
-		"van Galen" "de Grouwe" "van Geen" "van Ham" "van Haren" "van Heemskerck" "van Heutsz" "Cort-Heyligers" "de Houtman" "van Huchtenbroek"
-		"van Ilpendam" "Janssens" "Köhler" "Kool" "Kruys" "Kater" "van Keppel" "Kortenaer" "List" "Lucas"
-		"Michiels" "van Marnix" "Martena" "de Moor" "Melvill van Carnbee" "Nepveu" "Nachtegaal" "van Nieuwenaar" "van Noort" "Ongerboer"
-		"van Pallandt" "Rijk" "Röell" "van Raephorst" "van Rechteren" "Reijersen" "van Renesse" "van Riebeeck" "de Rijk" "van Rossum"
-		"Sabron" "Schimmelpenninck van der Oye" "van Saksen-Weimar" "van Spilbergen" "Staal" "Stokhuyzen" "Schouten" "Schenk" "Spiegel" "Steltman"
-		"Stuyvesant" "Tasman" "van Troyen" "Trip" "van Dambenoy" "van den Bosch" "van der Heijden" "van Hoensbroeck" "van Oranje-Nassau" "van Swieten"
-		"van Vredenburch" "Verspijck" "Vetter" "Weitzel" "Van Utenhove" "van Walbeeck" "van Wassenaer" "van der Werff" "van Wesembeke" "van Wingle"
-		"van der Wijck" "van Wijngaarden" "de Winter" "Wolterbeek"
-	}
-	callsigns = {
-		"the Dutch" "Amsterdam" "420" "Nassau" "Orange"
-	}
-}
-X89 = {
-	male = {
-		names = {
 			"Albert" "Alexandre" "Alfons" "Alfonso" "Andrés" "Andreu" "Antoni" "Carles" "Cassià" "Dalmau"
 			"David" "Eduard" "Enric" "Enrique" "Federico" "Felip" "Fernando" "Ferran" "Francesc" "Gaspar"
 			"Gerard" "Isaac" "Jacint" "Jaume" "Joan" "Jordi" "José" "Josep" "Juan" "Llorenç"
@@ -4743,7 +4720,7 @@ X89 = {
 		"L'Espanyol" "Creu d'Aragó" "El Puidgemont"
 	}
 }
-X90 = {
+X89 = {
 	male = {
 		names = {
 			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
@@ -4763,6 +4740,36 @@ X90 = {
 	}
 	callsigns = {
 		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X90 = {
+	male = {
+		names = {
+			"Albert" "Alexander" "Alfred" "Archibald" "Arthur" "Augustus" "Benjamin" "Bernard" "Charles" "Colbert"
+			"Colin" "Cyril" "David" "Donald" "Douglas" "Edmund" "Edwar" "Fairfax" "Ferdinand" "Francis"
+			"Frederick" "Geoffrey" "George" "Graham" "Henrey" "Herbert" "Horatio" "Hubert" "Hugh" "Ian"
+			"James" "Jeremy" "John" "Joseph" "Leopold" "Lester" "Louis" "Martin" "Nigel" "Oswald"
+			"Percy" "Reginald" "Richard" "Robert" "Russell" "Stanley" "Thomas" "Wallace" "William" "Winston"
+			"Zachary"
+		}
+	}
+	female = {
+		names = {
+			"Elizabeth" "Anne"
+		}
+	}
+	surnames = {
+		"Allenby" "Battemberg" "Beatty" "Beresford" "Brown" "Buller" "Butler" "Campbell" "Cardigan" "Churchill"
+		"Cochrane" "Cockburn" "de Robeck" "Dundas" "Fisher" "French" "Gough" "Grant" "Grenfell" "Haig"
+		"Hamilton" "Hardinge" "Havelock" "Hope" "Jellicoe" "Kitchener" "Lyons" "Madden" "Milne" "Montgomery"
+		"Moresby" "Mundy" "Napier" "Odoni" "of Hannover" "of Saxe-Coburg-Gotha" "Plummer" "Ragland" "Roberts" "Seaton"
+		"Seymour" "Smith" "Smith-Dorrien" "Stewart" "Thesiger" "Tyron" "Tyrwhitt" "Williams" "Windsor" "Wolseley"
+		"Wood"
+	}
+	callsigns = {
+		"Stubborn" "Arrow" "The King" "Eagle" "Hangover" "Striker" "Chase" "One Wing" "Pickle" "Thief"
+		"Thunder" "Lightning" "Storm" "Target" "Hawk" "Fox" "Dog" "Sparrow" "Sunrise" "Night Owl"
+		"Butcher" "Cocky" "Hawkeye" "Killer" "Mick" "Brandy" "The Baron"
 	}
 }
 X91 = {
@@ -4828,31 +4835,24 @@ X92 = {
 X93 = {
 	male = {
 		names = {
-			"Albert" "Alexander" "Alfred" "Archibald" "Arthur" "Augustus" "Benjamin" "Bernard" "Charles" "Colbert"
-			"Colin" "Cyril" "David" "Donald" "Douglas" "Edmund" "Edwar" "Fairfax" "Ferdinand" "Francis"
-			"Frederick" "Geoffrey" "George" "Graham" "Henrey" "Herbert" "Horatio" "Hubert" "Hugh" "Ian"
-			"James" "Jeremy" "John" "Joseph" "Leopold" "Lester" "Louis" "Martin" "Nigel" "Oswald"
-			"Percy" "Reginald" "Richard" "Robert" "Russell" "Stanley" "Thomas" "Wallace" "William" "Winston"
-			"Zachary"
+			"Afonso" "Alberte" "Aleixo" "Alexandre" "Antón" "Anxo" "Artur" "Bartolomeu" "Bieito" "Brais"
+			"Breixo" "Cibrán" "Estevo" "Iago" "Lino" "Lois" "Nicolau" "Paulo" "Rodrigo" "Roi"
+			"Uxío" "Vitor" "Xabier" "Xesús" "Xoán" "Xosé" "Xurxo"
 		}
 	}
 	female = {
 		names = {
-			"Elizabeth" "Anne"
+			"Juana" "Catalina" "Leonor" "Blanca"
 		}
 	}
 	surnames = {
-		"Allenby" "Battemberg" "Beatty" "Beresford" "Brown" "Buller" "Butler" "Campbell" "Cardigan" "Churchill"
-		"Cochrane" "Cockburn" "de Robeck" "Dundas" "Fisher" "French" "Gough" "Grant" "Grenfell" "Haig"
-		"Hamilton" "Hardinge" "Havelock" "Hope" "Jellicoe" "Kitchener" "Lyons" "Madden" "Milne" "Montgomery"
-		"Moresby" "Mundy" "Napier" "Odoni" "of Hannover" "of Saxe-Coburg-Gotha" "Plummer" "Ragland" "Roberts" "Seaton"
-		"Seymour" "Smith" "Smith-Dorrien" "Stewart" "Thesiger" "Tyron" "Tyrwhitt" "Williams" "Windsor" "Wolseley"
-		"Wood"
+		"Abreu" "Barroso" "Becerra" "Camba" "Canedo" "Carreiro" "Da" "Ponte" "De" "Lemos"
+		"Demato" "Fontes" "Goya" "Lagos" "Lemus" "Mar" "Marcelin" "Mazo" "Melendrez" "Millan"
+		"Pastor" "Pozo" "Pozos" "Prado" "Quintana" "Razo" "Rios" "Rocha" "Rosal" "Ruybal"
+		"Salgado" "Varela" "Vielma"
 	}
 	callsigns = {
-		"Stubborn" "Arrow" "The King" "Eagle" "Hangover" "Striker" "Chase" "One Wing" "Pickle" "Thief"
-		"Thunder" "Lightning" "Storm" "Target" "Hawk" "Fox" "Dog" "Sparrow" "Sunrise" "Night Owl"
-		"Butcher" "Cocky" "Hawkeye" "Killer" "Mick" "Brandy" "The Baron"
+		"Castilla" "Aragón" "Navarra" "Portugal" "Galicia"
 	}
 }
 X94 = {

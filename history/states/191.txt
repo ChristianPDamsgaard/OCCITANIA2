@@ -6,7 +6,7 @@ state={
 	history={
 		owner = X17
 		victory_points = {
-			11122 0 
+			13061 0 
 		}
 		buildings = {
 			infrastructure = 1
@@ -18,9 +18,9 @@ state={
 	}
 
 	provinces={
-		2900 2923 11122 11261 13060 
+		4006 6211 12549 12634 13061 
 	}
-	manpower=744552
+	manpower=646052
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 

@@ -1,4 +1,4 @@
-﻿capital = 615
+﻿capital = 622
 set_research_slots = 3
 
 oob = "ZIM_OOB"
@@ -124,6 +124,7 @@ add_opinion_modifier = { target = SER modifier = positive_20 }
 add_opinion_modifier = { target = SIA modifier = negative_80 }
 add_opinion_modifier = { target = SLV modifier = positive_5 }
 add_opinion_modifier = { target = SPC modifier = positive_5 }
+add_opinion_modifier = { target = TNE modifier = negative_10 }
 add_opinion_modifier = { target = TOG modifier = negative_200 }
 add_opinion_modifier = { target = USA modifier = negative_190 }
 add_opinion_modifier = { target = VEN modifier = positive_5 }
@@ -166,19 +167,18 @@ add_opinion_modifier = { target = X49 modifier = positive_5 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
 add_opinion_modifier = { target = X51 modifier = negative_10 }
 add_opinion_modifier = { target = X52 modifier = negative_10 }
-add_opinion_modifier = { target = X54 modifier = negative_10 }
-add_opinion_modifier = { target = X56 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = negative_195 }
+add_opinion_modifier = { target = X55 modifier = negative_10 }
+add_opinion_modifier = { target = X56 modifier = negative_195 }
+add_opinion_modifier = { target = X59 modifier = negative_10 }
 add_opinion_modifier = { target = X60 modifier = negative_10 }
 add_opinion_modifier = { target = X61 modifier = negative_10 }
-add_opinion_modifier = { target = X62 modifier = negative_10 }
-add_opinion_modifier = { target = X65 modifier = negative_15 }
-add_opinion_modifier = { target = X68 modifier = negative_200 }
-add_opinion_modifier = { target = X73 modifier = positive_20 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = positive_3 }
-give_military_access = X76
-add_opinion_modifier = { target = X77 modifier = negative_195 }
+add_opinion_modifier = { target = X64 modifier = negative_15 }
+add_opinion_modifier = { target = X67 modifier = negative_200 }
+add_opinion_modifier = { target = X72 modifier = positive_20 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = positive_3 }
+give_military_access = X75
+add_opinion_modifier = { target = X76 modifier = negative_195 }
 
 
 add_ideas = {

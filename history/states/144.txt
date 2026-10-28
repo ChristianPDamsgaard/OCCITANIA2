@@ -2,35 +2,32 @@
 state={
 	id=144
 	name="STATE_144"
-	resources={
-		rubber=1.000
-	}
 
 	history={
-		owner = X12
+		owner = X11
 		victory_points = {
-			12853 1 
+			1351 4 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			5220 = {
-				naval_base = 4
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			1351 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = BRA
-		add_core_of = X12
+		add_core_of = PHI
 	}
 
 	provinces={
-		2035 2214 5220 10874 10956 12853 12913 12933 12947 12999 13274 13275 13355 13356 13357 13358 13359 13360 
+		1351 
 	}
-	manpower=1619884
+	manpower=11888
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

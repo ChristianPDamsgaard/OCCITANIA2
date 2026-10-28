@@ -3,13 +3,13 @@ state={
 	id=827
 	name="STATE_827"
 	resources={
-		steel=19.000
+		tungsten=3.000
 	}
 
 	history={
-		owner = X76
+		owner = X75
 		victory_points = {
-			12357 1 
+			12603 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -18,16 +18,16 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = X76
-		add_claim_by = USA
+		add_core_of = X75
+		add_claim_by = X61
 	}
 
 	provinces={
-		703 4166 4738 4834 9657 12357 
+		736 1671 1788 3481 3498 3769 4739 9669 10552 10611 10656 11440 12593 12603 12663 12682 
 	}
-	manpower=766996
+	manpower=1098496
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=10.0
 }

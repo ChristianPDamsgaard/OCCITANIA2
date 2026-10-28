@@ -4,28 +4,28 @@ state={
 	name="STATE_687"
 
 	history={
-		owner = X49
+		owner = SIA
 		victory_points = {
-			596 15 
+			1355 0 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 6
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1355 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = HLR
-		add_core_of = SLV
-		add_core_of = X49
 	}
 
 	provinces={
-		596 665 6672 
+		1339 1355 4358 12206 
 	}
-	manpower=486452
+	manpower=63264
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 
 	local_supplies=10.0
 }

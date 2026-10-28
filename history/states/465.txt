@@ -3,35 +3,31 @@ state={
 	id=465
 	name="STATE_465"
 	resources={
-		chromium=2.000
-		steel=2.000
+		chromium=1.000
 	}
 
 	history={
 		owner = X38
 		victory_points = {
-			8098 0 
+			12218 10 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
-			1179 = {
-				naval_base = 6
-			}
+			air_base = 5
 
 		}
-		add_core_of = X46
-		add_claim_by = X38
+		add_core_of = TAJ
+		add_core_of = X38
 	}
 
 	provinces={
-		1179 1978 4558 4990 4998 5043 5075 5105 7847 7917 7975 8013 8044 8066 8098 10813 12717 12761 12763 12774 
+		1384 4467 4542 7224 12218 12250 
 	}
-	manpower=1784364
+	manpower=320700
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_island
 
 	local_supplies=10.0
 }

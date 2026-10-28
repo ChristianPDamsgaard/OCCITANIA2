@@ -3,32 +3,36 @@ state={
 	id=513
 	name="STATE_513"
 	resources={
-		rubber=81.000
+		aluminium=9.000
+		coal=18.000
+		steel=47.000
 	}
 
 	history={
 		owner = HOL
 		victory_points = {
-			7344 0 
+			11483 1 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
+			infrastructure = 3
+			industrial_complex = 1
 			arms_factory = 0
-			air_base = 0
-			7344 = {
+			air_base = 1
+			575 = {
 				naval_base = 10
 			}
 
 		}
+		add_core_of = HOL
+		add_claim_by = CAT
 	}
 
 	provinces={
-		1213 4219 7260 7344 10201 10229 10287 12258 
+		454 575 3476 3536 6504 9500 11420 11483 11548 
 	}
-	manpower=2090716
+	manpower=2524564
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 
 	local_supplies=10.0
 }

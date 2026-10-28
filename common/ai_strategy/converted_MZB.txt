@@ -105,7 +105,7 @@ converted_diplo_strategies_MZB = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X60"
+		id = "X59"
 		value = 33
 	}
 }

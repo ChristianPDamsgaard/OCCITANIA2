@@ -6,7 +6,7 @@ state={
 	history={
 		owner = X17
 		victory_points = {
-			13061 0 
+			12611 0 
 		}
 		buildings = {
 			infrastructure = 1
@@ -18,11 +18,11 @@ state={
 	}
 
 	provinces={
-		4006 6211 12549 12634 13061 
+		1852 6085 7726 7765 9224 10557 12531 12538 12608 12611 12668 13059 
 	}
-	manpower=646052
+	manpower=289872
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=10.0
 }

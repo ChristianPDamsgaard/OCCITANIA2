@@ -1,4 +1,4 @@
-﻿capital = 334
+﻿capital = 335
 set_research_slots = 3
 
 oob = "GRN_OOB"
@@ -38,7 +38,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_battery = 1
-		basic_medium_battery = 1
+		basic_light_shell = 1
 		basic_naval_mines = 1
 		basic_ship_hull_submarine = 1
 		basic_torpedo = 1
@@ -120,6 +120,7 @@ add_opinion_modifier = { target = SCA modifier = negative_10 }
 add_opinion_modifier = { target = SER modifier = negative_10 }
 add_opinion_modifier = { target = SIA modifier = negative_10 }
 add_opinion_modifier = { target = SLV modifier = negative_10 }
+add_opinion_modifier = { target = TNE modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_10 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
 add_opinion_modifier = { target = VIN modifier = negative_10 }
@@ -158,15 +159,14 @@ add_opinion_modifier = { target = X49 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = negative_10 }
 add_opinion_modifier = { target = X51 modifier = negative_10 }
 add_opinion_modifier = { target = X52 modifier = negative_10 }
-add_opinion_modifier = { target = X54 modifier = negative_10 }
+add_opinion_modifier = { target = X55 modifier = negative_10 }
 add_opinion_modifier = { target = X56 modifier = negative_10 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X61 modifier = negative_10 }
-add_opinion_modifier = { target = X62 modifier = positive_15 }
-add_opinion_modifier = { target = X65 modifier = negative_30 }
-add_opinion_modifier = { target = X68 modifier = negative_10 }
-add_opinion_modifier = { target = X76 modifier = negative_30 }
-add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X61 modifier = positive_15 }
+add_opinion_modifier = { target = X64 modifier = negative_30 }
+add_opinion_modifier = { target = X67 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_30 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
 
 
 add_ideas = {

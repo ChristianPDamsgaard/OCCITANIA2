@@ -2,28 +2,38 @@
 state={
 	id=100
 	name="STATE_100"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		steel=1.000
+	}
 
 	history={
-		owner = CAM
+		owner = X09
 		victory_points = {
-			7376 15 
+			3973 2 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
-			air_base = 5
+			dockyard = 1
+			air_base = 0
+			9916 = {
+				naval_base = 2
+			}
 
 		}
-		add_core_of = CAM
+		add_core_of = X09
+		add_claim_by = SPC
 	}
 
 	provinces={
-		1324 1620 4251 4302 4330 4596 4639 7319 7376 7645 10134 10177 10204 10289 10467 12150 12167 12191 12260 12288 12447 12460 12475 
+		863 3914 3973 6930 9805 9916 11786 
 	}
-	manpower=302922
+	manpower=473232
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 
 	local_supplies=10.0
 }

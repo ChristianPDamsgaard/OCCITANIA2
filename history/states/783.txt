@@ -2,33 +2,29 @@
 state={
 	id=783
 	name="STATE_783"
-	resources={
-		aluminium=5.000
-	}
 
 	history={
-		owner = X65
+		owner = X63
 		victory_points = {
-			6542 3 
+			1896 10 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 1
-			air_base = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
 
 		}
-		add_core_of = TAT
-		add_core_of = X65
-		add_claim_by = HLR
+		add_core_of = X63
+		add_claim_by = PER
 	}
 
 	provinces={
-		3530 3679 6542 6568 6581 6934 
+		1636 1822 1896 2071 4553 4755 4825 4901 7604 10454 10523 12793 12861 
 	}
-	manpower=2432097
+	manpower=1962420
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 
 	local_supplies=10.0
 }

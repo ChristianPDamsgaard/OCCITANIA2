@@ -2,31 +2,32 @@
 state={
 	id=649
 	name="STATE_649"
+	resources={
+		steel=7.000
+	}
 
 	history={
 		owner = SCA
 		victory_points = {
-			6258 1 
+			9535 1 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
+			industrial_complex = 0
 			arms_factory = 0
 			air_base = 1
-			408 = {
-				naval_base = 1
-			}
 
 		}
+		add_core_of = HLR
 		add_core_of = SCA
 	}
 
 	provinces={
-		408 6258 
+		3514 9535 
 	}
-	manpower=169148
+	manpower=494712
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pastoral
 
 	local_supplies=10.0
 }

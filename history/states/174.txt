@@ -6,28 +6,33 @@ state={
 	history={
 		owner = X17
 		victory_points = {
-			10076 2 
+			4525 1 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
-			7014 = {
-				naval_base = 4
+			8127 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
 			}
 
 		}
 		add_core_of = X17
-		add_core_of = X21
+		add_core_of = X30
 	}
 
 	provinces={
-		996 1089 4091 7014 10034 10076 11928 11982 12052 12076 
+		1551 1608 1796 1811 1871 1959 2087 3427 3978 4222 4525 4555 4612 4655 4783 4960 4986 5031 7048 7511 7578 7631 7648 7727 7803 8055 8102 8127 10363 10372 10424 10451 10499 10629 10724 10770 10854 10899 11752 12331 12348 12448 12554 12609 12706 12750 12776 12880 
 	}
-	manpower=29906380
+	manpower=1648344
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_island
 
 	local_supplies=10.0
 }

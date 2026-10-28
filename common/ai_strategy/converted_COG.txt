@@ -105,7 +105,7 @@ converted_diplo_strategies_COG = {
 	}
 	ai_strategy = {
 		type = alliance
-		id = "X66"
+		id = "X65"
 		value = 47
 	}
 	ai_strategy = {
@@ -135,12 +135,12 @@ converted_diplo_strategies_COG = {
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X59"
+		id = "X58"
 		value = 53
 	}
 	ai_strategy = {
 		type = declare_war
-		id = "X62"
+		id = "X61"
 		value = 35
 	}
 }

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = X20
 		victory_points = {
-			540 10 
+			3501 10 
 		}
 		buildings = {
 			infrastructure = 4
@@ -14,22 +14,30 @@ state={
 			arms_factory = 1
 			dockyard = 1
 			air_base = 7
-			540 = {
+			3501 = {
 				naval_base = 1
+			}
+			6103 = {
+				landmark_big_ben = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
 			}
 
 		}
+		add_core_of = CAT
+		add_core_of = SPC
 		add_core_of = X20
-		add_core_of = X29
-		add_claim_by = CAT
 	}
 
 	provinces={
-		540 3369 3422 3463 6351 6378 6526 9484 9562 11406 
+		507 3501 6103 6221 6489 9239 9458 11333 11446 11471 13070 
 	}
-	manpower=2423880
+	manpower=3759088
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 
 	local_supplies=10.0
 }

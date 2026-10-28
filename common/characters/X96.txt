@@ -1,6 +1,6 @@
 characters={
-	X96_bartolomeu_da={
-		name=X96_bartolomeu_da
+	X96_aleixo_melendrez={
+		name=X96_aleixo_melendrez
 		portraits={
 			civilian={
 				large="GFX_Chile_Arturo_Alessandri_Palma"

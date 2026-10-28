@@ -373,7 +373,7 @@ focus_tree = {
 			declare_war_on = {
 				target = X22
 				type = take_core_state
-				generator = { 322 323 324 325 326 }
+				generator = { 323 324 325 326 327 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -455,7 +455,7 @@ focus_tree = {
 			X38 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 459
+				owns_state = 461
 			}
 		}
 		completion_reward = {
@@ -528,11 +528,11 @@ focus_tree = {
 			X38 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 459
+				owns_state = 461
 			}
 		}
 		completion_reward = {
-			add_state_claim = 459
+			add_state_claim = 461
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				X38 = { country_event = { id = reconquest_news.1 } }
@@ -607,7 +607,7 @@ focus_tree = {
 			X38 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 459
+				owns_state = 461
 			}
 		}
 		completion_reward = {
@@ -636,14 +636,14 @@ focus_tree = {
 			X38 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 459
+				owns_state = 461
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = X38
 				type = take_state_focus
-				generator = { 459 }
+				generator = { 461 }
 			}
 		}
 		ai_will_do = {
@@ -664,7 +664,7 @@ focus_tree = {
 			X25 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 350
+				owns_state = 351
 			}
 		}
 		completion_reward = {
@@ -737,11 +737,11 @@ focus_tree = {
 			X25 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 350
+				owns_state = 351
 			}
 		}
 		completion_reward = {
-			add_state_claim = 350
+			add_state_claim = 351
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				X25 = { country_event = { id = reconquest_news.1 } }
@@ -816,7 +816,7 @@ focus_tree = {
 			X25 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 350
+				owns_state = 351
 			}
 		}
 		completion_reward = {
@@ -845,14 +845,14 @@ focus_tree = {
 			X25 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 350
+				owns_state = 351
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = X25
 				type = take_state_focus
-				generator = { 350 }
+				generator = { 351 }
 			}
 		}
 		ai_will_do = {
@@ -873,7 +873,7 @@ focus_tree = {
 			X41 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 502
+				owns_state = 506
 			}
 		}
 		completion_reward = {
@@ -946,11 +946,11 @@ focus_tree = {
 			X41 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 502
+				owns_state = 506
 			}
 		}
 		completion_reward = {
-			add_state_claim = 502
+			add_state_claim = 506
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				X41 = { country_event = { id = reconquest_news.1 } }
@@ -1025,7 +1025,7 @@ focus_tree = {
 			X41 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 502
+				owns_state = 506
 			}
 		}
 		completion_reward = {
@@ -1054,14 +1054,14 @@ focus_tree = {
 			X41 = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 502
+				owns_state = 506
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = X41
 				type = take_state_focus
-				generator = { 502 }
+				generator = { 506 }
 			}
 		}
 		ai_will_do = {
@@ -1082,7 +1082,7 @@ focus_tree = {
 			PER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 588
+				owns_state = 593
 			}
 		}
 		completion_reward = {
@@ -1155,11 +1155,11 @@ focus_tree = {
 			PER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 588
+				owns_state = 593
 			}
 		}
 		completion_reward = {
-			add_state_claim = 588
+			add_state_claim = 593
 			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
 			hidden_effect = {
 				PER = { country_event = { id = reconquest_news.1 } }
@@ -1234,7 +1234,7 @@ focus_tree = {
 			PER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 588
+				owns_state = 593
 			}
 		}
 		completion_reward = {
@@ -1263,14 +1263,14 @@ focus_tree = {
 			PER = {
 				exists = yes
 				not_allies_or_subjects = yes
-				owns_state = 588
+				owns_state = 593
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
 				target = PER
 				type = take_state_focus
-				generator = { 588 }
+				generator = { 593 }
 			}
 		}
 		ai_will_do = {

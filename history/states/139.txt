@@ -4,27 +4,26 @@ state={
 	name="STATE_139"
 
 	history={
-		owner = X10
+		owner = X81
 		victory_points = {
-			7965 15 
+			8048 0 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
-			arms_factory = 2
-			air_base = 7
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = X10
-		add_claim_by = VIN
+		add_core_of = X81
 	}
 
 	provinces={
-		1010 1114 1196 1319 1383 1474 1522 1653 1884 4192 4325 4501 4504 4532 4559 5009 5072 7446 7521 7549 7577 7606 7965 7976 8023 8095 9939 10346 10413 10616 10763 10776 10819 10863 12262 12282 12789 12841 12898 
+		988 7219 7931 8048 10071 10883 10951 12741 12824 13370 
 	}
-	manpower=11139104
+	manpower=135040
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

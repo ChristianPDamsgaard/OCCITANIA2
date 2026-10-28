@@ -2,18 +2,21 @@
 state={
 	id=325
 	name="STATE_325"
+	resources={
+		steel=9.000
+	}
 
 	history={
 		owner = X22
 		victory_points = {
-			1102 0 
+			7215 0 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			industrial_complex = 0
 			arms_factory = 0
-			air_base = 0
-			1102 = {
+			air_base = 1
+			9945 = {
 				naval_base = 8
 			}
 
@@ -22,11 +25,11 @@ state={
 	}
 
 	provinces={
-		1102 1207 4108 4139 7069 10023 10107 11943 
+		4199 7215 9945 10113 12087 12100 
 	}
-	manpower=461540
+	manpower=605012
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

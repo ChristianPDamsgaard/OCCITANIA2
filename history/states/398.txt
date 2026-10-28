@@ -2,19 +2,22 @@
 state={
 	id=398
 	name="STATE_398"
+	resources={
+		steel=4.000
+		tungsten=10.000
+	}
 
 	history={
 		owner = KOR
 		victory_points = {
-			7125 15 
+			4052 2 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 2
 			industrial_complex = 2
-			arms_factory = 1
-			dockyard = 1
-			air_base = 7
-			12011 = {
+			arms_factory = 0
+			air_base = 0
+			4052 = {
 				naval_base = 2
 			}
 
@@ -23,11 +26,11 @@ state={
 	}
 
 	provinces={
-		1100 1148 4103 7021 7125 7175 7204 7221 9936 10036 10115 11912 11977 11992 12011 
+		852 898 906 912 959 978 3803 3852 3860 3904 3912 3981 4052 6822 6922 6928 6944 6963 7171 9790 9795 9899 9918 10083 11770 11775 11828 11835 11878 11896 
 	}
-	manpower=4856332
+	manpower=3596280
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=city
 
 	local_supplies=10.0
 }

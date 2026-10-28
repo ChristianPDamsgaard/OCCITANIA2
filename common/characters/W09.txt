@@ -1,9 +1,9 @@
 characters={
-	W09_kerioukeiou_praje={
-		name=W09_kerioukeiou_praje
+	W09_daba_sidibe={
+		name=W09_daba_sidibe
 		portraits={
 			civilian={
-				large="GFX_leader_unknown"
+				large="GFX_Dahomey_Moumouni"
 			}
 		}
 		country_leader={

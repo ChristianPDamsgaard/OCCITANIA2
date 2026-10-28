@@ -6,7 +6,7 @@ characters={
 				large="GFX_FNG_Wu_Junsheng"
 			}
 			army={
-				small="GFX_FNG_Wu_Junsheng"
+				small="GFX_FNG_Wu_Junsheng_small"
 			}
 		}
 		corps_commander={
@@ -26,7 +26,7 @@ characters={
 				large="GFX_Asia_Generic_land_new_2"
 			}
 			army={
-				small="GFX_Asia_Generic_land_new_2"
+				small="GFX_Asia_Generic_land_new_2_small"
 			}
 		}
 		corps_commander={
@@ -46,7 +46,7 @@ characters={
 				large="GFX_Portrait_Asia_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Asia_Generic_land_1"
+				small="GFX_Portrait_Asia_Generic_land_1_small"
 			}
 		}
 		corps_commander={

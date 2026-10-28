@@ -6,26 +6,36 @@ state={
 	history={
 		owner = X17
 		victory_points = {
-			4797 1 
+			10612 1 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
 			arms_factory = 0
 			air_base = 0
+			1150 = {
+				naval_base = 4
+			}
+			11808 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
 
 		}
 		add_core_of = X17
-		add_claim_by = X13
 		add_claim_by = X30
 	}
 
 	provinces={
-		1672 1696 1707 1727 1735 1762 1792 1803 1810 1829 4703 4705 4716 4737 4750 4766 4782 4797 4808 4815 4835 4837 7736 7751 7769 7802 7816 7828 7835 7838 7841 7860 7863 7876 7902 10524 10528 10543 10549 10570 10596 10628 10654 10658 10661 10664 10683 10699 12506 12507 12523 12525 12540 12575 12644 12647 12681 
+		836 846 887 892 916 964 987 1150 1499 1508 1558 1627 1638 1776 3783 3839 3849 3877 3895 3934 3970 4561 4633 4745 4852 6804 6837 6851 6860 6893 6910 6918 6951 6981 7697 7743 7812 9781 9788 9831 9835 9854 9885 10429 10612 11764 11771 11808 11815 11836 11886 11903 12337 12469 12478 12537 12690 13150 
 	}
-	manpower=2096544
+	manpower=3543488
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 
 	local_supplies=10.0
 }

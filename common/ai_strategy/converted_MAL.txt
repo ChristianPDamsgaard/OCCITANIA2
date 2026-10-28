@@ -145,7 +145,7 @@ converted_diplo_strategies_MAL = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 1
 	}
 	ai_strategy = {

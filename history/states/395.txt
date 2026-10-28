@@ -6,28 +6,28 @@ state={
 	history={
 		owner = X32
 		victory_points = {
-			2115 4 
+			8207 10 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 2
-			dockyard = 2
-			air_base = 2
-			8248 = {
-				naval_base = 4
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			8207 = {
+				naval_base = 1
 			}
 
 		}
+		add_core_of = GAB
 		add_core_of = X32
 	}
 
 	provinces={
-		2115 8248 
+		8207 
 	}
-	manpower=149144
+	manpower=46180
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_island
 
 	local_supplies=10.0
 }

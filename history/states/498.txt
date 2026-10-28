@@ -3,35 +3,37 @@ state={
 	id=498
 	name="STATE_498"
 	resources={
-		oil=1.000
-		rubber=8.000
+		rubber=59.000
+		steel=2.000
+		tungsten=21.000
 	}
 
 	history={
 		owner = MAL
 		victory_points = {
-			1316 0 
+			7427 15 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 0
+			infrastructure = 2
+			industrial_complex = 3
 			arms_factory = 0
-			air_base = 0
-			1316 = {
+			air_base = 5
+			7427 = {
 				naval_base = 2
 			}
 
 		}
-		add_core_of = BRU
-		add_claim_by = MAL
+		add_core_of = MAL
+		add_core_of = SIA
+		add_core_of = X40
 	}
 
 	provinces={
-		1230 1304 1316 2170 2222 4279 4335 7424 12129 
+		1364 1376 4310 4412 7427 10297 12215 13409 
 	}
-	manpower=266180
+	manpower=284536
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

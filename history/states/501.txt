@@ -2,33 +2,35 @@
 state={
 	id=501
 	name="STATE_501"
+	resources={
+		rubber=3.000
+	}
 
 	history={
-		owner = MZB
+		owner = MAL
 		victory_points = {
-			2123 2 
+			1316 0 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			industrial_complex = 0
-			arms_factory = 1
-			dockyard = 1
-			air_base = 1
-			2123 = {
+			arms_factory = 0
+			air_base = 0
+			1316 = {
 				naval_base = 2
 			}
 
 		}
-		add_core_of = MLW
-		add_claim_by = MZB
+		add_core_of = BRU
+		add_claim_by = MAL
 	}
 
 	provinces={
-		2123 2159 2202 2217 5164 10972 12908 
+		1304 1316 4279 12129 
 	}
-	manpower=774172
+	manpower=117514
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
 
 	local_supplies=10.0
 }

@@ -3,19 +3,20 @@ state={
 	id=446
 	name="STATE_446"
 	resources={
-		oil=16.000
+		aluminium=22.000
+		oil=70.000
 	}
 
 	history={
 		owner = X36
 		victory_points = {
-			12401 15 
+			10798 1 
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
+			infrastructure = 1
+			industrial_complex = 0
 			arms_factory = 0
-			air_base = 6
+			air_base = 0
 
 		}
 		add_core_of = USA
@@ -23,11 +24,11 @@ state={
 	}
 
 	provinces={
-		1559 4522 7555 7599 12401 
+		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 12624 
 	}
-	manpower=825132
+	manpower=903584
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=10.0
 }

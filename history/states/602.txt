@@ -6,32 +6,28 @@ state={
 	history={
 		owner = PRU
 		victory_points = {
-			12939 1 
+			2225 2 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 0
-			arms_factory = 0
+			arms_factory = 1
+			dockyard = 1
 			air_base = 0
+			2225 = {
+				naval_base = 8
+			}
 
 		}
 		add_core_of = PRU
-		add_claim_by = BRA
-		ARG = {
-			set_province_controller = 12939
-			set_province_controller = 13283
-			set_province_controller = 13284
-			set_province_controller = 13326
-			set_province_controller = 13335
-		}
 	}
 
 	provinces={
-		12939 13283 13284 13326 13335 
+		2225 5166 5202 8160 8191 10940 12953 
 	}
-	manpower=393460
+	manpower=1114724
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

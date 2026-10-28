@@ -6,25 +6,24 @@ state={
 	history={
 		owner = KAL
 		victory_points = {
-			7898 3 
+			6248 2 
 		}
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 3
-			arms_factory = 2
-			air_base = 1
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
 
 		}
 		add_core_of = KAL
-		add_core_of = X56
 	}
 
 	provinces={
-		206 237 278 361 390 1336 1365 1380 1754 3127 3280 4372 4802 4874 6025 7346 7375 7712 7824 7898 10216 10286 10314 10551 10677 11111 11195 11228 11352 12187 12216 12393 12502 12527 12626 12659 
+		324 376 3317 3371 6248 6291 6391 6409 9258 9276 9286 9324 9344 11262 11269 11309 11324 11394 
 	}
-	manpower=183564
+	manpower=488692
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 
 	local_supplies=10.0
 }

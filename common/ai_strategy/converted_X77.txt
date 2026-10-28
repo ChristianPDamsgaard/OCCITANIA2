@@ -7,16 +7,6 @@
 	}
 	abort_when_not_enabled = yes
 	
-	ai_strategy = {
-		type = conquer
-		id = "X22"
-		value = 383
-	}
-	ai_strategy = {
-		type = conquer
-		id = "NZL"
-		value = 25
-	}
 }
 
 converted_diplo_strategies_X77 = {
@@ -28,44 +18,4 @@ converted_diplo_strategies_X77 = {
 	}
 	abort_when_not_enabled = yes
 	
-	ai_strategy = {
-		type = contain
-		id = "X22"
-		value = 124
-	}
-	ai_strategy = {
-		type = contain
-		id = "PNG"
-		value = 104
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "X22"
-		value = 376
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "TAH"
-		value = 91
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "X20"
-		value = 5
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "CAT"
-		value = 4
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "HOL"
-		value = 1
-	}
-	ai_strategy = {
-		type = protect
-		id = "NZL"
-		value = 89
-	}
 }

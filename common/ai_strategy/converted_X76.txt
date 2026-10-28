@@ -9,38 +9,13 @@
 	
 	ai_strategy = {
 		type = conquer
-		id = "X42"
-		value = 1180
-	}
-	ai_strategy = {
-		type = conquer
-		id = "USA"
-		value = 1171
-	}
-	ai_strategy = {
-		type = conquer
-		id = "X36"
-		value = 379
-	}
-	ai_strategy = {
-		type = conquer
 		id = "X22"
-		value = 135
+		value = 383
 	}
 	ai_strategy = {
 		type = conquer
-		id = "X57"
-		value = 110
-	}
-	ai_strategy = {
-		type = conquer
-		id = "SCA"
-		value = 72
-	}
-	ai_strategy = {
-		type = conquer
-		id = "X62"
-		value = 55
+		id = "NZL"
+		value = 25
 	}
 }
 
@@ -55,117 +30,42 @@ converted_diplo_strategies_X76 = {
 	
 	ai_strategy = {
 		type = contain
-		id = "USA"
-		value = 384
-	}
-	ai_strategy = {
-		type = contain
-		id = "SCA"
-		value = 309
-	}
-	ai_strategy = {
-		type = contain
-		id = "X36"
-		value = 280
-	}
-	ai_strategy = {
-		type = contain
-		id = "OCC"
-		value = 268
-	}
-	ai_strategy = {
-		type = contain
-		id = "X42"
-		value = 263
-	}
-	ai_strategy = {
-		type = contain
 		id = "X22"
-		value = 202
+		value = 124
 	}
 	ai_strategy = {
 		type = contain
-		id = "HOL"
-		value = 143
-	}
-	ai_strategy = {
-		type = contain
-		id = "X57"
-		value = 127
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "X42"
-		value = 400
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "USA"
-		value = 377
+		id = "PNG"
+		value = 104
 	}
 	ai_strategy = {
 		type = antagonize
 		id = "X22"
-		value = 273
+		value = 376
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "SCA"
-		value = 48
+		id = "TAH"
+		value = 91
 	}
 	ai_strategy = {
-		type = alliance
-		id = "SPC"
-		value = 200
+		type = antagonize
+		id = "X20"
+		value = 5
 	}
 	ai_strategy = {
-		type = alliance
-		id = "OCC"
-		value = 79
+		type = antagonize
+		id = "CAT"
+		value = 4
 	}
 	ai_strategy = {
-		type = alliance
-		id = "X17"
-		value = 75
-	}
-	ai_strategy = {
-		type = alliance
+		type = antagonize
 		id = "HOL"
-		value = 65
+		value = 1
 	}
 	ai_strategy = {
 		type = protect
-		id = "X62"
-		value = 165
-	}
-	ai_strategy = {
-		type = protect
-		id = "X57"
-		value = 130
-	}
-	ai_strategy = {
-		type = protect
-		id = "X42"
-		value = 40
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "USA"
-		value = 169
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "HOL"
-		value = 105
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "SCA"
-		value = 84
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "X22"
-		value = 74
+		id = "NZL"
+		value = 89
 	}
 }

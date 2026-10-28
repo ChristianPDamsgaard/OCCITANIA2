@@ -1,9 +1,9 @@
 characters={
-	X87_elias_de_constant_rebecque={
-		name=X87_elias_de_constant_rebecque
+	X87_antonius_martena={
+		name=X87_antonius_martena
 		portraits={
 			civilian={
-				large="GFX_Britain_Stanley_Baldwin"
+				large="GFX_Britain_Winston_Churchill"
 			}
 		}
 		country_leader={

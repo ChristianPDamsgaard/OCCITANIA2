@@ -1,13 +1,13 @@
 characters={
-	W02_charalampos_foumis={
-		name=W02_charalampos_foumis
+	W02_hamza_burcak={
+		name=W02_hamza_burcak
 		portraits={
 			civilian={
-				large="GFX_ita_ferruccio_parri"
+				large="gfx/leaders/TUR/portrait_tur_abdulmejid_ii.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=absolute_monarchy
 			expire="1965.1.1.1"
 			id=-1
 		}

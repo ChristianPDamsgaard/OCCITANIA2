@@ -2,35 +2,32 @@
 state={
 	id=507
 	name="STATE_507"
-	resources={
-		steel=34.000
-	}
 
 	history={
-		owner = HOL
+		owner = X41
 		victory_points = {
-			516 2 
+			13313 1 
 		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
-			dockyard = 1
-			air_base = 1
-			6446 = {
-				naval_base = 10
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			13313 = {
+				naval_base = 1
 			}
 
 		}
-		add_core_of = HOL
+		add_core_of = X01
+		add_core_of = X41
 	}
 
 	provinces={
-		480 516 3576 6446 6560 6598 9574 11419 13068 
+		13313 
 	}
-	manpower=4971060
+	manpower=46480
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=wasteland
 
 	local_supplies=10.0
 }

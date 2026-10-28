@@ -1,0 +1,16 @@
+characters={
+	X79_enrique_casals={
+		name=X79_enrique_casals
+		portraits={
+			civilian={
+				large="GFX_ecu_federico_paez"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

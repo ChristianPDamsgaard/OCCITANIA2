@@ -4,31 +4,30 @@ state={
 	name="STATE_410"
 
 	history={
-		owner = LIT
+		owner = LIB
 		victory_points = {
-			3320 1 
+			7959 15 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
-			arms_factory = 0
-			dockyard = 1
-			air_base = 1
-			6314 = {
-				naval_base = 6
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			7959 = {
+				naval_base = 2
 			}
 
 		}
-		add_core_of = LIT
-		add_claim_by = X24
+		add_core_of = LIB
 	}
 
 	provinces={
-		327 530 3272 3320 3337 3354 6229 6281 6296 6314 6360 6376 6407 9246 9274 9295 9357 9374 9404 9438 9483 9499 9731 11226 11312 11342 11391 11498 
+		7959 8006 
 	}
-	manpower=2062800
+	manpower=889540
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

@@ -9,13 +9,13 @@
 	
 	ai_strategy = {
 		type = conquer
-		id = "SCA"
-		value = 3159
+		id = "OCC"
+		value = 125
 	}
 	ai_strategy = {
 		type = conquer
-		id = "SPC"
-		value = 73
+		id = "ITA"
+		value = 101
 	}
 }
 
@@ -29,23 +29,93 @@ converted_diplo_strategies_X72 = {
 	abort_when_not_enabled = yes
 	
 	ai_strategy = {
+		type = contain
+		id = "OCC"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 176
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 94
+	}
+	ai_strategy = {
+		type = contain
+		id = "X07"
+		value = 72
+	}
+	ai_strategy = {
+		type = contain
+		id = "X20"
+		value = 72
+	}
+	ai_strategy = {
+		type = contain
+		id = "HES"
+		value = 72
+	}
+	ai_strategy = {
+		type = contain
+		id = "HLR"
+		value = 72
+	}
+	ai_strategy = {
+		type = contain
+		id = "SLV"
+		value = 72
+	}
+	ai_strategy = {
 		type = antagonize
-		id = "SPC"
-		value = 22
+		id = "OCC"
+		value = 214
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 146
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X75"
+		value = 16
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 3
 	}
 	ai_strategy = {
 		type = alliance
-		id = "HOL"
-		value = 123
+		id = "SPC"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X22"
+		value = 133
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 122
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X64"
+		value = 73
 	}
 	ai_strategy = {
 		type = declare_war
 		id = "HES"
-		value = 125
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "SER"
-		value = 26
+		value = 43
 	}
 }

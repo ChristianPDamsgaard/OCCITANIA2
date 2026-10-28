@@ -368,7 +368,7 @@ focus_tree = {
 			declare_war_on = {
 				target = SIA
 				type = take_core_state
-				generator = { 678 }
+				generator = { 685 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}

@@ -1,12 +1,12 @@
 characters={
-	X74_fnu_lnu={
-		name=X74_fnu_lnu
+	X74_ismail_faysi={
+		name=X74_ismail_faysi
 		portraits={
 			army={
-				large="GFX_Portrait_Europe_Generic_land_1"
+				large="GFX_Portrait_Arabia_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_1"
+				small="GFX_Portrait_Arabia_Generic_land_1_small"
 			}
 		}
 		corps_commander={
@@ -19,75 +19,75 @@ characters={
 		}
 	}
 
-	X74_fnu_lnu_1={
-		name=X74_fnu_lnu_1
+	X74_yusuf_ibragimov={
+		name=X74_yusuf_ibragimov
 		portraits={
 			army={
-				large="GFX_Germany_Hans-Karl_Freiherr_von_Esebeck"
+				large="GFX_OTT_Mustafa_Kemal"
 			}
 			army={
-				small="GFX_Germany_Hans-Karl_Freiherr_von_Esebeck"
+				small="GFX_OTT_Mustafa_Kemal_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X74_baqi_faysi={
+		name=X74_baqi_faysi
+		portraits={
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_2_small"
 			}
 		}
 		corps_commander={
 			skill=2
 			attack_skill=2
 			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X74_fnu_lnu_2={
-		name=X74_fnu_lnu_2
-		portraits={
-			army={
-				large="GFX_Portrait_Europe_Generic_land_5"
-			}
-			army={
-				small="GFX_Portrait_Europe_Generic_land_5"
-			}
-		}
-		corps_commander={
-			skill=1
-			attack_skill=2
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X74_fnu_lnu_3={
-		name=X74_fnu_lnu_3
-		portraits={
-			army={
-				large="GFX_Portrait_Germany_Generic_land_3"
-			}
-			army={
-				small="GFX_Portrait_Germany_Generic_land_3"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=5
-			defense_skill=1
 			planning_skill=2
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X74_f._vom_x.={
-		name=X74_f._vom_x.
+	X74_yusuf_tukay={
+		name=X74_yusuf_tukay
+		portraits={
+			army={
+				large="GFX_Arabia_Generic_new_1"
+			}
+			army={
+				small="GFX_Arabia_Generic_new_1_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X74_baqi_khusainov={
+		name=X74_baqi_khusainov
 		portraits={
 			civilian={
-				large="GFX_europe_generic_5"
+				large="GFX_TUR_Alparslan_Turkesh"
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=fascism_ideology
 			expire="1965.1.1.1"
 			id=-1
 		}

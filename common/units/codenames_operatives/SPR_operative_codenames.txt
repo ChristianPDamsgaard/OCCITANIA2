@@ -1,7 +1,7 @@
 SPR_OPERATIVE_CODENAME_HISTORICAL = {
 	name = SPR_OPERATIVE_CODENAME_HISTORICAL
 
-	for_countries = { W00 W01 X22 X94 X95 X96 X97 X98 X99 }
+	for_countries = { W00 X22 X93 X94 X95 X96 X97 X98 X99 }
 
 	type = codename
 

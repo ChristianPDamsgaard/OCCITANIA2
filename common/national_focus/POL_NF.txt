@@ -369,7 +369,7 @@ focus_tree = {
 			declare_war_on = {
 				target = LIT
 				type = take_core_state
-				generator = { 418 }
+				generator = { 420 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}
@@ -754,7 +754,7 @@ focus_tree = {
 			declare_war_on = {
 				target = SCA
 				type = take_core_state
-				generator = { 647 }
+				generator = { 654 }
 			}
 			add_named_threat = { threat = 1 name = declare_war_NF_threat }
 		}

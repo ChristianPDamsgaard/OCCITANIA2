@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		owner = X82
+		owner = X81
 		victory_points = {
-			10827 0 
+			4033 0 
 		}
 		buildings = {
 			infrastructure = 1
@@ -18,13 +18,13 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = X82
+		add_core_of = X81
 	}
 
 	provinces={
-		2016 4961 8052 8084 10739 10827 10851 12744 
+		1953 2096 4033 7996 10764 10857 10859 10877 10908 
 	}
-	manpower=188208
+	manpower=229040
 	buildings_max_level_factor=1.000
 	state_category=rural
 

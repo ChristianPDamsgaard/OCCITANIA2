@@ -6,25 +6,51 @@ state={
 	history={
 		owner = X17
 		victory_points = {
-			1055 0 
+			4190 2 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
-			4042 = {
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			1052 = {
 				naval_base = 4
+			}
+			1590 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+			3900 = {
+				landmark_great_wall_section = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+			9843 = {
+				landmark_forbidden_city = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
 			}
 
 		}
+		add_core_of = X17
 		add_core_of = X21
 	}
 
 	provinces={
-		1055 1195 4013 4042 7086 7120 7174 7191 9944 10014 10086 10101 11920 11947 12059 
+		814 828 881 900 934 952 972 1052 1134 1137 1489 1590 3814 3828 3830 3881 3900 3955 4032 4093 4137 4140 4190 4208 4495 4514 6828 6852 6898 6904 6937 6969 6988 7000 7109 7545 7575 7633 7674 9768 9776 9843 9873 9905 9927 9969 10003 10022 10053 10068 10331 10397 10426 11761 11801 11822 11855 11944 11980 11996 12026 12043 13379 
 	}
-	manpower=5827264
+	manpower=32515944
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 

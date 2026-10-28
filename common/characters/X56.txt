@@ -1,73 +1,113 @@
 characters={
-	X56_tyomkigi_zubov={
-		name=X56_tyomkigi_zubov
+	X56_tsesumten_clackamas={
+		name=X56_tsesumten_clackamas
 		portraits={
 			army={
-				large="GFX_portrait_SOV_dmitry_lelyushenko"
+				large="GFX_nat_north_radical"
 			}
 			army={
-				small="GFX_portrait_SOV_dmitry_lelyushenko"
+				small="GFX_nat_north_radical_small"
 			}
 		}
 		corps_commander={
-			skill=3
-			attack_skill=4
-			defense_skill=4
+			skill=1
+			attack_skill=1
+			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X56_lyutya_zubov={
-		name=X56_lyutya_zubov
+	X56_cheenlenten_yakweakwioose={
+		name=X56_cheenlenten_yakweakwioose
 		portraits={
 			army={
-				large="GFX_Soviet_Max_Andreyevich"
+				large="GFX_nat_north_radical"
 			}
 			army={
-				small="GFX_Soviet_Max_Andreyevich"
-			}
-		}
-		corps_commander={
-			skill=4
-			attack_skill=5
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=5
-			legacy_id=0
-		}
-	}
-
-	X56_kushchta_tikhanov={
-		name=X56_kushchta_tikhanov
-		portraits={
-			army={
-				large="GFX_Portrait_Soviet_Generic_land_1"
-			}
-			army={
-				small="GFX_Portrait_Soviet_Generic_land_1"
+				small="GFX_nat_north_radical_small"
 			}
 		}
 		corps_commander={
 			skill=2
-			attack_skill=3
-			defense_skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X56_moowhahladhu_snoqualmie={
+		name=X56_moowhahladhu_snoqualmie
+		portraits={
+			army={
+				large="GFX_native_north_american_general"
+			}
+			army={
+				small="GFX_native_north_american_general_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
 			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X56_dmitri_zubov={
-		name=X56_dmitri_zubov
+	X56_senegertta_wasco={
+		name=X56_senegertta_wasco
+		portraits={
+			army={
+				large="GFX_native_north_american_general"
+			}
+			army={
+				small="GFX_native_north_american_general_small"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X56_etnama_snohomish={
+		name=X56_etnama_snohomish
+		portraits={
+			navy={
+				large="GFX_native_north_american_radical"
+			}
+			navy={
+				small="GFX_native_north_american_radical_small"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+
+	X56_hatch_semiahmoo={
+		name=X56_hatch_semiahmoo
 		portraits={
 			civilian={
-				large="GFX_Soviet_Generic_3"
+				large="GFX_native_north_american_democratic"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=liberalism
 			expire="1965.1.1.1"
 			id=-1
 		}

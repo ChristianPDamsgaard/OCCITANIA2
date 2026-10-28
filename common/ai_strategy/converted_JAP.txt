@@ -60,7 +60,7 @@ converted_diplo_strategies_JAP = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X76"
+		id = "X75"
 		value = 104
 	}
 	ai_strategy = {
@@ -75,7 +75,7 @@ converted_diplo_strategies_JAP = {
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "X54"
+		id = "TNE"
 		value = 99
 	}
 	ai_strategy = {

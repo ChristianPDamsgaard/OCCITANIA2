@@ -2,29 +2,36 @@
 state={
 	id=467
 	name="STATE_467"
+	resources={
+		chromium=2.000
+		steel=2.000
+	}
 
 	history={
 		owner = X38
 		victory_points = {
-			10772 2 
+			8098 0 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-			air_base = 1
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1179 = {
+				naval_base = 6
+			}
 
 		}
-		add_core_of = X38
 		add_core_of = X46
+		add_claim_by = X38
 	}
 
 	provinces={
-		1107 1129 2002 2076 4979 7106 7903 8007 8022 8106 9084 10066 10139 10173 10729 10772 10843 10887 10898 12005 12708 12792 12822 
+		1179 1978 4558 4990 4998 5043 5075 5105 7847 7917 7975 8013 8044 8066 8098 10813 12717 12761 12763 12774 
 	}
-	manpower=7324252
+	manpower=1784364
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=large_island
 
 	local_supplies=10.0
 }

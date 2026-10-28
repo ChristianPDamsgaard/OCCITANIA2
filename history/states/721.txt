@@ -2,31 +2,34 @@
 state={
 	id=721
 	name="STATE_721"
+	resources={
+		chromium=1.000
+		steel=11.000
+		tungsten=11.000
+	}
 
 	history={
-		owner = USA
+		owner = X56
 		victory_points = {
-			4464 2 
+			12124 1 
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
-			air_base = 1
-			4464 = {
-				naval_base = 6
-			}
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
 
 		}
-		add_core_of = USA
+		add_core_of = X56
+		add_claim_by = USA
 	}
 
 	provinces={
-		1615 4464 4510 4565 4650 7464 7668 8110 10410 10449 10753 11717 12328 12429 
+		1832 3781 4778 12124 
 	}
-	manpower=6005408
+	manpower=10720
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=rural
 
 	local_supplies=10.0
 }

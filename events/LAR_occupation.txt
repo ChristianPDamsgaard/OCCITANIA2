@@ -4,7 +4,7 @@ country_event = {
 	id = occupied_countries.1
 	title = occupied_countries.1.title
 	desc = occupied_countries.1.desc
-	picture = GFX_report_event_canadian_soldiers
+	picture = [GetCollaborationGovernmentEventPicture]
 
 	is_triggered_only = yes
 
@@ -37,6 +37,18 @@ country_event = {
 		name = occupied_countries.1.b
 		ai_chance = {
 			base = 100
+		}
+	}
+
+	option = {
+		name = occupied_countries.1.c
+		ai_chance = {
+			base = 0
+		}
+		custom_effect_tooltip = occupied_countries.1.c_tt
+
+		hidden_effect = {
+			set_country_flag = stop_collaboration_government_events
 		}
 	}
 }

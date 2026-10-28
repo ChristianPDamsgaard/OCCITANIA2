@@ -3,32 +3,31 @@ state={
 	id=824
 	name="STATE_824"
 	resources={
-		oil=5.000
-		steel=12.000
+		aluminium=4.000
 	}
 
 	history={
-		owner = X76
+		owner = X72
 		victory_points = {
-			1836 1 
+			9620 15 
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
-			air_base = 0
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
 
 		}
-		add_core_of = X76
-		add_claim_by = USA
+		add_core_of = X72
+		add_claim_by = HLR
 	}
 
 	provinces={
-		1752 1836 1870 3719 4759 4772 10685 10709 12685 
+		9618 9620 
 	}
-	manpower=785604
+	manpower=512048
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

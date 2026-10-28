@@ -4,36 +4,27 @@ state={
 	name="STATE_594"
 
 	history={
-		owner = PRU
+		owner = PER
 		victory_points = {
-			8213 2 
+			4609 1 
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 0
+			arms_factory = 0
 			air_base = 0
 
 		}
-		add_core_of = PRU
-		ARG = {
-			set_province_controller = 5162
-		}
-		VEN = {
-			set_province_controller = 8149
-			set_province_controller = 8213
-			set_province_controller = 10970
-			set_province_controller = 13289
-			set_province_controller = 13290
-		}
+		add_core_of = PER
+		add_claim_by = X63
 	}
 
 	provinces={
-		5162 8149 8213 10970 13289 13290 
+		4580 4609 4637 7602 10385 10768 
 	}
-	manpower=752816
+	manpower=553536
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
 
 	local_supplies=10.0
 }

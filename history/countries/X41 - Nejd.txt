@@ -1,4 +1,4 @@
-﻿capital = 502
+﻿capital = 506
 set_research_slots = 2
 
 oob = "X41_OOB"
@@ -115,6 +115,7 @@ add_opinion_modifier = { target = SIA modifier = negative_20 }
 add_opinion_modifier = { target = SLV modifier = negative_10 }
 add_opinion_modifier = { target = SPC modifier = positive_67 }
 add_opinion_modifier = { target = TAH modifier = negative_20 }
+add_opinion_modifier = { target = TNE modifier = negative_20 }
 add_opinion_modifier = { target = TOG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_10 }
 add_opinion_modifier = { target = VEN modifier = negative_10 }
@@ -161,18 +162,17 @@ add_opinion_modifier = { target = X47 modifier = negative_10 }
 add_opinion_modifier = { target = X50 modifier = positive_10 }
 add_opinion_modifier = { target = X51 modifier = negative_20 }
 add_opinion_modifier = { target = X52 modifier = negative_20 }
-add_opinion_modifier = { target = X54 modifier = negative_20 }
-add_opinion_modifier = { target = X57 modifier = negative_10 }
-add_opinion_modifier = { target = X61 modifier = positive_10 }
-add_opinion_modifier = { target = X62 modifier = negative_20 }
-add_opinion_modifier = { target = X64 modifier = negative_31 }
-add_opinion_modifier = { target = X65 modifier = negative_200 }
-add_opinion_modifier = { target = X66 modifier = negative_50 }
-add_opinion_modifier = { target = X68 modifier = positive_35 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = positive_10 }
+add_opinion_modifier = { target = X61 modifier = negative_20 }
+add_opinion_modifier = { target = X63 modifier = negative_31 }
+add_opinion_modifier = { target = X64 modifier = negative_200 }
+add_opinion_modifier = { target = X65 modifier = negative_50 }
+add_opinion_modifier = { target = X67 modifier = positive_35 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
 add_opinion_modifier = { target = X73 modifier = negative_10 }
-add_opinion_modifier = { target = X74 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
 add_opinion_modifier = { target = X76 modifier = negative_10 }
-add_opinion_modifier = { target = X77 modifier = negative_10 }
 add_opinion_modifier = { target = ZIM modifier = negative_10 }
 
 

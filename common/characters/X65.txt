@@ -1,52 +1,12 @@
 characters={
-	X65_asaf_faysi={
-		name=X65_asaf_faysi
+	X65_fnu_lnu={
+		name=X65_fnu_lnu
 		portraits={
 			army={
-				large="GFX_OTT_Osman_Fuad"
+				large="GFX_portrait_GER_hermann_hoth"
 			}
 			army={
-				small="GFX_OTT_Osman_Fuad"
-			}
-		}
-		corps_commander={
-			skill=3
-			attack_skill=3
-			defense_skill=6
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X65_galiaskar_khusainov={
-		name=X65_galiaskar_khusainov
-		portraits={
-			army={
-				large="GFX_Portrait_Arabia_Generic_land_2"
-			}
-			army={
-				small="GFX_Portrait_Arabia_Generic_land_2"
-			}
-		}
-		corps_commander={
-			skill=2
-			attack_skill=3
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=0
-		}
-	}
-
-	X65_yusuf_tukay={
-		name=X65_yusuf_tukay
-		portraits={
-			army={
-				large="GFX_OTT_Mustafa_Fevzi"
-			}
-			army={
-				small="GFX_OTT_Mustafa_Fevzi"
+				small="GFX_portrait_GER_hermann_hoth_small"
 			}
 		}
 		corps_commander={
@@ -59,35 +19,75 @@ characters={
 		}
 	}
 
-	X65_baqi_amirkhanov={
-		name=X65_baqi_amirkhanov
+	X65_fnu_lnu_1={
+		name=X65_fnu_lnu_1
 		portraits={
 			army={
-				large="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+				large="GFX_Portrait_europe_generic_land_6"
 			}
 			army={
-				small="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+				small="GFX_Portrait_europe_generic_land_6_small"
 			}
 		}
 		corps_commander={
-			skill=2
-			attack_skill=3
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X65_fnu_lnu_2={
+		name=X65_fnu_lnu_2
+		portraits={
+			army={
+				large="GFX_portrait_GER_gotthard_heinrici"
+			}
+			army={
+				small="GFX_portrait_GER_gotthard_heinrici_small"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
 			defense_skill=1
-			planning_skill=2
+			planning_skill=1
 			logistics_skill=1
 			legacy_id=0
 		}
 	}
 
-	X65_baqi_gizzat={
-		name=X65_baqi_gizzat
+	X65_fnu_lnu_3={
+		name=X65_fnu_lnu_3
+		portraits={
+			navy={
+				large="GFX_portrait_europe_generic_navy_4"
+			}
+			navy={
+				small="GFX_portrait_europe_generic_navy_4_small"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X65_k._von_v.={
+		name=X65_k._von_v.
 		portraits={
 			civilian={
-				large="GFX_Turkey_Ismet_Inonu"
+				large="GFX_lux_joseph_bech"
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=minarchism_neutral
 			expire="1965.1.1.1"
 			id=-1
 		}
