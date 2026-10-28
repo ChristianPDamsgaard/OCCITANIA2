@@ -1,0 +1,15 @@
+characters={
+	HEL_alexandros_karavias={
+		name=HEL_alexandros_karavias
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_GRE_Alexandros_Papanastasiou.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

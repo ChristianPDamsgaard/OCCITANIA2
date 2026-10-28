@@ -1,0 +1,23 @@
+units = {
+	division = {
+		name = "Chalkidiki Rifles"
+		location = 9791
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Olympus Klephts"
+		location = 863
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Pindus Mountaineers"
+		location = 841
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}

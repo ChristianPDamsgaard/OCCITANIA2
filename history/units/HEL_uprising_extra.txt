@@ -1,0 +1,16 @@
+units = {
+	division = {
+		name = "Corinth Militia"
+		location = 1106
+		division_template = "Republican Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Attica Volunteers"
+		location = 3864
+		division_template = "Republican Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}

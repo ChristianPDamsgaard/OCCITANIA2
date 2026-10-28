@@ -1,0 +1,42 @@
+division_template = {
+	name = "Republican Militia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Athenian Republican Guard"
+		location = 4109
+		division_template = "Republican Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Piraeus Workers' Militia"
+		location = 976
+		division_template = "Republican Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Peloponnesian Militia"
+		location = 10203
+		division_template = "Republican Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Aegean Volunteers"
+		location = 6550
+		division_template = "Republican Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}

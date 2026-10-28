@@ -1,0 +1,42 @@
+division_template = {
+	name = "Royalist Insurgents"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Salonika Legion"
+		location = 11818
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Macedonian Volunteers"
+		location = 3526
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Thessalian Insurgents"
+		location = 3973
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Florina Brigade"
+		location = 9837
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}

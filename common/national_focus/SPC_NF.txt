@@ -887,6 +887,22 @@ focus_tree = {
 	}
 
 	focus = {
+		id = SPC_suppress_the_hetairists
+		icon = GFX_goal_generic_fortify_city
+		x = 46
+		y = 4
+		cost = 10
+		prerequisite = { focus = SPC_pacify_the_highlands }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			set_country_flag = SPC_hetairists_suppressed
+			add_stability = 0.05
+			if = { limit = { country_exists = GRE } GRE = { add_war_support = -0.1 } }
+		}
+		ai_will_do = { factor = 5 }
+	}
+
+	focus = {
 		id = SPC_the_african_dominions
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = 50

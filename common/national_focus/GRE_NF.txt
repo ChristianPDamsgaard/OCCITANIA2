@@ -1,439 +1,509 @@
 focus_tree = {
 	id = GRE_focus
-	
+
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
-			tag = GRE
+			original_tag = GRE
 		}
 	}
-	
+
 	default = no
-	
-	shared_focus = army_effort
-	shared_focus = aviation_effort
-	shared_focus = naval_effort
-	shared_focus = industrial_effort
-	shared_focus = political_effort
+
+	initial_show_position = { focus = GRE_the_last_free_greeks }
 
 	focus = {
-		id = border_disputesGRESPC
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesSPC
-		x = 24
+		id = GRE_the_last_free_greeks
+		icon = GFX_goal_generic_national_unity
+		x = 8
 		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			SPC = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 70
-			}
-		}
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_war_support = 0.05
+			add_political_power = 75
+			add_stability = 0.05
 		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = SPC value > 0 }
-			}
-			modifier = {
-				factor = 0
-				SPC = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = SPC
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				SPC = { surrender_progress > 0.2 }
-			}
-		}
+		ai_will_do = { factor = 50 }
 	}
 
 	focus = {
-		id = assert_claimsGRESPC
-		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsSPC
-		prerequisite = { focus = border_disputesGRESPC }
-		x = 0
+		id = GRE_the_philiki_etaireia_reborn
+		icon = GFX_goal_generic_political_pressure
+		x = 8
 		y = 1
-		relative_position_id = border_disputesGRESPC
 		cost = 10
-		available = {
-			date > 1937.10.1
-			is_subject = no
-			has_war = no
-			SPC = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 70
-			}
-		}
+		prerequisite = { focus = GRE_the_last_free_greeks }
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
 			add_state_claim = 70
-			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			hidden_effect = {
-				SPC = { country_event = { id = reconquest_news.1 } }
-			}
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = SPC value > 0 }
-			}
-			modifier = {
-				factor = 0
-				SPC = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = SPC
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				SPC = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = prepare_for_warGRESPC
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warSPC
-		prerequisite = { focus = assert_claimsGRESPC }
-		bypass = {
-			has_war_with = SPC
-		}
-		x = 0
-		y = 1
-		relative_position_id = assert_claimsGRESPC
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			SPC = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 70
-			}
-		}
-		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	focus = {
-		id = neighbor_warGRESPC
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warSPC
-		prerequisite = { focus = prepare_for_warGRESPC }
-		bypass = {
-			has_war_with = SPC
-		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_warGRESPC
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			SPC = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 70
-			}
-		}
-		completion_reward = {
-			declare_war_on = {
-				target = SPC
-				type = take_state_focus
-				generator = { 70 }
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	focus = {
-		id = border_disputesGREX09
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesX09
-		x = 26
-		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			X09 = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 99
-			}
-		}
-		completion_reward = {
-			add_war_support = 0.05
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = X09 value > 0 }
-			}
-			modifier = {
-				factor = 0
-				X09 = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = X09
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				X09 = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = assert_claimsGREX09
-		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsX09
-		prerequisite = { focus = border_disputesGREX09 }
-		x = 0
-		y = 1
-		relative_position_id = border_disputesGREX09
-		cost = 10
-		available = {
-			date > 1936.2.1
-			is_subject = no
-			has_war = no
-			X09 = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 99
-			}
-		}
-		completion_reward = {
+			add_state_claim = 100
 			add_state_claim = 99
-			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			hidden_effect = {
-				X09 = { country_event = { id = reconquest_news.1 } }
+			add_state_claim = 49
+			add_state_claim = 62
+			add_state_claim = 50
+			add_war_support = 0.1
+		}
+		ai_will_do = { factor = 20 }
+	}
+
+	focus = {
+		id = GRE_royalist_committees
+		icon = GFX_focus_hun_elect_a_king
+		x = 6
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_the_philiki_etaireia_reborn }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			set_country_flag = GRE_royalist_committees
+			add_popularity = { ideology = absolutist popularity = 0.05 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = GRE_smuggle_arms_across_the_aegean
+		icon = GFX_goal_generic_small_arms
+		x = 8
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_the_philiki_etaireia_reborn }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1500 producer = GRE }
+			add_equipment_to_stockpile = { type = artillery_equipment amount = 36 producer = GRE }
+		}
+		ai_will_do = { factor = 20 }
+	}
+
+	focus = {
+		id = GRE_the_athenian_republicans
+		icon = GFX_goal_support_democracy
+		x = 10
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_the_philiki_etaireia_reborn }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_country_flag = GRE_republican_contacts
+			add_popularity = { ideology = democratic popularity = 0.05 }
+		}
+		ai_will_do = { factor = 5 }
+	}
+
+	focus = {
+		id = GRE_the_great_uprising
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 3
+		cost = 10
+		prerequisite = { focus = GRE_smuggle_arms_across_the_aegean }
+		prerequisite = { focus = GRE_royalist_committees focus = GRE_the_athenian_republicans }
+		available = {
+			country_exists = SPC
+			NOT = { has_war_with = SPC }
+			OR = {
+				70 = { is_owned_by = SPC }
+				100 = { is_owned_by = SPC }
+				99 = { is_owned_by = SPC }
+				49 = { is_owned_by = SPC }
+				62 = { is_owned_by = SPC }
+				50 = { is_owned_by = SPC }
+			}
+			OR = { date > 1937.1.1 SPC = { has_war = yes } }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			# Royalist rebels rise in the north and join Greece
+			if = { limit = { 70 = { is_owned_and_controlled_by = SPC } } transfer_state = 70 }
+			if = { limit = { 100 = { is_owned_and_controlled_by = SPC } } transfer_state = 100 }
+			if = { limit = { 99 = { is_owned_and_controlled_by = SPC } } transfer_state = 99 }
+			load_oob = "GRE_uprising"
+			if = { limit = { has_country_flag = GRE_royalist_committees SPC = { NOT = { has_country_flag = SPC_hetairists_suppressed } } }
+				load_oob = "GRE_uprising_extra"
+			}
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = GRE }
+			# Republican rebels rise in the south as the Hellenic Republic
+			49 = { add_core_of = HEL }
+			62 = { add_core_of = HEL }
+			50 = { add_core_of = HEL }
+			SPC = { release = HEL }
+			HEL = {
+				load_oob = "HEL_uprising"
+				if = { limit = { ROOT = { has_country_flag = GRE_republican_contacts } SPC = { NOT = { has_country_flag = SPC_hetairists_suppressed } } }
+					load_oob = "HEL_uprising_extra"
+				}
+				add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = HEL }
+				declare_war_on = { target = SPC type = annex_everything }
+			}
+			declare_war_on = { target = SPC type = annex_everything }
+			if = { limit = { has_country_flag = GRE_republican_contacts }
+				add_opinion_modifier = { target = HEL modifier = positive_50 }
+				HEL = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+			}
+			SPC = { country_event = { id = greek_uprising.1 } }
+			add_ideas = GRE_the_great_uprising
+		}
+		ai_will_do = { factor = 50 }
+	}
+
+	focus = {
+		id = GRE_a_crown_for_all_hellenes
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 6
+		y = 4
+		cost = 10
+		prerequisite = { focus = GRE_the_great_uprising }
+		mutually_exclusive = { focus = GRE_the_republican_pact }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_popularity = { ideology = absolutist popularity = 0.1 }
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 5 }
+	}
+
+	focus = {
+		id = GRE_bring_athens_to_heel
+		icon = GFX_goal_generic_territory_or_war
+		x = 5
+		y = 5
+		cost = 10
+		prerequisite = { focus = GRE_a_crown_for_all_hellenes }
+		available = {
+			country_exists = HEL
+			NOT = { has_war_with = SPC }
+			NOT = { has_war_with = HEL }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = HEL }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_king_in_athens
+		icon = GFX_goal_generic_national_unity
+		x = 7
+		y = 5
+		cost = 10
+		prerequisite = { focus = GRE_a_crown_for_all_hellenes }
+		available = {
+			owns_state = 49
+		}
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			set_capital = { state = 49 }
+			add_stability = 0.1
+			add_political_power = 100
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_republican_pact
+		icon = GFX_goal_support_democracy
+		x = 10
+		y = 4
+		cost = 10
+		prerequisite = { focus = GRE_the_great_uprising }
+		mutually_exclusive = { focus = GRE_a_crown_for_all_hellenes }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = { ruling_party = democratic elections_allowed = yes last_election = "1936.1.1" election_frequency = 48 }
+			set_popularities = { democratic = 60 absolutist = 35 fascism = 5 }
+			if = { limit = { country_exists = HEL is_in_faction = no HEL = { is_in_faction = no } }
+				create_faction_from_template = { template = faction_template_defensive_democratic name = GRE_hellenic_alliance }
+				add_to_faction = HEL
 			}
 		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
+		ai_will_do = { factor = 2 }
+	}
 
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = X09 value > 0 }
-			}
-			modifier = {
-				factor = 0
-				X09 = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = X09
-					in_weak_faction = no
+	focus = {
+		id = GRE_union_with_the_republic
+		icon = GFX_focus_generic_treaty
+		x = 9
+		y = 5
+		cost = 10
+		prerequisite = { focus = GRE_the_republican_pact }
+		available = {
+			country_exists = HEL
+			HEL = { is_in_faction_with = ROOT }
+			NOT = { has_war_with = SPC }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			annex_country = { target = HEL transfer_troops = yes }
+			add_stability = 0.1
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_a_constitution_for_hellas
+		icon = GFX_focus_generic_treaty
+		x = 11
+		y = 5
+		cost = 10
+		prerequisite = { focus = GRE_the_republican_pact }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = GRE_hellenic_constitution
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_hellas_reborn
+		icon = GFX_goal_generic_national_unity
+		x = 8
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_bring_athens_to_heel focus = GRE_the_king_in_athens focus = GRE_union_with_the_republic focus = GRE_a_constitution_for_hellas }
+		available = {
+			owns_state = 49
+			owns_state = 70
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_state_core = 70
+			add_state_core = 100
+			add_state_core = 99
+			add_state_core = 49
+			add_state_core = 62
+			add_state_core = 50
+			add_ideas = GRE_hellas_reborn
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_megali_idea
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 8
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_hellas_reborn }
+		available = {
+			country_exists = SPC
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 52
+			add_state_claim = 54
+			add_state_claim = 753
+			create_wargoal = { type = take_state_focus target = SPC generator = { 52 54 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_appeal_to_occitania
+		icon = GFX_focus_generic_treaty
+		x = 13
+		y = 1
+		cost = 10
+		prerequisite = { focus = GRE_the_last_free_greeks }
+		available = {
+			country_exists = OCC
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_opinion_modifier = { target = OCC modifier = positive_50 }
+			OCC = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1000 producer = OCC }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_occitan_military_advisors
+		icon = GFX_goal_generic_army_doctrines
+		x = 13
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_appeal_to_occitania }
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			army_experience = 15
+			add_doctrine_cost_reduction = { name = GRE_occitan_military_advisors cost_reduction = 0.4 uses = 1 category = land_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_seek_an_occitan_guarantee
+		icon = GFX_goal_generic_defence
+		x = 12
+		y = 3
+		cost = 10
+		prerequisite = { focus = GRE_occitan_military_advisors }
+		available = {
+			country_exists = OCC
+			OCC = { NOT = { has_war_with = ROOT } }
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			OCC = { give_guarantee = ROOT }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_byzantine_brotherhood
+		icon = GFX_focus_generic_treaty
+		x = 14
+		y = 3
+		cost = 10
+		prerequisite = { focus = GRE_appeal_to_occitania }
+		available = {
+			country_exists = X09
+			NOT = { has_war_with = X09 }
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_opinion_modifier = { target = X09 modifier = positive_50 }
+			X09 = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+			diplomatic_relation = { country = X09 relation = non_aggression_pact }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_klephts
+		icon = GFX_goal_generic_special_forces
+		x = 2
+		y = 1
+		cost = 10
+		prerequisite = { focus = GRE_the_last_free_greeks }
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			add_ideas = GRE_klephts
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_evzones
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_the_klephts }
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			army_experience = 15
+			add_tech_bonus = { name = GRE_the_evzones bonus = 0.5 uses = 2 category = infantry_weapons }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_mountain_warfare
+		icon = GFX_goal_generic_cavalry
+		x = 3
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_the_klephts }
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = { name = GRE_mountain_warfare bonus = 0.5 uses = 2 category = mountaineers_tech }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_diaspora_volunteers
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 3
+		cost = 10
+		prerequisite = { focus = GRE_the_evzones }
+		prerequisite = { focus = GRE_mountain_warfare }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_manpower = 15000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_rebuild_polygyros
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = GRE_the_last_free_greeks }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 329 = { is_owned_and_controlled_by = ROOT } }
+				329 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 				}
 			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				X09 = { surrender_progress > 0.2 }
+			if = { limit = { 329 = { is_owned_and_controlled_by = ROOT } }
+				329 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
 			}
 		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
-		id = prepare_for_warGREX09
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warX09
-		prerequisite = { focus = assert_claimsGREX09 }
-		bypass = {
-			has_war_with = X09
-		}
+		id = GRE_aegean_fishing_fleets
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 0
-		y = 1
-		relative_position_id = assert_claimsGREX09
+		y = 2
 		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			X09 = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 99
-			}
-		}
+		prerequisite = { focus = GRE_rebuild_polygyros }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_manpower = 10000
+			if = { limit = { 329 = { is_owned_and_controlled_by = ROOT } }
+				329 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = dockyard level = 1 instant_build = yes }
+				}
+			}
+			navy_experience = 10
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
-		id = neighbor_warGREX09
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warX09
-		prerequisite = { focus = prepare_for_warGREX09 }
-		bypass = {
-			has_war_with = X09
-		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_warGREX09
+		id = GRE_industry_of_a_free_greece
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 5
 		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			X09 = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 99
-			}
-		}
+		prerequisite = { focus = GRE_the_great_uprising }
+		prerequisite = { focus = GRE_the_diaspora_volunteers }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			declare_war_on = {
-				target = X09
-				type = take_state_focus
-				generator = { 99 }
+			if = { limit = { 70 = { is_owned_and_controlled_by = ROOT } }
+				70 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 70 = { is_owned_and_controlled_by = ROOT } }
+				70 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 49 = { is_owned_and_controlled_by = ROOT } }
+				49 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+				}
 			}
 		}
-		ai_will_do = {
-			factor = 0
-		}
+		ai_will_do = { factor = 1 }
 	}
 
 }

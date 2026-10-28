@@ -1,0 +1,52 @@
+ideas = {
+	country = {
+		GRE_the_great_uprising = {
+			picture = generic_war_of_national_liberation
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.15
+				conscription = 0.02
+				stability_factor = 0.1
+			}
+		}
+		GRE_klephts = {
+			picture = warrior_traditions_idea
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				special_forces_cap = 0.1
+			}
+		}
+		GRE_hellenic_constitution = {
+			picture = generic_democratic_drift_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.1
+			}
+		}
+		GRE_hellas_reborn = {
+			picture = generic_national_unification
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+		}
+		SPC_greek_insurgency = {
+			picture = generic_army_problems
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.05
+				political_power_gain = -0.1
+			}
+		}
+	}
+}
