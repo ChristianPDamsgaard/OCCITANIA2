@@ -1,1548 +1,1431 @@
 focus_tree = {
 	id = SPC_focus
-
+	
 	country = {
 		factor = 0
+		
 		modifier = {
 			add = 10
-			original_tag = SPC
+			tag = SPC
 		}
 	}
-
+	
 	default = no
-
-	initial_show_position = { focus = SPC_the_bitter_peace }
-
-	focus = {
-		id = SPC_the_bitter_peace
-		icon = GFX_goal_generic_national_unity
-		x = 29
-		y = 0
-		cost = 5
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_political_power = 100
-		}
-		ai_will_do = { factor = 50 }
-	}
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
 
 	focus = {
-		id = SPC_escotets_mandate
-		icon = GFX_goal_support_fascism
-		x = 24
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_bitter_peace }
-		mutually_exclusive = { focus = SPC_whispers_in_the_palace focus = SPC_voices_of_the_corts }
-		available = {
-			has_government = fascism
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_political_power = 75
-			add_popularity = { ideology = fascism popularity = 0.05 }
-		}
-		ai_will_do = { factor = 20 }
-	}
-
-	focus = {
-		id = SPC_unify_the_moviment
-		icon = GFX_goal_generic_political_pressure
-		x = 24
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_escotets_mandate }
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
-		completion_reward = {
-			add_stability = 0.05
-			add_popularity = { ideology = fascism popularity = 0.05 }
-			add_political_power = 50
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_black_shirts_of_saragossa
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 22
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_unify_the_moviment }
-		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER }
-		completion_reward = {
-			add_ideas = SPC_saragossa_militia
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_purge_the_defeatists
-		icon = GFX_goal_generic_fortify_city
-		x = 24
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_unify_the_moviment }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
-			remove_ideas = SPC_wounds_of_defeat
-			add_ideas = SPC_revanchist_fervor
-			add_stability = -0.05
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_ministry_of_national_spirit
-		icon = GFX_goal_generic_propaganda
+		id = reclaim_coresSPC
+		icon = GFX_goal_generic_more_territorial_claims
+		text = reclaim_cores
 		x = 26
-		y = 3
+		y = 0
 		cost = 10
-		prerequisite = { focus = SPC_unify_the_moviment }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
-			add_war_support = 0.1
-			add_popularity = { ideology = fascism popularity = 0.05 }
+		available = {
+			is_subject = no
 		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_corporate_state
-		icon = GFX_goal_generic_production
-		x = 23
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_black_shirts_of_saragossa }
-		prerequisite = { focus = SPC_purge_the_defeatists }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_ideas = SPC_corporate_state
+		select_effect = {
+			set_variable = { unowned_cores_@CAT = 33 }
+			set_variable = { unowned_cores_@OCC = 23 }
+			set_variable = { unowned_cores_@X20 = 10 }
+			set_variable = { revanchism = 0.000660 }
+			set_variable = { revanchism_stab = -0.000066 }
+			add_dynamic_modifier = { modifier = revanchism }
+			add_dynamic_modifier = { modifier = revanchism_fasc }
 		}
-		ai_will_do = { factor = 1 }
-	}
 
-	focus = {
-		id = SPC_aragonese_youth_front
-		icon = GFX_goal_generic_special_forces
-		x = 25
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_ministry_of_national_spirit }
-		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_XP }
 		completion_reward = {
-			add_manpower = 25000
-			army_experience = 10
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_cabdills_cult
-		icon = GFX_goal_generic_national_unity
-		x = 24
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_the_corporate_state }
-		prerequisite = { focus = SPC_aragonese_youth_front }
-		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
-		completion_reward = {
+			custom_effect_tooltip = revanchism_reduction
+			divide_variable = { revanchism = 2 }
+			divide_variable = { revanchism_stab = 2 }
 			add_political_power = 150
-			add_stability = 0.1
+			add_ideas = reclaim_cores_idea
 		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_total_mobilization
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 23
-		y = 6
-		cost = 10
-		prerequisite = { focus = SPC_the_cabdills_cult }
-		available = {
-			has_war_support > 0.5
-		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_ideas = war_economy
-			add_war_support = 0.05
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_new_aragonese_order
-		icon = GFX_goal_generic_military_sphere
-		x = 25
-		y = 6
-		cost = 10
-		prerequisite = { focus = SPC_the_cabdills_cult }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			if = { limit = { is_in_faction = no }
-				create_faction = SPC_pact_of_saragossa
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				date < 1939.1.1
 			}
-			every_subject_country = {
-				limit = { is_in_faction = no }
-				ROOT = { add_to_faction = PREV }
-			}
-			add_political_power = 50
 		}
-		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
-		id = SPC_aragon_above_all
-		icon = GFX_goal_generic_major_war
+		id = raise_matterSPCCAT
+		icon = GFX_focus_generic_self_management
+		text = raise_matterCAT
+		prerequisite = { focus = reclaim_coresSPC }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = CAT
+				is_in_faction_with = CAT
+				NOT = { CAT = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
 		x = 24
-		y = 7
-		cost = 10
-		prerequisite = { focus = SPC_total_mobilization }
-		prerequisite = { focus = SPC_the_new_aragonese_order }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
-			add_ideas = SPC_aragon_above_all
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_whispers_in_the_palace
-		icon = GFX_focus_hun_elect_a_king
-		x = 29
 		y = 1
 		cost = 10
-		prerequisite = { focus = SPC_the_bitter_peace }
-		mutually_exclusive = { focus = SPC_escotets_mandate focus = SPC_voices_of_the_corts }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_popularity = { ideology = absolutist popularity = 0.15 }
-			add_political_power = 50
-		}
-		ai_will_do = { factor = 4 }
-	}
-
-	focus = {
-		id = SPC_the_officers_plot
-		icon = GFX_goal_generic_army_doctrines
-		x = 29
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_whispers_in_the_palace }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_popularity = { ideology = absolutist popularity = 0.15 }
-			army_experience = 10
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_crown_reclaimed
-		icon = GFX_focus_rom_royal_dictatorship
-		x = 29
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_officers_plot }
 		available = {
-			absolutist > 0.25
-			has_war = no
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			set_politics = { ruling_party = absolutist elections_allowed = no }
-			set_popularities = { absolutist = 55 fascism = 30 democratic = 10 neutrality = 5 }
-			recruit_character = SPC_jaume_v
-			promote_character = SPC_jaume_v
-			retire_character = SPC_carles_escotet
-			remove_ideas = SPC_wounds_of_defeat
-			add_ideas = SPC_crown_of_aragon
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_royal_council
-		icon = GFX_goal_generic_political_pressure
-		x = 28
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_the_crown_reclaimed }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_ideas = SPC_royal_council
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_restore_the_usatges
-		icon = GFX_focus_generic_treaty
-		x = 30
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_the_crown_reclaimed }
-		search_filters = { FOCUS_FILTER_STABILITY }
-		completion_reward = {
-			add_stability = 0.1
-			add_political_power = 75
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_a_noble_officer_corps
-		icon = GFX_goal_generic_army_doctrines
-		x = 28
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_the_royal_council }
-		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			army_experience = 25
-			add_tech_bonus = { name = SPC_a_noble_officer_corps bonus = 0.5 uses = 1 category = land_doctrine }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_mediterranean_crown
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 30
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_restore_the_usatges }
-		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_NAVY_XP }
-		completion_reward = {
-			add_state_claim = 569
-			add_state_claim = 561
-			navy_experience = 25
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_alliance_of_crowns
-		icon = GFX_focus_generic_treaty
-		x = 29
-		y = 6
-		cost = 10
-		prerequisite = { focus = SPC_a_noble_officer_corps }
-		prerequisite = { focus = SPC_the_mediterranean_crown }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			if = { limit = { is_in_faction = no }
-				create_faction = SPC_alliance_of_crowns
-			}
-			every_subject_country = {
-				limit = { is_in_faction = no }
-				ROOT = { add_to_faction = PREV }
-			}
-			add_political_power = 50
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_second_conqueror
-		icon = GFX_goal_generic_major_war
-		x = 29
-		y = 7
-		cost = 10
-		prerequisite = { focus = SPC_alliance_of_crowns }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
-			add_ideas = SPC_second_conqueror
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_voices_of_the_corts
-		icon = GFX_goal_support_democracy
-		x = 33
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_bitter_peace }
-		mutually_exclusive = { focus = SPC_escotets_mandate focus = SPC_whispers_in_the_palace }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.15 }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_valencia_manifesto
-		icon = GFX_goal_generic_propaganda
-		x = 33
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_voices_of_the_corts }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_popularity = { ideology = democratic popularity = 0.2 }
-			add_stability = -0.05
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_fall_of_escotet
-		icon = GFX_goal_generic_territory_or_war
-		x = 33
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_valencia_manifesto }
-		available = {
-			democratic > 0.25
-			has_war = no
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			set_politics = { ruling_party = democratic elections_allowed = yes last_election = "1936.1.1" election_frequency = 48 }
-			set_popularities = { democratic = 55 fascism = 35 absolutist = 5 neutrality = 5 }
-			recruit_character = SPC_josep_ferrer
-			promote_character = SPC_josep_ferrer
-			start_civil_war = { ideology = fascism size = 0.35 }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_truth_and_reconciliation
-		icon = GFX_goal_generic_national_unity
-		x = 32
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_the_fall_of_escotet }
-		available = {
-			has_civil_war = no
-		}
-		search_filters = { FOCUS_FILTER_STABILITY }
-		completion_reward = {
-			remove_ideas = SPC_wounds_of_defeat
-			add_stability = 0.1
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_free_corts_elections
-		icon = GFX_goal_support_democracy
-		x = 34
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_the_fall_of_escotet }
-		available = {
-			has_civil_war = no
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_ideas = SPC_free_corts
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_an_army_of_citizens
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 32
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_truth_and_reconciliation }
-		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			army_experience = 15
-			add_tech_bonus = { name = SPC_an_army_of_citizens bonus = 0.5 uses = 1 category = land_doctrine }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_open_the_markets
-		icon = GFX_goal_generic_trade
-		x = 34
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_free_corts_elections }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_ideas = free_trade
-			add_political_power = 50
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_rapprochement_with_catalonia
-		icon = GFX_focus_generic_treaty
-		x = 32
-		y = 6
-		cost = 10
-		prerequisite = { focus = SPC_an_army_of_citizens }
-		available = {
-			country_exists = CAT
+			date > 1938.1.7
+			NOT = { is_in_faction_with = CAT }
 			NOT = { has_war_with = CAT }
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			add_opinion_modifier = { target = CAT modifier = positive_50 }
-			CAT = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
-			diplomatic_relation = { country = CAT relation = non_aggression_pact }
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = { ideology = fascism popularity = 0.000033 }
+			}
+			else = {
+				add_popularity = { ideology = fascism popularity = -0.000033 }
+			}
+			add_political_power = 150
+			add_timed_idea = { idea = generic_military_industry days = 180 }
 		}
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+				NOT = { fascism > 0.35 }
+			}
+			modifier = {
+				factor = 0
+				CAT = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = CAT
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = CAT value > 0 }
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_the_middle_sea_entente
-		icon = GFX_goal_generic_military_sphere
-		x = 34
-		y = 6
-		cost = 10
-		prerequisite = { focus = SPC_open_the_markets }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			if = { limit = { is_in_faction = no }
-				create_faction = SPC_middle_sea_entente
-			}
-			every_subject_country = {
-				limit = { is_in_faction = no }
-				ROOT = { add_to_faction = PREV }
-			}
-			if = { limit = { country_exists = SCA SCA = { is_in_faction = no has_government = democratic } }
-				add_to_faction = SCA
+		id = build_public_supportSPCCAT
+		icon = GFX_goal_generic_propaganda
+		text = build_public_supportCAT
+		prerequisite = { focus = raise_matterSPCCAT }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = CAT
+				is_in_faction_with = CAT
+				NOT = { CAT = { any_owned_state = { is_core_of = ROOT } } }
 			}
 		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_collective_security
-		icon = GFX_goal_generic_defence
-		x = 33
-		y = 7
+		x = 0
+		y = 1
+		relative_position_id = raise_matterSPCCAT
 		cost = 10
-		prerequisite = { focus = SPC_rapprochement_with_catalonia }
-		prerequisite = { focus = SPC_the_middle_sea_entente }
 		available = {
-			threat > 0.4
-			country_exists = OCC
+			date > 1938.1.7
+			NOT = { is_in_faction_with = CAT }
+			NOT = { has_war_with = CAT }
 		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
-			add_ideas = SPC_collective_security
-			create_wargoal = { type = take_core_state target = OCC generator = { 562 575 576 } }
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = { ideology = fascism popularity = 0.000033 }
+			}
+			else = {
+				add_popularity = { ideology = fascism popularity = -0.000033 }
+			}
+			add_war_support = 0.000330
+			add_political_power = 150
+			add_timed_idea = { idea = generic_recruit_centers days = 180 }
 		}
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+				NOT = { fascism > 0.4 }
+			}
+			modifier = {
+				factor = 0
+				CAT = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = CAT
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = CAT value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = raise_matterSPCCAT
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_the_lost_provinces
-		icon = GFX_goal_generic_more_territorial_claims
-		x = 40
+		id = territory_or_warSPCCAT
+		icon = GFX_goal_generic_territory_or_war
+		text = territory_or_warCAT
+		prerequisite = { focus = build_public_supportSPCCAT }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = CAT
+				is_in_faction_with = CAT
+				NOT = { CAT = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { CAT = { any_owned_state = { is_capital = no } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = build_public_supportSPCCAT
+		cost = 3
+		available = {
+			date > 1938.1.7
+			NOT = { is_in_faction_with = CAT }
+			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
+			hidden_trigger = {
+				CAT = {
+					all_owned_state = {
+						OR = {
+							NOT = { is_core_of = ROOT }
+							is_fully_controlled_by = CAT
+						}
+					}
+				}
+			}
+			has_war = no
+		}
+		completion_reward = {
+			CAT = {
+				country_event = { id = reconquest_wars.1 }
+				custom_effect_tooltip = needs_approval
+				hidden_effect = {
+					country_event = { id = reconquest_news.1 }
+				}
+			}
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
+			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				CAT = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = CAT
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = CAT value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = build_public_supportSPCCAT
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = war_planSPCCAT
+		icon = GFX_goal_generic_position_armies
+		text = war_planCAT
+		prerequisite = { focus = territory_or_warSPCCAT }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = CAT
+				is_in_faction_with = CAT
+				NOT = { CAT = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = territory_or_warSPCCAT
+		cost = 4
+		available = {
+			date > 1938.1.7
+			NOT = { is_in_faction_with = CAT }
+			has_war = no
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = CAT value = 1000 }
+			CAT = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			random_list = {
+			    25 = { add_command_power = 25 }
+			    25 = { add_manpower = 10000 }
+			    25 = { add_war_support = 0.25 }
+			    25 = { army_experience = 10 }
+			}
+			add_timed_idea = { idea = generic_war_of_national_liberation days = 180 }
+			add_named_threat = { threat = 1 name = war_plan_NF_threat }
+		}
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				CAT = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = CAT
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = CAT value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = territory_or_warSPCCAT
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = declare_warSPCCAT
+		icon = GFX_goal_generic_army_tanks
+		text = declare_warCAT
+		prerequisite = { focus = war_planSPCCAT }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = CAT
+				is_in_faction_with = CAT
+				NOT = { CAT = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = war_planSPCCAT
+		cost = 3
+		available = {
+			date > 1938.1.7
+			NOT = { is_in_faction_with = CAT }
+			has_war = no
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = CAT
+				type = take_core_state
+				generator = { 105 108 109 110 }
+			}
+			add_named_threat = { threat = 1 name = declare_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 33
+			modifier = {
+				factor = 0
+				CAT = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = CAT
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = CAT value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = war_planSPCCAT
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = CAT value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = cleanup_revanchismSPCCAT
+		icon = GFX_focus_generic_treaty
+		text = cleanup_revanchismCAT
+		prerequisite = { focus = declare_warSPCCAT }
+		x = 0
+		y = 1
+		relative_position_id = declare_warSPCCAT
+		cost = 0
+		available = {
+			OR = {
+				is_in_faction_with = CAT
+				NOT = { CAT = { any_owned_state = { is_core_of = ROOT } } }
+			}
+			NOT = { has_war_with = CAT }
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = CAT value = -1000 }
+			CAT = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			custom_effect_tooltip = decrease_revanchism
+			subtract_from_variable = { revanchism = 0.000165 }
+			add_to_variable = { revanchism_stab = 0.000016 }
+			add_ideas = generic_national_unification
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	focus = {
+		id = raise_matterSPCOCC
+		icon = GFX_focus_generic_self_management
+		text = raise_matterOCC
+		prerequisite = { focus = reclaim_coresSPC }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = OCC
+				is_in_faction_with = OCC
+				NOT = { OCC = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 26
 		y = 1
 		cost = 10
-		prerequisite = { focus = SPC_the_bitter_peace }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
-			add_war_support = 0.05
-			add_political_power = 50
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_fortify_the_pyrenean_line
-		icon = GFX_goal_generic_defence
-		x = 38
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_lost_provinces }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 30 = { is_owned_and_controlled_by = ROOT } }
-				30 = { add_building_construction = { type = bunker level = 2 province = { all_provinces = yes limit_to_border = yes } instant_build = yes } }
-			}
-			if = { limit = { 68 = { is_owned_and_controlled_by = ROOT } }
-				68 = { add_building_construction = { type = bunker level = 2 province = { all_provinces = yes limit_to_border = yes } instant_build = yes } }
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_a_debt_written_in_blood
-		icon = GFX_goal_generic_major_war
-		x = 42
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_lost_provinces }
 		available = {
-			NOT = { has_government = democratic }
-		}
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
-		completion_reward = {
-			add_war_support = 0.1
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_corsican_question
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = 37
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_fortify_the_pyrenean_line }
-		available = {
-			NOT = { has_government = democratic }
-			country_exists = OCC
-		}
-		bypass = {
-			562 = { is_owned_by = ROOT }
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = {
-			create_wargoal = { type = take_core_state target = OCC generator = { 562 } }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_march_on_rome
-		icon = GFX_goal_generic_demand_territory
-		x = 39
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_fortify_the_pyrenean_line }
-		available = {
-			NOT = { has_government = democratic }
-			country_exists = OCC
-		}
-		bypass = {
-			567 = { is_owned_by = ROOT }
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = {
-			add_state_claim = 567
-			if = { limit = { 567 = { is_owned_by = OCC } }
-				create_wargoal = { type = take_state_focus target = OCC generator = { 567 } }
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_road_to_paris
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = 41
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_a_debt_written_in_blood }
-		available = {
-			NOT = { has_government = democratic }
-			country_exists = CAT
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = {
-			create_wargoal = { type = take_core_state target = CAT generator = { 105 108 109 110 } }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_unfinished_business_in_england
-		icon = GFX_goal_generic_amphibious_assault
-		x = 43
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_a_debt_written_in_blood }
-		available = {
-			NOT = { has_government = democratic }
-			country_exists = X20
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = {
-			create_wargoal = { type = take_core_state target = X20 generator = { 225 } }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_war_of_revanche
-		icon = GFX_goal_generic_territory_or_war
-		x = 38
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_the_corsican_question }
-		prerequisite = { focus = SPC_the_march_on_rome }
-		available = {
-			NOT = { has_government = democratic }
-			country_exists = OCC
+			NOT = { is_in_faction_with = OCC }
 			NOT = { has_war_with = OCC }
 		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			declare_war_on = { target = OCC type = take_core_state generator = { 562 575 576 } }
-			add_named_threat = { threat = 2 name = SPC_revanche_threat }
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = { ideology = fascism popularity = 0.000023 }
+			}
+			else = {
+				add_popularity = { ideology = fascism popularity = -0.000023 }
+			}
+			add_political_power = 150
+			add_timed_idea = { idea = generic_military_industry days = 180 }
 		}
-		ai_will_do = { factor = 3 }
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+				NOT = { fascism > 0.35 }
+			}
+			modifier = {
+				factor = 0
+				OCC = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = OCC
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = OCC value > 0 }
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_break_the_occitan_hegemony
-		icon = GFX_goal_anschluss
-		x = 38
-		y = 5
+		id = build_public_supportSPCOCC
+		icon = GFX_goal_generic_propaganda
+		text = build_public_supportOCC
+		prerequisite = { focus = raise_matterSPCOCC }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = OCC
+				is_in_faction_with = OCC
+				NOT = { OCC = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = raise_matterSPCOCC
 		cost = 10
-		prerequisite = { focus = SPC_the_war_of_revanche }
 		available = {
-			OR = { OCC = { has_capitulated = yes } controls_state = 561 }
+			NOT = { is_in_faction_with = OCC }
+			NOT = { has_war_with = OCC }
 		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 561
-			add_state_claim = 569
-			add_state_claim = 571
-			add_state_claim = 574
-			add_stability = 0.1
-			add_political_power = 100
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = { ideology = fascism popularity = 0.000023 }
+			}
+			else = {
+				add_popularity = { ideology = fascism popularity = -0.000023 }
+			}
+			add_war_support = 0.000230
+			add_political_power = 150
+			add_timed_idea = { idea = generic_recruit_centers days = 180 }
 		}
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+				NOT = { fascism > 0.4 }
+			}
+			modifier = {
+				factor = 0
+				OCC = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = OCC
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = OCC value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = raise_matterSPCOCC
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_the_eastern_dominions
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 47
+		id = territory_or_warSPCOCC
+		icon = GFX_goal_generic_territory_or_war
+		text = territory_or_warOCC
+		prerequisite = { focus = build_public_supportSPCOCC }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = OCC
+				is_in_faction_with = OCC
+				NOT = { OCC = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { OCC = { any_owned_state = { is_capital = no } } }
+			}
+		}
+		x = 0
 		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_bitter_peace }
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
-		completion_reward = {
-			if = { limit = { 47 = { is_owned_and_controlled_by = ROOT } }
-				47 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 49 = { is_owned_and_controlled_by = ROOT } }
-				49 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			add_stability = 0.05
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_anatolian_mines
-		icon = GFX_goal_generic_construction2
-		x = 46
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_eastern_dominions }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 55 = { is_owned_by = ROOT } } add_resource = { type = chromium amount = 8 state = 55 } }
-			if = { limit = { 54 = { is_owned_by = ROOT } } add_resource = { type = steel amount = 8 state = 54 } }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_byzantine_question
-		icon = GFX_goal_generic_demand_territory
-		x = 48
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_eastern_dominions }
+		relative_position_id = build_public_supportSPCOCC
+		cost = 3
 		available = {
-			NOT = { has_government = democratic }
-			country_exists = X09
+			NOT = { is_in_faction_with = OCC }
+			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
+			hidden_trigger = {
+				OCC = {
+					all_owned_state = {
+						OR = {
+							NOT = { is_core_of = ROOT }
+							is_fully_controlled_by = OCC
+						}
+					}
+				}
+			}
+			has_war = no
 		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 98
-			add_state_claim = 99
-			create_wargoal = { type = take_state_focus target = X09 generator = { 98 99 } }
+			OCC = {
+				country_event = { id = reconquest_wars.1 }
+				custom_effect_tooltip = needs_approval
+				hidden_effect = {
+					country_event = { id = reconquest_news.1 }
+				}
+			}
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
+			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
 		}
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				OCC = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = OCC
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = OCC value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = build_public_supportSPCOCC
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_pacify_the_highlands
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 46
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_anatolian_mines }
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		completion_reward = {
-			if = { limit = { 51 = { is_owned_and_controlled_by = ROOT } }
-				51 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 45 = { is_owned_and_controlled_by = ROOT } }
-				45 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			add_manpower = 15000
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_athens_and_neopatria
-		icon = GFX_goal_generic_national_unity
-		x = 48
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_byzantine_question }
-		available = {
-			98 = { is_owned_by = ROOT }
-			99 = { is_owned_by = ROOT }
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = {
-			add_state_core = 98
-			add_state_core = 99
-			add_stability = 0.05
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_african_dominions
-		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 50
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_bitter_peace }
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			every_subject_country = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
-			add_political_power = 50
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_colonial_levies
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 50
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_african_dominions }
-		search_filters = { FOCUS_FILTER_MANPOWER }
-		completion_reward = {
-			add_manpower = 25000
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_plan_of_restoration
-		icon = GFX_goal_generic_production
-		x = 3
-		y = 0
-		cost = 10
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_ideas = SPC_plan_of_restoration
-			if = { limit = { 30 = { is_owned_and_controlled_by = ROOT } }
-				30 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 20 }
-	}
-
-	focus = {
-		id = SPC_rebuild_the_heartland
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 1
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_plan_of_restoration }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 65 = { is_owned_and_controlled_by = ROOT } }
-				65 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 68 = { is_owned_and_controlled_by = ROOT } }
-				68 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_italian_workshops
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 3
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_plan_of_restoration }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 38 = { is_owned_and_controlled_by = ROOT } }
-				38 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 37 = { is_owned_and_controlled_by = ROOT } }
-				37 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_roads_of_the_crown
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 5
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_plan_of_restoration }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 30 = { is_owned_and_controlled_by = ROOT } }
-				30 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 65 = { is_owned_and_controlled_by = ROOT } }
-				65 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 38 = { is_owned_and_controlled_by = ROOT } }
-				38 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_arsenal_of_saragossa
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 1
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_rebuild_the_heartland }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 30 = { is_owned_and_controlled_by = ROOT } }
-				30 = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = { type = arms_factory level = 2 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_royal_academies
-		icon = GFX_focus_research
-		x = 3
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_italian_workshops }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_research_slot = 1
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_industrialise_the_northern_isles
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 5
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_roads_of_the_crown }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 23 = { is_owned_and_controlled_by = ROOT } }
-				23 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 27 = { is_owned_and_controlled_by = ROOT } }
-				27 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_synthetic_fuel_programme
-		icon = GFX_goal_generic_oil_refinery
-		x = 1
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_arsenal_of_saragossa }
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			if = { limit = { 30 = { is_owned_and_controlled_by = ROOT } }
-				30 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = synthetic_refinery level = 1 instant_build = yes }
-				}
-			}
-			add_tech_bonus = { name = SPC_synthetic_fuel_programme bonus = 0.5 uses = 1 category = synth_resources }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_mobilise_war_industry
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 3
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_arsenal_of_saragossa }
-		prerequisite = { focus = SPC_the_royal_academies }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 65 = { is_owned_and_controlled_by = ROOT } }
-				65 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 38 = { is_owned_and_controlled_by = ROOT } }
-				38 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 39 = { is_owned_and_controlled_by = ROOT } }
-				39 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_trans_mediterranean_railways
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 5
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_industrialise_the_northern_isles }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			if = { limit = { 54 = { is_owned_and_controlled_by = ROOT } }
-				54 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 51 = { is_owned_and_controlled_by = ROOT } }
-				51 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-			if = { limit = { 22 = { is_owned_and_controlled_by = ROOT } }
-				22 = {
-					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_second_academy
-		icon = GFX_goal_generic_scientific_exchange
-		x = 3
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_mobilise_war_industry }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_research_slot = 1
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_industrial_concentration
-		icon = GFX_goal_generic_production
-		x = 1
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_synthetic_fuel_programme }
-		prerequisite = { focus = SPC_the_second_academy }
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_industrial_concentration bonus = 0.5 uses = 2 category = industry }
-			if = { limit = { 68 = { is_owned_and_controlled_by = ROOT } }
-				68 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-				}
-			}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_electrical_engineering
-		icon = GFX_goal_generic_secret_weapon
-		x = 5
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_the_second_academy }
-		prerequisite = { focus = SPC_trans_mediterranean_railways }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_electrical_engineering bonus = 0.5 uses = 2 category = electronics }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_autarky_of_the_crown
-		icon = GFX_goal_generic_military_sphere
-		x = 3
-		y = 6
-		cost = 10
-		prerequisite = { focus = SPC_industrial_concentration }
-		prerequisite = { focus = SPC_electrical_engineering }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_ideas = SPC_autarky_of_the_crown
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_lessons_of_defeat
-		icon = GFX_goal_generic_army_doctrines
-		x = 10
-		y = 0
-		cost = 10
-		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			army_experience = 15
-			add_tech_bonus = { name = SPC_lessons_of_defeat bonus = 0.5 uses = 1 category = land_doctrine }
-		}
-		ai_will_do = { factor = 15 }
-	}
-
-	focus = {
-		id = SPC_reform_the_general_staff
+		id = war_planSPCOCC
 		icon = GFX_goal_generic_position_armies
-		x = 9
+		text = war_planOCC
+		prerequisite = { focus = territory_or_warSPCOCC }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = OCC
+				is_in_faction_with = OCC
+				NOT = { OCC = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
 		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_lessons_of_defeat }
-		search_filters = { FOCUS_FILTER_ARMY_XP }
-		completion_reward = {
-			add_ideas = SPC_reformed_general_staff
+		relative_position_id = territory_or_warSPCOCC
+		cost = 4
+		available = {
+			NOT = { is_in_faction_with = OCC }
+			has_war = no
 		}
-		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = OCC value = 1000 }
+			OCC = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			random_list = {
+			    25 = { add_command_power = 25 }
+			    25 = { add_manpower = 10000 }
+			    25 = { add_war_support = 0.25 }
+			    25 = { army_experience = 10 }
+			}
+			add_timed_idea = { idea = generic_war_of_national_liberation days = 180 }
+			add_named_threat = { threat = 1 name = war_plan_NF_threat }
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0
+				OCC = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = OCC
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = OCC value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = territory_or_warSPCOCC
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_rifles_de_deu_contracts
-		icon = GFX_goal_generic_small_arms
-		x = 11
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_lessons_of_defeat }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_rifles_de_deu_contracts bonus = 0.5 uses = 2 category = infantry_weapons }
-			add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = SPC }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_revive_the_almogavars
-		icon = GFX_goal_generic_special_forces
-		x = 8
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_reform_the_general_staff }
-		search_filters = { FOCUS_FILTER_ARMY_XP }
-		completion_reward = {
-			add_ideas = SPC_almogavars
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_big_guns
-		icon = GFX_goal_generic_army_artillery
-		x = 10
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_rifles_de_deu_contracts }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_the_big_guns bonus = 0.5 uses = 2 category = artillery }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_motorise_the_legions
-		icon = GFX_goal_generic_army_motorized
-		x = 12
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_rifles_de_deu_contracts }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_motorise_the_legions bonus = 0.5 uses = 2 category = motorized_equipment }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_pyrenean_mountaineers
-		icon = GFX_goal_generic_cavalry
-		x = 8
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_revive_the_almogavars }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_the_pyrenean_mountaineers bonus = 0.5 uses = 2 category = mountaineers_tech }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_a_new_doctrine_of_war
-		icon = GFX_focus_generic_combined_arms
-		x = 10
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_big_guns }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_a_new_doctrine_of_war bonus = 0.5 uses = 2 category = land_doctrine }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_armoured_columns
+		id = declare_warSPCOCC
 		icon = GFX_goal_generic_army_tanks
-		x = 12
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_motorise_the_legions }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_armoured_columns bonus = 0.5 uses = 2 category = armor }
+		text = declare_warOCC
+		prerequisite = { focus = war_planSPCOCC }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = OCC
+				is_in_faction_with = OCC
+				NOT = { OCC = { any_owned_state = { is_core_of = ROOT } } }
+			}
 		}
-		ai_will_do = { factor = 1 }
+		x = 0
+		y = 1
+		relative_position_id = war_planSPCOCC
+		cost = 3
+		available = {
+			NOT = { is_in_faction_with = OCC }
+			has_war = no
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = OCC
+				type = take_core_state
+				generator = { 562 575 576 }
+			}
+			add_named_threat = { threat = 1 name = declare_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 23
+			modifier = {
+				factor = 0
+				OCC = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = OCC
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = OCC value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = war_planSPCOCC
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = OCC value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_the_officer_academy
-		icon = GFX_goal_generic_army_doctrines
-		x = 9
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_the_pyrenean_mountaineers }
-		prerequisite = { focus = SPC_a_new_doctrine_of_war }
-		search_filters = { FOCUS_FILTER_ARMY_XP }
-		completion_reward = {
-			add_ideas = SPC_officer_academy
+		id = cleanup_revanchismSPCOCC
+		icon = GFX_focus_generic_treaty
+		text = cleanup_revanchismOCC
+		prerequisite = { focus = declare_warSPCOCC }
+		x = 0
+		y = 1
+		relative_position_id = declare_warSPCOCC
+		cost = 0
+		available = {
+			OR = {
+				is_in_faction_with = OCC
+				NOT = { OCC = { any_owned_state = { is_core_of = ROOT } } }
+			}
+			NOT = { has_war_with = OCC }
 		}
-		ai_will_do = { factor = 1 }
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = OCC value = -1000 }
+			OCC = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			custom_effect_tooltip = decrease_revanchism
+			subtract_from_variable = { revanchism = 0.000115 }
+			add_to_variable = { revanchism_stab = 0.000012 }
+			add_ideas = generic_national_unification
+		}
+		ai_will_do = {
+			factor = 100
+		}
 	}
 
 	focus = {
-		id = SPC_support_the_line
-		icon = GFX_goal_generic_army_artillery2
-		x = 11
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_a_new_doctrine_of_war }
-		prerequisite = { focus = SPC_armoured_columns }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_support_the_line bonus = 0.5 uses = 2 category = support_tech }
+		id = raise_matterSPCX20
+		icon = GFX_focus_generic_self_management
+		text = raise_matterX20
+		prerequisite = { focus = reclaim_coresSPC }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = X20
+				is_in_faction_with = X20
+				NOT = { X20 = { any_owned_state = { is_core_of = ROOT } } }
+			}
 		}
-		ai_will_do = { factor = 1 }
+		x = 28
+		y = 1
+		cost = 10
+		available = {
+			date > 1940.6.6
+			NOT = { is_in_faction_with = X20 }
+			NOT = { has_war_with = X20 }
+		}
+		completion_reward = {
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = { ideology = fascism popularity = 0.000010 }
+			}
+			else = {
+				add_popularity = { ideology = fascism popularity = -0.000010 }
+			}
+			add_political_power = 150
+			add_timed_idea = { idea = generic_military_industry days = 180 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+				NOT = { fascism > 0.35 }
+			}
+			modifier = {
+				factor = 0
+				X20 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X20
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = X20 value > 0 }
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_the_legions_of_the_crown
-		icon = GFX_goal_generic_build_tank
-		x = 10
-		y = 5
-		cost = 10
-		prerequisite = { focus = SPC_the_officer_academy }
-		prerequisite = { focus = SPC_support_the_line }
-		search_filters = { FOCUS_FILTER_ARMY_XP }
-		completion_reward = {
-			add_ideas = SPC_legions_of_the_crown
+		id = build_public_supportSPCX20
+		icon = GFX_goal_generic_propaganda
+		text = build_public_supportX20
+		prerequisite = { focus = raise_matterSPCX20 }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = X20
+				is_in_faction_with = X20
+				NOT = { X20 = { any_owned_state = { is_core_of = ROOT } } }
+			}
 		}
-		ai_will_do = { factor = 1 }
+		x = 0
+		y = 1
+		relative_position_id = raise_matterSPCX20
+		cost = 10
+		available = {
+			date > 1940.6.6
+			NOT = { is_in_faction_with = X20 }
+			NOT = { has_war_with = X20 }
+		}
+		completion_reward = {
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = { ideology = fascism popularity = 0.000010 }
+			}
+			else = {
+				add_popularity = { ideology = fascism popularity = -0.000010 }
+			}
+			add_war_support = 0.000100
+			add_political_power = 150
+			add_timed_idea = { idea = generic_recruit_centers days = 180 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+				NOT = { fascism > 0.4 }
+			}
+			modifier = {
+				factor = 0
+				X20 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X20
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = X20 value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = raise_matterSPCX20
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -50 }
+			}
+		}
 	}
 
 	focus = {
-		id = SPC_mare_nostrum
-		icon = GFX_goal_generic_build_navy
-		x = 15
+		id = territory_or_warSPCX20
+		icon = GFX_goal_generic_territory_or_war
+		text = territory_or_warX20
+		prerequisite = { focus = build_public_supportSPCX20 }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = X20
+				is_in_faction_with = X20
+				NOT = { X20 = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { X20 = { any_owned_state = { is_capital = no } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = build_public_supportSPCX20
+		cost = 3
+		available = {
+			date > 1940.6.6
+			NOT = { is_in_faction_with = X20 }
+			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
+			hidden_trigger = {
+				X20 = {
+					all_owned_state = {
+						OR = {
+							NOT = { is_core_of = ROOT }
+							is_fully_controlled_by = X20
+						}
+					}
+				}
+			}
+			has_war = no
+		}
+		completion_reward = {
+			X20 = {
+				country_event = { id = reconquest_wars.1 }
+				custom_effect_tooltip = needs_approval
+				hidden_effect = {
+					country_event = { id = reconquest_news.1 }
+				}
+			}
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
+			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				X20 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X20
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = X20 value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = build_public_supportSPCX20
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = war_planSPCX20
+		icon = GFX_goal_generic_position_armies
+		text = war_planX20
+		prerequisite = { focus = territory_or_warSPCX20 }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = X20
+				is_in_faction_with = X20
+				NOT = { X20 = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = territory_or_warSPCX20
+		cost = 4
+		available = {
+			date > 1940.6.6
+			NOT = { is_in_faction_with = X20 }
+			has_war = no
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = X20 value = 1000 }
+			X20 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			random_list = {
+			    25 = { add_command_power = 25 }
+			    25 = { add_manpower = 10000 }
+			    25 = { add_war_support = 0.25 }
+			    25 = { army_experience = 10 }
+			}
+			add_timed_idea = { idea = generic_war_of_national_liberation days = 180 }
+			add_named_threat = { threat = 1 name = war_plan_NF_threat }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				X20 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X20
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = X20 value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = territory_or_warSPCX20
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = declare_warSPCX20
+		icon = GFX_goal_generic_army_tanks
+		text = declare_warX20
+		prerequisite = { focus = war_planSPCX20 }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = X20
+				is_in_faction_with = X20
+				NOT = { X20 = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = war_planSPCX20
+		cost = 3
+		available = {
+			date > 1940.6.6
+			NOT = { is_in_faction_with = X20 }
+			has_war = no
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = X20
+				type = take_core_state
+				generator = { 225 }
+			}
+			add_named_threat = { threat = 1 name = declare_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				X20 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X20
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = X20 value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = war_planSPCX20
+			}
+			modifier = {
+				factor = 5
+				has_government = fascism
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = X20 value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = cleanup_revanchismSPCX20
+		icon = GFX_focus_generic_treaty
+		text = cleanup_revanchismX20
+		prerequisite = { focus = declare_warSPCX20 }
+		x = 0
+		y = 1
+		relative_position_id = declare_warSPCX20
+		cost = 0
+		available = {
+			OR = {
+				is_in_faction_with = X20
+				NOT = { X20 = { any_owned_state = { is_core_of = ROOT } } }
+			}
+			NOT = { has_war_with = X20 }
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = X20 value = -1000 }
+			X20 = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			custom_effect_tooltip = decrease_revanchism
+			subtract_from_variable = { revanchism = 0.000050 }
+			add_to_variable = { revanchism_stab = 0.000005 }
+			add_ideas = generic_national_unification
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	focus = {
+		id = border_disputesSPCX22
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputesX22
+		x = 30
 		y = 0
 		cost = 10
-		search_filters = { FOCUS_FILTER_NAVY_XP FOCUS_FILTER_INDUSTRY }
+		available = {
+			is_subject = no
+			has_war = no
+			X22 = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 252
+			}
+		}
 		completion_reward = {
-			navy_experience = 15
-			if = { limit = { 39 = { is_owned_and_controlled_by = ROOT } }
-				39 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = dockyard level = 1 instant_build = yes }
+			add_war_support = 0.05
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_government = democratic
+			}
+
+			modifier = {
+				factor = 0
+				has_government = neutrality
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = X22 value > 0 }
+			}
+			modifier = {
+				factor = 0
+				X22 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X22
+					in_weak_faction = no
 				}
 			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				X22 = { surrender_progress > 0.2 }
+			}
 		}
-		ai_will_do = { factor = 10 }
 	}
 
 	focus = {
-		id = SPC_the_shipyards_of_barcelona
-		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 14
+		id = assert_claimsSPCX22
+		icon = GFX_goal_generic_territory_or_war
+		text = assert_claimsX22
+		prerequisite = { focus = border_disputesSPCX22 }
+		x = 0
 		y = 1
+		relative_position_id = border_disputesSPCX22
 		cost = 10
-		prerequisite = { focus = SPC_mare_nostrum }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available = {
+			date > 1937.8.1
+			is_subject = no
+			has_war = no
+			X22 = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 252
+			}
+		}
 		completion_reward = {
-			if = { limit = { 68 = { is_owned_and_controlled_by = ROOT } }
-				68 = {
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = { type = dockyard level = 2 instant_build = yes }
+			add_state_claim = 252
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			hidden_effect = {
+				X22 = { country_event = { id = reconquest_news.1 } }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_government = democratic
+			}
+
+			modifier = {
+				factor = 0
+				has_government = neutrality
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = X22 value > 0 }
+			}
+			modifier = {
+				factor = 0
+				X22 = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = X22
+					in_weak_faction = no
 				}
 			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				X22 = { surrender_progress > 0.2 }
+			}
 		}
-		ai_will_do = { factor = 1 }
 	}
 
 	focus = {
-		id = SPC_the_admiralty_reforms
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 16
+		id = prepare_for_warSPCX22
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_warX22
+		prerequisite = { focus = assert_claimsSPCX22 }
+		bypass = {
+			has_war_with = X22
+		}
+		x = 0
 		y = 1
+		relative_position_id = assert_claimsSPCX22
 		cost = 10
-		prerequisite = { focus = SPC_mare_nostrum }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_the_admiralty_reforms bonus = 0.5 uses = 2 category = naval_doctrine }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_wolves_of_the_middle_sea
-		icon = GFX_goal_generic_navy_submarine
-		x = 14
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_shipyards_of_barcelona }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_wolves_of_the_middle_sea bonus = 0.5 uses = 2 category = ss_tech }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_cruiser_squadrons
-		icon = GFX_goal_generic_navy_cruiser
-		x = 16
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_the_admiralty_reforms }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_cruiser_squadrons bonus = 0.5 uses = 1 category = cl_tech }
-			add_tech_bonus = { name = SPC_cruiser_squadrons_ca bonus = 0.5 uses = 1 category = ca_tech }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_garrison_the_islands
-		icon = GFX_goal_generic_amphibious_assault
-		x = 14
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_wolves_of_the_middle_sea }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			if = { limit = { 39 = { is_owned_and_controlled_by = ROOT } }
-				39 = { add_building_construction = { type = coastal_bunker level = 1 province = { all_provinces = yes limit_to_coastal = yes } instant_build = yes } }
-			}
-			if = { limit = { 41 = { is_owned_and_controlled_by = ROOT } }
-				41 = { add_building_construction = { type = coastal_bunker level = 1 province = { all_provinces = yes limit_to_coastal = yes } instant_build = yes } }
-			}
-			if = { limit = { 40 = { is_owned_and_controlled_by = ROOT } }
-				40 = { add_building_construction = { type = coastal_bunker level = 1 province = { all_provinces = yes limit_to_coastal = yes } instant_build = yes } }
-			}
-			add_tech_bonus = { name = SPC_garrison_the_islands bonus = 0.5 uses = 1 category = marine_tech }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_a_fleet_worthy_of_the_crown
-		icon = GFX_goal_generic_navy_battleship
-		x = 15
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_garrison_the_islands }
-		prerequisite = { focus = SPC_cruiser_squadrons }
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_a_fleet_worthy_of_the_crown bonus = 0.5 uses = 1 category = bb_tech }
-			add_tech_bonus = { name = SPC_a_fleet_worthy_of_the_crown_cv bonus = 0.5 uses = 1 category = cv_tech }
-			navy_experience = 25
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_aragonese_air_corps
-		icon = GFX_goal_generic_build_airforce
-		x = 19
-		y = 0
-		cost = 10
-		search_filters = { FOCUS_FILTER_AIR_XP }
-		completion_reward = {
-			air_experience = 15
-			if = { limit = { 30 = { is_owned_and_controlled_by = ROOT } }
-				30 = {
-					add_building_construction = { type = air_base level = 2 instant_build = yes }
-				}
+		available = {
+			is_subject = no
+			has_war = no
+			X22 = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 252
 			}
 		}
-		ai_will_do = { factor = 10 }
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 
 	focus = {
-		id = SPC_falcons_of_the_pyrenees
-		icon = GFX_goal_generic_air_fighter
-		x = 18
+		id = neighbor_warSPCX22
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_warX22
+		prerequisite = { focus = prepare_for_warSPCX22 }
+		bypass = {
+			has_war_with = X22
+		}
+		x = 0
 		y = 1
+		relative_position_id = prepare_for_warSPCX22
 		cost = 10
-		prerequisite = { focus = SPC_the_aragonese_air_corps }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_falcons_of_the_pyrenees bonus = 0.5 uses = 2 category = light_fighter }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_doctrine_of_the_skies
-		icon = GFX_goal_generic_air_doctrine
-		x = 20
-		y = 1
-		cost = 10
-		prerequisite = { focus = SPC_the_aragonese_air_corps }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_doctrine_of_the_skies bonus = 0.5 uses = 2 category = air_doctrine }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_close_support_wings
-		icon = GFX_goal_generic_CAS
-		x = 18
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_falcons_of_the_pyrenees }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_close_support_wings bonus = 0.5 uses = 2 category = cas_bomber }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_strike_over_the_middle_sea
-		icon = GFX_goal_generic_air_naval_bomber
-		x = 20
-		y = 2
-		cost = 10
-		prerequisite = { focus = SPC_doctrine_of_the_skies }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_strike_over_the_middle_sea bonus = 0.5 uses = 2 category = naval_bomber }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_bombers_of_the_crown
-		icon = GFX_goal_generic_air_bomber
-		x = 19
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_close_support_wings focus = SPC_strike_over_the_middle_sea }
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = { name = SPC_bombers_of_the_crown bonus = 0.5 uses = 2 category = tactical_bomber }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_the_aircraft_works
-		icon = GFX_goal_generic_air_fighter2
-		x = 19
-		y = 4
-		cost = 10
-		prerequisite = { focus = SPC_bombers_of_the_crown }
-		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_AIR_XP }
-		completion_reward = {
-			if = { limit = { 30 = { is_owned_and_controlled_by = ROOT } }
-				30 = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
-				}
+		available = {
+			is_subject = no
+			has_war = no
+			X22 = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 252
 			}
-			air_experience = 25
 		}
-		ai_will_do = { factor = 1 }
+		completion_reward = {
+			declare_war_on = {
+				target = X22
+				type = take_state_focus
+				generator = { 252 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 
 }
