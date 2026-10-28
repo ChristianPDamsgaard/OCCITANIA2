@@ -15,28 +15,42 @@ units = {
 		name = "Salonika Legion"
 		location = 11818
 		division_template = "Royalist Insurgents"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Macedonian Volunteers"
 		location = 3526
 		division_template = "Royalist Insurgents"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Thessalian Insurgents"
 		location = 3973
 		division_template = "Royalist Insurgents"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Florina Brigade"
 		location = 9837
 		division_template = "Royalist Insurgents"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Volos Defenders"
+		location = 3914
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Sacred Band of Macedonia"
+		location = 6990
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 }

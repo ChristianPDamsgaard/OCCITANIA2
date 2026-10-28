@@ -135,6 +135,7 @@ focus_tree = {
 					load_oob = "HEL_uprising_extra"
 				}
 				add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = HEL }
+				add_ideas = GRE_the_great_uprising
 			}
 			# Aragon moves to crush both rebel governments
 			SPC = {

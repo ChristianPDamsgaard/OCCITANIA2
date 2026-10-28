@@ -33,7 +33,7 @@ UPRISING = (
     + "SPC = { release = HEL }\n"
     + "HEL = {\n\tload_oob = \"HEL_uprising\"\n"
     + "\tif = { limit = { ROOT = { has_country_flag = GRE_republican_contacts } SPC = { NOT = { has_country_flag = SPC_hetairists_suppressed } } }\n\t\tload_oob = \"HEL_uprising_extra\"\n\t}\n"
-    + "\tadd_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = HEL }\n"
+    + "\tadd_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = HEL }\n\tadd_ideas = GRE_the_great_uprising\n"
     + "}\n"
     + "# Aragon moves to crush both rebel governments\n"
     + "SPC = {\n\tdeclare_war_on = { target = ROOT type = annex_everything }\n"
@@ -203,7 +203,7 @@ open(J("common/national_focus/GRE_NF.txt"), "w", encoding="utf-8", newline="\n")
 
 # ---------------- ideas ----------------
 IDEAS = [
-    ("GRE_the_great_uprising", "generic_war_of_national_liberation", "war_support_factor = 0.15\nconscription = 0.02\nstability_factor = 0.1",
+    ("GRE_the_great_uprising", "generic_war_of_national_liberation", "war_support_factor = 0.15\nconscription = 0.02\nstability_factor = 0.1\narmy_defence_factor = 0.15\narmy_core_defence_factor = 0.1",
      "The Great Uprising", "All of Greece is in arms against Aragon."),
     ("GRE_klephts", "warrior_traditions_idea", "army_defence_factor = 0.05\nspecial_forces_cap = 0.1",
      "The Klephts", "Greek soldiers fight like the mountain guerrillas of old."),
@@ -235,12 +235,12 @@ country_event = {
 		name = greek_uprising.1.a
 		add_war_support = 0.05
 		add_timed_idea = { idea = SPC_greek_insurgency days = 730 }
-		country_event = { id = greek_uprising.2 days = 21 }
+		country_event = { id = greek_uprising.2 days = 365 }
 		country_event = { id = greek_uprising.10 days = 7 }
 	}
 }
 
-# Aragon: negotiate or fight on (repeats every 3 weeks while the revolt lasts)
+# Aragon: negotiate or fight on (first after 1 year, then every 3 weeks while the revolt lasts)
 country_event = {
 	id = greek_uprising.2
 	title = greek_uprising.2.t
@@ -357,12 +357,12 @@ def oob(tag, name, units):
         s += "\t}\n}\n\n"
     s += "units = {\n"
     for i, (label, prov) in enumerate(units, 1):
-        s += f"\tdivision = {{\n\t\tname = \"{label}\"\n\t\tlocation = {prov}\n\t\tdivision_template = \"{name}\"\n\t\tstart_experience_factor = 0.3\n\t\tstart_equipment_factor = 0.8\n\t}}\n"
+        s += f"\tdivision = {{\n\t\tname = \"{label}\"\n\t\tlocation = {prov}\n\t\tdivision_template = \"{name}\"\n\t\tstart_experience_factor = 0.5\n\t\tstart_equipment_factor = 1.0\n\t}}\n"
     s += "}\n"
     open(J("history/units", tag + ".txt"), "w", encoding="utf-8", newline="\n").write(s)
-oob("GRE_uprising", "Royalist Insurgents", [("Salonika Legion", 11818), ("Macedonian Volunteers", 3526), ("Thessalian Insurgents", 3973), ("Florina Brigade", 9837)])
+oob("GRE_uprising", "Royalist Insurgents", [("Salonika Legion", 11818), ("Macedonian Volunteers", 3526), ("Thessalian Insurgents", 3973), ("Florina Brigade", 9837), ("Volos Defenders", 3914), ("Sacred Band of Macedonia", 6990)])
 oob("GRE_uprising_extra", "Royalist Insurgents", [("Chalkidiki Rifles", 9791), ("Olympus Klephts", 863), ("Pindus Mountaineers", 841)])
-oob("HEL_uprising", "Republican Militia", [("Athenian Republican Guard", 4109), ("Piraeus Workers' Militia", 976), ("Peloponnesian Militia", 10203), ("Aegean Volunteers", 6550)])
+oob("HEL_uprising", "Republican Militia", [("Athenian Republican Guard", 4109), ("Piraeus Workers' Militia", 976), ("Peloponnesian Militia", 10203), ("Aegean Volunteers", 6550), ("Spartan Republican Brigade", 4078), ("Euboea Militia", 1205)])
 oob("GRE_occitan_volunteers", "Occitan Volunteers", [("1st Occitan Volunteer Brigade", 895), ("2nd Occitan Volunteer Brigade", 3936)])
 oob("HEL_uprising_extra", "Republican Militia", [("Corinth Militia", 1106), ("Attica Volunteers", 3864)])
 
@@ -381,7 +381,7 @@ L += [
  ' greek_uprising.1.d:0 "Signal fires burned on Mount Olympus last night. By morning, royalist insurgents had seized Salonika, Volos and Florina and declared for the King of Greece in Polygyros. In Athens, the Peloponnese and the islands, republican militias have proclaimed a Hellenic Republic. Our garrisons are cut off and under fire across the whole of Greece."',
  ' greek_uprising.1.a:0 "Crush the traitors!"',
  ' greek_uprising.2.t:0 "The Greek Question"',
- ' greek_uprising.2.d:0 "Weeks of fighting have not broken the Greek rebels. Our garrisons are pinned down, the foreign press reports every burned village, and the generals warn that the army is needed elsewhere. Some ministers now quietly suggest that Greece is not worth the cost: recognise the rebel governments and bring the troops home."',
+ ' greek_uprising.2.d:0 "A year of fighting has not broken the Greek rebels. Our garrisons are pinned down, the foreign press reports every burned village, and the generals warn that the army is needed elsewhere. Some ministers now quietly suggest that Greece is not worth the cost: recognise the rebel governments and bring the troops home."',
  ' greek_uprising.2.a:0 "Let Greece go. Aragon has bigger enemies."',
  ' greek_uprising.2.b:0 "Never! Not one village will be surrendered."',
  ' greek_uprising.3.t:0 "The Greek Revolt Crushed"',

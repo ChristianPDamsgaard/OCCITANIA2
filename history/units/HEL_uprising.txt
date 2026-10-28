@@ -15,28 +15,42 @@ units = {
 		name = "Athenian Republican Guard"
 		location = 4109
 		division_template = "Republican Militia"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Piraeus Workers' Militia"
 		location = 976
 		division_template = "Republican Militia"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Peloponnesian Militia"
 		location = 10203
 		division_template = "Republican Militia"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 	division = {
 		name = "Aegean Volunteers"
 		location = 6550
 		division_template = "Republican Militia"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.8
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Spartan Republican Brigade"
+		location = 4078
+		division_template = "Republican Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Euboea Militia"
+		location = 1205
+		division_template = "Republican Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
 	}
 }
