@@ -1,0 +1,32 @@
+
+state={
+	id=500
+	name="STATE_500"
+
+	history={
+		owner = MZB
+		victory_points = {
+			2180 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			12971 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		2180 5155 12950 12971 
+	}
+	manpower=736960
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

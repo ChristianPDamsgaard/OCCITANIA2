@@ -1,0 +1,33 @@
+
+state={
+	id=404
+	name="STATE_404"
+
+	history={
+		owner = X33
+		victory_points = {
+			4315 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7244 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X46
+		add_claim_by = X33
+	}
+
+	provinces={
+		1412 4315 4344 7244 7395 8011 8100 10190 10208 12146 12734 
+	}
+	manpower=2293800
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

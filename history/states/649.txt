@@ -1,0 +1,32 @@
+
+state={
+	id=649
+	name="STATE_649"
+
+	history={
+		owner = SCA
+		victory_points = {
+			6258 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			408 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		408 6258 
+	}
+	manpower=169148
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

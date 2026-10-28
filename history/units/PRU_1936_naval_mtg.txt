@@ -1,0 +1,46 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 12997
+		task_force = {
+			name = "4th Fleet"
+			location = 12997
+			ship = { name = "Almirante Guise" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Chorrillos" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Chanchamayo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Arno" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Coronel Portillo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "América" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "5th Piura Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "5th Ica Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "6th Piura Commerce Raider" definition = destroyer start_experience_factor = 0.17853 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "6th Ica Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "7th Piura Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Pilcomayo" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Cuzco" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Teniente Rodríguez" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "1st Ica Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "1st Piura Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Ica Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Piura Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Piura Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "4th Ica Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "4th Piura Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Almirante Villar" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Ica Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "PRU"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

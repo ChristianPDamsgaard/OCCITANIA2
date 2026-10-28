@@ -1,0 +1,33 @@
+
+state={
+	id=45
+	name="STATE_45"
+
+	history={
+		owner = SPC
+		victory_points = {
+			9809 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			9809 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = SER
+		add_core_of = SPC
+	}
+
+	provinces={
+		937 3922 6913 9809 11858 
+	}
+	manpower=629332
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

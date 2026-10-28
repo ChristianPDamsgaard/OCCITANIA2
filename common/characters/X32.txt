@@ -1,0 +1,76 @@
+characters={
+	X32_m'voumbe_mpanzu={
+		name=X32_m'voumbe_mpanzu
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X32_n'gangue_lukeni={
+		name=X32_n'gangue_lukeni
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_7"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_7"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X32_mfutila_matou={
+		name=X32_mfutila_matou
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_4"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X32_m'voumbe_mvemba={
+		name=X32_m'voumbe_mvemba
+		portraits={
+			civilian={
+				large="GFX_NGR_Benjamin_Azikiwe"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

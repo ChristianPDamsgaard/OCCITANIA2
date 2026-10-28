@@ -1,0 +1,33 @@
+
+state={
+	id=607
+	name="STATE_607"
+
+	history={
+		owner = PAN
+		victory_points = {
+			7630 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			4624 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = PAN
+	}
+
+	provinces={
+		1633 4611 4624 7630 10482 
+	}
+	manpower=173748
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

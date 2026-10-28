@@ -1,0 +1,30 @@
+
+state={
+	id=578
+	name="STATE_578"
+
+	history={
+		owner = X43
+		victory_points = {
+			10734 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X43
+		add_claim_by = X61
+	}
+
+	provinces={
+		8019 8062 10734 13246 13247 
+	}
+	manpower=718668
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

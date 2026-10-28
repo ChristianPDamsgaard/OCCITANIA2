@@ -1,0 +1,33 @@
+
+state={
+	id=107
+	name="STATE_107"
+
+	history={
+		owner = CAT
+		victory_points = {
+			3552 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			11465 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = CAT
+	}
+
+	provinces={
+		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 11616 
+	}
+	manpower=2734320
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

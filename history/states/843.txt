@@ -1,0 +1,36 @@
+
+state={
+	id=843
+	name="STATE_843"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			733 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			3732 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X76
+		add_claim_by = USA
+	}
+
+	provinces={
+		733 1282 1338 1619 3712 3715 3732 4287 4445 6719 7462 7629 9675 10247 10318 10481 12202 12221 12459 
+	}
+	manpower=3383464
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

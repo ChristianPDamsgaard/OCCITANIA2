@@ -1,0 +1,56 @@
+characters={
+	X50_arcadio_mabini={
+		name=X50_arcadio_mabini
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X50_apolinario_diwa={
+		name=X50_apolinario_diwa
+		portraits={
+			army={
+				large="GFX_Philippines_Mateo_Capinpin"
+			}
+			army={
+				small="GFX_Philippines_Mateo_Capinpin"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X50_king_azimuddin_ii={
+		name=X50_king_azimuddin_ii
+		portraits={
+			civilian={
+				large="GFX_Malaya_Iskander_I_Perak"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

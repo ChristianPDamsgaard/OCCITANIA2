@@ -1,0 +1,56 @@
+characters={
+	RCG_kivuzi_lukeni={
+		name=RCG_kivuzi_lukeni
+		portraits={
+			army={
+				large="GFX_KIV_Louis_de_Gonzague_Bobozo"
+			}
+			army={
+				small="GFX_KIV_Louis_de_Gonzague_Bobozo"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	RCG_fnu_lnu={
+		name=RCG_fnu_lnu
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_1"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_1"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	RCG_kenje_n'gombi={
+		name=RCG_kenje_n'gombi
+		portraits={
+			civilian={
+				large="GFX_Dahomey_Apithy"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

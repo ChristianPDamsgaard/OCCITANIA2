@@ -1,0 +1,76 @@
+characters={
+	X24_gheorghe_tatarascu={
+		name=X24_gheorghe_tatarascu
+		portraits={
+			army={
+				large="GFX_Portrait_Europe_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X24_grigore_prezan={
+		name=X24_grigore_prezan
+		portraits={
+			army={
+				large="GFX_Balkan_Generic_land_new_3"
+			}
+			army={
+				small="GFX_Balkan_Generic_land_new_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X24_stefan_grigorescu={
+		name=X24_stefan_grigorescu
+		portraits={
+			navy={
+				large="GFX_Portrait_Europe_Generic_navy_1"
+			}
+			navy={
+				small="GFX_Portrait_Europe_Generic_navy_1"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X24_gheorghe_argetoianu={
+		name=X24_gheorghe_argetoianu
+		portraits={
+			civilian={
+				large="GFX_Albania_Shefqet_Verlaci"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=563
+	name="STATE_563"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = OCC
+		victory_points = {
+			3692 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = OCC
+		add_claim_by = HLR
+	}
+
+	provinces={
+		3692 6712 11640 
+	}
+	manpower=921376
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

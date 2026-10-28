@@ -1,0 +1,51 @@
+﻿converted_war_strategies_X72 = {
+	allowed = {
+		tag = X72
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 3159
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPC"
+		value = 73
+	}
+}
+
+converted_diplo_strategies_X72 = {
+	allowed = {
+		tag = X72
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = antagonize
+		id = "SPC"
+		value = 22
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 123
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HES"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SER"
+		value = 26
+	}
+}

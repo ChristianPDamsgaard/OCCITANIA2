@@ -1,0 +1,33 @@
+
+state={
+	id=67
+	name="STATE_67"
+
+	history={
+		owner = X89
+		victory_points = {
+			13014 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			13014 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X16
+		add_core_of = X89
+	}
+
+	provinces={
+		13014 
+	}
+	manpower=241172
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

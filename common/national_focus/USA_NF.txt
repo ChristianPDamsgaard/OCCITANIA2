@@ -1,0 +1,57 @@
+focus_tree = {
+	id = USA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = GP_WarX76USA
+		icon = GFX_goal_generic_major_war
+		text = GP_WarX76
+		bypass = {
+		has_war_with = X76
+	}
+		x = 24
+		y = 0
+		cost = 10
+		available = {
+		has_war = no
+		date > 1939.1.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 5 name = "War with Nieuw Friesland" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = X76
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = X76 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

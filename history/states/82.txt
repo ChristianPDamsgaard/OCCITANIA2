@@ -1,0 +1,43 @@
+
+state={
+	id=82
+	name="STATE_82"
+	resources={
+		aluminium=3.000
+		steel=3.000
+	}
+
+	history={
+		owner = X07
+		victory_points = {
+			6521 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 6
+			6521 = {
+				landmark_berlin_reichstag = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = BSK
+		add_core_of = HLR
+		add_core_of = X07
+	}
+
+	provinces={
+		375 478 3367 3499 6441 6521 9428 9496 11219 11415 11444 11505 
+	}
+	manpower=1452260
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

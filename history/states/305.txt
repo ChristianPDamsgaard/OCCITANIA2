@@ -1,0 +1,33 @@
+
+state={
+	id=305
+	name="STATE_305"
+	resources={
+		oil=2.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = X95
+		victory_points = {
+			7869 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X95
+	}
+
+	provinces={
+		3606 7869 7891 
+	}
+	manpower=23696
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

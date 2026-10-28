@@ -1,0 +1,46 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 11535
+		task_force = {
+			name = "1st Fleet"
+			location = 11535
+			ship = { name = "1st Caen Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Nantes Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Caen Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Nantes Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st La Roche Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Caen Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Nantes Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Channel Islands Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ateneu de Grandesa" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cibeles" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Light Cruiser" } } }
+			ship = { name = "Consolat del Mar" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Light Cruiser" } } }
+			ship = { name = "Diana" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Light Cruiser" } } }
+			ship = { name = "Juno" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAT version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CAT"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "CAT"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

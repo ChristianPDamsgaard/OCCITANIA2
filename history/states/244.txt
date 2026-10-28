@@ -1,0 +1,33 @@
+
+state={
+	id=244
+	name="STATE_244"
+
+	history={
+		owner = X20
+		victory_points = {
+			9297 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			3353 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X20
+		add_claim_by = SPC
+	}
+
+	provinces={
+		364 3241 3301 3353 6237 6270 6301 7239 9250 9268 9297 9322 11279 11345 
+	}
+	manpower=1772872
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

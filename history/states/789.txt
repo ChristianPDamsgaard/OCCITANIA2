@@ -1,0 +1,30 @@
+
+state={
+	id=789
+	name="STATE_789"
+
+	history={
+		owner = W04
+		victory_points = {
+			6247 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W04
+		add_core_of = X56
+	}
+
+	provinces={
+		346 357 3116 3268 3347 6135 6247 6358 6392 9257 9267 11239 11252 
+	}
+	manpower=268128
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

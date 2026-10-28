@@ -1,0 +1,35 @@
+
+state={
+	id=39
+	name="STATE_39"
+
+	history={
+		owner = SPC
+		victory_points = {
+			4159 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			10074 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = CAT
+		add_core_of = SPC
+		add_claim_by = ITA
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 13256 
+	}
+	manpower=2168588
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

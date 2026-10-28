@@ -1,0 +1,37 @@
+
+state={
+	id=557
+	name="STATE_557"
+	resources={
+		steel=59.000
+	}
+
+	history={
+		owner = OCC
+		victory_points = {
+			678 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = HLR
+		add_core_of = OCC
+		SCA = {
+			set_province_controller = 678
+			set_province_controller = 6529
+		}
+	}
+
+	provinces={
+		678 6529 
+	}
+	manpower=749384
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

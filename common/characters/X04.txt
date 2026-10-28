@@ -1,0 +1,76 @@
+characters={
+	X04_fnu_lnu={
+		name=X04_fnu_lnu
+		portraits={
+			army={
+				large="GFX_portrait_europe_generic_land_8"
+			}
+			army={
+				small="GFX_portrait_europe_generic_land_8"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_fnu_lnu_1={
+		name=X04_fnu_lnu_1
+		portraits={
+			army={
+				large="GFX_portrait_GER_paul_hausser"
+			}
+			army={
+				small="GFX_portrait_GER_paul_hausser"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_fnu_lnu_2={
+		name=X04_fnu_lnu_2
+		portraits={
+			army={
+				large="GFX_portrait_GER_wilhelm_ritter_von_leeb"
+			}
+			army={
+				small="GFX_portrait_GER_wilhelm_ritter_von_leeb"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_h._zu_r.={
+		name=X04_h._zu_r.
+		portraits={
+			civilian={
+				large="GFX_europe_generic_5"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=534
+	name="STATE_534"
+	impassable = yes
+
+	history={
+		owner = X88
+		add_core_of = X88
+	}
+
+	provinces={
+		2068 10868 
+	}
+	manpower=21272
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

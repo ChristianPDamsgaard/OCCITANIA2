@@ -1,0 +1,32 @@
+
+state={
+	id=212
+	name="STATE_212"
+
+	history={
+		owner = VIN
+		victory_points = {
+			10222 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+			10222 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X08
+	}
+
+	provinces={
+		10222 
+	}
+	manpower=51460
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

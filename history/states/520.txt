@@ -1,0 +1,36 @@
+
+state={
+	id=520
+	name="STATE_520"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = X84
+		victory_points = {
+			1168 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			1096 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X21
+		add_core_of = X84
+	}
+
+	provinces={
+		1096 1168 7058 7146 9974 10058 11991 
+	}
+	manpower=6204428
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

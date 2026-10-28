@@ -1,0 +1,33 @@
+
+state={
+	id=450
+	name="STATE_450"
+	resources={
+		steel=19.000
+	}
+
+	history={
+		owner = X36
+		victory_points = {
+			12456 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = USA
+		add_core_of = X36
+	}
+
+	provinces={
+		926 1560 1760 7829 10341 12456 
+	}
+	manpower=648804
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

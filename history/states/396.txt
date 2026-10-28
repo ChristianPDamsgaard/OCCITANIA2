@@ -1,0 +1,33 @@
+
+state={
+	id=396
+	name="STATE_396"
+
+	history={
+		owner = X32
+		victory_points = {
+			12975 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+			12975 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = RCG
+		add_core_of = X32
+	}
+
+	provinces={
+		12975 
+	}
+	manpower=26356
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

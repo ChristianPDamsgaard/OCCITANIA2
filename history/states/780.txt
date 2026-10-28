@@ -1,0 +1,29 @@
+
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = X64
+		victory_points = {
+			1493 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X64
+	}
+
+	provinces={
+		1493 1649 4599 7491 7618 7635 8099 10485 12324 12333 12491 
+	}
+	manpower=371596
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

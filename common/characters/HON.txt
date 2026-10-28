@@ -1,0 +1,224 @@
+characters={
+	HON_porfirio_caserta={
+		name=HON_porfirio_caserta
+		portraits={
+			army={
+				large="GFX_ELS_Maximiliano_Martinez"
+			}
+			army={
+				small="GFX_ELS_Maximiliano_Martinez"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HON_romulo_caserta={
+		name=HON_romulo_caserta
+		portraits={
+			army={
+				large="GFX_SPR_Asensio_Cabanillas"
+			}
+			army={
+				small="GFX_SPR_Asensio_Cabanillas"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HON_antonio_corona={
+		name=HON_antonio_corona
+		portraits={
+			army={
+				large="GFX_ECU_Luis_Larrea_Alba"
+			}
+			army={
+				small="GFX_ECU_Luis_Larrea_Alba"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HON_juan_bautista_gonzalez={
+		name=HON_juan_bautista_gonzalez
+		portraits={
+			army={
+				large="GFX_South_America_Generic_land_new_2"
+			}
+			army={
+				small="GFX_South_America_Generic_land_new_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HON_ricardo_rincon_gallardo={
+		name=HON_ricardo_rincon_gallardo
+		portraits={
+			army={
+				large="GFX_CAF_Eustace_Fiennes"
+			}
+			army={
+				small="GFX_CAF_Eustace_Fiennes"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HON_tomas_sarmaniego_del_castillo={
+		name=HON_tomas_sarmaniego_del_castillo
+		portraits={
+			navy={
+				large="GFX_Cuba_Genovevo_Perez_Damera"
+			}
+			navy={
+				small="GFX_Cuba_Genovevo_Perez_Damera"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	HON_jose_flores={
+		name=HON_jose_flores
+		portraits={
+			civilian={
+				large="GFX_South_America_Generic_5"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	UTI_maurice_gamelin={
+		advisor={
+			slot = army_chief
+			idea_token = maurice_gamelin
+			available = {
+                has_completed_focus = FRA_aggressive_focus
+            }
+			allowed = {
+                original_tag = event_target:FRA_begin_rearmament_FRA
+            }
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+                factor = 1.000
+            }
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UTI_maxime_weygand={
+		advisor={
+			slot = army_chief
+			idea_token = maxime_weygand
+			available = {
+                has_completed_focus = FRA_defensive_focus
+            }
+			allowed = {
+                original_tag = event_target:FRA_begin_rearmament_FRA
+            }
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+                factor = 1.000
+            }
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	UTI_charles_de_gaulle={
+		advisor={
+			slot = theorist
+			idea_token = charles_de_gaulle
+			ledger = army
+			available = {
+                has_completed_focus = FRA_battle_of_maneuver
+            }
+			allowed = {
+                original_tag = event_target:FRA_begin_rearmament_FRA
+            }
+			traits = {
+				blitzkrieg_theorist
+			}
+			cost = 100
+			ai_will_do = {
+                factor = 1.000
+            }
+		}
+		corps_commander={
+			traits={ media_personality harsh_leader armor_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+}

@@ -1,0 +1,56 @@
+characters={
+	NMB_fnu_lnu={
+		name=NMB_fnu_lnu
+		portraits={
+			army={
+				large="GFX_Ethiopia_Kassa_Haile_Darge"
+			}
+			army={
+				small="GFX_Ethiopia_Kassa_Haile_Darge"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NMB_fnu_lnu_1={
+		name=NMB_fnu_lnu_1
+		portraits={
+			navy={
+				large="GFX_CSA_youngblood_nance"
+			}
+			navy={
+				small="GFX_CSA_youngblood_nance"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	NMB_khaub_khomaa={
+		name=NMB_khaub_khomaa
+		portraits={
+			civilian={
+				large="GFX_CAF_Tubal_Uriah_Butler"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

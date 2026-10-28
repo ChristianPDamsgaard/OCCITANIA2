@@ -1,0 +1,33 @@
+
+state={
+	id=811
+	name="STATE_811"
+
+	history={
+		owner = X67
+		victory_points = {
+			12802 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			12858 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X67
+	}
+
+	provinces={
+		1909 4957 8008 12802 12858 
+	}
+	manpower=468648
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

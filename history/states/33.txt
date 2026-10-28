@@ -1,0 +1,32 @@
+
+state={
+	id=33
+	name="STATE_33"
+
+	history={
+		owner = SPC
+		victory_points = {
+			657 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			657 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = SPC
+	}
+
+	provinces={
+		657 9635 
+	}
+	manpower=271916
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

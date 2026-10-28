@@ -1,0 +1,30 @@
+
+state={
+	id=156
+	name="STATE_156"
+
+	history={
+		owner = X13
+		victory_points = {
+			10417 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = TAJ
+		add_core_of = X13
+	}
+
+	provinces={
+		1216 1919 8027 10187 10417 12430 12805 
+	}
+	manpower=141272
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

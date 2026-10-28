@@ -1,0 +1,32 @@
+
+state={
+	id=462
+	name="STATE_462"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = X38
+		victory_points = {
+			10488 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X38
+	}
+
+	provinces={
+		2058 10488 12581 
+	}
+	manpower=748620
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

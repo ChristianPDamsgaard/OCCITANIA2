@@ -1,0 +1,36 @@
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		aluminium=44.000
+		steel=136.000
+		tungsten=161.000
+	}
+
+	history={
+		owner = X18
+		victory_points = {
+			4607 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X18
+		add_core_of = X19
+		add_claim_by = USA
+	}
+
+	provinces={
+		1663 1740 1756 1862 4521 4607 4668 4736 4742 4799 4816 4865 7756 7764 7818 7827 7879 10422 10582 10591 10651 10662 12134 12399 12425 12573 12699 
+	}
+	manpower=142844
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

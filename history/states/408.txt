@@ -1,0 +1,33 @@
+
+state={
+	id=408
+	name="STATE_408"
+
+	history={
+		owner = LIB
+		victory_points = {
+			7959 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			7959 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = LIB
+	}
+
+	provinces={
+		7959 8006 
+	}
+	manpower=889540
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=477
+	name="STATE_477"
+
+	history={
+		owner = X38
+		victory_points = {
+			5019 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X33
+		add_core_of = X46
+		add_claim_by = X38
+	}
+
+	provinces={
+		5019 10511 11950 12226 
+	}
+	manpower=519020
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

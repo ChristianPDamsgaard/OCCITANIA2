@@ -1,0 +1,33 @@
+
+state={
+	id=78
+	name="STATE_78"
+
+	history={
+		owner = X06
+		victory_points = {
+			12330 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			10263 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X06
+	}
+
+	provinces={
+		1561 1589 4308 4349 4564 7336 7598 10263 10450 10464 12330 12444 
+	}
+	manpower=386008
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

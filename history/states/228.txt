@@ -1,0 +1,33 @@
+
+state={
+	id=228
+	name="STATE_228"
+
+	history={
+		owner = X92
+		victory_points = {
+			12148 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+			12148 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = TAH
+		add_core_of = X92
+	}
+
+	provinces={
+		10188 12148 
+	}
+	manpower=27924
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

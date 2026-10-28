@@ -1,0 +1,36 @@
+
+state={
+	id=362
+	name="STATE_362"
+	resources={
+		steel=8.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = HON
+		victory_points = {
+			12873 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			12873 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = HON
+	}
+
+	provinces={
+		2051 5052 12746 12873 13089 
+	}
+	manpower=2117244
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

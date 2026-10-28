@@ -1,0 +1,31 @@
+
+state={
+	id=299
+	name="STATE_299"
+
+	history={
+		owner = X96
+		victory_points = {
+			9962 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = BRD
+		add_core_of = RWA
+		add_core_of = X96
+	}
+
+	provinces={
+		2176 2206 2220 4171 5180 5224 8144 9962 10932 10988 11017 13363 13364 
+	}
+	manpower=1551616
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

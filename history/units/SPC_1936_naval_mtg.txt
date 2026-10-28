@@ -1,0 +1,61 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 11774
+		task_force = {
+			name = "1st Fleet"
+			location = 8340
+			ship = { name = "10th Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "7th Fleet"
+		naval_base = 11774
+		task_force = {
+			name = "7th Fleet"
+			location = 5336
+			ship = { name = "Furor" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Llampec" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Veloç" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Audaç" definition = destroyer start_experience_factor = 0.14301 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Terror" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "4th Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "1st Almería Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Tro" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "1st Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "8th Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "9th Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "1st Barcelona Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3274
+		task_force = {
+			name = "2nd Fleet"
+			location = 3274
+			ship = { name = "Forçuda" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Mediterrània" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Tempesta" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "6th Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "5th Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "Destructor" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+			ship = { name = "7th Valencia Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = SPC version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SPC"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

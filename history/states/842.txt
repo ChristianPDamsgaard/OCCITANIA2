@@ -1,0 +1,37 @@
+
+state={
+	id=842
+	name="STATE_842"
+	resources={
+		aluminium=2.000
+		steel=5.000
+	}
+
+	history={
+		owner = X76
+		victory_points = {
+			718 50 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+			6909 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X76
+		add_claim_by = USA
+	}
+
+	provinces={
+		715 718 905 908 3710 3906 6732 6909 9832 9847 9850 11830 
+	}
+	manpower=7125716
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

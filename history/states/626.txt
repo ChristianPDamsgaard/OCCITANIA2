@@ -1,0 +1,34 @@
+
+state={
+	id=626
+	name="STATE_626"
+
+	history={
+		owner = SCA
+		victory_points = {
+			6389 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 1
+			317 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = SCA
+		add_claim_by = HLR
+	}
+
+	provinces={
+		317 332 3231 6257 6389 9320 11251 11331 11366 13258 
+	}
+	manpower=2051800
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=93
+	name="STATE_93"
+
+	history={
+		owner = BSK
+		victory_points = {
+			4261 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = BSK
+	}
+
+	provinces={
+		4215 4261 4383 4411 7281 10196 10224 10256 12200 
+	}
+	manpower=124836
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

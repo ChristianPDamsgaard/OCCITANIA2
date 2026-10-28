@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10362
+		task_force = {
+			name = "4th Fleet"
+			location = 10362
+			ship = { name = "Colonia" definition = destroyer start_experience_factor = 0.13958 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Dieciocho de Julio" definition = destroyer start_experience_factor = 0.14011 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Paysandú" definition = destroyer start_experience_factor = 0.14253 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Veinticinco de Agosto" definition = destroyer start_experience_factor = 0.1491 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "1st Montevideo Commerce Raider" definition = destroyer start_experience_factor = 0.1988 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Montevideo Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Montevideo Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Río Negro" definition = destroyer start_experience_factor = 0.14225 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Heroína" definition = destroyer start_experience_factor = 0.14791 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "6th Montevideo Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "4th Montevideo Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "5th Montevideo Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Quince de Noviembre" definition = destroyer start_experience_factor = 0.14542 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+			ship = { name = "Audaz" definition = destroyer start_experience_factor = 0.13565 equipment = { ship_hull_light_1 = { amount = 1 owner = URG version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "URG"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

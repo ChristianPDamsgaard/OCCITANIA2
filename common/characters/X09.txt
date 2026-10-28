@@ -1,0 +1,76 @@
+characters={
+	X09_leonidas_plapoutas={
+		name=X09_leonidas_plapoutas
+		portraits={
+			army={
+				large="GFX_portrait_europe_generic_land_13"
+			}
+			army={
+				small="GFX_portrait_europe_generic_land_13"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X09_markos_metaxas={
+		name=X09_markos_metaxas
+		portraits={
+			army={
+				large="GFX_portrait_europe_generic_land_13"
+			}
+			army={
+				small="GFX_portrait_europe_generic_land_13"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X09_sofoklis_staikopoulos={
+		name=X09_sofoklis_staikopoulos
+		portraits={
+			army={
+				large="GFX_GRE_Napoleon_Zervas"
+			}
+			army={
+				small="GFX_GRE_Napoleon_Zervas"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X09_king_tiberios_v={
+		name=X09_king_tiberios_v
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

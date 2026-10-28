@@ -1,0 +1,33 @@
+
+state={
+	id=605
+	name="STATE_605"
+
+	history={
+		owner = PHI
+		victory_points = {
+			10265 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			4288 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = PHI
+	}
+
+	provinces={
+		1221 1288 1415 4288 7275 7323 7351 10165 10236 10265 10272 10280 12236 
+	}
+	manpower=563660
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

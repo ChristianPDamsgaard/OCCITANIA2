@@ -1,0 +1,61 @@
+﻿converted_war_strategies_X15 = {
+	allowed = {
+		tag = X15
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_X15 = {
+	allowed = {
+		tag = X15
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "MLW"
+		value = 15
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ZIM"
+		value = 18
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 2
+	}
+	ai_strategy = {
+		type = protect
+		id = "ZIM"
+		value = 38
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X35"
+		value = 33
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ZIM"
+		value = 22
+	}
+}

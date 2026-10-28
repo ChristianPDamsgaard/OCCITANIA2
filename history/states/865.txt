@@ -1,0 +1,20 @@
+
+state={
+	id=865
+	name="STATE_865"
+	impassable = yes
+
+	history={
+		owner = W05
+		add_core_of = W05
+	}
+
+	provinces={
+		2198 5232 8185 8254 12919 12965 13285 13330 
+	}
+	manpower=9189
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	X55_x._zu_x.={
+		name=X55_x._zu_x.
+		portraits={
+			civilian={
+				large="GFX_europe_generic_5"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

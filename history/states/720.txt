@@ -1,0 +1,32 @@
+
+state={
+	id=720
+	name="STATE_720"
+	resources={
+		steel=35.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			12501 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1758 8083 10281 10824 10909 12501 12670 
+	}
+	manpower=5105940
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=539
+	name="STATE_539"
+	impassable = yes
+
+	history={
+		owner = X88
+		add_core_of = X88
+	}
+
+	provinces={
+		1043 1901 4903 5095 8061 10749 12849 
+	}
+	manpower=370176
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

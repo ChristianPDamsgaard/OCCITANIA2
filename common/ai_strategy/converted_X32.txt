@@ -1,0 +1,171 @@
+﻿converted_war_strategies_X32 = {
+	allowed = {
+		tag = X32
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "CAT"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RCG"
+		value = 78
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GAB"
+		value = 73
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 49
+	}
+}
+
+converted_diplo_strategies_X32 = {
+	allowed = {
+		tag = X32
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "GAB"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "RCG"
+		value = 327
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 182
+	}
+	ai_strategy = {
+		type = contain
+		id = "CMR"
+		value = 98
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAT"
+		value = 84
+	}
+	ai_strategy = {
+		type = contain
+		id = "GHA"
+		value = 78
+	}
+	ai_strategy = {
+		type = contain
+		id = "X67"
+		value = 8
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAR"
+		value = 6
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 303
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X00"
+		value = 74
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUN"
+		value = 56
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X25"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X66"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X76"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X22"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X23"
+		value = 128
+	}
+	ai_strategy = {
+		type = alliance
+		id = "OCC"
+		value = 12
+	}
+	ai_strategy = {
+		type = protect
+		id = "GAB"
+		value = 240
+	}
+	ai_strategy = {
+		type = protect
+		id = "CMR"
+		value = 120
+	}
+	ai_strategy = {
+		type = protect
+		id = "CAR"
+		value = 103
+	}
+	ai_strategy = {
+		type = protect
+		id = "EQG"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X62"
+		value = 111
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X31"
+		value = 41
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X67"
+		value = 35
+	}
+}

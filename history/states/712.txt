@@ -1,0 +1,33 @@
+
+state={
+	id=712
+	name="STATE_712"
+
+	history={
+		owner = X57
+		victory_points = {
+			7315 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+			7315 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X57
+		add_claim_by = USA
+	}
+
+	provinces={
+		1320 1690 4296 4398 4747 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10327 10687 10690 10693 12155 12214 12673 
+	}
+	manpower=52492
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

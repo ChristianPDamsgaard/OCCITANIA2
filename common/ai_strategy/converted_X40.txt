@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X40 = {
+	allowed = {
+		tag = X40
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "MAL"
+		value = 694
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 324
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X45"
+		value = 123
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X28"
+		value = 108
+	}
+}
+
+converted_diplo_strategies_X40 = {
+	allowed = {
+		tag = X40
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "MAL"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X45"
+		value = 344
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAM"
+		value = 76
+	}
+	ai_strategy = {
+		type = contain
+		id = "X28"
+		value = 58
+	}
+	ai_strategy = {
+		type = contain
+		id = "X46"
+		value = 19
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X28"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X45"
+		value = 127
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 83
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X76"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X34"
+		value = 148
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRU"
+		value = 148
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CAT"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X28"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAN"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X50"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X52"
+		value = 50
+	}
+}

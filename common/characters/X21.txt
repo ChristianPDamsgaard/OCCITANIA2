@@ -1,0 +1,56 @@
+characters={
+	X21_zheng_baochen={
+		name=X21_zheng_baochen
+		portraits={
+			army={
+				large="GFX_SQI_wang_yaowu"
+			}
+			army={
+				small="GFX_SQI_wang_yaowu"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X21_qin_debang={
+		name=X21_qin_debang
+		portraits={
+			navy={
+				large="GFX_Asia_Generic_navy_new_3"
+			}
+			navy={
+				small="GFX_Asia_Generic_navy_new_3"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X21_he_nee={
+		name=X21_he_nee
+		portraits={
+			civilian={
+				large="GFX_China_Pujie"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

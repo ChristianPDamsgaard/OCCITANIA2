@@ -1,0 +1,32 @@
+
+state={
+	id=4
+	name="STATE_4"
+
+	history={
+		owner = ARG
+		victory_points = {
+			12994 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			13303 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		5131 5146 5171 8217 8231 12994 13301 13302 13303 13304 
+	}
+	manpower=1465452
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=340
+	name="STATE_340"
+
+	history={
+		owner = X23
+		victory_points = {
+			5070 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		5070 
+	}
+	manpower=99724
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

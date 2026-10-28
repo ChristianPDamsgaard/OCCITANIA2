@@ -1,0 +1,35 @@
+
+state={
+	id=79
+	name="STATE_79"
+
+	history={
+		owner = BOS
+		victory_points = {
+			6889 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			6889 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = BOS
+		add_claim_by = HLR
+		add_claim_by = ITA
+	}
+
+	provinces={
+		3868 6889 
+	}
+	manpower=123336
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

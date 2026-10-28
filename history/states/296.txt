@@ -1,0 +1,32 @@
+
+state={
+	id=296
+	name="STATE_296"
+
+	history={
+		owner = X96
+		victory_points = {
+			1939 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10976 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X96
+	}
+
+	provinces={
+		1939 2066 5079 6020 8133 10761 10962 10976 12927 
+	}
+	manpower=551996
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

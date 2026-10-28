@@ -1,0 +1,76 @@
+characters={
+	X44_kabuksin_paguman={
+		name=X44_kabuksin_paguman
+		portraits={
+			army={
+				large="GFX_OTT_Mustafa_Kemal"
+			}
+			army={
+				small="GFX_OTT_Mustafa_Kemal"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X44_kabuksin_salgurlu={
+		name=X44_kabuksin_salgurlu
+		portraits={
+			army={
+				large="GFX_Arabia_Generic_new_1"
+			}
+			army={
+				small="GFX_Arabia_Generic_new_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X44_aba_bayandur={
+		name=X44_aba_bayandur
+		portraits={
+			army={
+				large="GFX_Ottoman_OmerFaruk"
+			}
+			army={
+				small="GFX_Ottoman_OmerFaruk"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X44_ipa_paguman={
+		name=X44_ipa_paguman
+		portraits={
+			civilian={
+				large="GFX_r56_generic_middle_east_1"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

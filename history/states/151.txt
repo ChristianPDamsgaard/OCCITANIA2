@@ -1,0 +1,32 @@
+
+state={
+	id=151
+	name="STATE_151"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = RCG
+		victory_points = {
+			8193 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = RCG
+	}
+
+	provinces={
+		2192 3109 6008 8193 
+	}
+	manpower=547208
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

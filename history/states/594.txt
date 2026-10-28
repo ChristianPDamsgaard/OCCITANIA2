@@ -1,0 +1,39 @@
+
+state={
+	id=594
+	name="STATE_594"
+
+	history={
+		owner = PRU
+		victory_points = {
+			8213 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		ARG = {
+			set_province_controller = 5162
+		}
+		VEN = {
+			set_province_controller = 8149
+			set_province_controller = 8213
+			set_province_controller = 10970
+			set_province_controller = 13289
+			set_province_controller = 13290
+		}
+	}
+
+	provinces={
+		5162 8149 8213 10970 13289 13290 
+	}
+	manpower=752816
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

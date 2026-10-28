@@ -1,0 +1,33 @@
+
+state={
+	id=392
+	name="STATE_392"
+
+	history={
+		owner = X31
+		victory_points = {
+			7878 30 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			4728 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X31
+	}
+
+	provinces={
+		4728 7878 12207 12522 
+	}
+	manpower=54
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

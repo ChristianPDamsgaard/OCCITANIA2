@@ -1,0 +1,29 @@
+
+state={
+	id=430
+	name="STATE_430"
+
+	history={
+		owner = LIT
+		victory_points = {
+			333 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = LIT
+	}
+
+	provinces={
+		2 62 85 121 150 164 231 252 333 3035 3077 3143 3176 3220 3323 6022 6056 6101 6122 6143 6167 6203 6245 9046 9122 9144 9188 9256 11039 11084 11099 11154 11166 11205 
+	}
+	manpower=1444020
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

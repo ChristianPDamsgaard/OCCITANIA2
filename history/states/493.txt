@@ -1,0 +1,39 @@
+
+state={
+	id=493
+	name="STATE_493"
+	resources={
+		oil=2.000
+		rubber=15.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			4652 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			1648 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = MAL
+		add_core_of = X40
+		add_core_of = X45
+	}
+
+	provinces={
+		1648 4652 7673 
+	}
+	manpower=66616
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

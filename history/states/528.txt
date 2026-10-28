@@ -1,0 +1,29 @@
+
+state={
+	id=528
+	name="STATE_528"
+
+	history={
+		owner = X87
+		victory_points = {
+			4889 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X87
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+	manpower=489992
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

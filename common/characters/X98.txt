@@ -1,0 +1,16 @@
+characters={
+	X98_aleixo_melendrez={
+		name=X98_aleixo_melendrez
+		portraits={
+			civilian={
+				large="GFX_COS_Manuel_Mora_Valverde"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

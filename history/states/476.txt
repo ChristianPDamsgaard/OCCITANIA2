@@ -1,0 +1,35 @@
+
+state={
+	id=476
+	name="STATE_476"
+	resources={
+		aluminium=3.000
+		chromium=5.000
+		steel=6.000
+	}
+
+	history={
+		owner = X38
+		victory_points = {
+			4883 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X38
+		add_core_of = X46
+	}
+
+	provinces={
+		1510 1579 1622 4557 4883 7428 7430 7465 7497 7574 7619 8120 10030 10171 10401 10469 12375 12420 12480 12490 12781 
+	}
+	manpower=5006996
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

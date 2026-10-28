@@ -1,0 +1,111 @@
+﻿converted_war_strategies_NMB = {
+	allowed = {
+		tag = NMB
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "X22"
+		value = 134
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAT"
+		value = 103
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X20"
+		value = 60
+	}
+}
+
+converted_diplo_strategies_NMB = {
+	allowed = {
+		tag = NMB
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "X22"
+		value = 263
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAT"
+		value = 111
+	}
+	ai_strategy = {
+		type = contain
+		id = "X20"
+		value = 104
+	}
+	ai_strategy = {
+		type = contain
+		id = "SAF"
+		value = 75
+	}
+	ai_strategy = {
+		type = contain
+		id = "X32"
+		value = 5
+	}
+	ai_strategy = {
+		type = contain
+		id = "MZB"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 145
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 106
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 59
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPC"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "ZIM"
+		value = 47
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X62"
+		value = 51
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X67"
+		value = 47
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ZIM"
+		value = 44
+	}
+}

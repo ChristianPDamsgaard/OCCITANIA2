@@ -1,0 +1,33 @@
+
+state={
+	id=740
+	name="STATE_740"
+
+	history={
+		owner = VEN
+		victory_points = {
+			4980 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			4980 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = BRA
+		add_core_of = X12
+	}
+
+	provinces={
+		4980 13353 13354 
+	}
+	manpower=243652
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

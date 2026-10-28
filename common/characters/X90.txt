@@ -1,0 +1,16 @@
+characters={
+	X90_zhang_tian={
+		name=X90_zhang_tian
+		portraits={
+			civilian={
+				large="GFX_China_Chiang_Kai_Shek"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

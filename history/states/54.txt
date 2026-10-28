@@ -1,0 +1,33 @@
+
+state={
+	id=54
+	name="STATE_54"
+
+	history={
+		owner = SPC
+		victory_points = {
+			4112 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			9799 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = SPC
+		add_core_of = X09
+	}
+
+	provinces={
+		785 928 1119 3927 4112 6864 6912 6992 7130 9799 9887 9921 9929 9941 10038 10041 10122 11778 11796 11848 11898 11917 12013 12096 
+	}
+	manpower=1117384
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

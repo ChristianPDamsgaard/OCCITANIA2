@@ -1,0 +1,16 @@
+characters={
+	X91_hubert_fisher={
+		name=X91_hubert_fisher
+		portraits={
+			civilian={
+				large="GFX_Britain_Edward_Halifax"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

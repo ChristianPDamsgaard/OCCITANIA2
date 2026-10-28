@@ -1,0 +1,29 @@
+
+state={
+	id=211
+	name="STATE_211"
+
+	history={
+		owner = VIN
+		victory_points = {
+			4183 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X21
+	}
+
+	provinces={
+		1053 4081 4183 7004 7199 9942 10112 11945 12030 
+	}
+	manpower=6537228
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

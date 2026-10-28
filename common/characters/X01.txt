@@ -1,0 +1,36 @@
+characters={
+	X01_zafir_ibn_ahmad={
+		name=X01_zafir_ibn_ahmad
+		portraits={
+			army={
+				large="GFX_YEM_Ali_Nasser_Al-Qardai"
+			}
+			army={
+				small="GFX_YEM_Ali_Nasser_Al-Qardai"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X01_king_sulayman_ii={
+		name=X01_king_sulayman_ii
+		portraits={
+			civilian={
+				large="GFX_yem_imam_yaha"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

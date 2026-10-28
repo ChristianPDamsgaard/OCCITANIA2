@@ -1,0 +1,71 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9498
+		task_force = {
+			name = "3rd Fleet"
+			location = 9498
+			ship = { name = "1st Duinkerke Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "1st Rotterdam Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Witte de With" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "2nd Rotterdam Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "3rd Arnhem Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "2nd Arnhem Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "1st Arnhem Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "De Ruyter" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Tromp" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Jacob van Heemskerk" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "De Zeven Provincien" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Piet Hein" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "1st Leeuwarden Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "1st Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "De Zeven Provinciën" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Evertsen" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Guinea" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Kortenaer" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Jacob van Heemskerck" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Buffel" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Bloys van Treslong" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Jan van Brakel" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Amstel" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Tjerk Hiddes" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Speijck" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Adolf Hertog van Nassau" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Anna Paulowna" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Zoutman" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Isaac Sweers" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Java" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Galen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Abraham van der Hulst" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Johan Willem Friso" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Kinsbergen" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Banckert" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Callenburgh" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Van Ghent" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Aert van Nes" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Pieter Florisz" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+			ship = { name = "Philips van Almonde" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HOL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "HOL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "HOL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=719
+	name="STATE_719"
+	resources={
+		oil=30.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			7552 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			7552 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = USA
+		add_claim_by = X36
+	}
+
+	provinces={
+		1453 1528 1643 4507 4535 7524 7552 12313 12398 
+	}
+	manpower=6750404
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

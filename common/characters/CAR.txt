@@ -1,0 +1,76 @@
+characters={
+	CAR_momi_moungar={
+		name=CAR_momi_moungar
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CAR_tikima_tombalbaye={
+		name=CAR_tikima_tombalbaye
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_2"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CAR_momi_tombalbaye={
+		name=CAR_momi_tombalbaye
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CAR_zangabirou_tombalbaye={
+		name=CAR_zangabirou_tombalbaye
+		portraits={
+			civilian={
+				large="GFX_LIB_edwin_barclay"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

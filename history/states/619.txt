@@ -1,0 +1,36 @@
+
+state={
+	id=619
+	name="STATE_619"
+	resources={
+		aluminium=8.000
+		chromium=52.000
+	}
+
+	history={
+		owner = SAF
+		victory_points = {
+			4696 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			4696 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		1833 4584 4696 7576 
+	}
+	manpower=545632
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

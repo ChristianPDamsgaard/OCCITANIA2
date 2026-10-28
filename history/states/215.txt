@@ -1,0 +1,33 @@
+
+state={
+	id=215
+	name="STATE_215"
+
+	history={
+		owner = X19
+		victory_points = {
+			10765 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			10848 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X19
+	}
+
+	provinces={
+		1892 1904 2069 7964 8012 8119 10765 10848 12461 12736 12833 12859 13215 13216 
+	}
+	manpower=1795772
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

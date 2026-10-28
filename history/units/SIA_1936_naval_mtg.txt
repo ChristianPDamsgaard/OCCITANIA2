@@ -1,0 +1,33 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7408
+		task_force = {
+			name = "2nd Fleet"
+			location = 7408
+			ship = { name = "Nonthaburi" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Nakhonpathom" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Bangkok" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Rattanakosin" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Samutprakan" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Samutsongkhram" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Phetchaburi" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Phetchaburi 2" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Ratchaburi" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+			ship = { name = "Samutsakhon" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SIA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=488
+	name="STATE_488"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = X38
+		victory_points = {
+			4386 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4386 4435 4987 5310 7374 8010 10825 10910 12860 12892 
+	}
+	manpower=1497304
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

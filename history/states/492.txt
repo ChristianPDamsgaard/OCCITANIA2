@@ -1,0 +1,33 @@
+
+state={
+	id=492
+	name="STATE_492"
+
+	history={
+		owner = X39
+		victory_points = {
+			10752 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+			2029 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X39
+		add_claim_by = X00
+	}
+
+	provinces={
+		1973 2029 4924 4976 5074 10752 10840 12821 13374 
+	}
+	manpower=396020
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

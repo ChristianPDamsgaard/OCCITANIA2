@@ -1,0 +1,33 @@
+
+state={
+	id=446
+	name="STATE_446"
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = X36
+		victory_points = {
+			12401 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = USA
+		add_core_of = X36
+	}
+
+	provinces={
+		1559 4522 7555 7599 12401 
+	}
+	manpower=825132
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

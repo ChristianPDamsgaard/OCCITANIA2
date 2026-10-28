@@ -1,0 +1,33 @@
+
+state={
+	id=747
+	name="STATE_747"
+
+	history={
+		owner = X60
+		victory_points = {
+			11811 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+			11811 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X30
+		add_core_of = X60
+	}
+
+	provinces={
+		11811 
+	}
+	manpower=367852
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

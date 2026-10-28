@@ -1,0 +1,56 @@
+characters={
+	X59_baqi_tukay={
+		name=X59_baqi_tukay
+		portraits={
+			army={
+				large="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+			}
+			army={
+				small="GFX_portrait_TUR_mustafa_kemal_ataturk_military"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X59_baqi_faysi={
+		name=X59_baqi_faysi
+		portraits={
+			army={
+				large="GFX_OTT_Osman_Fuad_Hussar"
+			}
+			army={
+				small="GFX_OTT_Osman_Fuad_Hussar"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X59_baqi_khusainov={
+		name=X59_baqi_khusainov
+		portraits={
+			civilian={
+				large="GFX_KUR_Mahmud_Barzanji"
+			}
+		}
+		country_leader={
+			ideology=theocracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,81 @@
+﻿converted_war_strategies_UGA = {
+	allowed = {
+		tag = UGA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "CAT"
+		value = 153
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X22"
+		value = 152
+	}
+}
+
+converted_diplo_strategies_UGA = {
+	allowed = {
+		tag = UGA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "X22"
+		value = 251
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAT"
+		value = 170
+	}
+	ai_strategy = {
+		type = contain
+		id = "X61"
+		value = 15
+	}
+	ai_strategy = {
+		type = contain
+		id = "OCC"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 162
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 150
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X76"
+		value = 31
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPC"
+		value = 88
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X59"
+		value = 114
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X61"
+		value = 28
+	}
+}

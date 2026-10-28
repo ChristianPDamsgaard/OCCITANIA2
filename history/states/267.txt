@@ -1,0 +1,35 @@
+
+state={
+	id=267
+	name="STATE_267"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = X22
+		victory_points = {
+			1145 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			1145 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X22
+	}
+
+	provinces={
+		1013 1145 1160 4046 4131 7081 7132 7166 9964 10078 11923 11939 12051 
+	}
+	manpower=1686892
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

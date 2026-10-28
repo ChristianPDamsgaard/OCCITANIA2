@@ -1,0 +1,36 @@
+
+state={
+	id=282
+	name="STATE_282"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X98
+		victory_points = {
+			10803 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			10803 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = IVO
+		add_core_of = X98
+	}
+
+	provinces={
+		5013 8065 10803 
+	}
+	manpower=336416
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

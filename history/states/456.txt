@@ -1,0 +1,30 @@
+
+state={
+	id=456
+	name="STATE_456"
+
+	history={
+		owner = LUX
+		victory_points = {
+			9472 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = LUX
+		add_claim_by = HLR
+	}
+
+	provinces={
+		9472 
+	}
+	manpower=105752
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

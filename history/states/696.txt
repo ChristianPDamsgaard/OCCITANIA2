@@ -1,0 +1,36 @@
+
+state={
+	id=696
+	name="STATE_696"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = TOG
+		victory_points = {
+			1951 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			1951 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = TOG
+	}
+
+	provinces={
+		1951 12843 13212 
+	}
+	manpower=422744
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

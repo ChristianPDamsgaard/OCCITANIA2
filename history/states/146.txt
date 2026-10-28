@@ -1,0 +1,34 @@
+
+state={
+	id=146
+	name="STATE_146"
+
+	history={
+		owner = X12
+		victory_points = {
+			5153 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 0
+			10933 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = BRA
+		add_core_of = X12
+	}
+
+	provinces={
+		2132 2164 2175 2178 5107 5153 5204 8179 10933 10984 13273 
+	}
+	manpower=3062396
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

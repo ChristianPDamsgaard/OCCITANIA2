@@ -1,0 +1,33 @@
+
+state={
+	id=781
+	name="STATE_781"
+	resources={
+		steel=89.000
+	}
+
+	history={
+		owner = X65
+		victory_points = {
+			9503 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = HLR
+		add_core_of = X65
+	}
+
+	provinces={
+		549 1346 9503 
+	}
+	manpower=1110104
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

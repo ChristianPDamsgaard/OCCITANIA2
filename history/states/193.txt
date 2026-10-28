@@ -1,0 +1,28 @@
+
+state={
+	id=193
+	name="STATE_193"
+
+	history={
+		owner = X17
+		victory_points = {
+			4229 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1819 4229 4455 12592 
+	}
+	manpower=570376
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

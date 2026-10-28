@@ -1,0 +1,32 @@
+
+state={
+	id=580
+	name="STATE_580"
+
+	history={
+		owner = X43
+		victory_points = {
+			12991 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1966 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X43
+	}
+
+	provinces={
+		1964 1966 2020 2063 4909 5065 8164 10818 10891 10928 12840 12991 
+	}
+	manpower=385816
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

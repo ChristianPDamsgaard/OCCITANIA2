@@ -1,0 +1,34 @@
+
+state={
+	id=614
+	name="STATE_614"
+
+	history={
+		owner = RIG
+		victory_points = {
+			10447 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			10447 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = BRA
+		add_core_of = RIG
+	}
+
+	provinces={
+		1542 1585 1598 4436 4575 4589 4604 5110 7581 7594 7638 10447 12396 
+	}
+	manpower=1171428
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	GAM_e._von_der_a.={
+		name=GAM_e._von_der_a.
+		portraits={
+			civilian={
+				large="GFX_europe_generic_5"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

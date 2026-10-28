@@ -1,0 +1,37 @@
+
+state={
+	id=576
+	name="STATE_576"
+	resources={
+		steel=30.000
+	}
+
+	history={
+		owner = OCC
+		victory_points = {
+			6657 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			6657 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = CAT
+		add_core_of = OCC
+		add_core_of = SPC
+	}
+
+	provinces={
+		595 625 629 655 3598 6657 6792 9597 11582 11869 
+	}
+	manpower=1437708
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

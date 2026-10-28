@@ -1,0 +1,32 @@
+
+state={
+	id=128
+	name="STATE_128"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = X82
+		victory_points = {
+			10827 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X82
+	}
+
+	provinces={
+		2016 4961 8052 8084 10739 10827 10851 12744 
+	}
+	manpower=188208
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

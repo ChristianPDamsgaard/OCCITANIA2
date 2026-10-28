@@ -1,0 +1,36 @@
+
+state={
+	id=150
+	name="STATE_150"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X12
+		victory_points = {
+			12466 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+			8181 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = BRA
+		add_core_of = X12
+	}
+
+	provinces={
+		1529 4533 4548 5156 8181 8239 10405 12466 
+	}
+	manpower=2108224
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

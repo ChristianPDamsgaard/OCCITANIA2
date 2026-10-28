@@ -1,0 +1,33 @@
+
+state={
+	id=388
+	name="STATE_388"
+
+	history={
+		owner = X27
+		victory_points = {
+			1086 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 6
+			1201 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X27
+	}
+
+	provinces={
+		1015 1086 1201 4206 7107 7176 11970 
+	}
+	manpower=511096
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

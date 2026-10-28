@@ -1,0 +1,33 @@
+
+state={
+	id=40
+	name="STATE_40"
+
+	history={
+		owner = SPC
+		victory_points = {
+			12003 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+			12003 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = CAT
+		add_core_of = SPC
+	}
+
+	provinces={
+		12003 
+	}
+	manpower=151040
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

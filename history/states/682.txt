@@ -1,0 +1,31 @@
+
+state={
+	id=682
+	name="STATE_682"
+
+	history={
+		owner = SLV
+		victory_points = {
+			599 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = SLV
+		add_claim_by = HLR
+		add_claim_by = ITA
+	}
+
+	provinces={
+		599 
+	}
+	manpower=232148
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

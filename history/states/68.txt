@@ -1,0 +1,40 @@
+
+state={
+	id=68
+	name="STATE_68"
+
+	history={
+		owner = SPC
+		victory_points = {
+			9764 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+			9764 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = CAT
+		add_core_of = SPC
+		OCC = {
+			set_province_controller = 897
+			set_province_controller = 3898
+			set_province_controller = 3899
+			set_province_controller = 6836
+			set_province_controller = 6927
+		}
+	}
+
+	provinces={
+		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 
+	}
+	manpower=1056324
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

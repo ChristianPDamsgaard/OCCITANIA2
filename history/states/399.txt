@@ -1,0 +1,36 @@
+
+state={
+	id=399
+	name="STATE_399"
+	resources={
+		steel=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			7155 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+			1003 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = KOR
+	}
+
+	provinces={
+		848 1003 4004 4107 7070 7155 9981 10065 11915 11958 12040 
+	}
+	manpower=1978140
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

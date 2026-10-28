@@ -1,0 +1,42 @@
+
+state={
+	id=52
+	name="STATE_52"
+
+	history={
+		owner = SPC
+		victory_points = {
+			9833 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			849 = {
+				naval_base = 6
+			}
+			9833 = {
+				landmark_hagia_sophia = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = SPC
+		add_claim_by = X30
+		add_claim_by = X60
+	}
+
+	provinces={
+		849 922 3879 6895 9833 
+	}
+	manpower=846460
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

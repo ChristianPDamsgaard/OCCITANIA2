@@ -1,0 +1,32 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		owner = X83
+		victory_points = {
+			4357 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+			4357 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X83
+	}
+
+	provinces={
+		4357 12103 
+	}
+	manpower=25888
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

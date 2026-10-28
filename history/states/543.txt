@@ -1,0 +1,31 @@
+
+state={
+	id=543
+	name="STATE_543"
+
+	history={
+		owner = HOL
+		victory_points = {
+			6594 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = BSK
+		add_core_of = TAT
+		add_claim_by = HLR
+	}
+
+	provinces={
+		6594 
+	}
+	manpower=372568
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

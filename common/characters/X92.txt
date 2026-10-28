@@ -1,0 +1,16 @@
+characters={
+	X92_hubert_fisher={
+		name=X92_hubert_fisher
+		portraits={
+			civilian={
+				large="GFX_Ireland_Eamon_de_Valera"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

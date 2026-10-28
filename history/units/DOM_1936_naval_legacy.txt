@@ -1,0 +1,49 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4641
+		task_force = {
+			name = "1st Fleet"
+			location = 4641
+			ship = { name = "1st Port Au Prince Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "2nd Port Au Prince Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Dejabón" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Boba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Nigua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Ocoa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Julia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Incontrolable" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Desesperación" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Boba 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Agustina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Josefa" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "Juana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "3rd Port Au Prince Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "4th Port Au Prince Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "5th Port Au Prince Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "6th Port Au Prince Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+			ship = { name = "7th Port Au Prince Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = DOM } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "DOM"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "DOM"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

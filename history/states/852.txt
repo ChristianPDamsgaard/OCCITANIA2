@@ -1,0 +1,37 @@
+
+state={
+	id=852
+	name="STATE_852"
+	resources={
+		aluminium=14.000
+		oil=2.000
+		steel=6.000
+	}
+
+	history={
+		owner = X77
+		victory_points = {
+			1652 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1652 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X77
+	}
+
+	provinces={
+		1498 1511 1540 1652 2157 2201 4630 4645 5125 5170 5175 5207 7453 7579 7608 8152 8209 8228 8247 10937 10949 10950 10958 10971 10983 11016 12323 12993 
+	}
+	manpower=52062
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

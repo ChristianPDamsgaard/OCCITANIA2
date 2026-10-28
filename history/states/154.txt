@@ -1,0 +1,35 @@
+
+state={
+	id=154
+	name="STATE_154"
+	resources={
+		aluminium=1.000
+		chromium=3.000
+		steel=1.000
+	}
+
+	history={
+		owner = X13
+		victory_points = {
+			7775 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X13
+		add_core_of = X30
+	}
+
+	provinces={
+		756 1459 1479 1532 1554 1573 1576 1614 1623 1632 4499 4618 4629 4636 4686 7501 7507 7541 7639 7682 7775 7777 9605 10148 10205 10348 10366 10395 10420 10435 10470 10601 10671 11687 12161 12233 12239 12454 12465 12474 12722 13207 
+	}
+	manpower=2431444
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

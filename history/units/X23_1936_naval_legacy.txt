@@ -1,0 +1,41 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 4948
+		task_force = {
+			name = "4th Fleet"
+			location = 4948
+			ship = { name = "1st Saint-Louis Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X23 } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 12834
+		task_force = {
+			name = "5th Fleet"
+			location = 12834
+			ship = { name = "2nd Ziguinchor Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X23 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X23"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X23"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

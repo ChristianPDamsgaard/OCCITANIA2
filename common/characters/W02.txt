@@ -1,0 +1,16 @@
+characters={
+	W02_charalampos_foumis={
+		name=W02_charalampos_foumis
+		portraits={
+			civilian={
+				large="GFX_ita_ferruccio_parri"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

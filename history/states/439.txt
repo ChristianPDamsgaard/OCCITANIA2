@@ -1,0 +1,29 @@
+
+state={
+	id=439
+	name="STATE_439"
+
+	history={
+		owner = X35
+		victory_points = {
+			4318 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X35
+	}
+
+	provinces={
+		1082 1197 1934 4318 4425 4996 8063 10920 12464 
+	}
+	manpower=452512
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

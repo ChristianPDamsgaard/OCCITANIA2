@@ -1,0 +1,33 @@
+
+state={
+	id=834
+	name="STATE_834"
+
+	history={
+		owner = X76
+		victory_points = {
+			7138 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			4168 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X76
+		add_claim_by = USA
+	}
+
+	provinces={
+		1019 1077 1132 1163 4168 6943 7045 7083 7138 9876 10051 10081 10096 11783 12054 12445 
+	}
+	manpower=3581140
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

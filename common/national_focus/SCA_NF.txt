@@ -1,0 +1,520 @@
+focus_tree = {
+	id = SCA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SCA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropSCA
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 27
+		y = 0
+		cost = 10
+		available = {
+		threat > 0.000050
+	}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterSCA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropSCA }
+		x = 0
+		y = 1
+		relative_position_id = WarPropSCA
+		cost = 10
+		available = {
+		threat > 0.000075
+	}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimSCA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterSCA }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterSCA
+		cost = 10
+		available = {
+		threat > 0.000125
+	}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanSCAX38
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanX38
+		prerequisite = { focus = LimSCA }
+		bypass = {
+		has_war_with = X38
+	}
+		x = -3
+		y = 1
+		relative_position_id = LimSCA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = X38
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoSCAX38
+		icon = GFX_goal_generic_trade
+		text = EmbargoX38
+		prerequisite = { focus =  WarPlanSCAX38 }
+		bypass = {
+		has_war_with = X38
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanSCAX38
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = X38
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		X38 = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARSCAX38
+		icon = GFX_goal_support_democracy
+		text = WARX38
+		prerequisite = { focus =  EmbargoSCAX38 }
+		bypass = {
+		has_war_with = X38
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoSCAX38
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = X38
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = X38
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanSCAOCC
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanOCC
+		prerequisite = { focus = LimSCA }
+		bypass = {
+		has_war_with = OCC
+	}
+		x = -1
+		y = 1
+		relative_position_id = LimSCA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = OCC
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoSCAOCC
+		icon = GFX_goal_generic_trade
+		text = EmbargoOCC
+		prerequisite = { focus =  WarPlanSCAOCC }
+		bypass = {
+		has_war_with = OCC
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanSCAOCC
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = OCC
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		OCC = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARSCAOCC
+		icon = GFX_goal_support_democracy
+		text = WAROCC
+		prerequisite = { focus =  EmbargoSCAOCC }
+		bypass = {
+		has_war_with = OCC
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoSCAOCC
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = OCC
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = OCC
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanSCAJAP
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanJAP
+		prerequisite = { focus = LimSCA }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = 1
+		y = 1
+		relative_position_id = LimSCA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoSCAJAP
+		icon = GFX_goal_generic_trade
+		text = EmbargoJAP
+		prerequisite = { focus =  WarPlanSCAJAP }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanSCAJAP
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		JAP = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARSCAJAP
+		icon = GFX_goal_support_democracy
+		text = WARJAP
+		prerequisite = { focus =  EmbargoSCAJAP }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoSCAJAP
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = JAP
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanSCAUSA
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanUSA
+		prerequisite = { focus = LimSCA }
+		bypass = {
+		has_war_with = USA
+	}
+		x = 3
+		y = 1
+		relative_position_id = LimSCA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = USA
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoSCAUSA
+		icon = GFX_goal_generic_trade
+		text = EmbargoUSA
+		prerequisite = { focus =  WarPlanSCAUSA }
+		bypass = {
+		has_war_with = USA
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanSCAUSA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = USA
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		USA = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARSCAUSA
+		icon = GFX_goal_support_democracy
+		text = WARUSA
+		prerequisite = { focus =  EmbargoSCAUSA }
+		bypass = {
+		has_war_with = USA
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoSCAUSA
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = USA
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = USA
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+}

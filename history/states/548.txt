@@ -1,0 +1,32 @@
+
+state={
+	id=548
+	name="STATE_548"
+
+	history={
+		owner = X42
+		victory_points = {
+			12698 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			12505 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X42
+	}
+
+	provinces={
+		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+	manpower=242322
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

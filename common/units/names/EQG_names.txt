@@ -1,0 +1,58 @@
+﻿EQG = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Arapiles" "BailÃ©n" "Barcelona" "Cazadora" "Covadonga" "Duero" "Ebro" "Galerna" "Giralda" "Guadalete" "Mar Caribe" "Mistral" "Navas de Tolosa" "Numancia" "ResoluciÃ³n" "Sagunto" "San QuintÃ­n" "Santa MarÃ­a" "Segura" "Sella" "Siroco" "Tajo" "Tambre" "TetuÃ¡n" "Tramontana" "Turia" "Vencedora" "Viriato" "Vitoria" "Zaragoza" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Alfonso XIII" "Ãlvaro de BazÃ¡n" "Brigadier Topete" "CastaÃ±eta" "Ciudad de Cartagena" "Ciudad de Sevilla" "Ciudad de Valencia" "Duque de Alba" "Duque de Medina-Sidonia" "Duque de Parma" "El Gran CapitÃ¡n" "EspaÃ±a" "Estrella de los Mares" "Fadrique Ãlvarez de Toledo" "Fernando de Magallanes" "Infante de EspaÃ±a" "Jaime I" "LÃ¡ngara" "Luis de CÃ³rdova" "MarÃ­a de Molina" "MarquÃ©s de la Victoria" "Pelayo" "PrÃ­ncipe de Asturias" "Requesens" "Reyes CatÃ³licos" "Rodrigo DÃ­az de Vivar" "SÃ¡nchez de Tovar" "Sancho III" "Villa de Barcelona" "Villa de Madrid" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Ambrosio Spinola" "Bernardo GÃ¡lvez" "Cantabria" "Ciudad de CÃ¡diz" "Ciudad de Las Palmas" "Ciudad de MahÃ³n" "Ciudad de Palma" "Ciudad de Santa Cruz" "Ciudad de Vigo" "Duque de TetuÃ¡n" "GarcÃ­a Ãlvarez de Toledo" "HespÃ©rides" "Hevia" "Hidalgo de Cisneros" "Ignacio MarÃ­a de Ãlava" "La Mancha" "LeÃ³n" "MarquÃ©s del Socorro" "MenÃ©ndez de AvilÃ©s" "Meteoro" "Pedro Navarro" "Porter" "PuigcerdÃ¡" "Rayo" "RelÃ¡mpago" "Somiedo" "Tornado" "ValdÃ©s" "Vicealmirante Pareja" "Villa de GijÃ³n" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Alfonso XII" "Almirante Oquendo" "AragÃ³n" "Cardenal Cisneros" "Castilla" "Ciudad de Oviedo" "CataluÃ±a" "Conde de Venadito" "CristÃ³bal ColÃ³n" "Don Antonio de Ulloa" "Don Juan de Austria" "Emperador Carlos V" "Extremadura" "Gravina" "Infanta Isabel" "Isla de Cuba" "Isla de LuzÃ³n" "Juan SebastiÃ¡n Elcano" "Lepanto" "MarquÃ©s de la Ensenada" "Navarra" "Princesa de Asturias" "Reina Cristina" "Reina Mercedes" "Reina Regente" "RÃ­o de la Plata" "Velasco" "Vizcaya" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"AmÃ©rica" "Ãngel de la Guarda" "AquÃ­les" "Argonauta" "Buen Consejo" "Conquistador" "Firme" "Glorioso" "HÃ©roe" "IntrÃ©pido" "Isabel II" "Monarca" "Ntra. Sra. del Patrocinio" "Real Familia" "Rey Francisco de AsÃ­s" "San Bernardo" "San Carlos" "San FermÃ­n" "San Fernando" "San Francisco de Paula" "San Gregorio" "San Idelfonso" "San Isidro" "San JosÃ©" "San Juan Bautista" "San JuliÃ¡n" "San Leandro" "San Telmo" "Santiago" "Victorioso" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"AlcalÃ¡ Galiano" "Almirante Antequera" "Almirante FerrÃ¡ndiz" "Almirante ValdÃ©s" "Alsedo" "Audaz" "Bustamante" "Cadarso" "Churruca" "Ciscar" "Destructor" "EscaÃ±o" "Furor" "Guarda" "Guerrero" "Huesca" "Jorge Juan" "JosÃ© Luis DÃ­ez" "Lazaga" "Liebre" "Osado" "PlutÃ³n" "Proserpina" "SÃ¡nchez BarcÃ¡iztegui" "Terror" "Teruel" "Triunfante" "Ulloa" "Velasco" "Villamil" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Almirante Cervera" "AndalucÃ­a" "Asturias" "Atrevida" "Baleares" "Blas de Lezo" "Canarias" "Diana" "Eolo" "Galicia" "HernÃ¡n CortÃ©s" "Juan de la Cosa" "JÃºpiter" "Legazpi" "Marte" "MartÃ­n Alonso PinzÃ³n" "MÃ©ndez NÃºÃ±ez" "Miguel de Cervantes" "Neptuno" "Pizarro" "Princesa" "PrÃ­ncipe Alfonso" "Reina Victoia Eugenia" "Sarmiento de Gamboa" "TritÃ³n" "Vasco NÃºÃ±ez de Balboa" "Vicente YÃ¡Ã±ez PinzÃ³n" "Villa de Bilbao" "Vulcano" 
+		}
+	}
+
+}

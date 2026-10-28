@@ -1,0 +1,32 @@
+
+state={
+	id=380
+	name="STATE_380"
+
+	history={
+		owner = JAP
+		victory_points = {
+			1182 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			4188 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 
+	}
+	manpower=5172352
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

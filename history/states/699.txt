@@ -1,0 +1,34 @@
+
+state={
+	id=699
+	name="STATE_699"
+	resources={
+		steel=12.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X56
+		victory_points = {
+			12298 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = KAL
+		add_core_of = X56
+	}
+
+	provinces={
+		208 257 286 338 365 380 410 452 497 566 1210 1378 1406 3196 3246 3276 3330 3372 3404 3486 6226 6275 6302 6339 6379 6394 6424 6473 6502 6515 7373 9243 9299 9337 9338 9365 9391 9420 9445 9549 10299 11240 11321 11433 11458 11537 12128 12242 12270 12298 
+	}
+	manpower=881552
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

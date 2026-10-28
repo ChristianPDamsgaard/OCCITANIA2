@@ -1,0 +1,15 @@
+focus_tree = {
+	id = W06_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = W06
+		}
+	}
+	
+	default = no
+	
+}

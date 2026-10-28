@@ -1,0 +1,71 @@
+﻿converted_war_strategies_EQG = {
+	allowed = {
+		tag = EQG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 100
+	}
+}
+
+converted_diplo_strategies_EQG = {
+	allowed = {
+		tag = EQG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "GAB"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X47"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X23"
+		value = 91
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAR"
+		value = 76
+	}
+	ai_strategy = {
+		type = contain
+		id = "TOG"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 77
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPC"
+		value = 2
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "GRE"
+		value = 125
+	}
+}

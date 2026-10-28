@@ -1,0 +1,29 @@
+
+state={
+	id=126
+	name="STATE_126"
+
+	history={
+		owner = X80
+		victory_points = {
+			10973 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X80
+	}
+
+	provinces={
+		5165 8203 10973 
+	}
+	manpower=14496
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

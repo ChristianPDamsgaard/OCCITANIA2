@@ -1,0 +1,33 @@
+
+state={
+	id=367
+	name="STATE_367"
+
+	history={
+		owner = HON
+		victory_points = {
+			2031 40 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 10
+			12823 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = HON
+	}
+
+	provinces={
+		2031 8017 12823 12865 13093 
+	}
+	manpower=4188060
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

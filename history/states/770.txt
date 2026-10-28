@@ -1,0 +1,31 @@
+
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = X64
+		victory_points = {
+			11559 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			11559 = {
+				naval_base = 1
+			}
+
+		}
+	}
+
+	provinces={
+		426 585 3464 6417 11403 11559 
+	}
+	manpower=117928
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	W08_manuel_lonko={
+		name=W08_manuel_lonko
+		portraits={
+			civilian={
+				large="GFX_leader_unknown"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

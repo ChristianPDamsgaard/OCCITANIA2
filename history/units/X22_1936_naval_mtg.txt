@@ -1,0 +1,42 @@
+units = {
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 758
+		task_force = {
+			name = "9th Fleet"
+			location = 758
+			ship = { name = "3rd Málaga Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Wujda Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Coimbra Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Gibraltar Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Gibraltar Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Málaga Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Málaga Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "República" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Rainha D. Amélia" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Almirante Reis" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Light Cruiser" } } }
+			ship = { name = "S. Gabriel" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Light Cruiser" } } }
+			ship = { name = "S. Rafael" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Light Cruiser" } } }
+			ship = { name = "D. Carlos I" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Pedro Nunes" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X22 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X22"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

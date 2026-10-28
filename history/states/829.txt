@@ -1,0 +1,30 @@
+
+state={
+	id=829
+	name="STATE_829"
+
+	history={
+		owner = X76
+		victory_points = {
+			11621 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X76
+		add_claim_by = USA
+	}
+
+	provinces={
+		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
+	}
+	manpower=4082500
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

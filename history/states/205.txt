@@ -1,0 +1,32 @@
+
+state={
+	id=205
+	name="STATE_205"
+
+	history={
+		owner = VIN
+		victory_points = {
+			10062 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10062 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		10062 
+	}
+	manpower=455560
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

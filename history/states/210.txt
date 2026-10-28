@@ -1,0 +1,38 @@
+
+state={
+	id=210
+	name="STATE_210"
+	resources={
+		chromium=1.000
+		rubber=1.000
+		steel=9.000
+		tungsten=22.000
+	}
+
+	history={
+		owner = VIN
+		victory_points = {
+			4165 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			9978 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X21
+	}
+
+	provinces={
+		1078 1120 1162 1202 4050 4165 4207 7067 7108 7128 7141 7182 7210 9938 9970 9978 9997 10121 12014 
+	}
+	manpower=8420644
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

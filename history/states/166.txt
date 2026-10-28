@@ -1,0 +1,31 @@
+
+state={
+	id=166
+	name="STATE_166"
+
+	history={
+		owner = X17
+		victory_points = {
+			12019 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X10
+		add_core_of = X17
+		add_core_of = X21
+	}
+
+	provinces={
+		1083 1099 1125 1171 4105 4173 4203 7035 7104 7222 10017 10044 10064 11937 11994 12019 12061 
+	}
+	manpower=20530208
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

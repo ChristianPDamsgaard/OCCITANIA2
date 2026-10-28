@@ -1,0 +1,32 @@
+
+state={
+	id=499
+	name="STATE_499"
+
+	history={
+		owner = MZB
+		victory_points = {
+			8245 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 6
+			8245 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = MZB
+	}
+
+	provinces={
+		5177 8245 
+	}
+	manpower=499388
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

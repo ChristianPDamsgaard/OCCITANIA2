@@ -1,0 +1,38 @@
+
+state={
+	id=203
+	name="STATE_203"
+	resources={
+		chromium=1.000
+		steel=1.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = VIN
+		victory_points = {
+			11936 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			4397 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		1302 4255 4379 4397 7229 7280 9988 10016 10137 10309 11909 11936 12297 
+	}
+	manpower=2698656
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

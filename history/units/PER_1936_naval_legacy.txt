@@ -1,0 +1,38 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 5005
+		task_force = {
+			name = "2nd Fleet"
+			location = 5005
+			ship = { name = "Laleh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Koh-i Nor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Omid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Fatima" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Nilofer" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Firuz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Jaleh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "PER"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "PER"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

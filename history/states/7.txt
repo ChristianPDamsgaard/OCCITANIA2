@@ -1,0 +1,36 @@
+
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			11000 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 1
+			11000 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		5191 5192 5228 8194 11000 12914 
+	}
+	manpower=1815576
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

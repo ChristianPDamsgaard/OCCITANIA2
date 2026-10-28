@@ -1,0 +1,35 @@
+
+state={
+	id=219
+	name="STATE_219"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = DOM
+		victory_points = {
+			1513 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+			12304 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = DOM
+	}
+
+	provinces={
+		1513 10440 12304 12477 
+	}
+	manpower=1894143
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

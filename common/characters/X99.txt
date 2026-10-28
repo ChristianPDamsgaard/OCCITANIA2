@@ -1,0 +1,16 @@
+characters={
+	X99_aleixo_melendrez={
+		name=X99_aleixo_melendrez
+		portraits={
+			civilian={
+				large="GFX_Cuba_Juan_Blas_Hernandez"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

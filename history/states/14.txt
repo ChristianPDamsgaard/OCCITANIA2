@@ -1,0 +1,32 @@
+
+state={
+	id=14
+	name="STATE_14"
+	resources={
+		aluminium=3.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			13309 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		2136 2158 2179 8195 8253 10964 11022 12928 12978 13309 
+	}
+	manpower=614856
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

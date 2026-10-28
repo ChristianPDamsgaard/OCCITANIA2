@@ -1,0 +1,32 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 1951
+		task_force = {
+			name = "2nd Fleet"
+			location = 1951
+			ship = { name = "Abuja" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TOG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "TOG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "TOG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,131 @@
+﻿converted_war_strategies_NGR = {
+	allowed = {
+		tag = NGR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 431
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X23"
+		value = 284
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X68"
+		value = 145
+	}
+}
+
+converted_diplo_strategies_NGR = {
+	allowed = {
+		tag = NGR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 389
+	}
+	ai_strategy = {
+		type = contain
+		id = "X23"
+		value = 261
+	}
+	ai_strategy = {
+		type = contain
+		id = "X68"
+		value = 204
+	}
+	ai_strategy = {
+		type = contain
+		id = "TOG"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "OCC"
+		value = 75
+	}
+	ai_strategy = {
+		type = contain
+		id = "X67"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X68"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X23"
+		value = 382
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 362
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPC"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X22"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPC"
+		value = 74
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 25
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X67"
+		value = 3
+	}
+	ai_strategy = {
+		type = protect
+		id = "EQG"
+		value = 71
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ZIM"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X23"
+		value = 82
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X68"
+		value = 82
+	}
+}

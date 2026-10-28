@@ -1,0 +1,33 @@
+
+state={
+	id=5
+	name="STATE_5"
+	resources={
+		tungsten=3.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			2174 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ARG
+		add_core_of = PRU
+	}
+
+	provinces={
+		2174 10952 
+	}
+	manpower=626988
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

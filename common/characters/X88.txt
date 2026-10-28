@@ -1,0 +1,16 @@
+characters={
+	X88_antonius_martena={
+		name=X88_antonius_martena
+		portraits={
+			civilian={
+				large="GFX_Britain_Winston_Churchill"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

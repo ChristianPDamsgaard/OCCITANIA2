@@ -1,0 +1,16 @@
+characters={
+	RAJ_chand_mal={
+		name=RAJ_chand_mal
+		portraits={
+			civilian={
+				large="GFX_The_Raj_Political_Leader_Generic_2"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

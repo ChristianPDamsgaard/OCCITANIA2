@@ -1,0 +1,32 @@
+
+state={
+	id=641
+	name="STATE_641"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			3645 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		637 660 818 3630 3636 3639 3645 3663 6652 6658 6667 6695 9617 11588 11605 11657 
+	}
+	manpower=1794212
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

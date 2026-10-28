@@ -1,0 +1,33 @@
+
+state={
+	id=819
+	name="STATE_819"
+	resources={
+		steel=6.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = X75
+		victory_points = {
+			499 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X75
+	}
+
+	provinces={
+		499 3406 3490 3517 3551 6430 6479 6539 6574 6601 9432 9447 9473 9475 9487 9577 11395 11421 11460 11523 11538 
+	}
+	manpower=343760
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

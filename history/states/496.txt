@@ -1,0 +1,33 @@
+
+state={
+	id=496
+	name="STATE_496"
+
+	history={
+		owner = MAL
+		victory_points = {
+			13298 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			13298 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = BRU
+		add_core_of = MAL
+	}
+
+	provinces={
+		13298 
+	}
+	manpower=7708
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

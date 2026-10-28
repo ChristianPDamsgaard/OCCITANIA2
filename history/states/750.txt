@@ -1,0 +1,34 @@
+
+state={
+	id=750
+	name="STATE_750"
+	resources={
+		chromium=3.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X60
+		victory_points = {
+			748 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X56
+		add_claim_by = X60
+	}
+
+	provinces={
+		685 714 731 735 748 775 3717 3720 3748 3779 6692 6718 6721 6733 6736 6738 6750 6753 6796 9649 9674 9688 9691 9694 9696 9705 9707 9709 9722 9726 9742 11633 11661 11664 11678 11681 11690 11693 11694 11696 11727 
+	}
+	manpower=368408
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

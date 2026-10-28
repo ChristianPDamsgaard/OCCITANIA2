@@ -1,0 +1,30 @@
+
+state={
+	id=600
+	name="STATE_600"
+
+	history={
+		owner = PRU
+		victory_points = {
+			13324 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		add_claim_by = BRA
+	}
+
+	provinces={
+		13278 13279 13317 13324 
+	}
+	manpower=287714
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

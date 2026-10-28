@@ -1,0 +1,76 @@
+characters={
+	X53_lorenz_miklas={
+		name=X53_lorenz_miklas
+		portraits={
+			army={
+				large="GFX_portrait_GER_heinz_guderian"
+			}
+			army={
+				small="GFX_portrait_GER_heinz_guderian"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X53_alois_hainisch={
+		name=X53_alois_hainisch
+		portraits={
+			army={
+				large="GFX_portrait_GER_erich_von_manstein"
+			}
+			army={
+				small="GFX_portrait_GER_erich_von_manstein"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X53_viktor_von_dietrich={
+		name=X53_viktor_von_dietrich
+		portraits={
+			army={
+				large="GFX_portrait_GER_paul_hausser"
+			}
+			army={
+				small="GFX_portrait_GER_paul_hausser"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X53_joseph_d'aspre_von_hoobreuk={
+		name=X53_joseph_d'aspre_von_hoobreuk
+		portraits={
+			civilian={
+				large="GFX_GER_heinrich_himmler"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

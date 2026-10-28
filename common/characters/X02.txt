@@ -1,0 +1,76 @@
+characters={
+	X02_liu_wu={
+		name=X02_liu_wu
+		portraits={
+			army={
+				large="GFX_FNG_Wu_Junsheng"
+			}
+			army={
+				small="GFX_FNG_Wu_Junsheng"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X02_ma_ma={
+		name=X02_ma_ma
+		portraits={
+			army={
+				large="GFX_Asia_Generic_land_new_2"
+			}
+			army={
+				small="GFX_Asia_Generic_land_new_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X02_hu_ye={
+		name=X02_hu_ye
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X02_liang_hu={
+		name=X02_liang_hu
+		portraits={
+			civilian={
+				large="GFX_Asia_Generic_warlord1"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = X76
+		victory_points = {
+			3957 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			3957 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X76
+		add_claim_by = USA
+	}
+
+	provinces={
+		3957 11892 
+	}
+	manpower=944512
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=161
+	name="STATE_161"
+
+	history={
+		owner = CMR
+		victory_points = {
+			9137 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CMR
+	}
+
+	provinces={
+		7963 9137 11194 
+	}
+	manpower=631712
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

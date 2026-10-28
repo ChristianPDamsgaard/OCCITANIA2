@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4401
+		task_force = {
+			name = "2nd Fleet"
+			location = 4401
+			ship = { name = "Angkor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAM } } }
+			ship = { name = "Angkor Thom" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAM } } }
+			ship = { name = "Angkor 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAM } } }
+			ship = { name = "Angkor Thom 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAM } } }
+			ship = { name = "Angkor Wat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAM } } }
+			ship = { name = "Bayon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAM } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "CAM"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "CAM"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

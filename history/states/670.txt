@@ -1,0 +1,33 @@
+
+state={
+	id=670
+	name="STATE_670"
+
+	history={
+		owner = SER
+		victory_points = {
+			3614 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 10
+
+		}
+		add_core_of = SER
+		add_core_of = X05
+		SCA = {
+			set_province_controller = 3614
+		}
+	}
+
+	provinces={
+		614 3614 6643 11580 11787 
+	}
+	manpower=757432
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

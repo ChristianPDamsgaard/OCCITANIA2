@@ -1,0 +1,29 @@
+
+state={
+	id=553
+	name="STATE_553"
+
+	history={
+		owner = NGR
+		victory_points = {
+			1975 25 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = NGR
+	}
+
+	provinces={
+		1975 
+	}
+	manpower=219656
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

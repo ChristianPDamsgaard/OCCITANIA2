@@ -1,0 +1,16 @@
+characters={
+	W04_b._vom_u.={
+		name=W04_b._vom_u.
+		portraits={
+			civilian={
+				large="GFX_Austria_Kurt_Schuschnigg"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

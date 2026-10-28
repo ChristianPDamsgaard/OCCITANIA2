@@ -1,0 +1,30 @@
+
+state={
+	id=756
+	name="STATE_756"
+
+	history={
+		owner = X62
+		victory_points = {
+			9616 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X62
+		add_claim_by = USA
+	}
+
+	provinces={
+		1789 7845 9616 9695 10556 10602 10672 12535 12607 
+	}
+	manpower=39540
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

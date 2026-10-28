@@ -1,0 +1,32 @@
+
+state={
+	id=236
+	name="STATE_236"
+
+	history={
+		owner = X20
+		victory_points = {
+			13288 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			13288 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		13287 13288 
+	}
+	manpower=131020
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

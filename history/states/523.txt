@@ -1,0 +1,32 @@
+
+state={
+	id=523
+	name="STATE_523"
+
+	history={
+		owner = HOL
+		victory_points = {
+			8034 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			8034 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		8034 10831 
+	}
+	manpower=2576592
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

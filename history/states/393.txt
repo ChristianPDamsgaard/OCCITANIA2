@@ -1,0 +1,33 @@
+
+state={
+	id=393
+	name="STATE_393"
+
+	history={
+		owner = X31
+		victory_points = {
+			13067 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+			dockyard = 2
+			air_base = 3
+			13067 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X31
+	}
+
+	provinces={
+		13067 
+	}
+	manpower=13
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

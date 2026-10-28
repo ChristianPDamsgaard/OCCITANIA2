@@ -1,0 +1,35 @@
+
+state={
+	id=226
+	name="STATE_226"
+
+	history={
+		owner = X20
+		victory_points = {
+			540 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 7
+			540 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X20
+		add_core_of = X29
+		add_claim_by = CAT
+	}
+
+	provinces={
+		540 3369 3422 3463 6351 6378 6526 9484 9562 11406 
+	}
+	manpower=2423880
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

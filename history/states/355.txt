@@ -1,0 +1,32 @@
+
+state={
+	id=355
+	name="STATE_355"
+
+	history={
+		owner = X26
+		victory_points = {
+			10540 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+			1823 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X26
+	}
+
+	provinces={
+		1823 1839 1863 10540 
+	}
+	manpower=344
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

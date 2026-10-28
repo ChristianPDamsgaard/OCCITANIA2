@@ -1,0 +1,16 @@
+characters={
+	DAH_k._von_k.={
+		name=DAH_k._von_k.
+		portraits={
+			civilian={
+				large="GFX_Germany_Konrad_Adenauer"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

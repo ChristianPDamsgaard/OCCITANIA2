@@ -1,0 +1,15 @@
+focus_tree = {
+	id = W07_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = W07
+		}
+	}
+	
+	default = no
+	
+}

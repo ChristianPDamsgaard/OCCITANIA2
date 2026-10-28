@@ -1,0 +1,33 @@
+
+state={
+	id=793
+	name="STATE_793"
+
+	history={
+		owner = X66
+		victory_points = {
+			4129 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			11921 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = TUN
+		add_claim_by = X66
+	}
+
+	provinces={
+		4129 7162 7180 10026 10091 11921 11969 
+	}
+	manpower=1433304
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

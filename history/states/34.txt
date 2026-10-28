@@ -1,0 +1,36 @@
+
+state={
+	id=34
+	name="STATE_34"
+
+	history={
+		owner = SPC
+		victory_points = {
+			773 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_claim_by = SPC
+		OCC = {
+			set_province_controller = 603
+			set_province_controller = 773
+			set_province_controller = 3776
+			set_province_controller = 11568
+		}
+	}
+
+	provinces={
+		603 773 3776 11568 
+	}
+	manpower=951080
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=840
+	name="STATE_840"
+
+	history={
+		owner = X76
+		victory_points = {
+			6882 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			6882 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = X76
+		add_claim_by = USA
+	}
+
+	provinces={
+		3693 3863 6882 
+	}
+	manpower=1063400
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

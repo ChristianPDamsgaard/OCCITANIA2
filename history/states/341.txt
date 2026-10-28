@@ -1,0 +1,29 @@
+
+state={
+	id=341
+	name="STATE_341"
+
+	history={
+		owner = X23
+		victory_points = {
+			2001 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 7
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		2001 7950 7983 8071 10836 12851 
+	}
+	manpower=1778032
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=323
+	name="STATE_323"
+
+	history={
+		owner = X22
+		victory_points = {
+			7173 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			989 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		989 1111 1152 1989 4022 4097 4154 4933 7116 7173 7908 7958 8046 
+	}
+	manpower=527128
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

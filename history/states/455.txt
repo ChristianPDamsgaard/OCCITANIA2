@@ -1,0 +1,35 @@
+
+state={
+	id=455
+	name="STATE_455"
+	resources={
+		oil=7.000
+	}
+
+	history={
+		owner = X36
+		victory_points = {
+			12721 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			8057 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X36
+	}
+
+	provinces={
+		1945 1952 7973 8057 10738 12721 
+	}
+	manpower=2484592
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

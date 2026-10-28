@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 11834
+		task_force = {
+			name = "1st Fleet"
+			location = 11834
+			ship = { name = "1st Marselha Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "1st Ferrara Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "1st Rome Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "2nd Ferrara Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "3rd Ferrara Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "Inverlyon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "Baralong" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OCC } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = OCC } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "OCC"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "OCC"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

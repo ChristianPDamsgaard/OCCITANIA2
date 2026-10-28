@@ -1,0 +1,34 @@
+
+state={
+	id=513
+	name="STATE_513"
+	resources={
+		rubber=81.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			7344 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7344 = {
+				naval_base = 10
+			}
+
+		}
+	}
+
+	provinces={
+		1213 4219 7260 7344 10201 10229 10287 12258 
+	}
+	manpower=2090716
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

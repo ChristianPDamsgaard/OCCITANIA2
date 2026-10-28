@@ -1,0 +1,40 @@
+
+state={
+	id=495
+	name="STATE_495"
+	resources={
+		rubber=59.000
+		steel=2.000
+		tungsten=21.000
+	}
+
+	history={
+		owner = MAL
+		victory_points = {
+			7427 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 5
+			7427 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = MAL
+		add_core_of = SIA
+		add_core_of = X40
+	}
+
+	provinces={
+		1364 1376 4310 4412 7427 10297 12215 
+	}
+	manpower=284536
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

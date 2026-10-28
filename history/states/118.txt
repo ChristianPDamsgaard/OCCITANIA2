@@ -1,0 +1,21 @@
+
+state={
+	id=118
+	name="STATE_118"
+	impassable = yes
+
+	history={
+		owner = X80
+		add_core_of = BRA
+		add_core_of = X80
+	}
+
+	provinces={
+		2147 
+	}
+	manpower=8632
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

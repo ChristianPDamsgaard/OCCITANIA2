@@ -1,0 +1,16 @@
+characters={
+	W01_aleixo_melendrez={
+		name=W01_aleixo_melendrez
+		portraits={
+			civilian={
+				large="GFX_col_alfonso_lopez_pumarejo"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

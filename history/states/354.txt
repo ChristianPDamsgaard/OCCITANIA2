@@ -1,0 +1,35 @@
+
+state={
+	id=354
+	name="STATE_354"
+	resources={
+		chromium=2.000
+		steel=5.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = HLR
+		victory_points = {
+			3500 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = HLR
+		add_core_of = X58
+	}
+
+	provinces={
+		482 3500 
+	}
+	manpower=530612
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

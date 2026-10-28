@@ -1,0 +1,37 @@
+
+state={
+	id=846
+	name="STATE_846"
+	resources={
+		aluminium=7.000
+		chromium=7.000
+	}
+
+	history={
+		owner = X77
+		victory_points = {
+			12406 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+			7520 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = X77
+	}
+
+	provinces={
+		1537 1667 1861 2114 2146 2163 4453 4478 4500 4658 4673 4763 4836 4864 5134 5161 7471 7520 7533 7649 7859 8234 8249 10388 10427 10455 10682 10977 10991 11019 12377 12406 12435 12532 12560 12934 12968 
+	}
+	manpower=223372
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

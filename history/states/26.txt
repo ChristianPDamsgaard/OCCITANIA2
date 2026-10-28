@@ -1,0 +1,32 @@
+
+state={
+	id=26
+	name="STATE_26"
+
+	history={
+		owner = SPC
+		victory_points = {
+			6196 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			6196 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = SPC
+	}
+
+	provinces={
+		6196 
+	}
+	manpower=23952
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	X84_jacob_wolterbeek={
+		name=X84_jacob_wolterbeek
+		portraits={
+			civilian={
+				large="GFX_Australia_John_Curtin"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

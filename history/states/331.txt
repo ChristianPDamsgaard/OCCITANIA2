@@ -1,0 +1,30 @@
+
+state={
+	id=331
+	name="STATE_331"
+
+	history={
+		owner = KAL
+		victory_points = {
+			11225 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = KAL
+		add_core_of = X56
+	}
+
+	provinces={
+		227 298 339 393 403 3216 3265 3357 3382 3385 6352 6404 9271 11225 11256 11273 11281 11319 11348 11377 
+	}
+	manpower=159584
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

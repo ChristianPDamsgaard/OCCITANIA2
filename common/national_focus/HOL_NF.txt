@@ -1,0 +1,410 @@
+focus_tree = {
+	id = HOL_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = HOL
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropHOL
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 26
+		y = 0
+		cost = 10
+		available = {
+		threat > 0.000100
+	}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterHOL
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropHOL }
+		x = 0
+		y = 1
+		relative_position_id = WarPropHOL
+		cost = 10
+		available = {
+		threat > 0.000150
+	}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimHOL
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterHOL }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterHOL
+		cost = 10
+		available = {
+		threat > 0.000250
+	}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanHOLX38
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanX38
+		prerequisite = { focus = LimHOL }
+		bypass = {
+		has_war_with = X38
+	}
+		x = -2
+		y = 1
+		relative_position_id = LimHOL
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = X38
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoHOLX38
+		icon = GFX_goal_generic_trade
+		text = EmbargoX38
+		prerequisite = { focus =  WarPlanHOLX38 }
+		bypass = {
+		has_war_with = X38
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanHOLX38
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = X38
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		X38 = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARHOLX38
+		icon = GFX_goal_support_democracy
+		text = WARX38
+		prerequisite = { focus =  EmbargoHOLX38 }
+		bypass = {
+		has_war_with = X38
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoHOLX38
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = X38
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = X38
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanHOLOCC
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanOCC
+		prerequisite = { focus = LimHOL }
+		bypass = {
+		has_war_with = OCC
+	}
+		x = 0
+		y = 1
+		relative_position_id = LimHOL
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = OCC
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoHOLOCC
+		icon = GFX_goal_generic_trade
+		text = EmbargoOCC
+		prerequisite = { focus =  WarPlanHOLOCC }
+		bypass = {
+		has_war_with = OCC
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanHOLOCC
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = OCC
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		OCC = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARHOLOCC
+		icon = GFX_goal_support_democracy
+		text = WAROCC
+		prerequisite = { focus =  EmbargoHOLOCC }
+		bypass = {
+		has_war_with = OCC
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoHOLOCC
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = OCC
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = OCC
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanHOLUSA
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanUSA
+		prerequisite = { focus = LimHOL }
+		bypass = {
+		has_war_with = USA
+	}
+		x = 2
+		y = 1
+		relative_position_id = LimHOL
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = USA
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoHOLUSA
+		icon = GFX_goal_generic_trade
+		text = EmbargoUSA
+		prerequisite = { focus =  WarPlanHOLUSA }
+		bypass = {
+		has_war_with = USA
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanHOLUSA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = USA
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		USA = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARHOLUSA
+		icon = GFX_goal_support_democracy
+		text = WARUSA
+		prerequisite = { focus =  EmbargoHOLUSA }
+		bypass = {
+		has_war_with = USA
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoHOLUSA
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = USA
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = USA
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+}

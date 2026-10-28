@@ -1,0 +1,33 @@
+
+state={
+	id=503
+	name="STATE_503"
+
+	history={
+		owner = X41
+		victory_points = {
+			13313 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			13313 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X01
+		add_core_of = X41
+	}
+
+	provinces={
+		13313 
+	}
+	manpower=46480
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

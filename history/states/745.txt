@@ -1,0 +1,33 @@
+
+state={
+	id=745
+	name="STATE_745"
+
+	history={
+		owner = WES
+		victory_points = {
+			7979 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			8038 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = WES
+	}
+
+	provinces={
+		5012 7979 8038 10875 
+	}
+	manpower=97332
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=494
+	name="STATE_494"
+
+	history={
+		owner = MLW
+		victory_points = {
+			12986 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = MLW
+		add_core_of = ZAM
+	}
+
+	provinces={
+		12986 13209 
+	}
+	manpower=125548
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

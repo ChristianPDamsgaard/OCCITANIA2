@@ -1,0 +1,76 @@
+characters={
+	KAL_musa_khusainov={
+		name=KAL_musa_khusainov
+		portraits={
+			army={
+				large="GFX_r56_Turkey_Generic_land_1"
+			}
+			army={
+				small="GFX_r56_Turkey_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KAL_makhmut_gizzat={
+		name=KAL_makhmut_gizzat
+		portraits={
+			army={
+				large="GFX_OTT_Osman_Fuad_Hussar"
+			}
+			army={
+				small="GFX_OTT_Osman_Fuad_Hussar"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KAL_musa_yanbayev={
+		name=KAL_musa_yanbayev
+		portraits={
+			army={
+				large="GFX_Ottoman_OmerFaruk"
+			}
+			army={
+				small="GFX_Ottoman_OmerFaruk"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	KAL_asaf_yanbayev={
+		name=KAL_asaf_yanbayev
+		portraits={
+			civilian={
+				large="GFX_Arabia_Generic_3"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

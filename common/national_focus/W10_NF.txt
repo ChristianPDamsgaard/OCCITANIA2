@@ -1,0 +1,15 @@
+focus_tree = {
+	id = W10_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = W10
+		}
+	}
+	
+	default = no
+	
+}

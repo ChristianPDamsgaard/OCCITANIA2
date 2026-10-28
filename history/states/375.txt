@@ -1,0 +1,36 @@
+
+state={
+	id=375
+	name="STATE_375"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			855 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			855 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = JAP
+		add_claim_by = X56
+	}
+
+	provinces={
+		855 1322 1742 1755 1820 12446 
+	}
+	manpower=801148
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

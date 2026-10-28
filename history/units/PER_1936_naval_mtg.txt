@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 5005
+		task_force = {
+			name = "2nd Fleet"
+			location = 5005
+			ship = { name = "Laleh" definition = destroyer start_experience_factor = 0.27474 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Early Destroyer" } } }
+			ship = { name = "Koh-i Nor" definition = destroyer start_experience_factor = 0.2988 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Early Destroyer" } } }
+			ship = { name = "Omid" definition = destroyer start_experience_factor = 0.24603 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Early Destroyer" } } }
+			ship = { name = "Fatima" definition = destroyer start_experience_factor = 0.24677 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Early Destroyer" } } }
+			ship = { name = "Nilofer" definition = destroyer start_experience_factor = 0.24975 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Early Destroyer" } } }
+			ship = { name = "Firuz" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Early Destroyer" } } }
+			ship = { name = "Jaleh" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "PER"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

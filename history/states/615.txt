@@ -1,0 +1,33 @@
+
+state={
+	id=615
+	name="STATE_615"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = ZIM
+		victory_points = {
+			10929 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 3
+			air_base = 10
+
+		}
+		add_core_of = X78
+		add_core_of = ZIM
+	}
+
+	provinces={
+		1874 2151 2216 4851 7842 10929 
+	}
+	manpower=645720
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

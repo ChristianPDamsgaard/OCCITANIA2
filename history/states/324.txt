@@ -1,0 +1,35 @@
+
+state={
+	id=324
+	name="STATE_324"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = X22
+		victory_points = {
+			7215 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			9945 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+	manpower=605012
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

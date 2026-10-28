@@ -1,0 +1,76 @@
+characters={
+	X00_hasan_ibn_abd_al_qadir={
+		name=X00_hasan_ibn_abd_al_qadir
+		portraits={
+			army={
+				large="GFX_JOR_Jafar_Askari"
+			}
+			army={
+				small="GFX_JOR_Jafar_Askari"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=5
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X00_fuad_ibm_kamil={
+		name=X00_fuad_ibm_kamil
+		portraits={
+			army={
+				large="GFX_Portrait_Arabia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Arabia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X00_sa'd_al_din_ibn_hasan={
+		name=X00_sa'd_al_din_ibn_hasan
+		portraits={
+			army={
+				large="GFX_SYR_Sami_Al_Hinawi"
+			}
+			army={
+				small="GFX_SYR_Sami_Al_Hinawi"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X00_king_'al0_ii={
+		name=X00_king_'al0_ii
+		portraits={
+			civilian={
+				large="GFX_oma_said_bin_taimur"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

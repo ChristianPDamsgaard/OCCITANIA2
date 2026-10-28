@@ -1,0 +1,61 @@
+﻿converted_war_strategies_X47 = {
+	allowed = {
+		tag = X47
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SPC"
+		value = 2106
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X20"
+		value = 1014
+	}
+}
+
+converted_diplo_strategies_X47 = {
+	allowed = {
+		tag = X47
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "EQG"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X23"
+		value = 47
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPC"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 267
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TAH"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X52"
+		value = 65
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=311
+	name="STATE_311"
+
+	history={
+		owner = X22
+		victory_points = {
+			13052 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			13052 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X22
+	}
+
+	provinces={
+		13052 
+	}
+	manpower=53744
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

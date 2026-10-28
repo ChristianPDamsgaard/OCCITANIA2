@@ -1,0 +1,33 @@
+
+state={
+	id=604
+	name="STATE_604"
+
+	history={
+		owner = X45
+		victory_points = {
+			10382 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 5
+			1460 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = MAL
+		add_core_of = X45
+	}
+
+	provinces={
+		1460 1533 7368 10194 10354 10382 12415 
+	}
+	manpower=130460
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=429
+	name="STATE_429"
+
+	history={
+		owner = LIT
+		victory_points = {
+			9120 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			104 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = LIT
+	}
+
+	provinces={
+		95 104 126 415 3053 3120 3310 3333 6242 6324 9120 9254 9353 9408 11097 11202 11259 11392 
+	}
+	manpower=501292
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

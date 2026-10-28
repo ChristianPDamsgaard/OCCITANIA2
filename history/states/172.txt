@@ -1,0 +1,29 @@
+
+state={
+	id=172
+	name="STATE_172"
+
+	history={
+		owner = X17
+		victory_points = {
+			10474 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X17
+	}
+
+	provinces={
+		1612 4009 4130 5030 7019 7596 7609 7625 8072 9934 10474 10757 12086 12414 
+	}
+	manpower=15676044
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		aluminium=29.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			663 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_claim_by = HLR
+	}
+
+	provinces={
+		636 658 661 663 3641 3660 3662 9600 11601 11604 11623 
+	}
+	manpower=958220
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

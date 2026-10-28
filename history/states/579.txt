@@ -1,0 +1,29 @@
+
+state={
+	id=579
+	name="STATE_579"
+
+	history={
+		owner = X43
+		victory_points = {
+			12812 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X43
+	}
+
+	provinces={
+		4995 8036 10775 12757 12812 13248 13253 
+	}
+	manpower=953404
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

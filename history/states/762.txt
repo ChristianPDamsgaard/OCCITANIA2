@@ -1,0 +1,33 @@
+
+state={
+	id=762
+	name="STATE_762"
+
+	history={
+		owner = X64
+		victory_points = {
+			10472 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			3653 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X64
+	}
+
+	provinces={
+		789 3653 7454 10403 10472 11753 
+	}
+	manpower=639608
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

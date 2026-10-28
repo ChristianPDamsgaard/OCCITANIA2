@@ -1,0 +1,396 @@
+﻿capital = 408
+set_research_slots = 3
+
+oob = "LIB_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "LIB_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "LIB_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		aa_lmg = 1
+		early_bombs = 1
+		engines_1 = 1
+		iw_large_airframe = 1
+		iw_medium_airframe = 1
+		iw_small_airframe = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "By Blood Alone" } }
+	set_technology = {
+		early_bomber = 1
+		early_fighter = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_western_africa
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1926.5.2"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 48
+	democratic = 40
+	fascism = 6
+	neutrality = 6
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = X22_research
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_20 }
+add_opinion_modifier = { target = BOS modifier = positive_20 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_30 }
+add_opinion_modifier = { target = CAM modifier = negative_30 }
+add_opinion_modifier = { target = CAT modifier = positive_5 }
+add_opinion_modifier = { target = DOM modifier = positive_5 }
+add_opinion_modifier = { target = GHA modifier = positive_15 }
+add_opinion_modifier = { target = GRE modifier = positive_5 }
+add_opinion_modifier = { target = GXC modifier = negative_30 }
+add_opinion_modifier = { target = HES modifier = positive_20 }
+add_opinion_modifier = { target = HOL modifier = positive_30 }
+add_opinion_modifier = { target = HON modifier = positive_5 }
+add_opinion_modifier = { target = ITA modifier = positive_30 }
+add_opinion_modifier = { target = KAL modifier = negative_30 }
+add_opinion_modifier = { target = KOR modifier = negative_30 }
+add_opinion_modifier = { target = LUX modifier = positive_5 }
+add_opinion_modifier = { target = OCC modifier = positive_5 }
+add_opinion_modifier = { target = PER modifier = negative_30 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SCA modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = positive_20 }
+add_opinion_modifier = { target = SIA modifier = negative_30 }
+add_opinion_modifier = { target = SLV modifier = positive_5 }
+add_opinion_modifier = { target = SPC modifier = positive_105 }
+add_opinion_modifier = { target = USA modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = positive_5 }
+add_opinion_modifier = { target = VIN modifier = negative_30 }
+add_opinion_modifier = { target = X00 modifier = negative_30 }
+add_opinion_modifier = { target = X01 modifier = negative_30 }
+add_opinion_modifier = { target = X03 modifier = positive_30 }
+add_opinion_modifier = { target = X04 modifier = negative_30 }
+add_opinion_modifier = { target = X06 modifier = negative_30 }
+add_opinion_modifier = { target = X09 modifier = negative_10 }
+add_opinion_modifier = { target = X10 modifier = negative_30 }
+add_opinion_modifier = { target = X11 modifier = negative_30 }
+add_opinion_modifier = { target = X12 modifier = positive_5 }
+add_opinion_modifier = { target = X13 modifier = negative_30 }
+add_opinion_modifier = { target = X14 modifier = negative_30 }
+add_opinion_modifier = { target = X17 modifier = negative_30 }
+add_opinion_modifier = { target = X19 modifier = positive_5 }
+add_opinion_modifier = { target = X22 modifier = positive_200 }
+give_military_access = X22
+add_opinion_modifier = { target = X23 modifier = negative_30 }
+add_opinion_modifier = { target = X25 modifier = negative_30 }
+add_opinion_modifier = { target = X26 modifier = negative_30 }
+add_opinion_modifier = { target = X27 modifier = negative_30 }
+add_opinion_modifier = { target = X28 modifier = negative_20 }
+add_opinion_modifier = { target = X30 modifier = negative_15 }
+add_opinion_modifier = { target = X31 modifier = negative_30 }
+add_opinion_modifier = { target = X34 modifier = negative_30 }
+add_opinion_modifier = { target = X36 modifier = positive_5 }
+add_opinion_modifier = { target = X38 modifier = negative_30 }
+add_opinion_modifier = { target = X39 modifier = negative_30 }
+add_opinion_modifier = { target = X40 modifier = negative_30 }
+add_opinion_modifier = { target = X41 modifier = negative_30 }
+add_opinion_modifier = { target = X42 modifier = positive_5 }
+add_opinion_modifier = { target = X43 modifier = negative_30 }
+add_opinion_modifier = { target = X44 modifier = negative_30 }
+add_opinion_modifier = { target = X45 modifier = negative_30 }
+add_opinion_modifier = { target = X48 modifier = positive_20 }
+add_opinion_modifier = { target = X49 modifier = positive_5 }
+add_opinion_modifier = { target = X50 modifier = negative_30 }
+add_opinion_modifier = { target = X51 modifier = negative_30 }
+add_opinion_modifier = { target = X52 modifier = negative_30 }
+add_opinion_modifier = { target = X54 modifier = negative_30 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X57 modifier = positive_5 }
+add_opinion_modifier = { target = X60 modifier = negative_20 }
+add_opinion_modifier = { target = X61 modifier = negative_30 }
+add_opinion_modifier = { target = X62 modifier = negative_30 }
+add_opinion_modifier = { target = X65 modifier = positive_5 }
+add_opinion_modifier = { target = X67 modifier = positive_105 }
+add_opinion_modifier = { target = X68 modifier = negative_30 }
+add_opinion_modifier = { target = X73 modifier = positive_30 }
+add_opinion_modifier = { target = X76 modifier = positive_20 }
+add_opinion_modifier = { target = X77 modifier = positive_5 }
+add_opinion_modifier = { target = ZIM modifier = negative_200 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_kru
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = LIB_yenseloh_kanta
+recruit_character = LIB_togba_bombali
+recruit_character = LIB_odeleia_gbanka
+recruit_character = LIB_yenseloh_kindo
+recruit_character = LIB_odeleia_kanta
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Dechontee Kanta"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LIB }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = LIB_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = LIB_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = LIB_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	create_equipment_variant = {
+		name = "Interwar CAS"
+		type = small_plane_cas_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier CAS"
+		type = cv_small_plane_cas_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier Fighter"
+		type = cv_small_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier Naval Bomber"
+		type = cv_small_plane_naval_bomber_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Fighter"
+		type = small_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Naval Bomber"
+		type = small_plane_naval_bomber_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Strategic Bomber"
+		type = large_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Tactical Bomber"
+		type = medium_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = lmg_defense_turret
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = LIB }
+

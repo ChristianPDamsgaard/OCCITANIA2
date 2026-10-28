@@ -1,0 +1,36 @@
+
+state={
+	id=718
+	name="STATE_718"
+	resources={
+		aluminium=2.000
+		steel=1.000
+	}
+
+	history={
+		owner = URG
+		victory_points = {
+			12954 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			5201 = {
+				naval_base = 4
+			}
+
+		}
+	}
+
+	provinces={
+		2161 5118 5159 5169 5201 5209 5215 8198 8218 10961 12954 13295 13297 13300 
+	}
+	manpower=1105976
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

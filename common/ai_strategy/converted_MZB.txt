@@ -1,0 +1,111 @@
+﻿converted_war_strategies_MZB = {
+	allowed = {
+		tag = MZB
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 366
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X22"
+		value = 178
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SAF"
+		value = 162
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ZIM"
+		value = 110
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MLW"
+		value = 43
+	}
+}
+
+converted_diplo_strategies_MZB = {
+	allowed = {
+		tag = MZB
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "MLW"
+		value = 327
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 265
+	}
+	ai_strategy = {
+		type = contain
+		id = "SAF"
+		value = 260
+	}
+	ai_strategy = {
+		type = contain
+		id = "ZIM"
+		value = 183
+	}
+	ai_strategy = {
+		type = contain
+		id = "X22"
+		value = 108
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 248
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ZIM"
+		value = 233
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 217
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 5
+	}
+	ai_strategy = {
+		type = protect
+		id = "MLW"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "ZIM"
+		value = 140
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X43"
+		value = 42
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X60"
+		value = 33
+	}
+}

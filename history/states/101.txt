@@ -1,0 +1,33 @@
+
+state={
+	id=101
+	name="STATE_101"
+
+	history={
+		owner = CAM
+		victory_points = {
+			4341 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 3
+			4401 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = CAM
+	}
+
+	provinces={
+		1285 1396 1423 4223 4284 4341 4401 7238 7271 7303 7331 7347 10232 10261 12133 12176 12204 12232 
+	}
+	manpower=1189132
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

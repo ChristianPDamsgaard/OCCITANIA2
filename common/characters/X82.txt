@@ -1,0 +1,16 @@
+characters={
+	X82_andres_milans_del_bosch={
+		name=X82_andres_milans_del_bosch
+		portraits={
+			civilian={
+				large="GFX_Bolivia_Enrique_Castillo"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

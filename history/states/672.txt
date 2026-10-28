@@ -1,0 +1,32 @@
+
+state={
+	id=672
+	name="STATE_672"
+
+	history={
+		owner = SER
+		victory_points = {
+			3939 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SER
+		SCA = {
+			set_province_controller = 3939
+		}
+	}
+
+	provinces={
+		3939 
+	}
+	manpower=162292
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

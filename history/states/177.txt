@@ -1,0 +1,29 @@
+
+state={
+	id=177
+	name="STATE_177"
+
+	history={
+		owner = X17
+		victory_points = {
+			12062 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X17
+	}
+
+	provinces={
+		1169 1188 4010 4037 4058 7092 7129 10043 10072 11933 12015 12062 12069 
+	}
+	manpower=10216304
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

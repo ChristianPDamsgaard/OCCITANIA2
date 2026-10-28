@@ -1,0 +1,33 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+		owner = AST
+		victory_points = {
+			4286 25 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			air_base = 7
+			4286 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = AST
+	}
+
+	provinces={
+		4286 7302 12159 
+	}
+	manpower=108752
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

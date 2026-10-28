@@ -1,0 +1,16 @@
+characters={
+	X81_andres_milans_del_bosch={
+		name=X81_andres_milans_del_bosch
+		portraits={
+			civilian={
+				large="GFX_nic_anastasio_somoza_garcia"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

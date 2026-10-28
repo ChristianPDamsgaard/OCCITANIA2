@@ -1,0 +1,49 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "1st Fleet"
+			location = 12589
+			ship = { name = "1st Durban Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Durban Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Durban Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Durban Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Durban Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Port Elizabeth Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "6th Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "7th Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Lion" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Durban Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Port Elizabeth Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "South Africa" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Good Hope" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cape Town" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cecil Rhodes" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cheetah" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Leander Jameson" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Vildebeest" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Leopard" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Jackal" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+			ship = { name = "Mongoose" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SAF"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

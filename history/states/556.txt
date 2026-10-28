@@ -1,0 +1,36 @@
+
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		steel=13.000
+	}
+
+	history={
+		owner = NZL
+		victory_points = {
+			1814 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			4543 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = NZL
+	}
+
+	provinces={
+		1565 1713 1746 1786 1801 1814 4543 4615 4718 4748 4804 7692 7742 7783 7826 7887 10334 10373 10609 10710 12362 12604 12617 12664 
+	}
+	manpower=65800
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

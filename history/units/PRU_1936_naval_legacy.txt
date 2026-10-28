@@ -1,0 +1,54 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 12997
+		task_force = {
+			name = "4th Fleet"
+			location = 12997
+			ship = { name = "Almirante Guise" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Chorrillos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Chanchamayo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Arno" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Coronel Portillo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "América" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "5th Piura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "5th Ica Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "6th Piura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "6th Ica Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "7th Piura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Pilcomayo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Cuzco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Teniente Rodríguez" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "1st Ica Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "1st Piura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "2nd Ica Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "2nd Piura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "3rd Piura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "4th Ica Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "4th Piura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "Almirante Villar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+			ship = { name = "3rd Ica Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRU } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "PRU"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "PRU"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

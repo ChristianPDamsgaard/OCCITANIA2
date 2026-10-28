@@ -1,0 +1,32 @@
+
+state={
+	id=598
+	name="STATE_598"
+
+	history={
+		owner = PRU
+		victory_points = {
+			2182 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		ARG = {
+			set_province_controller = 2182
+		}
+	}
+
+	provinces={
+		2182 2210 13286 
+	}
+	manpower=273744
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

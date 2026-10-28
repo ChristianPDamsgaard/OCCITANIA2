@@ -1,0 +1,76 @@
+characters={
+	LUX_fnu_lnu={
+		name=LUX_fnu_lnu
+		portraits={
+			army={
+				large="GFX_Germany_Wolfram_Freiherr_von_Richthofen"
+			}
+			army={
+				small="GFX_Germany_Wolfram_Freiherr_von_Richthofen"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LUX_fnu_lnu_1={
+		name=LUX_fnu_lnu_1
+		portraits={
+			army={
+				large="GFX_portrait_GER_paul_hausser"
+			}
+			army={
+				small="GFX_portrait_GER_paul_hausser"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	LUX_fnu_lnu_2={
+		name=LUX_fnu_lnu_2
+		portraits={
+			army={
+				large="GFX_portrait_GER_hermann_hoth"
+			}
+			army={
+				small="GFX_portrait_GER_hermann_hoth"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LUX_m._von_der_u.={
+		name=LUX_m._von_der_u.
+		portraits={
+			civilian={
+				large="GFX_Germany_Wilhelm_V"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

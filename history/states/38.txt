@@ -1,0 +1,49 @@
+
+state={
+	id=38
+	name="STATE_38"
+
+	history={
+		owner = SPC
+		victory_points = {
+			819 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			955 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = SPC
+		OCC = {
+			set_province_controller = 819
+			set_province_controller = 851
+			set_province_controller = 923
+			set_province_controller = 955
+			set_province_controller = 3901
+			set_province_controller = 3958
+			set_province_controller = 3968
+			set_province_controller = 6972
+			set_province_controller = 9826
+			set_province_controller = 9856
+			set_province_controller = 9990
+			set_province_controller = 10027
+			set_province_controller = 12066
+			set_province_controller = 12098
+		}
+	}
+
+	provinces={
+		819 851 923 955 3901 3958 3968 6972 9826 9856 9990 10027 12066 12098 
+	}
+	manpower=2529240
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = HON
+		victory_points = {
+			7921 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			10895 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = HON
+		add_claim_by = X36
+	}
+
+	provinces={
+		4946 7921 8003 10853 10871 10895 
+	}
+	manpower=2639564
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

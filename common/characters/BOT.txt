@@ -1,0 +1,16 @@
+characters={
+	BOT_c._zu_r.={
+		name=BOT_c._zu_r.
+		portraits={
+			civilian={
+				large="GFX_europe_generic_5"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

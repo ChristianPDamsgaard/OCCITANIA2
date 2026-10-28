@@ -1,0 +1,16 @@
+characters={
+	X83_andres_milans_del_bosch={
+		name=X83_andres_milans_del_bosch
+		portraits={
+			civilian={
+				large="GFX_Chile_Carlos_Labarca"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

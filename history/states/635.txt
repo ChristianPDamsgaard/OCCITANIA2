@@ -1,0 +1,33 @@
+
+state={
+	id=635
+	name="STATE_635"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			3569 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SCA
+		add_claim_by = HLR
+	}
+
+	provinces={
+		421 557 569 3414 3553 3569 3583 6485 6562 6576 6590 9551 9567 11511 
+	}
+	manpower=3805268
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

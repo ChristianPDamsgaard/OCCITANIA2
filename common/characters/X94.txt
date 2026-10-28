@@ -1,0 +1,16 @@
+characters={
+	X94_bartolomeu_da={
+		name=X94_bartolomeu_da
+		portraits={
+			civilian={
+				large="GFX_hon_tiburcio_carias_andino"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=222
+	name="STATE_222"
+
+	history={
+		owner = DOM
+		victory_points = {
+			177 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+			11106 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = DOM
+	}
+
+	provinces={
+		177 379 7123 11106 11350 13009 
+	}
+	manpower=2435184
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

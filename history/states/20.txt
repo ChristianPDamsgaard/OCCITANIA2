@@ -1,0 +1,33 @@
+
+state={
+	id=20
+	name="STATE_20"
+
+	history={
+		owner = ARG
+		victory_points = {
+			12952 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			12952 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = URG
+		add_claim_by = ARG
+	}
+
+	provinces={
+		2169 12952 
+	}
+	manpower=477730
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

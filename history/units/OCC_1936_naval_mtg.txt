@@ -1,0 +1,32 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 11834
+		task_force = {
+			name = "1st Fleet"
+			location = 11834
+			ship = { name = "1st Marselha Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OCC version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Ferrara Battleship" definition = heavy_cruiser start_experience_factor = 0.13636 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OCC version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Rome Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OCC version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Ferrara Battleship" definition = heavy_cruiser start_experience_factor = 0.13636 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OCC version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Ferrara Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OCC version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Inverlyon" definition = destroyer start_experience_factor = 0.08465 equipment = { ship_hull_light_1 = { amount = 1 owner = OCC version_name = "Early Destroyer" } } }
+			ship = { name = "Baralong" definition = destroyer start_experience_factor = 0.08465 equipment = { ship_hull_light_1 = { amount = 1 owner = OCC version_name = "Early Destroyer" } } }
+			ship = { name = "Shannon" definition = light_cruiser start_experience_factor = 0.13636 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OCC version_name = "Early Light Cruiser" } } }
+			ship = { name = "Nelson" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OCC version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "OCC"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

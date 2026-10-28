@@ -1,0 +1,16 @@
+characters={
+	TAJ_mozzafer_ed_din_abdulov={
+		name=TAJ_mozzafer_ed_din_abdulov
+		portraits={
+			civilian={
+				large="GFX_kur_seyid_riza"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

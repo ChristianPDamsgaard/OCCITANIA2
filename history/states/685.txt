@@ -1,0 +1,34 @@
+
+state={
+	id=685
+	name="STATE_685"
+	resources={
+		steel=6.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = X48
+		victory_points = {
+			9665 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = HLR
+		add_core_of = X48
+	}
+
+	provinces={
+		732 3684 3703 6708 9665 
+	}
+	manpower=1234852
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

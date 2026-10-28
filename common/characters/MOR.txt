@@ -1,0 +1,36 @@
+characters={
+	MOR_fnu_lnu={
+		name=MOR_fnu_lnu
+		portraits={
+			army={
+				large="GFX_EGY_Ahmed_Mwawi"
+			}
+			army={
+				small="GFX_EGY_Ahmed_Mwawi"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MOR_hisham_al_sirti={
+		name=MOR_hisham_al_sirti
+		portraits={
+			civilian={
+				large="GFX_Arabia_Generic_democratic1"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

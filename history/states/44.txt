@@ -1,0 +1,30 @@
+
+state={
+	id=44
+	name="STATE_44"
+
+	history={
+		owner = SPC
+		victory_points = {
+			9849 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = SPC
+		add_claim_by = SER
+	}
+
+	provinces={
+		6940 6953 6970 9849 9874 9890 9906 11857 11868 11887 
+	}
+	manpower=1097232
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

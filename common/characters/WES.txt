@@ -1,0 +1,76 @@
+characters={
+	WES_fnu_lnu={
+		name=WES_fnu_lnu
+		portraits={
+			army={
+				large="GFX_Mexico_Don_Fernando"
+			}
+			army={
+				small="GFX_Mexico_Don_Fernando"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	WES_fnu_lnu_1={
+		name=WES_fnu_lnu_1
+		portraits={
+			army={
+				large="GFX_Portrait_South_America_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_South_America_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	WES_fnu_lnu_2={
+		name=WES_fnu_lnu_2
+		portraits={
+			navy={
+				large="GFX_Portrait_South_America_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_South_America_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	WES_pau_domenech={
+		name=WES_pau_domenech
+		portraits={
+			civilian={
+				large="GFX_Argentina_Agustin_Pedro_Justo"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

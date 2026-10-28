@@ -1,0 +1,33 @@
+
+state={
+	id=550
+	name="STATE_550"
+	resources={
+		steel=37.000
+	}
+
+	history={
+		owner = X42
+		victory_points = {
+			1734 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X42
+		add_claim_by = USA
+	}
+
+	provinces={
+		1719 1734 6767 6827 7896 12550 12588 12693 
+	}
+	manpower=21660
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

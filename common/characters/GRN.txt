@@ -1,0 +1,56 @@
+characters={
+	GRN_taliriktug_piugattuk={
+		name=GRN_taliriktug_piugattuk
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	GRN_atuqtuaq_ipeelee={
+		name=GRN_atuqtuaq_ipeelee
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	GRN_aqillutaq_kunuk={
+		name=GRN_aqillutaq_kunuk
+		portraits={
+			civilian={
+				large="GFX_Ainu_Ukaji_Takashi"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

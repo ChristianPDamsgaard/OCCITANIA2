@@ -1,0 +1,16 @@
+characters={
+	W09_kerioukeiou_praje={
+		name=W09_kerioukeiou_praje
+		portraits={
+			civilian={
+				large="GFX_leader_unknown"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

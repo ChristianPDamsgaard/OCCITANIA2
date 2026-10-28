@@ -1,0 +1,76 @@
+characters={
+	MZB_fambaltate_mwanawalifa={
+		name=MZB_fambaltate_mwanawalifa
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_7"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_7"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MZB_ebabruma_mbano={
+		name=MZB_ebabruma_mbano
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_2"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MZB_ulanga_amari={
+		name=MZB_ulanga_amari
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+
+	MZB_kinjalla_hanga={
+		name=MZB_kinjalla_hanga
+		portraits={
+			civilian={
+				large="GFX_Kongo_Pedro_VII_Afonso"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

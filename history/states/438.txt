@@ -1,0 +1,35 @@
+
+state={
+	id=438
+	name="STATE_438"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			3312 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = LIT
+		add_core_of = X07
+		add_claim_by = HLR
+		add_claim_by = SCA
+	}
+
+	provinces={
+		444 537 3207 3312 3473 3572 6236 9387 11478 
+	}
+	manpower=606896
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=863
+	name="STATE_863"
+
+	history={
+		owner = W08
+		victory_points = {
+			5173 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			5173 = {
+				naval_base = 0
+			}
+
+		}
+		add_core_of = W08
+	}
+
+	provinces={
+		5173 11009 12946 13299 
+	}
+	manpower=8000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

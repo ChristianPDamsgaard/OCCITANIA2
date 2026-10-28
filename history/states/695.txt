@@ -1,0 +1,35 @@
+
+state={
+	id=695
+	name="STATE_695"
+	resources={
+		aluminium=13.000
+	}
+
+	history={
+		owner = X53
+		victory_points = {
+			9630 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = AUS
+		add_core_of = HLR
+		add_core_of = X53
+		add_claim_by = ITA
+	}
+
+	provinces={
+		656 6675 9630 11615 
+	}
+	manpower=239044
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

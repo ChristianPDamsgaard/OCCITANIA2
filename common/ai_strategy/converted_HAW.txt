@@ -1,0 +1,61 @@
+﻿converted_war_strategies_HAW = {
+	allowed = {
+		tag = HAW
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "X20"
+		value = 100
+	}
+}
+
+converted_diplo_strategies_HAW = {
+	allowed = {
+		tag = HAW
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 38
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 4
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 1
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X53"
+		value = 94
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X35"
+		value = 68
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X25"
+		value = 49
+	}
+}

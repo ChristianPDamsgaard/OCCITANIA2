@@ -1,0 +1,24 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 11597
+		task_force = {
+			name = "1st Fleet"
+			location = 11597
+			ship = { name = "4th Silistre Commerce Raider" definition = destroyer start_experience_factor = 0.19801 equipment = { ship_hull_light_1 = { amount = 1 owner = X24 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X24"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=92
+	name="STATE_92"
+	resources={
+		aluminium=11.000
+		chromium=3.000
+		steel=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			10980 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 6
+			10980 = {
+				naval_base = 4
+				landmark_cristo_redentor = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		2153 5172 8190 8196 10980 10999 12996 
+	}
+	manpower=3886472
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

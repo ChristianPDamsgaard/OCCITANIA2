@@ -1,0 +1,56 @@
+characters={
+	UGA_namugala_njovu={
+		name=UGA_namugala_njovu
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_3"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UGA_fnu_lnu={
+		name=UGA_fnu_lnu
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+
+	UGA_mutesa_ngabi={
+		name=UGA_mutesa_ngabi
+		portraits={
+			civilian={
+				large="GFX_LIB_Momolu_Massaquoi"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

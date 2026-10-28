@@ -1,0 +1,33 @@
+
+state={
+	id=141
+	name="STATE_141"
+
+	history={
+		owner = X11
+		victory_points = {
+			12118 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			10302 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = PHI
+		add_core_of = X11
+	}
+
+	provinces={
+		1261 1368 7385 7423 10186 10302 12112 12118 12153 
+	}
+	manpower=355500
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

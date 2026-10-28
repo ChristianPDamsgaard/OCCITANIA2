@@ -1,0 +1,37 @@
+
+state={
+	id=746
+	name="STATE_746"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = X60
+		victory_points = {
+			3893 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			11829 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X30
+		add_core_of = X60
+	}
+
+	provinces={
+		3893 11829 11842 
+	}
+	manpower=368992
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

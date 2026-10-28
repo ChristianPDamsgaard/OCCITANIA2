@@ -1,0 +1,33 @@
+
+state={
+	id=345
+	name="STATE_345"
+
+	history={
+		owner = GXC
+		victory_points = {
+			1001 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			4031 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = GXC
+	}
+
+	provinces={
+		1001 1121 1161 4005 4031 4082 4123 7142 12067 
+	}
+	manpower=6501249
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

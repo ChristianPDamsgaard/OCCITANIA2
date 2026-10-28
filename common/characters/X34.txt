@@ -1,0 +1,76 @@
+characters={
+	X34_ala'_ad_din_anak_sayf_ad_din={
+		name=X34_ala'_ad_din_anak_sayf_ad_din
+		portraits={
+			army={
+				large="GFX_Philippines_Carlos_P_Romulo"
+			}
+			army={
+				small="GFX_Philippines_Carlos_P_Romulo"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X34_ahmad_anak_bulkiah={
+		name=X34_ahmad_anak_bulkiah
+		portraits={
+			army={
+				large="GFX_Indonesia_Rachmat"
+			}
+			army={
+				small="GFX_Indonesia_Rachmat"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X34_muhammad_taj_ad_din_anak_'abd_al_jalil={
+		name=X34_muhammad_taj_ad_din_anak_'abd_al_jalil
+		portraits={
+			army={
+				large="GFX_Philippines_Paulino_Santos"
+			}
+			army={
+				small="GFX_Philippines_Paulino_Santos"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X34_sayf_ad_din_anak_muhammad_jamal_ad_din={
+		name=X34_sayf_ad_din_anak_muhammad_jamal_ad_din
+		portraits={
+			civilian={
+				large="GFX_r56_generic_politician_asia_1_fascism"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

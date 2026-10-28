@@ -1,0 +1,161 @@
+﻿converted_war_strategies_SLV = {
+	allowed = {
+		tag = SLV
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SPC"
+		value = 876
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X49"
+		value = 614
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BOS"
+		value = 584
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SER"
+		value = 438
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 256
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 219
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X71"
+		value = 33
+	}
+}
+
+converted_diplo_strategies_SLV = {
+	allowed = {
+		tag = SLV
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "X49"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 343
+	}
+	ai_strategy = {
+		type = contain
+		id = "OCC"
+		value = 281
+	}
+	ai_strategy = {
+		type = contain
+		id = "X71"
+		value = 224
+	}
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 96
+	}
+	ai_strategy = {
+		type = contain
+		id = "HES"
+		value = 96
+	}
+	ai_strategy = {
+		type = contain
+		id = "HLR"
+		value = 96
+	}
+	ai_strategy = {
+		type = contain
+		id = "X53"
+		value = 96
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X49"
+		value = 338
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPC"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X71"
+		value = 259
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 214
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BOS"
+		value = 195
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SER"
+		value = 146
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 73
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPC"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 97
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X48"
+		value = 74
+	}
+	ai_strategy = {
+		type = alliance
+		id = "OCC"
+		value = 67
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X71"
+		value = 94
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X53"
+		value = 49
+	}
+}

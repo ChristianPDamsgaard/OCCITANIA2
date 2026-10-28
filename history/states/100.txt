@@ -1,0 +1,29 @@
+
+state={
+	id=100
+	name="STATE_100"
+
+	history={
+		owner = CAM
+		victory_points = {
+			7376 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = CAM
+	}
+
+	provinces={
+		1324 1620 4251 4302 4330 4596 4639 7319 7376 7645 10134 10177 10204 10289 10467 12150 12167 12191 12260 12288 12447 12460 12475 
+	}
+	manpower=302922
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

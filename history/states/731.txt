@@ -1,0 +1,29 @@
+
+state={
+	id=731
+	name="STATE_731"
+
+	history={
+		owner = VEN
+		victory_points = {
+			10747 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = VEN
+	}
+
+	provinces={
+		2079 7993 10747 10790 
+	}
+	manpower=584780
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

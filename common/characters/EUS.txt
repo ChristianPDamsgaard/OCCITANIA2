@@ -1,0 +1,76 @@
+characters={
+	EUS_ceferino_olano={
+		name=EUS_ceferino_olano
+		portraits={
+			army={
+				large="GFX_HON_Anastasio_Somoza_Garcia_2"
+			}
+			army={
+				small="GFX_HON_Anastasio_Somoza_Garcia_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EUS_ander_aznar={
+		name=EUS_ander_aznar
+		portraits={
+			army={
+				large="GFX_MEX_Pablo_Abelardo_Rodriguez"
+			}
+			army={
+				small="GFX_MEX_Pablo_Abelardo_Rodriguez"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EUS_francisco_javier_arana={
+		name=EUS_francisco_javier_arana
+		portraits={
+			navy={
+				large="GFX_Cuba_Alberto_Herrera_Franchi"
+			}
+			navy={
+				small="GFX_Cuba_Alberto_Herrera_Franchi"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	EUS_agustin_arizmendiarrieta={
+		name=EUS_agustin_arizmendiarrieta
+		portraits={
+			civilian={
+				large="GFX_Bolivia_Carlos_Quiroga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

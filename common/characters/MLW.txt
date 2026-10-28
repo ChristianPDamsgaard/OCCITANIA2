@@ -1,0 +1,76 @@
+characters={
+	MLW_morathi_mbewe={
+		name=MLW_morathi_mbewe
+		portraits={
+			army={
+				large="GFX_NAM_Samuel_Maharero"
+			}
+			army={
+				small="GFX_NAM_Samuel_Maharero"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MLW_fabunni_mkunkhuntha={
+		name=MLW_fabunni_mkunkhuntha
+		portraits={
+			army={
+				large="GFX_TOG_Alhaji"
+			}
+			army={
+				small="GFX_TOG_Alhaji"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MLW_fnu_lnu={
+		name=MLW_fnu_lnu
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_4"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_4"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	MLW_mansa_mkunkhuntha={
+		name=MLW_mansa_mkunkhuntha
+		portraits={
+			civilian={
+				large="GFX_KBR_Shehu_Masta_II"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

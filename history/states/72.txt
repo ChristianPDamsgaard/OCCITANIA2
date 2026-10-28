@@ -1,0 +1,33 @@
+
+state={
+	id=72
+	name="STATE_72"
+
+	history={
+		owner = AST
+		victory_points = {
+			13038 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			13038 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = AST
+	}
+
+	provinces={
+		13038 
+	}
+	manpower=2340
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

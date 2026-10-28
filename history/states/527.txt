@@ -1,0 +1,32 @@
+
+state={
+	id=527
+	name="STATE_527"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = X87
+		victory_points = {
+			4938 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X87
+	}
+
+	provinces={
+		1969 4938 4972 
+	}
+	manpower=3069332
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

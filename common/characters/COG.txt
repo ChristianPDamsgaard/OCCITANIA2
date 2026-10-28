@@ -1,0 +1,36 @@
+characters={
+	COG_nteve_nsindi={
+		name=COG_nteve_nsindi
+		portraits={
+			army={
+				large="GFX_LIB_Jenkins_Yancey"
+			}
+			army={
+				small="GFX_LIB_Jenkins_Yancey"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	COG_kivuzi_ma_nombo={
+		name=COG_kivuzi_ma_nombo
+		portraits={
+			civilian={
+				large="GFX_Africa_Generic_new_1"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

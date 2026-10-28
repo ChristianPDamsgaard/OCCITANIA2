@@ -1,0 +1,37 @@
+
+state={
+	id=465
+	name="STATE_465"
+	resources={
+		chromium=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = X38
+		victory_points = {
+			8098 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1179 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = X46
+		add_claim_by = X38
+	}
+
+	provinces={
+		1179 1978 4558 4990 4998 5043 5075 5105 7847 7917 7975 8013 8044 8066 8098 10813 12717 12761 12763 12774 
+	}
+	manpower=1784364
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

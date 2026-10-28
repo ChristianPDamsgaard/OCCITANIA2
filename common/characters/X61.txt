@@ -1,0 +1,76 @@
+characters={
+	X61_berihun_selassie={
+		name=X61_berihun_selassie
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X61_bekele_mariam={
+		name=X61_bekele_mariam
+		portraits={
+			army={
+				large="GFX_SUD_Ali_Latif"
+			}
+			army={
+				small="GFX_SUD_Ali_Latif"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X61_kelile_mariam={
+		name=X61_kelile_mariam
+		portraits={
+			army={
+				large="GFX_Ethiopia_Kassa_Haile_Darge"
+			}
+			army={
+				small="GFX_Ethiopia_Kassa_Haile_Darge"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X61_king_geteye={
+		name=X61_king_geteye
+		portraits={
+			civilian={
+				large="GFX_Ethiopia_Haile_Selassie"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

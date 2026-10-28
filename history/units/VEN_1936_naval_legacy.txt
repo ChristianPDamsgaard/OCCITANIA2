@@ -1,0 +1,94 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4980
+		task_force = {
+			name = "1st Fleet"
+			location = 2597
+			ship = { name = "2nd Quibdó Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "3rd Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "2nd Buenaventura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "3rd Cumaná Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "3rd San Felipe Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "4th Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Aragua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Aragua 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Constitución" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Federación" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "General Crespo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Libertad" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Marcay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Maturín" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Miranda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "1st San Felipe Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Patria" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "1st Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 4980
+		task_force = {
+			name = "3rd Fleet"
+			location = 2597
+			ship = { name = "2nd San Felipe Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "1st Guayaquil Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "1st Quibdó Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "1st Cumaná Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "2nd Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "1st Buenaventura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "2nd Guayaquil Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "2nd Cumaná Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "Independencia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "5th Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "4th Cumaná Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "4th San Felipe Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "6th Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 7991
+		task_force = {
+			name = "5th Fleet"
+			location = 7991
+			ship = { name = "4th Guayaquil Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "3rd Buenaventura Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10912
+		task_force = {
+			name = "4th Fleet"
+			location = 10912
+			ship = { name = "5th San Felipe Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "7th Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "6th San Felipe Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "8th Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "5th Cumaná Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+			ship = { name = "9th Güiria Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = VEN } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "VEN"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "VEN"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

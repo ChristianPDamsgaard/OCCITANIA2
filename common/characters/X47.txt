@@ -1,0 +1,76 @@
+characters={
+	X47_stanley_churchill={
+		name=X47_stanley_churchill
+		portraits={
+			army={
+				large="GFX_Portrait_Europe_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Europe_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X47_joseph_tyrwhitt={
+		name=X47_joseph_tyrwhitt
+		portraits={
+			army={
+				large="GFX_Portrait_Britain_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_Britain_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X47_stanley_montgomery={
+		name=X47_stanley_montgomery
+		portraits={
+			army={
+				large="GFX_portrait_ENG_harold_alexander"
+			}
+			army={
+				small="GFX_portrait_ENG_harold_alexander"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X47_lester_madden={
+		name=X47_lester_madden
+		portraits={
+			civilian={
+				large="GFX_Britain_Neville_Chamberlain"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

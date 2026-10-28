@@ -1,0 +1,36 @@
+
+state={
+	id=74
+	name="STATE_74"
+	resources={
+		chromium=14.000
+	}
+
+	history={
+		owner = AST
+		victory_points = {
+			1269 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			1269 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = AST
+	}
+
+	provinces={
+		1042 1085 1237 1269 1370 4247 4252 4292 7390 7437 10291 10319 12120 12265 
+	}
+	manpower=94952
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

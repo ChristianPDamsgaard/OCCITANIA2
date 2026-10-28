@@ -1,0 +1,185 @@
+﻿capital = 134
+set_research_slots = 2
+
+oob = "COG_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_congo
+set_convoys = 0
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1906.9.17"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 40
+	democratic = 53
+	neutrality = 7
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRU modifier = negative_30 }
+add_opinion_modifier = { target = BSK modifier = negative_15 }
+add_opinion_modifier = { target = CAR modifier = positive_78 }
+give_military_access = CAR
+add_opinion_modifier = { target = CAT modifier = negative_150 }
+add_opinion_modifier = { target = CMR modifier = positive_75 }
+add_opinion_modifier = { target = DOM modifier = positive_20 }
+add_opinion_modifier = { target = GRE modifier = positive_20 }
+add_opinion_modifier = { target = GXC modifier = negative_30 }
+add_opinion_modifier = { target = HES modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = negative_20 }
+give_military_access = HOL
+add_opinion_modifier = { target = HON modifier = positive_20 }
+add_opinion_modifier = { target = KAL modifier = negative_30 }
+add_opinion_modifier = { target = KOR modifier = negative_30 }
+add_opinion_modifier = { target = LUX modifier = positive_20 }
+add_opinion_modifier = { target = OCC modifier = positive_100 }
+add_opinion_modifier = { target = PER modifier = negative_30 }
+add_opinion_modifier = { target = PRU modifier = positive_20 }
+add_opinion_modifier = { target = SCA modifier = positive_20 }
+add_opinion_modifier = { target = SER modifier = positive_5 }
+add_opinion_modifier = { target = SIA modifier = negative_30 }
+add_opinion_modifier = { target = SLV modifier = positive_20 }
+add_opinion_modifier = { target = SPC modifier = positive_20 }
+add_opinion_modifier = { target = USA modifier = positive_20 }
+add_opinion_modifier = { target = VEN modifier = positive_20 }
+add_opinion_modifier = { target = VIN modifier = negative_30 }
+add_opinion_modifier = { target = X00 modifier = negative_30 }
+add_opinion_modifier = { target = X01 modifier = negative_30 }
+add_opinion_modifier = { target = X03 modifier = positive_5 }
+add_opinion_modifier = { target = X04 modifier = negative_30 }
+add_opinion_modifier = { target = X06 modifier = negative_30 }
+add_opinion_modifier = { target = X07 modifier = negative_15 }
+add_opinion_modifier = { target = X09 modifier = negative_10 }
+add_opinion_modifier = { target = X10 modifier = negative_30 }
+add_opinion_modifier = { target = X11 modifier = negative_30 }
+add_opinion_modifier = { target = X12 modifier = positive_20 }
+add_opinion_modifier = { target = X13 modifier = negative_30 }
+add_opinion_modifier = { target = X14 modifier = negative_30 }
+add_opinion_modifier = { target = X17 modifier = negative_30 }
+add_opinion_modifier = { target = X19 modifier = positive_20 }
+add_opinion_modifier = { target = X20 modifier = positive_5 }
+add_opinion_modifier = { target = X22 modifier = negative_70 }
+add_opinion_modifier = { target = X23 modifier = negative_30 }
+add_opinion_modifier = { target = X25 modifier = negative_30 }
+add_opinion_modifier = { target = X26 modifier = negative_30 }
+add_opinion_modifier = { target = X27 modifier = negative_30 }
+add_opinion_modifier = { target = X31 modifier = negative_30 }
+add_opinion_modifier = { target = X32 modifier = positive_105 }
+give_military_access = X32
+add_opinion_modifier = { target = X34 modifier = negative_30 }
+add_opinion_modifier = { target = X36 modifier = positive_20 }
+add_opinion_modifier = { target = X38 modifier = negative_30 }
+add_opinion_modifier = { target = X39 modifier = negative_30 }
+add_opinion_modifier = { target = X40 modifier = negative_30 }
+add_opinion_modifier = { target = X41 modifier = negative_30 }
+add_opinion_modifier = { target = X42 modifier = positive_20 }
+add_opinion_modifier = { target = X43 modifier = negative_30 }
+add_opinion_modifier = { target = X44 modifier = negative_30 }
+add_opinion_modifier = { target = X45 modifier = negative_30 }
+add_opinion_modifier = { target = X48 modifier = positive_5 }
+add_opinion_modifier = { target = X49 modifier = positive_20 }
+add_opinion_modifier = { target = X50 modifier = negative_30 }
+add_opinion_modifier = { target = X51 modifier = negative_30 }
+add_opinion_modifier = { target = X52 modifier = negative_30 }
+add_opinion_modifier = { target = X54 modifier = negative_30 }
+add_opinion_modifier = { target = X56 modifier = negative_10 }
+add_opinion_modifier = { target = X57 modifier = positive_20 }
+add_opinion_modifier = { target = X60 modifier = negative_30 }
+add_opinion_modifier = { target = X61 modifier = negative_30 }
+add_opinion_modifier = { target = X62 modifier = negative_30 }
+add_opinion_modifier = { target = X65 modifier = positive_20 }
+add_opinion_modifier = { target = X68 modifier = negative_30 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X74 modifier = negative_10 }
+add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X77 modifier = positive_20 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_bakongo
+}
+
+recruit_character = COG_nteve_nsindi
+recruit_character = COG_kivuzi_ma_nombo
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Nala Nsindi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "Cadence Lukeni"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "Nala Nsindi"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "M'voumbe Ma N'Sangou"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "Mfutila Matou"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { COG }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

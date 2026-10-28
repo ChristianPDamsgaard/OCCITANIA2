@@ -1,0 +1,184 @@
+﻿capital = 776
+set_research_slots = 2
+
+oob = "X64_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X64_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X64_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_persia
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 100
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = W03
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = W03
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = X64_research
+}
+
+give_guarantee = X17
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = X17 } }
+	diplomatic_relation = { country = X17 relation = non_aggression_pact }
+}
+
+add_opinion_modifier = { target = BSK modifier = positive_4 }
+give_military_access = BSK
+add_opinion_modifier = { target = CAT modifier = negative_200 }
+add_opinion_modifier = { target = GRE modifier = negative_50 }
+add_opinion_modifier = { target = HOL modifier = negative_200 }
+add_opinion_modifier = { target = HON modifier = negative_150 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = KAL modifier = negative_50 }
+add_opinion_modifier = { target = LIT modifier = negative_182 }
+add_opinion_modifier = { target = OCC modifier = negative_90 }
+add_opinion_modifier = { target = PER modifier = negative_198 }
+add_opinion_modifier = { target = SCA modifier = negative_200 }
+add_opinion_modifier = { target = SER modifier = positive_4 }
+give_military_access = SER
+add_opinion_modifier = { target = SPC modifier = negative_18 }
+add_opinion_modifier = { target = TAT modifier = negative_150 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = VIN modifier = positive_4 }
+give_military_access = VIN
+add_opinion_modifier = { target = X01 modifier = negative_15 }
+give_military_access = X01
+add_opinion_modifier = { target = X09 modifier = negative_128 }
+add_opinion_modifier = { target = X13 modifier = negative_37 }
+add_opinion_modifier = { target = X17 modifier = positive_200 }
+give_military_access = X17
+add_opinion_modifier = { target = X22 modifier = negative_200 }
+add_opinion_modifier = { target = X25 modifier = negative_39 }
+give_military_access = X25
+add_opinion_modifier = { target = X27 modifier = negative_45 }
+add_opinion_modifier = { target = X38 modifier = negative_200 }
+add_opinion_modifier = { target = X39 modifier = negative_50 }
+add_opinion_modifier = { target = X41 modifier = negative_31 }
+give_military_access = X41
+add_opinion_modifier = { target = X56 modifier = negative_50 }
+add_opinion_modifier = { target = X60 modifier = negative_3 }
+add_opinion_modifier = { target = X66 modifier = positive_7 }
+add_opinion_modifier = { target = X68 modifier = positive_10 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X74 modifier = negative_10 }
+add_opinion_modifier = { target = X76 modifier = negative_200 }
+add_opinion_modifier = { target = X77 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_turkish
+}
+set_stability = 0.60
+set_war_support = 0.61
+
+recruit_character = X64_sukru_ciller
+recruit_character = X64_sabahaddin_terim
+recruit_character = X64_fevzi_tandog'an
+recruit_character = X64_numan_sag'lam
+recruit_character = X64_king_jochi_ii
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Akgul Nišanyan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X64 }
+	}
+
+	create_operative_leader = {
+		name = "Çiltanesi Yïldïz"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X64 }
+	}
+
+	create_operative_leader = {
+		name = "Çilen Erkin"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X64 }
+	}
+
+	create_operative_leader = {
+		name = "Bekir Özkan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X64 }
+	}
+
+	create_operative_leader = {
+		name = "Rïfat Demirel"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X64 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

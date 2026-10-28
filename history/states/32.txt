@@ -1,0 +1,32 @@
+
+state={
+	id=32
+	name="STATE_32"
+
+	history={
+		owner = SPC
+		victory_points = {
+			1176 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			12038 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = SPC
+	}
+
+	provinces={
+		747 950 1090 1176 1192 4065 4095 7196 10063 10111 11956 12038 12083 
+	}
+	manpower=879980
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

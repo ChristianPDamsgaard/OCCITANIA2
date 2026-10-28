@@ -1,0 +1,16 @@
+characters={
+	X93_arthur_madden={
+		name=X93_arthur_madden
+		portraits={
+			civilian={
+				large="GFX_British_Raj_Lord_Linlithgow"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

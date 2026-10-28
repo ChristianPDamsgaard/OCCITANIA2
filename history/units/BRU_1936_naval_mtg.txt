@@ -1,0 +1,26 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7371
+		task_force = {
+			name = "1st Fleet"
+			location = 7371
+			ship = { name = "Sungai Pandaruan" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = BRU version_name = "Early Destroyer" } } }
+			ship = { name = "Lungai Limbang" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = BRU version_name = "Early Destroyer" } } }
+			ship = { name = "Batang Baram" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = BRU version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "BRU"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

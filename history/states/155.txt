@@ -1,0 +1,29 @@
+
+state={
+	id=155
+	name="STATE_155"
+
+	history={
+		owner = X13
+		victory_points = {
+			11701 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X13
+	}
+
+	provinces={
+		475 1220 1272 1303 1314 1331 1360 1371 1429 1517 3593 4227 4300 4303 4337 4340 4374 4376 4523 4620 7233 7337 7354 7410 7429 7641 10131 10140 10164 10168 10262 10264 10284 10295 10312 11701 12108 12115 12139 12143 12163 12170 12179 12198 12229 12266 12294 12383 13008 
+	}
+	manpower=156556
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

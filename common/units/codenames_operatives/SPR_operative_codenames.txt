@@ -1,0 +1,27 @@
+SPR_OPERATIVE_CODENAME_HISTORICAL = {
+	name = SPR_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { W00 W01 X22 X94 X95 X96 X97 X98 X99 }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+	unique = {
+		"Santiago"
+		"Calatrava"
+		"Montesa"
+		"Alcantara"
+		"Templar"
+		"Teuton"
+		"Hospitaller"
+		"Livonia"
+		"Jesu"
+		"Inquisidor"
+		"Conquistador"
+		"León"
+		"Antioch"
+		"Burgos"
+		"Sevilla"
+		"Pamplona"
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=760
+	name="STATE_760"
+
+	history={
+		owner = X64
+		victory_points = {
+			11984 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7193 = {
+				naval_base = 1
+			}
+
+		}
+	}
+
+	provinces={
+		7193 11984 
+	}
+	manpower=340948
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,44 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10980
+		task_force = {
+			name = "2nd Fleet"
+			location = 10980
+			ship = { name = "Iguatemi" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Beberibe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Amazonas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Belmonte" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Jequitinhonha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Mearim" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Cabral" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Iguatemi 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Barroso" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Araguari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Mearim 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Araguari 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Parnaíba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "BRA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "BRA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

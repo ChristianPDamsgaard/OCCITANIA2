@@ -1,0 +1,32 @@
+
+state={
+	id=178
+	name="STATE_178"
+
+	history={
+		owner = X17
+		victory_points = {
+			7105 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7105 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X17
+	}
+
+	provinces={
+		1104 1184 1200 4186 4205 7089 7105 10000 10018 
+	}
+	manpower=2202856
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=715
+	name="STATE_715"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = URG
+		victory_points = {
+			650 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			8222 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = URG
+	}
+
+	provinces={
+		650 8222 
+	}
+	manpower=2041732
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

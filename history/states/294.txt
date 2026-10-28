@@ -1,0 +1,32 @@
+
+state={
+	id=294
+	name="STATE_294"
+
+	history={
+		owner = X96
+		victory_points = {
+			5210 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			8183 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X96
+	}
+
+	provinces={
+		2196 5196 5210 8183 8205 12911 
+	}
+	manpower=493224
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

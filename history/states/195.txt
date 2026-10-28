@@ -1,0 +1,33 @@
+
+state={
+	id=195
+	name="STATE_195"
+
+	history={
+		owner = X90
+		victory_points = {
+			13063 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			13063 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X90
+		add_claim_by = X14
+	}
+
+	provinces={
+		5264 13062 13063 13204 13254 
+	}
+	manpower=99736
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

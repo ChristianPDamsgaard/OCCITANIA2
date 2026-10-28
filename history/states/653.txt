@@ -1,0 +1,32 @@
+
+state={
+	id=653
+	name="STATE_653"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			1867 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1867 7536 10719 12577 
+	}
+	manpower=108308
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

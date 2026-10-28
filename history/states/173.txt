@@ -1,0 +1,30 @@
+
+state={
+	id=173
+	name="STATE_173"
+
+	history={
+		owner = X17
+		victory_points = {
+			4525 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X17
+		add_core_of = X30
+	}
+
+	provinces={
+		1551 1608 1796 1811 1871 1959 2087 3427 3978 4222 4525 4555 4612 4655 4783 4960 4986 5031 7048 7511 7578 7631 7648 7727 7803 8055 8102 8127 10363 10372 10424 10451 10499 10629 10724 10770 10854 10899 11752 12331 12348 12448 12554 12609 12706 12750 12776 12880 
+	}
+	manpower=1648344
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

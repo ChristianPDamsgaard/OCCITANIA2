@@ -1,0 +1,75 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3147
+		task_force = {
+			name = "1st Fleet"
+			location = 2382
+			ship = { name = "4th Aalborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Aalborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Copenhagen Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Kalmar Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Hekla" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "St. Thomas" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Valkyrien" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Heimdal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 3147
+		task_force = {
+			name = "3rd Fleet"
+			location = 3147
+			ship = { name = "3rd Flensburg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "3rd Aalborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Aalborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "3rd Kalmar Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "4th Flensburg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "4th Kalmar Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Kalmar Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "2nd Flensburg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "1st Flensburg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Fyen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Claes Uggla" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Herluf Trolle" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Geiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Psilander" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Claes Horn" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Susåen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Gudenåen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Søeormen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6287
+		task_force = {
+			name = "4th Fleet"
+			location = 6287
+			ship = { name = "1st Uppsala Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SCA } } }
+			ship = { name = "Jacob Bakke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SCA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SCA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SCA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

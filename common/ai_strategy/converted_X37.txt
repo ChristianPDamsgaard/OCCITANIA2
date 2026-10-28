@@ -1,0 +1,51 @@
+﻿converted_war_strategies_X37 = {
+	allowed = {
+		tag = X37
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_X37 = {
+	allowed = {
+		tag = X37
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = antagonize
+		id = "SPC"
+		value = 99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 56
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ZIM"
+		value = 35
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X40"
+		value = 22
+	}
+}

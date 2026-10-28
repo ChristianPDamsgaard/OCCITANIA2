@@ -1,0 +1,56 @@
+characters={
+	GAB_m'voumbe_matou={
+		name=GAB_m'voumbe_matou
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GAB_fnu_lnu={
+		name=GAB_fnu_lnu
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	GAB_n'gangue_mpanzu={
+		name=GAB_n'gangue_mpanzu
+		portraits={
+			civilian={
+				large="GFX_Dahomey_Soglo"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

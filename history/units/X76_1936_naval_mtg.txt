@@ -1,0 +1,49 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6909
+		task_force = {
+			name = "1st Fleet"
+			location = 6909
+			ship = { name = "2nd Baltimore Battleship" definition = heavy_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Wasees Battleship" definition = heavy_cruiser start_experience_factor = 0.21314 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Baltimore Battleship" definition = heavy_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Wasees Battleship" definition = heavy_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Newark Battleship" definition = heavy_cruiser start_experience_factor = 0.21314 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Long Island Battleship" definition = heavy_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Baltimore Battleship" definition = heavy_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Wasees Battleship" definition = heavy_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Hartford Cruiser" definition = light_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Newark Cruiser" definition = light_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Hartford Cruiser" definition = light_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Baltimore Cruiser" definition = light_cruiser start_experience_factor = 0.18171 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Newark Cruiser" definition = light_cruiser start_experience_factor = 0.21314 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.23084 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Long Island Cruiser" definition = light_cruiser start_experience_factor = 0.21314 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Hartford Cruiser" definition = light_cruiser start_experience_factor = 0.1968 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X76 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X76"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "X76"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,76 @@
+﻿converted_war_strategies_NZL = {
+	allowed = {
+		tag = NZL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "X77"
+		value = 45
+	}
+}
+
+converted_diplo_strategies_NZL = {
+	allowed = {
+		tag = NZL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "X77"
+		value = 306
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TAH"
+		value = 78
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 1
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X06"
+		value = 89
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X04"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TAH"
+		value = 30
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRU"
+		value = 28
+	}
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=400
+	name="STATE_400"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			11948 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			7121 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = KOR
+	}
+
+	provinces={
+		1054 1081 1177 4056 4086 4126 7121 10085 10110 11948 12060 12085 12089 
+	}
+	manpower=4753344
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

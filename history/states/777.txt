@@ -1,0 +1,29 @@
+
+state={
+	id=777
+	name="STATE_777"
+
+	history={
+		owner = X64
+		victory_points = {
+			8117 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X64
+	}
+
+	provinces={
+		1986 2039 4928 8117 10881 
+	}
+	manpower=560072
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

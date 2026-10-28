@@ -1,0 +1,36 @@
+
+state={
+	id=490
+	name="STATE_490"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = X38
+		victory_points = {
+			7254 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10223 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X33
+		add_claim_by = X04
+	}
+
+	provinces={
+		1014 1142 3651 4147 7122 7254 7382 10182 10223 12090 
+	}
+	manpower=184524
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

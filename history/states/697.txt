@@ -1,0 +1,33 @@
+
+state={
+	id=697
+	name="STATE_697"
+
+	history={
+		owner = X54
+		victory_points = {
+			1419 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			1419 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X54
+	}
+
+	provinces={
+		1419 7413 10141 
+	}
+	manpower=18996
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

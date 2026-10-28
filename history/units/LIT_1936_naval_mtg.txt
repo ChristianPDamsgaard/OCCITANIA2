@@ -1,0 +1,154 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3380
+		task_force = {
+			name = "2nd Fleet"
+			location = 3380
+			ship = { name = "Zemaitija" definition = destroyer start_experience_factor = 0.0999 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Taurage" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "1st Tulcea Commerce Raider" definition = destroyer start_experience_factor = 0.0996 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Tulcea Commerce Raider" definition = destroyer start_experience_factor = 0.14985 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Tulcea Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "1st Izmail Commerce Raider" definition = destroyer start_experience_factor = 0.0996 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Izmail Commerce Raider" definition = destroyer start_experience_factor = 0.14985 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Izmail Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Dzkas" definition = destroyer start_experience_factor = 0.0996 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "1st Valmiera Commerce Raider" definition = destroyer start_experience_factor = 0.0999 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "1st Elblag Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Valmiera Commerce Raider" definition = destroyer start_experience_factor = 0.1494 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Elblag Commerce Raider" definition = destroyer start_experience_factor = 0.14985 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Valmiera Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Palanga" definition = destroyer start_experience_factor = 0.0996 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Mindaugas" definition = destroyer start_experience_factor = 0.0999 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Trakai" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Moletai" definition = destroyer start_experience_factor = 0.04891 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Siauliai" definition = destroyer start_experience_factor = 0.04797 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 750
+		task_force = {
+			name = "4th Fleet"
+			location = 750
+			ship = { name = "2nd Palanga Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Królewiec Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Kolobrzeg Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Palanga Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Alytus" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Lietuva" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Jogailaitis" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Jurbarkas" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 750
+		task_force = {
+			name = "13th Fleet"
+			location = 750
+			ship = { name = "Druskininkai" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Slis" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Skalvis" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "1st Kolobrzeg Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "17th Fleet"
+		naval_base = 750
+		task_force = {
+			name = "17th Fleet"
+			location = 750
+			ship = { name = "Vilnius" definition = destroyer start_experience_factor = 0.04302 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Silute" definition = destroyer start_experience_factor = 0.0454 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Mindaugas 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+			ship = { name = "Vytautas Didysis" definition = destroyer start_experience_factor = 0.08316 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 6314
+		task_force = {
+			name = "11th Fleet"
+			location = 6314
+			ship = { name = "4th Palanga Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9417
+		task_force = {
+			name = "3rd Fleet"
+			location = 9417
+			ship = { name = "Kaunas" definition = destroyer start_experience_factor = 0.04534 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 9361
+		task_force = {
+			name = "6th Fleet"
+			location = 9361
+			ship = { name = "4th Kolobrzeg Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 750
+		task_force = {
+			name = "12th Fleet"
+			location = 1885
+			ship = { name = "4th Valmiera Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "20th Fleet"
+		naval_base = 3380
+		task_force = {
+			name = "20th Fleet"
+			location = 3380
+			ship = { name = "3rd Elblag Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "21st Fleet"
+		naval_base = 6314
+		task_force = {
+			name = "21st Fleet"
+			location = 6314
+			ship = { name = "5th Palanga Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3701
+		task_force = {
+			name = "1st Fleet"
+			location = 3701
+			ship = { name = "5th Izmail Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "10th Fleet"
+		naval_base = 750
+		task_force = {
+			name = "10th Fleet"
+			location = 750
+			ship = { name = "1st Cherson Commerce Raider" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = LIT version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "LIT"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = X64
+		victory_points = {
+			1896 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X64
+		add_claim_by = PER
+	}
+
+	provinces={
+		1636 1822 1896 2071 4553 4755 4825 4901 7604 10454 10523 12793 12861 
+	}
+	manpower=1962420
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

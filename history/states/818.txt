@@ -1,0 +1,30 @@
+
+state={
+	id=818
+	name="STATE_818"
+
+	history={
+		owner = X74
+		victory_points = {
+			3546 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X74
+		add_claim_by = HLR
+	}
+
+	provinces={
+		3546 3560 5291 
+	}
+	manpower=235820
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

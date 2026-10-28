@@ -1,0 +1,42 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "2nd Fleet"
+			location = 3326
+			ship = { name = "1st Bremen Commerce Raider" definition = destroyer start_experience_factor = 0.22846 equipment = { ship_hull_light_1 = { amount = 1 owner = X07 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "4th Fleet"
+			location = 3326
+			ship = { name = "2nd Bremen Commerce Raider" definition = destroyer start_experience_factor = 0.2314 equipment = { ship_hull_light_1 = { amount = 1 owner = X07 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 3326
+		task_force = {
+			name = "5th Fleet"
+			location = 3326
+			ship = { name = "3rd Bremen Commerce Raider" definition = destroyer start_experience_factor = 0.23235 equipment = { ship_hull_light_1 = { amount = 1 owner = X07 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X07"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

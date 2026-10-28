@@ -1,0 +1,76 @@
+characters={
+	BSK_musa_tukay={
+		name=BSK_musa_tukay
+		portraits={
+			army={
+				large="GFX_OTT_Suleyman_Sefik"
+			}
+			army={
+				small="GFX_OTT_Suleyman_Sefik"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BSK_yusuf_tinchurin={
+		name=BSK_yusuf_tinchurin
+		portraits={
+			army={
+				large="GFX_OTT_Suleyman_Sefik"
+			}
+			army={
+				small="GFX_OTT_Suleyman_Sefik"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BSK_musa_tinchurin={
+		name=BSK_musa_tinchurin
+		portraits={
+			army={
+				large="GFX_OTT_Mustafa_Kemal"
+			}
+			army={
+				small="GFX_OTT_Mustafa_Kemal"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BSK_king_pulad_timur_ii={
+		name=BSK_king_pulad_timur_ii
+		portraits={
+			civilian={
+				large="GFX_Albania_King_Zog"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

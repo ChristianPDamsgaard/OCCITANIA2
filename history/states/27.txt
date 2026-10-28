@@ -1,0 +1,33 @@
+
+state={
+	id=27
+	name="STATE_27"
+
+	history={
+		owner = SPC
+		victory_points = {
+			3273 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			11218 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = CAT
+		add_core_of = SPC
+	}
+
+	provinces={
+		284 3273 3373 6320 6350 6385 6395 9237 9314 9350 9383 9392 11218 11378 
+	}
+	manpower=2128208
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

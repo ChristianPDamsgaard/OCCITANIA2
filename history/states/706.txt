@@ -1,0 +1,29 @@
+
+state={
+	id=706
+	name="STATE_706"
+
+	history={
+		owner = X56
+		victory_points = {
+			12602 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X56
+	}
+
+	provinces={
+		4817 7867 10592 10620 12574 12602 12672 
+	}
+	manpower=60404
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

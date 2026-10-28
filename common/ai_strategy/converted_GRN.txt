@@ -1,0 +1,66 @@
+﻿converted_war_strategies_GRN = {
+	allowed = {
+		tag = GRN
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_GRN = {
+	allowed = {
+		tag = GRN
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = antagonize
+		id = "X31"
+		value = 104
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X22"
+		value = 36
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X26"
+		value = 12
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X17"
+		value = 3
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X76"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X25"
+		value = 111
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X14"
+		value = 56
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X39"
+		value = 52
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRU"
+		value = 50
+	}
+}

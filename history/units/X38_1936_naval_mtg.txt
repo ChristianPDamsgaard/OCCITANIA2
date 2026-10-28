@@ -1,0 +1,31 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10223
+		task_force = {
+			name = "1st Fleet"
+			location = 10223
+			ship = { name = "2nd Abu Dhabi Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Chittagong Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Surat Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Salalah Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Bela Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Bandar Abbas Commerce Raider" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Abu Dhabi Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Chittagong Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X38 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X38"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=558
+	name="STATE_558"
+	resources={
+		steel=38.000
+	}
+
+	history={
+		owner = OCC
+		victory_points = {
+			11516 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = CAT
+		add_core_of = OCC
+		add_claim_by = HLR
+		SCA = {
+			set_province_controller = 521
+			set_province_controller = 9642
+			set_province_controller = 11642
+		}
+	}
+
+	provinces={
+		521 698 3666 6698 9642 11488 11516 11642 
+	}
+	manpower=3049848
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

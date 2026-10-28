@@ -1,0 +1,29 @@
+
+state={
+	id=552
+	name="STATE_552"
+
+	history={
+		owner = X42
+		victory_points = {
+			1527 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1527 4590 10339 10393 12365 
+	}
+	manpower=144860
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

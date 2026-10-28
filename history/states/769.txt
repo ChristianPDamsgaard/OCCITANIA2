@@ -1,0 +1,33 @@
+
+state={
+	id=769
+	name="STATE_769"
+
+	history={
+		owner = W03
+		victory_points = {
+			705 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+			705 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = W03
+		add_claim_by = X24
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+	manpower=424696
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

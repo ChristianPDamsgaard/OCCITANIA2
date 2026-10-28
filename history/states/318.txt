@@ -1,0 +1,37 @@
+
+state={
+	id=318
+	name="STATE_318"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = X22
+		victory_points = {
+			740 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			740 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = EUS
+		add_claim_by = CAT
+		add_claim_by = X22
+	}
+
+	provinces={
+		740 932 3735 3737 3902 3931 3933 6756 6903 9857 13233 
+	}
+	manpower=569196
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

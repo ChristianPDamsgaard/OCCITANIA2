@@ -1,0 +1,32 @@
+
+state={
+	id=278
+	name="STATE_278"
+
+	history={
+		owner = X22
+		victory_points = {
+			1751 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			1751 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X22
+	}
+
+	provinces={
+		1751 
+	}
+	manpower=406080
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

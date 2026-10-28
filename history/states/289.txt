@@ -1,0 +1,33 @@
+
+state={
+	id=289
+	name="STATE_289"
+
+	history={
+		owner = X22
+		victory_points = {
+			1611 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1611 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X22
+		add_claim_by = X77
+	}
+
+	provinces={
+		1611 7450 7496 7664 10458 10500 
+	}
+	manpower=58180
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}
