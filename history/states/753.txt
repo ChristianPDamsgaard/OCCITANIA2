@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = X59
+		owner = SPC
 		victory_points = {
 			3893 2 
 		}

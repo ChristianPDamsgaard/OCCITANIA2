@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = X09
+		owner = SPC
 		victory_points = {
 			3973 2 
 		}
@@ -25,7 +25,6 @@ state={
 
 		}
 		add_core_of = X09
-		add_claim_by = SPC
 	}
 
 	provinces={

@@ -752,21 +752,41 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SPC_the_byzantine_question
-		icon = GFX_goal_generic_demand_territory
+		id = SPC_athens_and_neopatria
+		icon = GFX_goal_generic_national_unity
 		x = 48
 		y = 2
 		cost = 10
 		prerequisite = { focus = SPC_the_eastern_dominions }
+		available = {
+			99 = { is_owned_by = ROOT }
+			100 = { is_owned_by = ROOT }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_core = 99
+			add_state_core = 100
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = SPC_the_byzantine_question
+		icon = GFX_goal_generic_demand_territory
+		x = 48
+		y = 3
+		cost = 10
+		prerequisite = { focus = SPC_athens_and_neopatria }
 		available = {
 			NOT = { has_government = democratic }
 			country_exists = X09
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 99
-			add_state_claim = 100
-			create_wargoal = { type = take_state_focus target = X09 generator = { 99 100 } }
+			add_state_claim = 56
+			add_state_claim = 63
+			create_wargoal = { type = take_state_focus target = X09 generator = { 56 63 } }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -791,26 +811,6 @@ focus_tree = {
 				}
 			}
 			add_manpower = 15000
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SPC_athens_and_neopatria
-		icon = GFX_goal_generic_national_unity
-		x = 48
-		y = 3
-		cost = 10
-		prerequisite = { focus = SPC_the_byzantine_question }
-		available = {
-			99 = { is_owned_by = ROOT }
-			100 = { is_owned_by = ROOT }
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		completion_reward = {
-			add_state_core = 99
-			add_state_core = 100
-			add_stability = 0.05
 		}
 		ai_will_do = { factor = 1 }
 	}
