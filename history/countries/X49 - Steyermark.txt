@@ -157,7 +157,6 @@ set_truce = { target = SCA days = 1617 }
 add_opinion_modifier = { target = SER modifier = negative_39 }
 add_opinion_modifier = { target = SLV modifier = positive_137 }
 add_opinion_modifier = { target = SPC modifier = negative_197 }
-set_truce = { target = SPC days = 1617 }
 add_opinion_modifier = { target = TAH modifier = negative_100 }
 add_opinion_modifier = { target = TOG modifier = negative_10 }
 add_opinion_modifier = { target = VEN modifier = negative_100 }

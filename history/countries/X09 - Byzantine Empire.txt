@@ -112,7 +112,6 @@ add_opinion_modifier = { target = SER modifier = positive_16 }
 give_military_access = SER
 add_opinion_modifier = { target = SLV modifier = negative_130 }
 add_opinion_modifier = { target = SPC modifier = negative_198 }
-set_truce = { target = SPC days = 837 }
 add_opinion_modifier = { target = TOG modifier = negative_10 }
 add_opinion_modifier = { target = USA modifier = negative_30 }
 add_opinion_modifier = { target = VEN modifier = negative_30 }

@@ -166,7 +166,6 @@ add_opinion_modifier = { target = SER modifier = negative_11 }
 add_opinion_modifier = { target = SIA modifier = negative_146 }
 add_opinion_modifier = { target = SLV modifier = negative_200 }
 add_opinion_modifier = { target = SPC modifier = negative_24 }
-set_truce = { target = SPC days = 735 }
 add_opinion_modifier = { target = TAH modifier = positive_200 }
 add_opinion_modifier = { target = TNE modifier = positive_65 }
 add_opinion_modifier = { target = TOG modifier = negative_10 }
