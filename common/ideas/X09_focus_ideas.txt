@@ -87,5 +87,105 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
+		X09_triumphal_tradition = {
+			picture = warrior_traditions_idea
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				experience_gain_army_factor = 0.05
+			}
+		}
+		X09_restored_oikoumene = {
+			picture = generic_national_unification
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				resistance_target = -0.15
+				compliance_growth = 0.05
+			}
+		}
+		X09_pax_romana = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		X09_hesychast_revival = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				drift_defence_factor = 0.1
+			}
+		}
+		X09_the_blues = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.1
+				army_org_factor = 0.03
+			}
+		}
+		X09_the_greens = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		X09_purple_ink = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		X09_silk_monopoly = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.02
+			}
+		}
+		X09_imperial_economy = {
+			picture = generic_production_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		X09_magnaura = {
+			picture = generic_research_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		X09_orthodox_commonwealth = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				opinion_gain_monthly_factor = 0.1
+			}
+		}
 	}
 }

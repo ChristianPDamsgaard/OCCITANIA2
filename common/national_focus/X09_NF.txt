@@ -465,7 +465,7 @@ focus_tree = {
 		x = 19
 		y = 5
 		cost = 10
-		prerequisite = { focus = X09_the_khans_favour focus = X09_roman_pride }
+		prerequisite = { focus = X09_the_khans_favour focus = X09_roman_pride focus = X09_stab_the_lion }
 		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
 			add_state_claim = 52
@@ -963,6 +963,998 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ARMY_XP }
 		completion_reward = {
 			add_ideas = X09_army_of_new_rome
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_catalan_mercenaries
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 17
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_aragons_shield }
+		available = {
+			country_exists = SPC
+			NOT = { has_war_with = SPC }
+		}
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1500 producer = SPC }
+			add_equipment_to_stockpile = { type = artillery_equipment amount = 36 producer = SPC }
+			army_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_stab_the_lion
+		icon = GFX_goal_generic_major_war
+		x = 17
+		y = 4
+		cost = 10
+		prerequisite = { focus = X09_catalan_mercenaries }
+		available = {
+			country_exists = SPC
+			NOT = { has_war_with = SPC }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			diplomatic_relation = { country = SPC relation = non_aggression_pact active = no }
+			add_opinion_modifier = { target = SPC modifier = negative_50 }
+			add_state_claim = 52
+			add_state_claim = 53
+			add_state_claim = 54
+			create_wargoal = { type = take_state_focus target = SPC generator = { 52 53 } }
+			SPC = { country_event = { id = byzantium.3 hours = 12 } }
+		}
+		ai_will_do = { factor = 5 }
+	}
+
+	focus = {
+		id = X09_stab_the_khan
+		icon = GFX_goal_generic_major_war
+		x = 19
+		y = 4
+		cost = 10
+		prerequisite = { focus = X09_the_khans_favour }
+		available = {
+			country_exists = X63
+			NOT = { has_war_with = X63 }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			diplomatic_relation = { country = X63 relation = non_aggression_pact active = no }
+			add_opinion_modifier = { target = X63 modifier = negative_50 }
+			add_state_claim = 767
+			add_state_claim = 768
+			add_state_claim = 771
+			add_state_claim = 772
+			add_state_claim = 781
+			create_wargoal = { type = take_state_focus target = X63 generator = { 768 771 772 } }
+			X63 = { country_event = { id = byzantium.8 hours = 12 } }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = X09_revive_the_triumph
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 31
+		y = 1
+		cost = 10
+		prerequisite = { focus = X09_the_throne_of_sinop }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_ideas = X09_triumphal_tradition
+		}
+		ai_will_do = { factor = 20 }
+	}
+
+	focus = {
+		id = X09_trajans_ghost
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 37
+		y = 2
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			country_exists = X63
+			NOT = { has_war_with = X63 }
+			owns_state = 772
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 773
+			add_state_claim = 774
+			create_wargoal = { type = take_state_focus target = X63 generator = { 773 774 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_triumph_over_the_cumans
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 27
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			owns_state = 754
+			owns_state = 755
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 754
+			add_state_core = 755
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			army_experience = 25
+			country_event = { id = byzantium.11 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_triumph_of_ionia
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 29
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			owns_state = 53
+			owns_state = 54
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 53
+			add_state_core = 54
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			if = { limit = { 54 = { is_owned_and_controlled_by = ROOT } }
+				54 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+			country_event = { id = byzantium.12 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_triumph_of_thrace
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 31
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			owns_state = 52
+			owns_state = 753
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 52
+			add_state_core = 753
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			add_stability = 0.05
+			country_event = { id = byzantium.13 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_triumph_of_the_pontus
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 33
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			owns_state = 768
+			owns_state = 781
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 768
+			add_state_core = 781
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			add_manpower = 20000
+			country_event = { id = byzantium.14 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_triumph_of_cyprus
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 35
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			owns_state = 767
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 767
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			navy_experience = 25
+			country_event = { id = byzantium.15 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_triumph_of_syria
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 30
+		y = 4
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			owns_state = 771
+			owns_state = 772
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 771
+			add_state_core = 772
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			add_political_power = 100
+			country_event = { id = byzantium.16 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_triumph_of_hellas
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 32
+		y = 4
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			owns_state = 70
+			owns_state = 49
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 70
+			add_state_core = 49
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			add_manpower = 15000
+			country_event = { id = byzantium.17 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_triumph_of_mesopotamia
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 37
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_trajans_ghost }
+		available = {
+			owns_state = 773
+			owns_state = 774
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_state_core = 773
+			add_state_core = 774
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			if = { limit = { owns_state = 774 } add_resource = { type = oil amount = 8 state = 774 } }
+			country_event = { id = byzantium.18 days = 1 }
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = X09_the_restored_oikoumene
+		icon = GFX_goal_generic_national_unity
+		x = 31
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_revive_the_triumph }
+		available = {
+			calc_true_if = { amount = 4 has_completed_focus = X09_triumph_over_the_cumans has_completed_focus = X09_triumph_of_ionia has_completed_focus = X09_triumph_of_thrace has_completed_focus = X09_triumph_of_the_pontus has_completed_focus = X09_triumph_of_cyprus has_completed_focus = X09_triumph_of_syria has_completed_focus = X09_triumph_of_hellas has_completed_focus = X09_triumph_of_mesopotamia }
+		}
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			remove_ideas = X09_triumphal_tradition
+			add_ideas = X09_restored_oikoumene
+		}
+		ai_will_do = { factor = 30 }
+	}
+
+	focus = {
+		id = X09_the_pentarchy
+		icon = GFX_focus_generic_treaty
+		x = 30
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_restored_oikoumene }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			if = { limit = { country_exists = X27 } add_opinion_modifier = { target = X27 modifier = positive_50 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_pax_romana
+		icon = GFX_goal_generic_national_unity
+		x = 32
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_restored_oikoumene }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = X09_pax_romana
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_thousand_year_empire
+		icon = GFX_focus_hun_elect_a_king
+		x = 31
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_the_pentarchy }
+		prerequisite = { focus = X09_pax_romana }
+		available = {
+			owns_state = 52
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.1
+			army_experience = 50
+			navy_experience = 25
+			add_political_power = 150
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_council_of_sinop
+		icon = GFX_focus_generic_treaty
+		x = 9
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_the_patriarch_in_exile }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_hesychasts
+		icon = GFX_goal_generic_national_unity
+		x = 9
+		y = 4
+		cost = 10
+		prerequisite = { focus = X09_council_of_sinop }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = X09_hesychast_revival
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_hodegetria
+		icon = GFX_goal_generic_propaganda
+		x = 9
+		y = 5
+		cost = 10
+		prerequisite = { focus = X09_the_hesychasts }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_war_support = 0.1
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_monks_of_sumela
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 9
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_the_hodegetria }
+		available = {
+			owns_state = 768
+		}
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+			if = { limit = { 768 = { is_owned_and_controlled_by = ROOT } }
+				768 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_book_of_ceremonies
+		icon = GFX_goal_generic_political_pressure
+		x = 12
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_the_basileia_endures }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_secret_office
+		icon = GFX_goal_generic_propaganda
+		x = 10
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_book_of_ceremonies }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			if = { limit = { has_dlc = "La Resistance" } create_intelligence_agency = yes }
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_hippodrome
+		icon = GFX_goal_generic_national_unity
+		x = 12
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_book_of_ceremonies }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_patronise_the_blues
+		icon = GFX_goal_generic_political_pressure
+		x = 11
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_the_hippodrome }
+		mutually_exclusive = { focus = X09_patronise_the_greens }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = X09_the_blues
+			country_event = { id = byzantium.4 days = 30 }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = X09_patronise_the_greens
+		icon = GFX_goal_generic_trade
+		x = 13
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_the_hippodrome }
+		mutually_exclusive = { focus = X09_patronise_the_blues }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = X09_the_greens
+			country_event = { id = byzantium.4 days = 30 }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = X09_never_another_nika
+		icon = GFX_goal_generic_national_unity
+		x = 12
+		y = 9
+		cost = 10
+		prerequisite = { focus = X09_patronise_the_blues focus = X09_patronise_the_greens }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_purple_ink
+		icon = GFX_goal_generic_political_pressure
+		x = 14
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_book_of_ceremonies }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = X09_purple_ink
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_a_bride_for_the_basileus
+		icon = GFX_focus_generic_treaty
+		x = 15
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_purple_ink }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_stability = 0.05
+			if = { limit = { country_exists = SCA } add_opinion_modifier = { target = SCA modifier = positive_50 } SCA = { add_opinion_modifier = { target = ROOT modifier = positive_50 } } }
+			if = { limit = { country_exists = GRE } add_opinion_modifier = { target = GRE modifier = positive_50 } GRE = { add_opinion_modifier = { target = ROOT modifier = positive_50 } } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_old_emperors_audience
+		icon = GFX_focus_hun_elect_a_king
+		x = 14
+		y = 2
+		cost = 10
+		prerequisite = { focus = X09_legacy_of_gabras }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+			country_event = { id = byzantium.6 days = 3 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_call_the_northmen
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 5
+		y = 3
+		cost = 10
+		prerequisite = { focus = X09_the_varangian_guard }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			country_event = { id = byzantium.5 days = 14 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_songs_of_digenis_akritas
+		icon = GFX_goal_generic_propaganda
+		x = 8
+		y = 4
+		cost = 10
+		prerequisite = { focus = X09_the_kataphraktoi }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_war_support = 0.05
+			army_experience = 10
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_athanatoi
+		icon = GFX_goal_generic_special_forces
+		x = 6
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_an_army_of_new_rome }
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			load_oob = "X09_athanatoi"
+			add_tech_bonus = { name = X09_the_athanatoi bonus = 0.5 uses = 1 category = special_forces }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_wings_of_saint_michael
+		icon = GFX_goal_generic_build_airforce
+		x = 8
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_an_army_of_new_rome }
+		search_filters = { FOCUS_FILTER_AIR_XP FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			air_experience = 25
+			if = { limit = { 63 = { is_owned_and_controlled_by = ROOT } }
+				63 = {
+					add_building_construction = { type = air_base level = 2 instant_build = yes }
+				}
+			}
+			add_tech_bonus = { name = X09_wings_of_saint_michael bonus = 0.5 uses = 1 category = light_fighter }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_scholai
+		icon = GFX_goal_generic_army_doctrines
+		x = 6
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_athanatoi }
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			army_experience = 15
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_optimatoi
+		icon = GFX_goal_generic_cavalry
+		x = 8
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_an_army_of_new_rome }
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			recruit_character = X09_leontios_skleros
+			add_tech_bonus = { name = X09_the_optimatoi bonus = 0.5 uses = 1 category = mountaineers_tech }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_siphon_corps
+		icon = GFX_goal_generic_army_artillery2
+		x = 7
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_the_scholai focus = X09_the_optimatoi }
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = { name = X09_the_siphon_corps bonus = 0.5 uses = 2 category = support_tech }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_mobilise_the_themata
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 7
+		y = 9
+		cost = 10
+		prerequisite = { focus = X09_the_siphon_corps }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_manpower = 30000
+			add_war_support = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_dromon_program
+		icon = GFX_goal_generic_navy_cruiser
+		x = 0
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_masters_of_the_bosporus }
+		search_filters = { FOCUS_FILTER_NAVY_XP FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			navy_experience = 15
+			add_tech_bonus = { name = X09_the_dromon_program bonus = 0.5 uses = 2 category = dd_tech }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_golden_horn_arsenal
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_dromon_program }
+		available = {
+			owns_state = 52
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 52 = { is_owned_and_controlled_by = ROOT } }
+				52 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = { type = dockyard level = 2 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_silk_monopoly
+		icon = GFX_goal_generic_trade
+		x = 4
+		y = 5
+		cost = 10
+		prerequisite = { focus = X09_the_silk_road_of_antioch }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = X09_silk_monopoly
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_hazelnut_fleet
+		icon = GFX_goal_generic_trade
+		x = 4
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_the_silk_monopoly }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_equipment_to_stockpile = { type = convoy_1 amount = 30 producer = X09 }
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_electrify_anatolia
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 2
+		y = 7
+		cost = 10
+		prerequisite = { focus = X09_the_golden_bezant }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 95 = { is_owned_and_controlled_by = ROOT } }
+				95 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 56 = { is_owned_and_controlled_by = ROOT } }
+				56 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_kastamonu_refinery
+		icon = GFX_goal_generic_oil_refinery
+		x = 1
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_electrify_anatolia }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 56 = { is_owned_and_controlled_by = ROOT } }
+				56 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = synthetic_refinery level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_black_sea_grain
+		icon = GFX_goal_generic_production
+		x = 3
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_electrify_anatolia }
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_stability = 0.05
+			add_manpower = 5000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_an_imperial_economy
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 2
+		y = 9
+		cost = 10
+		prerequisite = { focus = X09_the_kastamonu_refinery }
+		prerequisite = { focus = X09_black_sea_grain }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = X09_imperial_economy
+			if = { limit = { 63 = { is_owned_and_controlled_by = ROOT } }
+				63 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_road_to_adrianople
+		icon = GFX_goal_generic_territory_or_war
+		x = 22
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_enter_the_golden_gate }
+		available = {
+			country_exists = SPC
+			753 = { is_owned_by = SPC }
+			NOT = { has_war_with = SPC }
+		}
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			add_state_claim = 753
+			create_wargoal = { type = take_state_focus target = SPC generator = { 753 } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_founders_bones
+		icon = GFX_goal_generic_national_unity
+		x = 16
+		y = 8
+		cost = 10
+		prerequisite = { focus = X09_enter_the_golden_gate }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			country_event = { id = byzantium.7 days = 2 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_synoikismos
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 17
+		y = 10
+		cost = 10
+		prerequisite = { focus = X09_the_theodosian_walls }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			if = { limit = { 52 = { is_owned_and_controlled_by = ROOT } }
+				52 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+			add_victory_points = { province = 9833 value = 10 }
+			add_manpower = 10000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_magnaura
+		icon = GFX_focus_research
+		x = 21
+		y = 10
+		cost = 10
+		prerequisite = { focus = X09_hagia_sophia }
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = X09_magnaura
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_milion
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 19
+		y = 11
+		cost = 10
+		prerequisite = { focus = X09_emperor_of_the_romans }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_owned_state = { limit = { is_core_of = ROOT } add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_joint_aegean_patrols
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 23
+		y = 5
+		cost = 10
+		prerequisite = { focus = X09_the_orthodox_league }
+		search_filters = { FOCUS_FILTER_NAVY_XP }
+		completion_reward = {
+			navy_experience = 15
+			add_doctrine_cost_reduction = { name = X09_joint_aegean_patrols cost_reduction = 0.4 uses = 1 category = naval_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_an_orthodox_commonwealth
+		icon = GFX_focus_generic_treaty
+		x = 23
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_joint_aegean_patrols }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = X09_orthodox_commonwealth
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_the_despotate_of_the_morea
+		icon = GFX_goal_generic_national_unity
+		x = 25
+		y = 5
+		cost = 10
+		prerequisite = { focus = X09_bring_the_hellenes_home }
+		available = {
+			owns_state = 62
+		}
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_state_core = 62
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = X09_thessalonica_second_city
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 25
+		y = 6
+		cost = 10
+		prerequisite = { focus = X09_the_despotate_of_the_morea }
+		available = {
+			owns_state = 70
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_state_core = 70
+			if = { limit = { 70 = { is_owned_and_controlled_by = ROOT } }
+				70 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
 		}
 		ai_will_do = { factor = 1 }
 	}

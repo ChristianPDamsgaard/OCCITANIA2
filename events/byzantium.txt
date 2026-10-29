@@ -18,3 +18,205 @@ news_event = {
 		trigger = { NOT = { tag = X09 } }
 	}
 }
+
+country_event = {
+	id = byzantium.3
+	title = byzantium.3.t
+	desc = byzantium.3.d
+	picture = GFX_report_event_journalists_speech
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.3.a
+		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = byzantium.8
+	title = byzantium.8.t
+	desc = byzantium.8.d
+	picture = GFX_report_event_journalists_speech
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.8.a
+		add_war_support = 0.05
+	}
+}
+
+country_event = {
+	id = byzantium.11
+	title = byzantium.11.t
+	desc = byzantium.11.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.11.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.12
+	title = byzantium.12.t
+	desc = byzantium.12.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.12.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.13
+	title = byzantium.13.t
+	desc = byzantium.13.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.13.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.14
+	title = byzantium.14.t
+	desc = byzantium.14.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.14.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.15
+	title = byzantium.15.t
+	desc = byzantium.15.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.15.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.16
+	title = byzantium.16.t
+	desc = byzantium.16.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.16.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.17
+	title = byzantium.17.t
+	desc = byzantium.17.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.17.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.18
+	title = byzantium.18.t
+	desc = byzantium.18.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.18.a
+		add_stability = 0.02
+	}
+}
+
+country_event = {
+	id = byzantium.4
+	title = byzantium.4.t
+	desc = byzantium.4.d
+	picture = GFX_report_event_generic_riot
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.4.a
+		ai_chance = { base = 50 }
+		add_stability = -0.05
+		add_war_support = 0.05
+		set_country_flag = X09_nika_crushed
+	}
+
+	option = {
+		name = byzantium.4.b
+		ai_chance = { base = 50 }
+		add_political_power = -75
+		add_stability = 0.03
+	}
+}
+
+country_event = {
+	id = byzantium.6
+	title = byzantium.6.t
+	desc = byzantium.6.d
+	picture = GFX_report_event_journalists_speech
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.6.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = byzantium.5
+	title = byzantium.5.t
+	desc = byzantium.5.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.5.a
+		ai_chance = { base = 70 }
+		add_manpower = 6000
+		army_experience = 10
+	}
+
+	option = {
+		name = byzantium.5.b
+		ai_chance = { base = 30 }
+		add_political_power = 50
+		add_manpower = 3000
+	}
+}
+
+country_event = {
+	id = byzantium.7
+	title = byzantium.7.t
+	desc = byzantium.7.d
+	picture = GFX_report_event_journalists_speech
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.7.a
+		add_stability = 0.03
+	}
+}
+

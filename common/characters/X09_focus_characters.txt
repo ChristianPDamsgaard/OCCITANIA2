@@ -170,4 +170,60 @@ characters={
 		}
 	}
 
+	X09_theophano_doukaina={
+		name=X09_theophano_doukaina
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = X09_theophano_doukaina
+			allowed = { original_tag = X09 }
+			available = { has_completed_focus = X09_the_secret_office }
+			traits = { compassionate_gentleman }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	X09_ioannis_kourkouas={
+		name=X09_ioannis_kourkouas
+		portraits={
+			civilian={
+				large="GFX_GRE_Konstantinos_Maniadakis"
+				small="GFX_GRE_Konstantinos_Maniadakis_small"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = X09_ioannis_kourkouas
+			allowed = { original_tag = X09 }
+			available = { has_completed_focus = X09_the_scholai }
+			traits = { army_chief_offensive_1 }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	X09_leontios_skleros={
+		name=X09_leontios_skleros
+		portraits={
+			army={
+				large="GFX_GRE_Nikos_Beloyannis"
+				small="GFX_GRE_Nikos_Beloyannis_small"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
 }
