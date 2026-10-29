@@ -21,6 +21,15 @@ ideas = {
 				special_forces_cap = 0.1
 			}
 		}
+		GRE_march_on_athens = {
+			picture = generic_infantry_bonus
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
 		GRE_hellenic_constitution = {
 			picture = generic_democratic_drift_bonus
 			allowed = { always = no }

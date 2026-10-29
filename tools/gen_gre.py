@@ -39,9 +39,11 @@ UPRISING = (
     + "SPC = {\n\tdeclare_war_on = { target = ROOT type = annex_everything }\n"
     + "\tif = { limit = { country_exists = HEL } declare_war_on = { target = HEL type = annex_everything } }\n}\n"
     + "if = { limit = { has_country_flag = GRE_occitan_volunteers }\n\tload_oob = \"GRE_occitan_volunteers\"\n\tadd_equipment_to_stockpile = { type = infantry_equipment amount = 1000 producer = OCC }\n}\n"
-    + "if = { limit = { has_country_flag = GRE_republican_contacts }\n"
-    + "\tadd_opinion_modifier = { target = HEL modifier = positive_50 }\n"
-    + "\tHEL = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }\n}\n"
+    + "# Royalists and republicans are rivals: the uprising is a three-way war\n"
+    + "if = { limit = { country_exists = HEL NOT = { has_war_with = HEL } }\n"
+    + "\tdeclare_war_on = { target = HEL type = annex_everything }\n"
+    + "\tadd_opinion_modifier = { target = HEL modifier = negative_50 }\n"
+    + "\tHEL = { add_opinion_modifier = { target = ROOT modifier = negative_50 } }\n}\n"
     + "SPC = { country_event = { id = greek_uprising.1 } }\n"
     + "add_ideas = GRE_the_great_uprising\n"
 )
@@ -66,12 +68,12 @@ focus("GRE_smuggle_arms_across_the_aegean", 8, 2, "GFX_goal_generic_small_arms",
       effect="add_equipment_to_stockpile = { type = infantry_equipment amount = 1500 producer = GRE }\nadd_equipment_to_stockpile = { type = artillery_equipment amount = 36 producer = GRE }\n",
       ai=20, filters=["FOCUS_FILTER_MANPOWER"])
 focus("GRE_the_athenian_republicans", 10, 2, "GFX_goal_support_democracy", "Reach Out to the Athenian Republicans",
-      "The rebels of Athens and the Peloponnese want no king. They want a Hellenic Republic. They are not our friends, but they hate Aragon as much as we do.",
+      "The rebels of Athens and the Peloponnese want no king. They want a Hellenic Republic, and when the uprising comes they will fight us as readily as Aragon. Still, keeping a line open to Athens will put more guns in the south, and one day there may be a peace to make.",
       pre=[["GRE_the_philiki_etaireia_reborn"]],
       effect="set_country_flag = GRE_republican_contacts\nadd_popularity = { ideology = democratic popularity = 0.05 }\n",
       ai=5, filters=["FOCUS_FILTER_POLITICAL"])
 focus("GRE_the_great_uprising", 8, 3, "GFX_goal_generic_major_war", "The Great Uprising",
-      "The signal fires burn on Mount Olympus. Salonika, Volos and Florina rise for the king, while Athens and the islands proclaim a Hellenic Republic. Aragon will bleed for every Greek village it holds.",
+      "The signal fires burn on Mount Olympus. Salonika, Volos and Florina rise for the king, while Athens and the islands proclaim a Hellenic Republic that recognises no king. Three armies now fight over Greece.",
       pre=[["GRE_smuggle_arms_across_the_aegean"], ["GRE_royalist_committees", "GRE_the_athenian_republicans"]],
       avail=("country_exists = SPC\nNOT = { has_war_with = SPC }\n"
              "OR = {\n" + "".join(f"\t{s} = {{ is_owned_by = SPC }}\n" for s in GREEK) + "}\n"
@@ -85,18 +87,24 @@ focus("GRE_a_crown_for_all_hellenes", 6, 4, "GFX_focus_rom_royal_dictatorship", 
       effect="add_popularity = { ideology = absolutist popularity = 0.1 }\nadd_stability = 0.05\n",
       ai=5, filters=["FOCUS_FILTER_POLITICAL"])
 focus("GRE_bring_athens_to_heel", 5, 5, "GFX_goal_generic_territory_or_war", "Bring Athens to Heel",
-      "The war with Aragon is over. Now the self-proclaimed republic in Athens will submit to the crown, peacefully or otherwise.",
+      "The war with Aragon is over. Every soldier of the crown now marches on Athens, and the self-proclaimed republic will submit.",
       pre=[["GRE_a_crown_for_all_hellenes"]],
-      avail="country_exists = HEL\nNOT = { has_war_with = SPC }\nNOT = { has_war_with = HEL }",
-      effect="create_wargoal = { type = annex_everything target = HEL }\n", filters=["FOCUS_FILTER_ANNEXATION"])
+      avail="country_exists = HEL\nNOT = { has_war_with = SPC }",
+      effect=("if = { limit = { has_war_with = HEL }\n\tadd_timed_idea = { idea = GRE_march_on_athens days = 180 }\n\tadd_war_support = 0.1\n}\n"
+              "else = { create_wargoal = { type = annex_everything target = HEL } }\n"),
+      filters=["FOCUS_FILTER_ANNEXATION"])
 focus("GRE_the_king_in_athens", 7, 5, "GFX_goal_generic_national_unity", "The King in Athens",
       "Athens is the heart of Hellas. The court will move from little Polygyros to the city of Pericles.",
       pre=[["GRE_a_crown_for_all_hellenes"]], avail="owns_state = 49",
       effect="set_capital = { state = 49 }\nadd_stability = 0.1\nadd_political_power = 100\n", filters=["FOCUS_FILTER_STABILITY"])
 focus("GRE_the_republican_pact", 10, 4, "GFX_goal_support_democracy", "The Republican Pact",
-      "The uprising succeeded because royalists and republicans fought side by side. The king will step aside, and Greece will join the Hellenic Republic as one free nation.",
+      "Greeks killing Greeks while Aragon watches is madness. The king will step aside, the guns will fall silent between Polygyros and Athens, and Greece will join the Hellenic Republic as one free nation.",
       pre=[["GRE_the_great_uprising"]], excl=["GRE_a_crown_for_all_hellenes"],
-      effect=("set_politics = { ruling_party = democratic elections_allowed = yes last_election = \"1936.1.1\" election_frequency = 48 }\n"
+      effect=("if = { limit = { country_exists = HEL has_war_with = HEL }\n\twhite_peace = HEL\n}\n"
+              "if = { limit = { country_exists = HEL }\n"
+              "\tadd_opinion_modifier = { target = HEL modifier = positive_50 }\n"
+              "\tHEL = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }\n}\n"
+              "set_politics = { ruling_party = democratic elections_allowed = yes last_election = \"1936.1.1\" election_frequency = 48 }\n"
               "set_popularities = { democratic = 60 absolutist = 35 fascism = 5 }\n"
               "if = { limit = { country_exists = HEL is_in_faction = no HEL = { is_in_faction = no } }\n"
               "\tcreate_faction_from_template = { template = faction_template_defensive_democratic name = GRE_hellenic_alliance }\n"
@@ -207,6 +215,8 @@ IDEAS = [
      "The Great Uprising", "All of Greece is in arms against Aragon."),
     ("GRE_klephts", "warrior_traditions_idea", "army_defence_factor = 0.05\nspecial_forces_cap = 0.1",
      "The Klephts", "Greek soldiers fight like the mountain guerrillas of old."),
+    ("GRE_march_on_athens", "generic_infantry_bonus", "army_attack_factor = 0.1\nwar_support_factor = 0.05",
+     "The March on Athens", "With Aragon gone, the whole royal army turns south against the republic."),
     ("GRE_hellenic_constitution", "generic_democratic_drift_bonus", "stability_factor = 0.1\npolitical_power_gain = 0.1",
      "A Constitution for Hellas", "Greece is governed by a written constitution and a freely elected parliament."),
     ("GRE_hellas_reborn", "generic_national_unification", "stability_factor = 0.1\nwar_support_factor = 0.1\nindustrial_capacity_factory = 0.05",
@@ -378,7 +388,7 @@ L += [
  ' SPC_greek_insurgency_desc:0 "Greek rebels hold the mountains of Macedonia and the streets of Athens. Every garrison in Greece is under attack."',
  ' GRE_hellenic_alliance:0 "Hellenic Alliance"',
  ' greek_uprising.1.t:0 "Revolt in Greece!"',
- ' greek_uprising.1.d:0 "Signal fires burned on Mount Olympus last night. By morning, royalist insurgents had seized Salonika, Volos and Florina and declared for the King of Greece in Polygyros. In Athens, the Peloponnese and the islands, republican militias have proclaimed a Hellenic Republic. Our garrisons are cut off and under fire across the whole of Greece."',
+ ' greek_uprising.1.d:0 "Signal fires burned on Mount Olympus last night. By morning, royalist insurgents had seized Salonika, Volos and Florina and declared for the King of Greece in Polygyros. In Athens, the Peloponnese and the islands, republican militias have proclaimed a Hellenic Republic and refuse to recognise the king. Our garrisons are cut off and under fire across the whole of Greece, though the two rebel governments are already fighting each other as well as us."',
  ' greek_uprising.1.a:0 "Crush the traitors!"',
  ' greek_uprising.2.t:0 "The Greek Question"',
  ' greek_uprising.2.d:0 "A year of fighting has not broken the Greek rebels. Our garrisons are pinned down, the foreign press reports every burned village, and the generals warn that the army is needed elsewhere. Some ministers now quietly suggest that Greece is not worth the cost: recognise the rebel governments and bring the troops home."',
@@ -388,7 +398,7 @@ L += [
  ' greek_uprising.3.d:0 "The last rebel strongholds have fallen. Royalist and republican leaders alike have fled into exile or been captured. Order is restored across Greece, and the army can finally turn its attention back to Occitania."',
  ' greek_uprising.3.a:0 "Aragon endures."',
  ' greek_uprising.5.t:0 "Aragon Recognises Greek Independence"',
- ' greek_uprising.5.d:0 "Unable to break our resistance, the Aragonese government has agreed to a ceasefire and withdrawn its garrisons. For the first time in generations, Greeks govern Greek lands. The question of what kind of Greece it will be can wait until the celebrations are over."',
+ ' greek_uprising.5.d:0 "Unable to break our resistance, the Aragonese government has agreed to a ceasefire and withdrawn its garrisons. For the first time in generations, Greeks govern Greek lands. But the war between the royalists of Polygyros and the republicans of Athens goes on: only one of them will rule a free Greece."',
  ' greek_uprising.5.a:0 "Zito i Ellas!"',
  ' greek_uprising.10.a:0 "OK"',
  ' # Hellenic Republic',

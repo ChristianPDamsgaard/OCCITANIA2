@@ -146,9 +146,11 @@ focus_tree = {
 				load_oob = "GRE_occitan_volunteers"
 				add_equipment_to_stockpile = { type = infantry_equipment amount = 1000 producer = OCC }
 			}
-			if = { limit = { has_country_flag = GRE_republican_contacts }
-				add_opinion_modifier = { target = HEL modifier = positive_50 }
-				HEL = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+			# Royalists and republicans are rivals: the uprising is a three-way war
+			if = { limit = { country_exists = HEL NOT = { has_war_with = HEL } }
+				declare_war_on = { target = HEL type = annex_everything }
+				add_opinion_modifier = { target = HEL modifier = negative_50 }
+				HEL = { add_opinion_modifier = { target = ROOT modifier = negative_50 } }
 			}
 			SPC = { country_event = { id = greek_uprising.1 } }
 			add_ideas = GRE_the_great_uprising
@@ -182,11 +184,14 @@ focus_tree = {
 		available = {
 			country_exists = HEL
 			NOT = { has_war_with = SPC }
-			NOT = { has_war_with = HEL }
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			create_wargoal = { type = annex_everything target = HEL }
+			if = { limit = { has_war_with = HEL }
+				add_timed_idea = { idea = GRE_march_on_athens days = 180 }
+				add_war_support = 0.1
+			}
+			else = { create_wargoal = { type = annex_everything target = HEL } }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -220,6 +225,13 @@ focus_tree = {
 		mutually_exclusive = { focus = GRE_a_crown_for_all_hellenes }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			if = { limit = { country_exists = HEL has_war_with = HEL }
+				white_peace = HEL
+			}
+			if = { limit = { country_exists = HEL }
+				add_opinion_modifier = { target = HEL modifier = positive_50 }
+				HEL = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+			}
 			set_politics = { ruling_party = democratic elections_allowed = yes last_election = "1936.1.1" election_frequency = 48 }
 			set_popularities = { democratic = 60 absolutist = 35 fascism = 5 }
 			if = { limit = { country_exists = HEL is_in_faction = no HEL = { is_in_faction = no } }

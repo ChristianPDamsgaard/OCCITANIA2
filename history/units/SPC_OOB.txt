@@ -255,27 +255,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3. Infantry Division"
-		location = 11297
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Cavalry Division"
-		location = 11297
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2. Cavalry Division"
-		location = 11297
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1. Infantry Division"
 		location = 9783
 		division_template = "Infantry Division"
@@ -297,27 +276,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "3. Light Infantry Division"
-		location = 9783
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4. Light Infantry Division"
-		location = 9783
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5. Light Infantry Division"
-		location = 9783
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1. Infantry Division"
 		location = 3242
 		division_template = "Infantry Division"
@@ -335,34 +293,6 @@ units = {
 		name = "2. Light Infantry Division"
 		location = 3242
 		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3. Light Infantry Division"
-		location = 3242
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4. Light Infantry Division"
-		location = 3242
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Light Infantry Brigade"
-		location = 3242
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Cavalry Brigade"
-		location = 3242
-		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -379,20 +309,6 @@ units = {
 		division_template = "Infantry Division"
 		start_experience_factor = 0.7
 		start_equipment_factor = 0.0
-	}
-	division = {
-		name = "3. Infantry Division"
-		location = 872
-		division_template = "Infantry Division"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.0
-	}
-	division = {
-		name = "4. Infantry Division"
-		location = 872
-		division_template = "Infantry Division"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.2
 	}
 	division = {
 		name = "1. Infantry Brigade"
@@ -402,21 +318,42 @@ units = {
 		start_equipment_factor = 0.1
 	}
 	division = {
-		name = "2. Infantry Brigade"
+		name = "1. Light Infantry Division"
 		location = 872
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.1
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
 	}
 	division = {
-		name = "1. Infantry Division"
-		location = 9772
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
+		name = "2. Light Infantry Division"
+		location = 872
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2. Infantry Division"
+		name = "3. Light Infantry Division"
+		location = 872
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 872
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1. Cavalry Brigade"
+		location = 872
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1. Infantry Division"
 		location = 9772
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
@@ -430,20 +367,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1. Cavalry Brigade"
-		location = 9772
-		division_template = "Cavalry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2. Cavalry Brigade"
-		location = 9772
-		division_template = "Cavalry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1. Infantry Division"
 		location = 377
 		division_template = "Infantry Division"
@@ -452,13 +375,6 @@ units = {
 	}
 	division = {
 		name = "2. Infantry Division"
-		location = 377
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3. Infantry Division"
 		location = 377
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
@@ -468,20 +384,6 @@ units = {
 		name = "1. Light Infantry Division"
 		location = 377
 		division_template = "Light Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2. Light Infantry Division"
-		location = 377
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3. Light Infantry Division"
-		location = 377
-		division_template = "Light Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
@@ -493,21 +395,7 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1. Cavalry Division"
-		location = 377
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1. Cavalry Brigade"
-		location = 377
-		division_template = "Cavalry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2. Cavalry Brigade"
 		location = 377
 		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
@@ -528,13 +416,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "2. Infantry Division"
-		location = 3205
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1. Light Infantry Division"
 		location = 3205
 		division_template = "Light Infantry Division"
@@ -556,42 +437,7 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "4. Light Infantry Division"
-		location = 3205
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5. Light Infantry Division"
-		location = 3205
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1. Light Infantry Brigade"
-		location = 3205
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Cavalry Division"
-		location = 3205
-		division_template = "Cavalry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Light Infantry Brigade"
-		location = 9853
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "2. Light Infantry Brigade"
 		location = 9853
 		division_template = "Light Infantry Brigade"
 		start_experience_factor = 0.3
@@ -606,89 +452,12 @@ units = {
 	}
 	division = {
 		name = "1. Light Infantry Division"
-		location = 872
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "2. Light Infantry Division"
-		location = 872
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "3. Light Infantry Division"
-		location = 872
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4. Light Infantry Division"
-		location = 872
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5. Light Infantry Division"
-		location = 872
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.8
-	}
-	division = {
-		name = "6. Light Infantry Division"
-		location = 872
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Light Infantry Brigade"
-		location = 872
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2. Light Infantry Brigade"
-		location = 872
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Cavalry Brigade"
-		location = 872
-		division_template = "Cavalry Brigade"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Light Infantry Division"
 		location = 9612
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	division = {
-		name = "1. Infantry Division"
-		location = 872
-		division_template = "Infantry Division"
-		start_experience_factor = 0.6
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Light Infantry Brigade"
-		location = 872
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.6
-		start_equipment_factor = 1.0
-	}
-	division = {
 		name = "1. Light Infantry Division"
 		location = 9769
 		division_template = "Light Infantry Division"
@@ -697,20 +466,6 @@ units = {
 	}
 	division = {
 		name = "1. Light Infantry Brigade"
-		location = 9769
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Light Infantry Brigade"
-		location = 385
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2. Light Infantry Brigade"
 		location = 385
 		division_template = "Light Infantry Brigade"
 		start_experience_factor = 0.2
@@ -718,13 +473,6 @@ units = {
 	}
 	division = {
 		name = "1. Light Infantry Brigade"
-		location = 3379
-		division_template = "Light Infantry Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "2. Light Infantry Brigade"
 		location = 3379
 		division_template = "Light Infantry Brigade"
 		start_experience_factor = 0.2
@@ -776,34 +524,6 @@ units = {
 		name = "3. Infantry Division"
 		location = 3816
 		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "4. Infantry Division"
-		location = 3816
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "5. Infantry Division"
-		location = 3816
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "6. Infantry Division"
-		location = 3816
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	division = {
-		name = "1. Infantry Brigade"
-		location = 3816
-		division_template = "Infantry Brigade"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
