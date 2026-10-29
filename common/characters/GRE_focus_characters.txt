@@ -1,0 +1,208 @@
+characters={
+	GRE_ioannis_varvakis={
+		name=GRE_ioannis_varvakis
+		portraits={
+			civilian={
+				large="GFX_GRE_Ioannis_Metaxas_KR"
+				small="GFX_GRE_Ioannis_Metaxas_KR_small"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	GRE_theodoros_mavrogenis={
+		name=GRE_theodoros_mavrogenis
+		portraits={
+			civilian={
+				large="GFX_GRE_Konstantinos_Tsaldaris"
+				small="GFX_GRE_Konstantinos_Tsaldaris_small"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	GRE_alexandros_karavias={
+		name=GRE_alexandros_karavias
+		portraits={
+			civilian={
+				large="GFX_GRE_Alexandros_Papanastasiou"
+				small="GFX_GRE_Alexandros_Papanastasiou_small"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	GRE_spyridon_valaoritis={
+		name=GRE_spyridon_valaoritis
+		portraits={
+			civilian={
+				large="GFX_GRE_Stylianos_Lykoudis"
+				small="GFX_GRE_Stylianos_Lykoudis_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GRE_spyridon_valaoritis
+			allowed = { original_tag = GRE }
+			available = { has_completed_focus = GRE_the_court_at_polygyros }
+			traits = { silent_workhorse }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	GRE_metropolitan_chrysanthos={
+		name=GRE_metropolitan_chrysanthos
+		portraits={
+			civilian={
+				large="GFX_GRE_Panagiotis_Kanellopoulos"
+				small="GFX_GRE_Panagiotis_Kanellopoulos_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GRE_metropolitan_chrysanthos
+			allowed = { original_tag = GRE }
+			available = { has_completed_focus = GRE_the_holy_mountain }
+			traits = { popular_figurehead }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	GRE_spyridon_laskaris={
+		name=GRE_spyridon_laskaris
+		portraits={
+			civilian={
+				large="GFX_GRE_Themistoklis_Sofoulis"
+				small="GFX_GRE_Themistoklis_Sofoulis_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GRE_spyridon_laskaris
+			allowed = { original_tag = GRE }
+			available = { has_completed_focus = GRE_the_reconstruction_ministry }
+			traits = { captain_of_industry }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	GRE_nikolaos_zervakis={
+		name=GRE_nikolaos_zervakis
+		portraits={
+			civilian={
+				large="GFX_GRE_Konstantinos_Tsatsos"
+				small="GFX_GRE_Konstantinos_Tsatsos_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = GRE_nikolaos_zervakis
+			allowed = { original_tag = GRE }
+			available = { has_completed_focus = GRE_the_olympus_line }
+			traits = { fortification_engineer }
+			cost = 100
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	GRE_periklis_rallis={
+		name=GRE_periklis_rallis
+		portraits={
+			civilian={
+				large="GFX_GRE_Stefanos_Sarafis"
+				small="GFX_GRE_Stefanos_Sarafis_small"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = GRE_periklis_rallis
+			allowed = { original_tag = GRE }
+			available = { has_completed_focus = GRE_the_evelpidon_academy }
+			traits = { military_theorist }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	GRE_alexandros_rodios={
+		name=GRE_alexandros_rodios
+		portraits={
+			civilian={
+				large="GFX_GRE_Alexandros_Papagos"
+				small="GFX_GRE_Alexandros_Papagos_small"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = GRE_alexandros_rodios
+			allowed = { original_tag = GRE }
+			available = { has_completed_focus = GRE_the_general_staff }
+			traits = { army_chief_defensive_1 }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	GRE_konstantinos_kolokotronis={
+		name=GRE_konstantinos_kolokotronis
+		portraits={
+			civilian={
+				large="GFX_GRE_Paul"
+				small="GFX_GRE_Paul_small"
+			}
+			army={
+				large="GFX_GRE_Paul"
+				small="GFX_GRE_Paul_small"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+
+	GRE_giorgos_zachos={
+		name=GRE_giorgos_zachos
+		portraits={
+			army={
+				large="GFX_GRE_Manolis_Mantakas"
+				small="GFX_GRE_Manolis_Mantakas_small"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+}

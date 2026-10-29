@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_last_free_greeks
 		icon = GFX_goal_generic_national_unity
-		x = 8
+		x = 11
 		y = 0
 		cost = 5
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_philiki_etaireia_reborn
 		icon = GFX_goal_generic_political_pressure
-		x = 8
+		x = 11
 		y = 1
 		cost = 10
 		prerequisite = { focus = GRE_the_last_free_greeks }
@@ -50,7 +50,7 @@ focus_tree = {
 	focus = {
 		id = GRE_royalist_committees
 		icon = GFX_focus_hun_elect_a_king
-		x = 6
+		x = 9
 		y = 2
 		cost = 10
 		prerequisite = { focus = GRE_the_philiki_etaireia_reborn }
@@ -65,7 +65,7 @@ focus_tree = {
 	focus = {
 		id = GRE_smuggle_arms_across_the_aegean
 		icon = GFX_goal_generic_small_arms
-		x = 8
+		x = 11
 		y = 2
 		cost = 10
 		prerequisite = { focus = GRE_the_philiki_etaireia_reborn }
@@ -80,7 +80,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_athenian_republicans
 		icon = GFX_goal_support_democracy
-		x = 10
+		x = 13
 		y = 2
 		cost = 10
 		prerequisite = { focus = GRE_the_philiki_etaireia_reborn }
@@ -95,7 +95,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_great_uprising
 		icon = GFX_goal_generic_major_war
-		x = 8
+		x = 11
 		y = 3
 		cost = 10
 		prerequisite = { focus = GRE_smuggle_arms_across_the_aegean }
@@ -152,6 +152,7 @@ focus_tree = {
 				add_opinion_modifier = { target = HEL modifier = negative_50 }
 				HEL = { add_opinion_modifier = { target = ROOT modifier = negative_50 } }
 			}
+			if = { limit = { has_country_flag = GRE_monastery_presses } SPC = { add_stability = -0.05 } }
 			SPC = { country_event = { id = greek_uprising.1 } }
 			add_ideas = GRE_the_great_uprising
 		}
@@ -161,7 +162,7 @@ focus_tree = {
 	focus = {
 		id = GRE_a_crown_for_all_hellenes
 		icon = GFX_focus_rom_royal_dictatorship
-		x = 6
+		x = 9
 		y = 4
 		cost = 10
 		prerequisite = { focus = GRE_the_great_uprising }
@@ -177,7 +178,7 @@ focus_tree = {
 	focus = {
 		id = GRE_bring_athens_to_heel
 		icon = GFX_goal_generic_territory_or_war
-		x = 5
+		x = 8
 		y = 5
 		cost = 10
 		prerequisite = { focus = GRE_a_crown_for_all_hellenes }
@@ -199,7 +200,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_king_in_athens
 		icon = GFX_goal_generic_national_unity
-		x = 7
+		x = 10
 		y = 5
 		cost = 10
 		prerequisite = { focus = GRE_a_crown_for_all_hellenes }
@@ -218,7 +219,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_republican_pact
 		icon = GFX_goal_support_democracy
-		x = 10
+		x = 13
 		y = 4
 		cost = 10
 		prerequisite = { focus = GRE_the_great_uprising }
@@ -245,7 +246,7 @@ focus_tree = {
 	focus = {
 		id = GRE_union_with_the_republic
 		icon = GFX_focus_generic_treaty
-		x = 9
+		x = 12
 		y = 5
 		cost = 10
 		prerequisite = { focus = GRE_the_republican_pact }
@@ -265,7 +266,7 @@ focus_tree = {
 	focus = {
 		id = GRE_a_constitution_for_hellas
 		icon = GFX_focus_generic_treaty
-		x = 11
+		x = 14
 		y = 5
 		cost = 10
 		prerequisite = { focus = GRE_the_republican_pact }
@@ -279,7 +280,7 @@ focus_tree = {
 	focus = {
 		id = GRE_hellas_reborn
 		icon = GFX_goal_generic_national_unity
-		x = 8
+		x = 11
 		y = 6
 		cost = 10
 		prerequisite = { focus = GRE_bring_athens_to_heel focus = GRE_the_king_in_athens focus = GRE_union_with_the_republic focus = GRE_a_constitution_for_hellas }
@@ -303,7 +304,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_megali_idea
 		icon = GFX_goal_generic_more_territorial_claims
-		x = 8
+		x = 11
 		y = 7
 		cost = 10
 		prerequisite = { focus = GRE_hellas_reborn }
@@ -323,7 +324,7 @@ focus_tree = {
 	focus = {
 		id = GRE_appeal_to_occitania
 		icon = GFX_focus_generic_treaty
-		x = 13
+		x = 16
 		y = 1
 		cost = 10
 		prerequisite = { focus = GRE_the_last_free_greeks }
@@ -342,7 +343,7 @@ focus_tree = {
 	focus = {
 		id = GRE_occitan_military_advisors
 		icon = GFX_goal_generic_army_doctrines
-		x = 13
+		x = 16
 		y = 2
 		cost = 10
 		prerequisite = { focus = GRE_appeal_to_occitania }
@@ -357,7 +358,7 @@ focus_tree = {
 	focus = {
 		id = GRE_the_occitan_volunteer_corps
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 12
+		x = 15
 		y = 3
 		cost = 10
 		prerequisite = { focus = GRE_occitan_military_advisors }
@@ -379,7 +380,7 @@ focus_tree = {
 	focus = {
 		id = GRE_byzantine_brotherhood
 		icon = GFX_focus_generic_treaty
-		x = 14
+		x = 17
 		y = 3
 		cost = 10
 		prerequisite = { focus = GRE_appeal_to_occitania }
@@ -406,6 +407,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ARMY_XP }
 		completion_reward = {
 			add_ideas = GRE_klephts
+			recruit_character = GRE_giorgos_zachos
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -526,6 +528,692 @@ focus_tree = {
 					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
 				}
 			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_court_at_polygyros
+		icon = GFX_focus_hun_elect_a_king
+		x = 20
+		y = 1
+		cost = 10
+		prerequisite = { focus = GRE_the_last_free_greeks }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 10 }
+	}
+
+	focus = {
+		id = GRE_the_holy_mountain
+		icon = GFX_goal_generic_national_unity
+		x = 19
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_the_court_at_polygyros }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = GRE_blessing_of_athos
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_monastery_presses
+		icon = GFX_goal_generic_propaganda
+		x = 19
+		y = 3
+		cost = 10
+		prerequisite = { focus = GRE_the_holy_mountain }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			set_country_flag = GRE_monastery_presses
+			add_war_support = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_refugees_of_macedonia
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 21
+		y = 2
+		cost = 10
+		prerequisite = { focus = GRE_the_court_at_polygyros }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_manpower = 8000
+			if = { limit = { 329 = { is_owned_and_controlled_by = ROOT } }
+				329 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_crown_prince
+		icon = GFX_goal_generic_army_doctrines
+		x = 21
+		y = 3
+		cost = 10
+		prerequisite = { focus = GRE_refugees_of_macedonia }
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			recruit_character = GRE_konstantinos_kolokotronis
+			army_experience = 5
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_sacred_band
+		icon = GFX_goal_generic_special_forces
+		x = 20
+		y = 4
+		cost = 10
+		prerequisite = { focus = GRE_the_monastery_presses }
+		prerequisite = { focus = GRE_the_crown_prince }
+		search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			load_oob = "GRE_sacred_band"
+			add_tech_bonus = { name = GRE_the_sacred_band bonus = 0.5 uses = 1 category = special_forces }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_return_of_the_refugees
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 21
+		y = 5
+		cost = 10
+		prerequisite = { focus = GRE_the_great_uprising }
+		prerequisite = { focus = GRE_refugees_of_macedonia }
+		available = {
+			owns_state = 70
+		}
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_stability = 0.05
+			add_manpower = 5000
+			if = { limit = { 70 = { is_owned_and_controlled_by = ROOT } }
+				70 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_rebuild_the_burned_villages
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 22
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_return_of_the_refugees }
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_stability = 0.05
+			if = { limit = { 99 = { is_owned_and_controlled_by = ROOT } }
+				99 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_language_question
+		icon = GFX_goal_generic_scientific_exchange
+		x = 20
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_the_great_uprising }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_katharevousa
+		icon = GFX_goal_generic_propaganda
+		x = 19
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_language_question }
+		mutually_exclusive = { focus = GRE_demotiki }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = GRE_katharevousa
+			add_popularity = { ideology = absolutist popularity = 0.05 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+
+	focus = {
+		id = GRE_demotiki
+		icon = GFX_goal_support_democracy
+		x = 21
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_language_question }
+		mutually_exclusive = { focus = GRE_katharevousa }
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = GRE_demotiki
+			add_popularity = { ideology = democratic popularity = 0.05 }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = GRE_restore_the_acropolis
+		icon = GFX_goal_generic_national_unity
+		x = 20
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_katharevousa focus = GRE_demotiki }
+		available = {
+			owns_state = 49
+		}
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_reconstruction_ministry
+		icon = GFX_goal_generic_construction2
+		x = 2
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_industry_of_a_free_greece }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = GRE_reconstruction_ministry
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_athens_salonika_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_reconstruction_ministry }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 49 = { is_owned_and_controlled_by = ROOT } }
+				49 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 100 = { is_owned_and_controlled_by = ROOT } }
+				100 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 70 = { is_owned_and_controlled_by = ROOT } }
+				70 = {
+					add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_laurium_mines
+		icon = GFX_goal_generic_construct_military
+		x = 3
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_reconstruction_ministry }
+		available = {
+			owns_state = 49
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_resource = { type = steel amount = 6 state = 49 }
+			add_resource = { type = aluminium amount = 2 state = 49 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_port_of_piraeus
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 0
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_the_athens_salonika_railway }
+		available = {
+			owns_state = 49
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 49 = { is_owned_and_controlled_by = ROOT } }
+				49 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = dockyard level = 1 instant_build = yes }
+				}
+			}
+			if = { limit = { 49 = { is_owned_and_controlled_by = ROOT } }
+				49 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_thessalian_granary
+		icon = GFX_goal_generic_production
+		x = 2
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_the_athens_salonika_railway }
+		prerequisite = { focus = GRE_the_laurium_mines }
+		available = {
+			owns_state = 100
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.05
+			if = { limit = { 100 = { is_owned_and_controlled_by = ROOT } }
+				100 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_salonika_tobacco
+		icon = GFX_goal_generic_trade
+		x = 4
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_the_laurium_mines }
+		available = {
+			owns_state = 70
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_political_power = 50
+			if = { limit = { 70 = { is_owned_and_controlled_by = ROOT } }
+				70 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_a_modern_greek_economy
+		icon = GFX_goal_generic_production
+		x = 2
+		y = 9
+		cost = 10
+		prerequisite = { focus = GRE_the_port_of_piraeus focus = GRE_the_thessalian_granary focus = GRE_salonika_tobacco }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			remove_ideas = GRE_reconstruction_ministry
+			add_ideas = GRE_modern_economy
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_from_insurgents_to_army
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 24
+		y = 4
+		cost = 10
+		prerequisite = { focus = GRE_the_great_uprising }
+		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = { name = GRE_from_insurgents_to_army bonus = 0.5 uses = 1 category = infantry_weapons }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_evelpidon_academy
+		icon = GFX_goal_generic_army_doctrines
+		x = 23
+		y = 5
+		cost = 10
+		prerequisite = { focus = GRE_from_insurgents_to_army }
+		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			army_experience = 10
+			add_doctrine_cost_reduction = { name = GRE_the_evelpidon_academy cost_reduction = 0.4 uses = 1 category = land_doctrine }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_olympus_line
+		icon = GFX_goal_generic_defence
+		x = 25
+		y = 5
+		cost = 10
+		prerequisite = { focus = GRE_from_insurgents_to_army }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 70 = { is_owned_and_controlled_by = ROOT } }
+				70 = { add_building_construction = { type = bunker level = 2 province = { all_provinces = yes limit_to_border = yes } instant_build = yes } }
+			}
+			if = { limit = { 99 = { is_owned_and_controlled_by = ROOT } }
+				99 = { add_building_construction = { type = bunker level = 2 province = { all_provinces = yes limit_to_border = yes } instant_build = yes } }
+			}
+			if = { limit = { 100 = { is_owned_and_controlled_by = ROOT } }
+				100 = { add_building_construction = { type = bunker level = 1 province = { all_provinces = yes limit_to_border = yes } instant_build = yes } }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_general_staff
+		icon = GFX_goal_generic_position_armies
+		x = 23
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_the_evelpidon_academy }
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		completion_reward = {
+			army_experience = 15
+			add_command_power = 25
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_aegean_coastal_batteries
+		icon = GFX_goal_generic_fortify_city
+		x = 25
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_the_olympus_line }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			if = { limit = { 49 = { is_owned_and_controlled_by = ROOT } }
+				49 = { add_building_construction = { type = coastal_bunker level = 1 province = { all_provinces = yes limit_to_coastal = yes } instant_build = yes } }
+			}
+			if = { limit = { 50 = { is_owned_and_controlled_by = ROOT } }
+				50 = { add_building_construction = { type = coastal_bunker level = 1 province = { all_provinces = yes limit_to_coastal = yes } instant_build = yes } }
+			}
+			if = { limit = { 62 = { is_owned_and_controlled_by = ROOT } }
+				62 = { add_building_construction = { type = coastal_bunker level = 1 province = { all_provinces = yes limit_to_coastal = yes } instant_build = yes } }
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_royal_hellenic_navy
+		icon = GFX_goal_generic_build_navy
+		x = 25
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_aegean_coastal_batteries }
+		search_filters = { FOCUS_FILTER_NAVY_XP FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			navy_experience = 25
+			add_doctrine_cost_reduction = { name = GRE_the_royal_hellenic_navy cost_reduction = 0.4 uses = 1 category = naval_doctrine }
+			add_tech_bonus = { name = GRE_hellenic_submarines bonus = 0.5 uses = 1 category = ss_tech }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_an_army_of_all_hellenes
+		icon = GFX_goal_generic_army_artillery
+		x = 23
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_general_staff }
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_ideas = GRE_army_of_all_hellenes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_question_of_the_crown
+		icon = GFX_goal_generic_political_pressure
+		x = 8
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_the_king_in_athens }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_kings_peace
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 6
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_question_of_the_crown }
+		mutually_exclusive = { focus = GRE_the_generals_regime focus = GRE_the_constitutional_crown }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = GRE_throne_and_altar
+			add_popularity = { ideology = absolutist popularity = 0.1 }
+		}
+		ai_will_do = { factor = 5 }
+	}
+
+	focus = {
+		id = GRE_the_generals_regime
+		icon = GFX_goal_support_fascism
+		x = 8
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_question_of_the_crown }
+		mutually_exclusive = { focus = GRE_the_kings_peace focus = GRE_the_constitutional_crown }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_party_name = { ideology = fascism long_name = GRE_fascism_party_varvakis_long name = GRE_fascism_party_varvakis }
+			set_politics = { ruling_party = fascism elections_allowed = no }
+			set_popularities = { fascism = 55 absolutist = 35 democratic = 10 }
+			recruit_character = GRE_ioannis_varvakis
+			promote_character = GRE_ioannis_varvakis
+			set_cosmetic_tag = GRE_hellenic_state
+			add_ideas = GRE_national_regeneration
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = GRE_the_constitutional_crown
+		icon = GFX_focus_generic_treaty
+		x = 10
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_the_question_of_the_crown }
+		mutually_exclusive = { focus = GRE_the_kings_peace focus = GRE_the_generals_regime }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_party_name = { ideology = democratic long_name = GRE_democratic_party_mavrogenis_long name = GRE_democratic_party_mavrogenis }
+			set_politics = { ruling_party = democratic elections_allowed = yes last_election = "1936.1.1" election_frequency = 48 }
+			set_popularities = { democratic = 55 absolutist = 40 fascism = 5 }
+			recruit_character = GRE_theodoros_mavrogenis
+			promote_character = GRE_theodoros_mavrogenis
+			add_ideas = GRE_constitutional_crown
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = GRE_the_holy_synod
+		icon = GFX_goal_generic_national_unity
+		x = 6
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_the_kings_peace }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 50
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_youth_of_hellas
+		icon = GFX_goal_generic_propaganda
+		x = 8
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_the_generals_regime }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_war_support = 0.1
+			add_manpower = 10000
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_vouli_reconvenes
+		icon = GFX_goal_support_democracy
+		x = 10
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_the_constitutional_crown }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 100
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_long_live_the_king
+		icon = GFX_focus_hun_elect_a_king
+		x = 8
+		y = 9
+		cost = 10
+		prerequisite = { focus = GRE_the_holy_synod focus = GRE_the_youth_of_hellas focus = GRE_the_vouli_reconvenes }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.05
+			add_political_power = 50
+			if = { limit = { has_government = absolutist }
+				if = { limit = { NOT = { has_character = GRE_konstantinos_kolokotronis } } recruit_character = GRE_konstantinos_kolokotronis }
+				promote_character = GRE_konstantinos_kolokotronis
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_president_karavias
+		icon = GFX_goal_support_democracy
+		x = 13
+		y = 6
+		cost = 10
+		prerequisite = { focus = GRE_union_with_the_republic }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			recruit_character = GRE_alexandros_karavias
+			promote_character = GRE_alexandros_karavias
+			set_cosmetic_tag = GRE_hellenic_republic
+			add_stability = 0.05
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_exile_the_dynasty
+		icon = GFX_goal_generic_territory_or_war
+		x = 13
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_president_karavias focus = GRE_a_constitution_for_hellas }
+		mutually_exclusive = { focus = GRE_a_royal_pension }
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			add_stability = -0.05
+			add_political_power = 100
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_a_royal_pension
+		icon = GFX_focus_generic_treaty
+		x = 15
+		y = 7
+		cost = 10
+		prerequisite = { focus = GRE_president_karavias focus = GRE_a_constitution_for_hellas }
+		mutually_exclusive = { focus = GRE_exile_the_dynasty }
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+			add_popularity = { ideology = absolutist popularity = -0.05 }
+		}
+		ai_will_do = { factor = 2 }
+	}
+
+	focus = {
+		id = GRE_land_reform_in_thessaly
+		icon = GFX_goal_generic_production
+		x = 14
+		y = 8
+		cost = 10
+		prerequisite = { focus = GRE_exile_the_dynasty focus = GRE_a_royal_pension }
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_ideas = GRE_land_reform
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = GRE_the_second_hellenic_republic
+		icon = GFX_goal_generic_national_unity
+		x = 14
+		y = 9
+		cost = 10
+		prerequisite = { focus = GRE_land_reform_in_thessaly }
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_ideas = GRE_second_republic
 		}
 		ai_will_do = { factor = 1 }
 	}
