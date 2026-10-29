@@ -1,0 +1,20 @@
+add_namespace = byzantium
+
+# The Roman emperor enters Constantinople
+news_event = {
+	id = byzantium.1
+	title = byzantium.1.t
+	desc = byzantium.1.d
+	picture = GFX_news_event_generic_sign_treaty2
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = byzantium.1.a
+		trigger = { tag = X09 }
+	}
+	option = {
+		name = byzantium.1.b
+		trigger = { NOT = { tag = X09 } }
+	}
+}

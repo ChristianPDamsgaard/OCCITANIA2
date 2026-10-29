@@ -1,0 +1,173 @@
+characters={
+	X09_michael_gabras={
+		name=X09_michael_gabras
+		portraits={
+			civilian={
+				large="GFX_GRE_Alexander"
+				small="GFX_GRE_Alexander_small"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+
+	X09_nikephoros_vranas={
+		name=X09_nikephoros_vranas
+		portraits={
+			civilian={
+				large="GFX_GRE_Nikolaos_Plastiras"
+				small="GFX_GRE_Nikolaos_Plastiras_small"
+			}
+			army={
+				large="GFX_GRE_Nikolaos_Plastiras"
+				small="GFX_GRE_Nikolaos_Plastiras_small"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1975.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X09_konstantinos_laskaris={
+		name=X09_konstantinos_laskaris
+		portraits={
+			civilian={
+				large="GFX_GRE_Alexandros_Svolos"
+				small="GFX_GRE_Alexandros_Svolos_small"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1975.1.1.1"
+			id=-1
+		}
+	}
+
+	X09_patriarch_photios={
+		name=X09_patriarch_photios
+		portraits={
+			civilian={
+				large="GFX_GRE_Athanasios_Klaras"
+				small="GFX_GRE_Athanasios_Klaras_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = X09_patriarch_photios
+			allowed = { original_tag = X09 }
+			available = { has_completed_focus = X09_the_patriarch_in_exile }
+			traits = { popular_figurehead }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	X09_ioannis_akropolites={
+		name=X09_ioannis_akropolites
+		portraits={
+			civilian={
+				large="GFX_GRE_George_Santios"
+				small="GFX_GRE_George_Santios_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = X09_ioannis_akropolites
+			allowed = { original_tag = X09 }
+			available = { has_completed_focus = X09_legacy_of_gabras }
+			traits = { silent_workhorse }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	X09_manuel_apokaukos={
+		name=X09_manuel_apokaukos
+		portraits={
+			civilian={
+				large="GFX_GRE_Nikos_Ploumpidis"
+				small="GFX_GRE_Nikos_Ploumpidis_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = X09_manuel_apokaukos
+			allowed = { original_tag = X09 }
+			available = { has_completed_focus = X09_the_pontic_economy }
+			traits = { captain_of_industry }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	X09_leon_kekaumenos={
+		name=X09_leon_kekaumenos
+		portraits={
+			civilian={
+				large="GFX_GRE_Alexandros_Sakellariou"
+				small="GFX_GRE_Alexandros_Sakellariou_small"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = X09_leon_kekaumenos
+			allowed = { original_tag = X09 }
+			available = { has_completed_focus = X09_the_strategikon }
+			traits = { military_theorist }
+			cost = 150
+			ai_will_do = { factor = 1 }
+		}
+	}
+
+	X09_harald_eiriksson={
+		name=X09_harald_eiriksson
+		portraits={
+			army={
+				large="GFX_portrait_europe_generic_land_9"
+				small="GFX_portrait_europe_generic_land_9_small"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X09_alexios_notaras={
+		name=X09_alexios_notaras
+		portraits={
+			navy={
+				large="GFX_GRE_Petros_Voulgaris"
+				small="GFX_GRE_Petros_Voulgaris_small"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+}
