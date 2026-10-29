@@ -46,6 +46,9 @@ UPRISING = (
     + "\tHEL = { add_opinion_modifier = { target = ROOT modifier = negative_50 } }\n}\n"
     + "if = { limit = { has_country_flag = GRE_monastery_presses } SPC = { add_stability = -0.05 } }\n"
     + "SPC = { country_event = { id = greek_uprising.1 } }\n"
+    + "# Byzantium may join the war against Aragon\n"
+    + "if = { limit = { country_exists = X09 X09 = { NOT = { has_war_with = SPC } NOT = { is_in_faction_with = SPC } } }\n"
+    + "\tX09 = { country_event = { id = greek_uprising.30 days = 3 } }\n}\n"
     + "add_ideas = GRE_the_great_uprising\n"
 )
 
@@ -538,6 +541,7 @@ country_event = {
 		OR = {
 			has_war_with = GRE
 			has_war_with = HEL
+			AND = { has_war_with = X09 X09 = { has_country_flag = X09_joined_greek_uprising } }
 		}
 	}
 
@@ -554,12 +558,17 @@ country_event = {
 			white_peace = HEL
 			HEL = { country_event = { id = greek_uprising.5 } }
 		}
+		if = {
+			limit = { has_war_with = X09 X09 = { has_country_flag = X09_joined_greek_uprising } }
+			X09 = { country_event = { id = greek_uprising.31 } }
+		}
 		remove_ideas = SPC_greek_insurgency
 		add_war_support = -0.05
 		ai_chance = {
 			base = 20
 			modifier = { factor = 4 has_war_with = OCC }
 			modifier = { factor = 2 has_stability < 0.4 }
+			modifier = { factor = 1.5 has_war_with = X09 }
 		}
 	}
 
@@ -568,6 +577,84 @@ country_event = {
 		add_war_support = 0.02
 		country_event = { id = greek_uprising.2 days = 21 }
 		ai_chance = { base = 80 }
+	}
+}
+
+# Byzantium: join the Greek uprising?
+country_event = {
+	id = greek_uprising.30
+	title = greek_uprising.30.t
+	desc = greek_uprising.30.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_war_with = SPC }
+		NOT = { is_in_faction_with = SPC }
+	}
+
+	option = {
+		name = greek_uprising.30.a
+		set_country_flag = X09_joined_greek_uprising
+		if = {
+			limit = { has_non_aggression_pact_with = SPC }
+			diplomatic_relation = { country = SPC relation = non_aggression_pact active = no }
+		}
+		add_state_claim = 52
+		add_state_claim = 53
+		declare_war_on = { target = SPC type = take_state_focus generator = { 52 53 } }
+		add_war_support = 0.1
+		if = {
+			limit = { country_exists = GRE }
+			add_opinion_modifier = { target = GRE modifier = positive_50 }
+			GRE = { add_opinion_modifier = { target = ROOT modifier = positive_50 } }
+		}
+		ai_chance = {
+			base = 40
+			modifier = { factor = 2 has_completed_focus = X09_brothers_in_orthodoxy }
+			modifier = { factor = 2 has_completed_focus = X09_the_ash_heap }
+			modifier = { factor = 1.5 has_completed_focus = X09_return_to_the_khan }
+			modifier = { factor = 0.2 has_completed_focus = X09_aragons_shield }
+			modifier = { factor = 0.5 has_war = yes }
+		}
+	}
+
+	option = {
+		name = greek_uprising.30.b
+		add_political_power = 50
+		ai_chance = { base = 60 }
+	}
+}
+
+# Byzantium: Aragon offers peace along with the Greeks
+country_event = {
+	id = greek_uprising.31
+	title = greek_uprising.31.t
+	desc = greek_uprising.31.d
+	picture = GFX_report_event_journalists_speech
+	is_triggered_only = yes
+
+	trigger = { has_war_with = SPC }
+
+	option = {
+		name = greek_uprising.31.a
+		white_peace = SPC
+		clr_country_flag = X09_joined_greek_uprising
+		add_stability = 0.05
+		add_political_power = 50
+		ai_chance = {
+			base = 60
+			modifier = { factor = 0.2 controls_state = 52 }
+		}
+	}
+
+	option = {
+		name = greek_uprising.31.b
+		add_war_support = 0.05
+		ai_chance = {
+			base = 40
+			modifier = { factor = 3 controls_state = 52 }
+		}
 	}
 }
 
@@ -677,6 +764,14 @@ L += [
  ' greek_uprising.5.d:0 "Unable to break our resistance, the Aragonese government has agreed to a ceasefire and withdrawn its garrisons. For the first time in generations, Greeks govern Greek lands. But the war between the royalists of Polygyros and the republicans of Athens goes on: only one of them will rule a free Greece."',
  ' greek_uprising.5.a:0 "Zito i Ellas!"',
  ' greek_uprising.10.a:0 "OK"',
+ ' greek_uprising.30.t:0 "Greece in Flames"',
+ ' greek_uprising.30.d:0 "Signal fires are burning on Mount Olympus. Royalist insurgents hold Salonika, and republicans have proclaimed a Hellenic Republic in Athens. Every Aragonese garrison from Florina to Sparta is under fire, and Saragossa is rushing troops west across the Aegean.\\n\\nThe Thracian border has never been so thinly held. The Megas Domestikos reports that the road to Constantinople lies open, if the emperor is willing to take it. The Logothete reminds the court that the Greeks are, after all, our brothers in faith. The treasurer reminds the court what the last war cost."',
+ ' greek_uprising.30.a:0 "For the City! March on Constantinople."',
+ ' greek_uprising.30.b:0 "Let the Greeks bleed for themselves."',
+ ' greek_uprising.31.t:0 "Aragon Sues for Peace"',
+ ' greek_uprising.31.d:0 "Saragossa has recognised the Greek rebel governments and withdrawn its garrisons from Greece. Its envoy now offers us the same terms: an end to the war, with every province returned to the side that held it before. The generals are divided. Some say we have bled enough; others point at the map and ask why we should hand back what Roman soldiers have taken."',
+ ' greek_uprising.31.a:0 "Accept. Byzantium will choose its next war."',
+ ' greek_uprising.31.b:0 "Refuse. We are not finished."',
  ' # Hellenic Republic',
  ' HEL:0 "Hellenic Republic"', ' HEL_ADJ:0 "Hellenic"', ' HEL_DEF:0 "the Hellenic Republic"',
  ' HEL_democratic:0 "Hellenic Republic"', ' HEL_democratic_ADJ:0 "Hellenic"', ' HEL_democratic_DEF:0 "the Hellenic Republic"',

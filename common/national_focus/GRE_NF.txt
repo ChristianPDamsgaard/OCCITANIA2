@@ -154,6 +154,10 @@ focus_tree = {
 			}
 			if = { limit = { has_country_flag = GRE_monastery_presses } SPC = { add_stability = -0.05 } }
 			SPC = { country_event = { id = greek_uprising.1 } }
+			# Byzantium may join the war against Aragon
+			if = { limit = { country_exists = X09 X09 = { NOT = { has_war_with = SPC } NOT = { is_in_faction_with = SPC } } }
+				X09 = { country_event = { id = greek_uprising.30 days = 3 } }
+			}
 			add_ideas = GRE_the_great_uprising
 		}
 		ai_will_do = { factor = 50 }
