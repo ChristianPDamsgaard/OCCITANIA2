@@ -645,9 +645,9 @@ def oob(tag, name, units):
         s += f"\tdivision = {{\n\t\tname = \"{label}\"\n\t\tlocation = {prov}\n\t\tdivision_template = \"{name}\"\n\t\tstart_experience_factor = 0.5\n\t\tstart_equipment_factor = 1.0\n\t}}\n"
     s += "}\n"
     open(J("history/units", tag + ".txt"), "w", encoding="utf-8", newline="\n").write(s)
-oob("GRE_uprising", "Royalist Insurgents", [("Salonika Legion", 11818), ("Macedonian Volunteers", 3526), ("Thessalian Insurgents", 3973), ("Florina Brigade", 9837), ("Volos Defenders", 3914), ("Sacred Band of Macedonia", 6990)])
+oob("GRE_uprising", "Royalist Insurgents", [("Salonika Legion", 11818), ("Macedonian Volunteers", 3526), ("Thessalian Insurgents", 3973), ("Florina Brigade", 9837), ("Volos Defenders", 3914), ("Sacred Band of Macedonia", 6990), ("Larissa Rifles", 3973), ("Kozani Mountaineers", 9837), ("Serres Volunteers", 11818), ("Kavala Guard", 3526)])
 oob("GRE_uprising_extra", "Royalist Insurgents", [("Chalkidiki Rifles", 9791), ("Olympus Klephts", 863), ("Pindus Mountaineers", 841)])
-oob("HEL_uprising", "Republican Militia", [("Athenian Republican Guard", 4109), ("Piraeus Workers' Militia", 976), ("Peloponnesian Militia", 10203), ("Aegean Volunteers", 6550), ("Spartan Republican Brigade", 4078), ("Euboea Militia", 1205)])
+oob("HEL_uprising", "Republican Militia", [("Athenian Republican Guard", 4109), ("Piraeus Workers' Militia", 976), ("Peloponnesian Militia", 10203), ("Aegean Volunteers", 6550), ("Spartan Republican Brigade", 4078), ("Euboea Militia", 1205), ("Marathon Brigade", 4109), ("Patras Workers' Brigade", 10203), ("Cyclades Volunteers", 6550), ("Argos Militia", 4078)])
 oob("GRE_occitan_volunteers", "Occitan Volunteers", [("1st Occitan Volunteer Brigade", 895), ("2nd Occitan Volunteer Brigade", 3936)])
 oob("HEL_uprising_extra", "Republican Militia", [("Corinth Militia", 1106), ("Attica Volunteers", 3864)])
 oob("GRE_sacred_band", "Sacred Band", [("The Sacred Band", 895)])

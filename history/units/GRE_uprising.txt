@@ -53,4 +53,32 @@ units = {
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 	}
+	division = {
+		name = "Larissa Rifles"
+		location = 3973
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Kozani Mountaineers"
+		location = 9837
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Serres Volunteers"
+		location = 11818
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Kavala Guard"
+		location = 3526
+		division_template = "Royalist Insurgents"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
 }

@@ -1,0 +1,15 @@
+characters={
+	BTH_kotian_boniakides={
+		name=BTH_kotian_boniakides
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_europe_generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

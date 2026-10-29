@@ -31,7 +31,7 @@ def claims(*states):
     return "".join(f"add_state_claim = {s}\n" for s in states)
 
 CONSTANTINOPLE = 52   # Aragonese Thrace (Constantinople, VP province 9833)
-BITHYNIA = [755, 754] # Bolu, Izmit (Cumania)
+BITHYNIA = [755, 754] # Bolu, Izmit (Bithynia, BTH: the Anatolian Cumans)
 IONIA = [53, 54]      # Hudavendigar (Bursa), Aydin (Smyrna) - Aragonese, Byzantine cores
 HELLAS = [49, 50, 62, 70, 99, 100, 329]
 
@@ -173,9 +173,9 @@ focus("X09_the_ash_heap", 19, 5, "GFX_goal_generic_more_territorial_claims", "Th
       pre=[["X09_the_khans_favour", "X09_roman_pride"]], effect=claims(CONSTANTINOPLE) + "add_war_support = 0.1\n",
       ai=30, filters=["FOCUS_FILTER_ANNEXATION", "FOCUS_FILTER_WAR_SUPPORT"])
 focus("X09_avenge_the_sack", 18, 6, "GFX_goal_generic_territory_or_war", "Avenge the Sack",
-      "The Cumans who burned Constantinople still hold Bithynia, the road to the Bosporus. The road will be cleared.",
-      pre=[["X09_the_ash_heap"]], avail="country_exists = X59\nNOT = { has_war_with = X59 }",
-      effect=claims(*BITHYNIA) + "create_wargoal = { type = take_state_focus target = X59 generator = { 755 754 } }\n",
+      "The descendants of the Cumans who burned Constantinople still rule Bithynia from Bolu, astride the road to the Bosporus. The road will be cleared.",
+      pre=[["X09_the_ash_heap"]], avail="country_exists = BTH\nNOT = { has_war_with = BTH }",
+      effect=claims(*BITHYNIA) + "create_wargoal = { type = take_state_focus target = BTH generator = { 755 754 } }\n",
       ai=20, filters=["FOCUS_FILTER_ANNEXATION"])
 focus("X09_strike_while_aragon_bleeds", 20, 6, "GFX_goal_generic_major_war", "Strike While Aragon Bleeds",
       "Aragon's garrisons are fighting Greek rebels in every valley from Florina to Sparta, or Occitan armies in the west. The Lion has turned its back. Now.",

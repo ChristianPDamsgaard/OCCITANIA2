@@ -482,14 +482,14 @@ focus_tree = {
 		cost = 10
 		prerequisite = { focus = X09_the_ash_heap }
 		available = {
-			country_exists = X59
-			NOT = { has_war_with = X59 }
+			country_exists = BTH
+			NOT = { has_war_with = BTH }
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
 			add_state_claim = 755
 			add_state_claim = 754
-			create_wargoal = { type = take_state_focus target = X59 generator = { 755 754 } }
+			create_wargoal = { type = take_state_focus target = BTH generator = { 755 754 } }
 		}
 		ai_will_do = { factor = 20 }
 	}
